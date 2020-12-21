@@ -104,7 +104,7 @@ GER_operation_achse_category = {
 						set_state_controller = 157
 						GER = {
 							puppet = PREV
-							set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+							set_autonomy = { target = PREV autonomy_state = autonomy_reichsprotectorate }
 						}
 						
 						hidden_effect = {
@@ -140,20 +140,20 @@ GER_reichsprotektorat = {
 			controls_state = 9
 			controls_state = 75
 			controls_state = 885
-			controls_state = 1171
+			#controls_state = 1171
 		}
 
 		cost = 0
 
 		ai_will_do = {
-			factor = 0
+			factor = 3
 		}
 
 		visible = {
 			controls_state = 9
 			controls_state = 75
 			controls_state = 885
-			controls_state = 1171
+			#controls_state = 1171
 		}
 		
 		complete_effect = {
@@ -163,7 +163,7 @@ GER_reichsprotektorat = {
 				transfer_state = 9
 				transfer_state = 75
 				transfer_state = 885
-				transfer_state = 1171
+				#transfer_state = 1171
 				GER = {
 					puppet = PBM
 					set_autonomy = { target = PBM autonomy_state = autonomy_reichsprotectorate }
@@ -193,7 +193,7 @@ GER_reichsprotektorat = {
 		cost = 0
 
 		ai_will_do = {
-			factor = 3
+			factor = 0
 		}
 
 		visible = {
@@ -239,7 +239,7 @@ GER_reichsprotektorat = {
 			controls_state = 92
 			controls_state = 90
 			controls_state = 88
-			controls_state = 1138
+			#controls_state = 1138
 			#controls_state = 996
 			#controls_state = 91
 			#controls_state = 89
@@ -250,7 +250,7 @@ GER_reichsprotektorat = {
 		cost = 0
 
 		ai_will_do = {
-			factor = 0
+			factor = 3
 		}
 
 		visible = {
@@ -259,7 +259,7 @@ GER_reichsprotektorat = {
 			controls_state = 92
 			controls_state = 90
 			controls_state = 88
-			controls_state = 1138
+			#controls_state = 1138
 			#controls_state = 996
 			#controls_state = 91
 			#controls_state = 89
@@ -276,7 +276,7 @@ GER_reichsprotektorat = {
 				transfer_state = 92
 				transfer_state = 90
 				transfer_state = 88
-				transfer_state = 1138
+				#transfer_state = 1138
 				#transfer_state = 91
 				#transfer_state = 89
 				#transfer_state = 996
@@ -302,7 +302,7 @@ GER_reichsprotektorat = {
 					transfer_state = 1180
 					transfer_state = 1181
 				}
-				set_global_flag = GGO_completed
+				#set_global_flag = GGO_completed
 			}
 			
 		}
