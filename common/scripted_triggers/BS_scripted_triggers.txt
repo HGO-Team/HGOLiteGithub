@@ -112,6 +112,14 @@ is_French_speak = {
 }
 
 is_Germany_divided = {
-	WGR = { controls_state = 1105 }
-	DDR = { controls_state = 64 }
+	OR = {
+		AND = {
+			WGR = { controls_state = 1105 }
+			NOT = { WGR = { controls_state = 64 } }
+		}
+		AND = {
+			DDR = { controls_state = 64 }
+			NOT = { DDR = { controls_state = 1105 } }
+		}
+	}
 }
