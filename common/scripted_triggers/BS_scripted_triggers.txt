@@ -5,9 +5,9 @@ is_German_country = {
 		tag = WGR
 		tag = DDR
 		tag = DAN
-		tag = PRS
+		tag = PRE
 		tag = AUS
-		tag = BAV
+		tag = BAY
 		tag = WUR
 		tag = SAR
 		tag = BDN
@@ -21,6 +21,9 @@ is_German_country = {
 		tag = BNF
 		tag = PBM
 		tag = GGO
+		tag = SAX
+		tag = SHL
+		tag = HAN
 	}
 }
 
