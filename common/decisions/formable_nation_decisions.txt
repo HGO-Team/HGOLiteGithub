@@ -5802,13 +5802,14 @@ form_andalusia_category = {
 				960 = { add_core_of = ROOT }
 				959 = { add_core_of = ROOT }
 				hidden_effect = { set_global_flag = andalusia_north_expansion_flag }
-		}
+			}
 
-		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
+			ai_will_do = {
+				factor = 200
+				modifier = {
+					factor = 0
+					is_historical_focus_on = yes
+				}
 			}
 		}
 	}
