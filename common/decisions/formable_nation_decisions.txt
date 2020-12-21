@@ -65,8 +65,7 @@ form_scandinavia_category = {
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = SCA_UNIFIED
-			custom_effect_tooltip = permanent_eternal_union		
+			set_cosmetic_tag = SCA_UNIFIED		
 			# Norway
 			custom_effect_tooltip = form_country_norway_coring_states_tt
 			hidden_effect = {
@@ -209,7 +208,6 @@ form_nordic_league_category = {
 		complete_effect = {
 			drop_cosmetic_tag = yes
 			set_cosmetic_tag = NDC_UNIFIED
-			custom_effect_tooltip = permanent_eternal_union	
 			# Norway
 			custom_effect_tooltip = form_country_norway_coring_states_tt
 			hidden_effect = {
@@ -343,7 +341,6 @@ form_gran_colombia_category = {
 
 		complete_effect = {
 			set_cosmetic_tag = GCO_UNIFIED
-			custom_effect_tooltip = permanent_eternal_union		
 			hidden_effect = {
 				490 = { add_core_of = ROOT }
 				491 = { add_core_of = ROOT }
@@ -2563,7 +2560,6 @@ form_mutapa_category = {
 				original_tag = NMB
 			}
 			NOT = { has_cosmetic_tag = MUT_UNIFIED }
-			#NOT = { has_global_flag = form_mutapa_flag } #This is a workaround bugfix that allows Mutapa to form again after unforming when the government switches to communist. No idea what casuses it, but Mutapa is supposed to be permanent union.
 		}
 
 		complete_effect = {
@@ -6463,7 +6459,7 @@ form_greater_greece_category = {
 			}
 		}
 	}
-	
+
 	move_capital_to_thessaloniki = {
 
 		icon = generic_form_nation
