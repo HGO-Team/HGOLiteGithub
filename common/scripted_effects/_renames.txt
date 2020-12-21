@@ -1,0 +1,545 @@
+
+do_german_renames = {
+
+	if = {
+		limit = {
+			state = 86
+		}		
+		set_province_name = {
+			id = 6558
+			name = "Posen"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 865
+		}		
+		set_province_name = {
+			id = 9263
+			name = "Gdingen"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 86
+		}		
+		set_province_name = {
+			id = 279
+			name = "Bromberg"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 865
+		}		
+		set_province_name = {
+			id = 3295
+			name = "Thorn"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 98
+		}		
+		set_province_name = {
+			id = 3230
+			name = "Plock"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 87
+		}		
+		set_province_name = {
+			id = 9508
+			name = "Litzmannstadt"
+		}
+	}
+	if = {
+		limit = {
+			state = 10
+		}		
+		set_province_name = {
+			id = 3544
+			name = "Warschau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 762
+		}		
+		set_province_name = {
+			id = 6464
+			name = "Kattowitz"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 88
+		}		
+		set_province_name = {
+			id = 9427
+			name = "Krakau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 90
+		}		
+		set_province_name = {
+			id = 11430
+			name = "Kjelzy"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 88
+		}		
+		set_province_name = {
+			id = 442
+			name = "Tarnau"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 92
+		}		
+		set_province_name = {
+			id = 9452
+			name = "Kulm"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 996
+		}		
+		set_province_name = {
+			id = 3434
+			name = "Premissel"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 97
+		}		
+		set_province_name = {
+			id = 11301
+			name = "Bialystok"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 933
+		}		
+		set_province_name = {
+			id = 3393
+			name = "Garten"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 997
+		}		
+		set_province_name = {
+			id = 3254
+			name = "Suwalken"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1192
+		}		
+		set_province_name = {
+			id = 3392
+			name = "Brest"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 91
+		}		
+		set_province_name = {
+			id = 11479
+			name = "Lemberg"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 89
+		}		
+		set_province_name = {
+			id = 11411
+			name = "Stanislau"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 784
+		}		
+		set_province_name = {
+			id = 3320
+			name = "Wilna"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 95
+		}		
+		set_province_name = {
+			id = 9304
+			name = "Baronenwald"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 96
+		}		
+		set_province_name = {
+			id = 406
+			name = "Maladsetschna"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 93
+		}		
+		set_province_name = {
+			id = 6557
+			name = "Riwne"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 94
+		}		
+		set_province_name = {
+			id = 560
+			name = "Pinsk"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 28
+		}		
+		set_province_name = {
+			id = 678
+			name = "Mülhausen"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 28
+		}		
+		set_province_name = {
+			id = 9503
+			name = "Straßburg"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 814
+		}		
+		set_province_name = {
+			id = 11516
+			name = "Nanzig"
+		}
+	}
+}
+do_polish_renames = {
+
+	if = {
+		limit = {
+			state = 86
+		}		
+		set_province_name = {
+			id = 6558
+			name = "Poznań"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 865
+		}		
+		set_province_name = {
+			id = 9263
+			name = "Gdynia"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 86
+		}		
+		set_province_name = {
+			id = 279
+			name = "Bydgoszcz"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 865
+		}		
+		set_province_name = {
+			id = 3295
+			name = "Toruń"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 98
+		}		
+		set_province_name = {
+			id = 3230
+			name = "Płock"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 87
+		}		
+		set_province_name = {
+			id = 9508
+			name = "Łódź"
+		}
+	}
+	if = {
+		limit = {
+			state = 10
+		}		
+		set_province_name = {
+			id = 3544
+			name = "Warsaw"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 762
+		}		
+		set_province_name = {
+			id = 6464
+			name = "Katowice"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 88
+		}		
+		set_province_name = {
+			id = 9427
+			name = "Kraków"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 90
+		}		
+		set_province_name = {
+			id = 11430
+			name = "Kielce"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 88
+		}		
+		set_province_name = {
+			id = 442
+			name = "Tarnów"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 92
+		}		
+		set_province_name = {
+			id = 9452
+			name = "Chełm"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 996
+		}		
+		set_province_name = {
+			id = 3434
+			name = "Przemyśl"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 97
+		}		
+		set_province_name = {
+			id = 11301
+			name = "Białystok"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 933
+		}		
+		set_province_name = {
+			id = 3393
+			name = "Grodno"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 997
+		}		
+		set_province_name = {
+			id = 3254
+			name = "Suwałki"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 1192
+		}		
+		set_province_name = {
+			id = 3392
+			name = "Brześć Litewski"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 91
+		}		
+		set_province_name = {
+			id = 11479
+			name = "Lwów"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 89
+		}		
+		set_province_name = {
+			id = 11411
+			name = "Stanisławów"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 784
+		}		
+		set_province_name = {
+			id = 3320
+			name = "Wilno"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 95
+		}		
+		set_province_name = {
+			id = 9304
+			name = "Baranowicze"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 96
+		}		
+		set_province_name = {
+			id = 406
+			name = "Mołodeczno"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 93
+		}		
+		set_province_name = {
+			id = 6557
+			name = "Równe"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 94
+		}		
+		set_province_name = {
+			id = 560
+			name = "Pińsk"
+		}
+	}
+}
+do_french_renames = {
+
+    if = {
+		limit = {
+			state = 28
+		}		
+		set_province_name = {
+			id = 678
+			name = "Mulhouse"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 28
+		}		
+		set_province_name = {
+			id = 9503
+			name = "Strasbourg"
+		}
+	}
+	
+	if = {
+		limit = {
+			state = 814
+		}		
+		set_province_name = {
+			id = 11516
+			name = "Nancy"
+		}
+	}
+}
