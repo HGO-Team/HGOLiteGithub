@@ -14,7 +14,7 @@ form_scandinavia_category = {
 		}
 
 		available = {
-			is_subject = no
+			# is_subject = no
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = form_country_norway_required_states_tt
@@ -42,6 +42,7 @@ form_scandinavia_category = {
 				controls_state = 1007
 				controls_state = 1008
 				controls_state = 1009
+				controls_state = 1114
 			}
 			# Denmark / European Mainland
 			custom_trigger_tooltip = {
@@ -60,10 +61,12 @@ form_scandinavia_category = {
 				original_tag = SWE
 			}
 			NOT = { has_global_flag = form_scandinavia_flag }
+			NOT = { has_global_flag = form_nordic_league_flag }
 		}
 
 		complete_effect = {
 			set_cosmetic_tag = SCA_UNIFIED
+			custom_effect_tooltip = permanent_eternal_union		
 			# Norway
 			custom_effect_tooltip = form_country_norway_coring_states_tt
 			hidden_effect = {
@@ -91,14 +94,19 @@ form_scandinavia_category = {
 				1007 = { add_core_of = ROOT }
 				1008 = { add_core_of = ROOT }
 				1009 = { add_core_of = ROOT }
+				1114 = { add_core_of = ROOT }
+				1115 = { add_core_of = ROOT }
 			}
 			# Denmark / European Mainland
 			custom_effect_tooltip = form_scandinavia_denmark_coring_states_tt
 			hidden_effect = {
 				37 = { add_core_of = ROOT }
 				99 = { add_core_of = ROOT }
+				100 = { add_core_of = ROOT }
+				101 = { add_core_of = ROOT }
 				804 = { add_core_of = ROOT }
 				805 = { add_core_of = ROOT }
+				811 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.53 hours = 6 }
@@ -134,7 +142,7 @@ form_nordic_league_category = {
 		}
 
 		available = {
-			is_subject = no
+			# is_subject = no
 			# Norway
 			custom_trigger_tooltip = {
 				tooltip = form_country_norway_required_states_tt
@@ -178,8 +186,8 @@ form_nordic_league_category = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_finland_required_states_tt
 				controls_state = 111
-				controls_state = 1067
-				controls_state = 1068
+				#controls_state = 1067
+				#controls_state = 1068
 				controls_state = 145
 				controls_state = 148
 				controls_state = 149
@@ -193,12 +201,15 @@ form_nordic_league_category = {
 				original_tag = DEN
 				original_tag = SWE
 				original_tag = FIN
+				original_tag = ICE
 			}
 			NOT = { has_global_flag = form_nordic_league_flag }
 		}
 
 		complete_effect = {
+			drop_cosmetic_tag = yes
 			set_cosmetic_tag = NDC_UNIFIED
+			custom_effect_tooltip = permanent_eternal_union	
 			# Norway
 			custom_effect_tooltip = form_country_norway_coring_states_tt
 			hidden_effect = {
@@ -226,6 +237,8 @@ form_nordic_league_category = {
 				1007 = { add_core_of = ROOT }
 				1008 = { add_core_of = ROOT }
 				1009 = { add_core_of = ROOT }
+				1114 = { add_core_of = ROOT }
+				1115 = { add_core_of = ROOT }
 			}
 			# Denmark
 			custom_effect_tooltip = form_country_denmark_coring_states_tt
@@ -237,6 +250,7 @@ form_nordic_league_category = {
 				100 = { add_core_of = ROOT }
 				101 = { add_core_of = ROOT }
 				337 = { add_core_of = ROOT }
+				811 = { add_core_of = ROOT }
 			}
 			# Finland
 			custom_effect_tooltip = form_country_finland_coring_states_tt
@@ -245,9 +259,12 @@ form_nordic_league_category = {
 				1067 = { add_core_of = ROOT }
 				1068 = { add_core_of = ROOT }
 				145 = { add_core_of = ROOT }
+				146 = { add_core_of = ROOT }
+				147 = { add_core_of = ROOT }
 				148 = { add_core_of = ROOT }
 				149 = { add_core_of = ROOT }
 				150 = { add_core_of = ROOT }
+				722 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.54 hours = 6 }
@@ -285,9 +302,9 @@ form_gran_colombia_category = {
 		}
 
 		available = {
-			is_subject = no
-			controls_state = 490
-			controls_state = 491
+			#is_subject = no
+			#controls_state = 490
+			#controls_state = 491
 			controls_state = 304
 			# Ecuador
 			custom_trigger_tooltip = {
@@ -318,21 +335,26 @@ form_gran_colombia_category = {
 				original_tag = COL
 				original_tag = VEN
 				original_tag = PRU
+				original_tag = CRC
+				original_tag = GYA
 			}
 			NOT = { has_global_flag = form_gran_colombia_flag }
 		}
 
 		complete_effect = {
 			set_cosmetic_tag = GCO_UNIFIED
-			490 = { add_core_of = ROOT }
-			491 = { add_core_of = ROOT }
-			304 = { add_core_of = ROOT }
-			685 = { add_core_of = ROOT }
-			695 = { add_core_of = ROOT }
-			687 = { add_core_of = ROOT }
-			1032 = { add_core_of = ROOT }
-			1033 = { add_core_of = ROOT }
-			1034 = { add_core_of = ROOT }
+			custom_effect_tooltip = permanent_eternal_union		
+			hidden_effect = {
+				490 = { add_core_of = ROOT }
+				491 = { add_core_of = ROOT }
+				304 = { add_core_of = ROOT }
+				685 = { add_core_of = ROOT }
+				695 = { add_core_of = ROOT }
+				687 = { add_core_of = ROOT }
+				1032 = { add_core_of = ROOT }
+				1033 = { add_core_of = ROOT }
+				1034 = { add_core_of = ROOT }
+			}
 			# Ecuador
 			custom_effect_tooltip = form_country_ecuador_coring_states_tt
 			hidden_effect = {
@@ -352,6 +374,7 @@ form_gran_colombia_category = {
 				489 = { add_core_of = ROOT }
 				307 = { add_core_of = ROOT }
 				488 = { add_core_of = ROOT }
+				1032 = { remove_core_of = VEN }
 			}
 
 			hidden_effect = {
@@ -387,30 +410,30 @@ form_austria_hungary_category = {
 
 		available = {
 			is_subject = no
-			controls_state = 102
-			controls_state = 934
-			controls_state = 935
-			controls_state = 936
-			controls_state = 103
-			controls_state = 1104
-			controls_state = 940
-			controls_state = 938
-			controls_state = 939
-			controls_state = 1066
-			controls_state = 104
-			controls_state = 1046
-			controls_state = 1047
-			controls_state = 1048
-			controls_state = 109
-			controls_state = 937
-			controls_state = 869
-			controls_state = 45
-			controls_state = 868
-			controls_state = 83
-			controls_state = 76
-			controls_state = 84
-			controls_state = 764
-			controls_state = 82
+			#controls_state = 102
+			#controls_state = 934
+			#controls_state = 935
+			#controls_state = 936
+			#controls_state = 103
+			#controls_state = 1104
+			#controls_state = 940
+			#controls_state = 938
+			#controls_state = 939
+			#controls_state = 1066
+			#controls_state = 104
+			#controls_state = 1046
+			#controls_state = 1047
+			#controls_state = 1048
+			#controls_state = 109
+			#controls_state = 937
+			#controls_state = 869
+			#controls_state = 45
+			#controls_state = 868
+			#controls_state = 83
+			#controls_state = 76
+			#controls_state = 84
+			#controls_state = 764
+			#controls_state = 82
 			# Austria
 			custom_trigger_tooltip = {
 				tooltip = form_country_austria_required_states_tt
@@ -470,43 +493,6 @@ form_austria_hungary_category = {
 				}
 				AUS = { set_cosmetic_tag = AUS_NOT_WHITE }
 			}
-			102 = { add_core_of = ROOT }
-			934 = { add_core_of = ROOT }
-			935 = { add_core_of = ROOT }
-			936 = { add_core_of = ROOT }
-			103 = { add_core_of = ROOT }
-			1104 = { add_core_of = ROOT }
-			938 = { add_core_of = ROOT }
-			939 = { add_core_of = ROOT }
-			1066 = { add_core_of = ROOT }
-			104 = { add_core_of = ROOT }
-			1046 = { add_core_of = ROOT }
-			1047 = { add_core_of = ROOT }
-			1048 = { add_core_of = ROOT }
-			109 = { add_core_of = ROOT }
-			937 = { add_core_of = ROOT }
-			869 = { add_core_of = ROOT }
-			45 = { add_core_of = ROOT }
-			868 = { add_core_of = ROOT }
-			83 = { add_core_of = ROOT }
-			76 = { add_core_of = ROOT }
-			84 = { add_core_of = ROOT }
-			39 = { add_core_of = ROOT }
-			867 = { add_core_of = ROOT }
-			163 = { add_core_of = ROOT }
-			736 = { add_core_of = ROOT }
-			866 = { add_core_of = ROOT }
-			764 = { add_core_of = ROOT }
-			82 = { add_core_of = ROOT }
-			940 = { add_core_of = ROOT }
-			993 = { add_core_of = ROOT }
-			88 = { add_core_of = ROOT }
-			89 = { add_core_of = ROOT }
-			91 = { add_core_of = ROOT }
-			863 = { add_core_of = ROOT }
-			996 = { add_core_of = ROOT }
-			80 = { add_core_of = ROOT }
-			830 = { add_core_of = ROOT }
 			# Austria
 			custom_effect_tooltip = form_country_austria_coring_states_tt
 			hidden_effect = {
@@ -546,6 +532,48 @@ form_austria_hungary_category = {
 				808 = { add_core_of = ROOT }
 				809 = { add_core_of = ROOT }
 				994 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				102 = { add_core_of = ROOT }
+				934 = { add_core_of = ROOT }
+				935 = { add_core_of = ROOT }
+				936 = { add_core_of = ROOT }
+				103 = { add_core_of = ROOT }
+				1104 = { add_core_of = ROOT }
+				938 = { add_core_of = ROOT }
+				939 = { add_core_of = ROOT }
+				1066 = { add_core_of = ROOT }
+				104 = { add_core_of = ROOT }
+				1046 = { add_core_of = ROOT }
+				1047 = { add_core_of = ROOT }
+				1048 = { add_core_of = ROOT }
+				109 = { add_core_of = ROOT }
+				937 = { add_core_of = ROOT }
+				869 = { add_core_of = ROOT }
+				45 = { add_core_of = ROOT }
+				868 = { add_core_of = ROOT }
+				83 = { add_core_of = ROOT }
+				76 = { add_core_of = ROOT }
+				84 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				867 = { add_core_of = ROOT }
+				163 = { add_core_of = ROOT }
+				736 = { add_core_of = ROOT }
+				866 = { add_core_of = ROOT }
+				764 = { add_core_of = ROOT }
+				82 = { add_core_of = ROOT }
+				940 = { add_core_of = ROOT }
+				993 = { add_core_of = ROOT }
+				88 = { add_core_of = ROOT }
+				89 = { add_core_of = ROOT }
+				91 = { add_core_of = ROOT }
+				863 = { add_core_of = ROOT }
+				996 = { add_core_of = ROOT }
+				80 = { add_core_of = ROOT }
+				830 = { add_core_of = ROOT }
+				1181 = { add_core_of = ROOT }
+				1180 = { add_core_of = ROOT }
+
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.56 hours = 6 }
@@ -624,6 +652,7 @@ form_austria_hungary_category = {
 			tag = HUN
 			has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
 			NOT = { has_global_flag = reintegrate_the_empire_flag }
+			NOT = { has_global_flag = austria_hungary_as_hungary_was_unformed } #if was unformed earlier then you won't be able to form it again as hungary
 		}
 
 		complete_effect = {
@@ -669,9 +698,32 @@ form_austria_hungary_category = {
 			996 = { add_core_of = ROOT }
 			80 = { add_core_of = ROOT }
 			830 = { add_core_of = ROOT }
+			1181 = { add_core_of = ROOT }
+			1180 = { add_core_of = ROOT }
 			set_global_flag = reintegrate_the_empire_flag
-		}
-
+				ROOT = {
+					set_party_name = { 
+						ideology = communism 
+    						long_name = HUN_UNIFIED_communism_party_long 
+    						name = HUN_UNIFIED_communism_party 
+					}
+					set_party_name = { 
+						ideology = fascism 
+    						long_name = HUN_UNIFIED_fascism_party_long 
+    						name = HUN_UNIFIED_fascism_party 
+					}
+					set_party_name = { 
+						ideology = democratic 
+    						long_name = HUN_UNIFIED_democratic_party_long 
+    						name = HUN_UNIFIED_democratic_party 
+					}
+					set_party_name = { 
+						ideology = neutrality 
+    						long_name = HUN_UNIFIED_neutrality_party_long 
+    						name = HUN_UNIFIED_neutrality_party 
+					}
+				}
+			}
 		ai_will_do = {
 			factor = 200
 			modifier = {
@@ -702,24 +754,21 @@ form_commonwealth_category = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_lithuania_required_states_tt
 				controls_state = 11
-				controls_state = 879
 				controls_state = 189
-				controls_state = 188
+				controls_state = 879
 			}
 			# Poland
 			custom_trigger_tooltip = {
 				tooltip = form_country_poland_required_states_tt
-				controls_state = 85
+				controls_state = 865
+				controls_state = 864
 				controls_state = 86
 				controls_state = 87
-				controls_state = 1119
 				controls_state = 88
-				controls_state = 996
 				controls_state = 90
 				controls_state = 98
 				controls_state = 10
 				controls_state = 97
-				controls_state = 997
 				controls_state = 92
 				controls_state = 91
 				controls_state = 89
@@ -728,6 +777,13 @@ form_commonwealth_category = {
 				controls_state = 95
 				controls_state = 96
 				controls_state = 784
+				controls_state = 996
+				controls_state = 863
+				controls_state = 1138
+				controls_state = 1119
+				controls_state = 933
+				controls_state = 997
+				controls_state = 1170
 			}
 		}
 
@@ -736,7 +792,10 @@ form_commonwealth_category = {
 				original_tag = POL
 				original_tag = LIT
 			}
+			controls_state = 784
+			controls_state = 91
 			NOT = { has_global_flag = form_commonwealth_flag }
+			NOT = { has_global_flag = pol_loses_EP }
 		}
 
 		complete_effect = {
@@ -756,14 +815,11 @@ form_commonwealth_category = {
 				85 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
 				87 = { add_core_of = ROOT }
-				1119 = { add_core_of = ROOT }
 				88 = { add_core_of = ROOT }
-				996 = { add_core_of = ROOT }
 				90 = { add_core_of = ROOT }
 				98 = { add_core_of = ROOT }
 				10 = { add_core_of = ROOT }
 				97 = { add_core_of = ROOT }
-				997 = { add_core_of = ROOT }
 				92 = { add_core_of = ROOT }
 				91 = { add_core_of = ROOT }
 				89 = { add_core_of = ROOT }
@@ -771,32 +827,81 @@ form_commonwealth_category = {
 				94 = { add_core_of = ROOT }
 				95 = { add_core_of = ROOT }
 				96 = { add_core_of = ROOT }
-				784 = { add_core_of = ROOT }
+				784 = { add_core_of = ROOT } #Wilno
+				762 = { add_core_of = ROOT } #Katowice
+				865 = { add_core_of = ROOT } 
+				864 = { add_core_of = ROOT } 
+				996 = { add_core_of = ROOT } 
+				863 = { add_core_of = ROOT } 
+				1138 = { add_core_of = ROOT } 
+				1119 = { add_core_of = ROOT } 
+				933 = { add_core_of = ROOT } 
+				997 = { add_core_of = ROOT } 
+				1170 = { add_core_of = ROOT } 
+				190 = { add_core_of = ROOT }
+				12 = { add_core_of = ROOT }
+				5 = { add_core_of = ROOT }
+				763 = { add_core_of = ROOT }
+				199 = { add_core_of = ROOT }
+				880 = { add_core_of = ROOT }
+				881 = { add_core_of = ROOT }
+				891 = { add_core_of = ROOT }
+				5 = { add_core_of = ROOT }
+				63 = { add_core_of = ROOT }
+				68 = { add_core_of = ROOT }
+				1112 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
+				66 = { add_core_of = ROOT }
+				67 = { add_core_of = ROOT }
+				801 = { add_core_of = ROOT }
+				803 = { add_core_of = ROOT }
+				802 = { add_core_of = ROOT }
+				67 = { add_core_of = ROOT }
+				763 = { add_core_of = ROOT }
+				94 = { add_core_of = ROOT }
+				95 = { add_core_of = ROOT }
+				96 = { add_core_of = ROOT }
+				242 = { add_core_of = ROOT }
+				204 = { add_core_of = ROOT }
+				206 = { add_core_of = ROOT }
+				207 = { add_core_of = ROOT }
+				194 = { add_core_of = ROOT }
+				241 = { add_core_of = ROOT }
+				1162 = { add_core_of = ROOT }
+				1163 = { add_core_of = ROOT }
+				1164 = { add_core_of = ROOT }
+				1165 = { add_core_of = ROOT }
+				243 = { add_core_of = ROOT }
+				80 = { add_core_of = ROOT }
+				78 = { add_core_of = ROOT }
+				766 = { add_core_of = ROOT }
+				925 = { add_core_of = ROOT }
+				89 = { add_core_of = ROOT }
+				91 = { add_core_of = ROOT }
+				93 = { add_core_of = ROOT }
+				198 = { add_core_of = ROOT }
+				199 = { add_core_of = ROOT }
+				201 = { add_core_of = ROOT }
+				202 = { add_core_of = ROOT }
+				203 = { add_core_of = ROOT }
+				192 = { add_core_of = ROOT }
+				197 = { add_core_of = ROOT }
+				193 = { add_core_of = ROOT }
+				225 = { add_core_of = ROOT }
+				259 = { add_core_of = ROOT }
+				226 = { add_core_of = ROOT }
+				196 = { add_core_of = ROOT }
+				200 = { add_core_of = ROOT }
+				227 = { add_core_of = ROOT }
+				228 = { add_core_of = ROOT }
+				221 = { add_core_of = ROOT }
+				829 = { add_core_of = ROOT }
+				1100 = { add_core_of = ROOT }
+				1125 = { add_core_of = ROOT }
+				926 = { add_core_of = ROOT }
+				1126 = { add_core_of = ROOT }
+				1127 = { add_core_of = ROOT }
 			}
-			190 = { add_core_of = ROOT }
-			12 = { add_core_of = ROOT }
-			880 = { add_core_of = ROOT }
-			881 = { add_core_of = ROOT }
-			891 = { add_core_of = ROOT }
-			5 = { add_core_of = ROOT }
-			763 = { add_core_of = ROOT }
-			207 = { add_core_of = ROOT }
-			242 = { add_core_of = ROOT }
-			206 = { add_core_of = ROOT }
-			241 = { add_core_of = ROOT }
-			243 = { add_core_of = ROOT }
-			204 = { add_core_of = ROOT }
-			194 = { add_core_of = ROOT }
-			201 = { add_core_of = ROOT }
-			199 = { add_core_of = ROOT }
-			198 = { add_core_of = ROOT }
-			202 = { add_core_of = ROOT }
-			203 = { add_core_of = ROOT }
-			193 = { add_core_of = ROOT }
-			1125 = { add_core_of = ROOT }
-			259 = { add_core_of = ROOT }
-			926 = { add_core_of = ROOT }
-			762 = { add_core_of = ROOT }
 
 
 			hidden_effect = {
@@ -831,8 +936,7 @@ form_united_netherlands_category = {
 		}
 
 		available = {
-			is_subject = no
-			controls_state = 8
+			# is_subject = no
 			# Netherlands
 			custom_trigger_tooltip = {
 				tooltip = form_eu_netherlands_required_states_tt
@@ -854,6 +958,7 @@ form_united_netherlands_category = {
 				controls_state = 813
 				controls_state = 1182
 			}
+			controls_state = 8
 		}
 
 		visible = {
@@ -864,11 +969,11 @@ form_united_netherlands_category = {
 			}
 			NOT = { has_global_flag = form_united_netherlands_flag }
 			NOT = { has_global_flag = HOL_benelux_formed }
+			NOT = { has_global_flag = form_european_union_flag }
 		}
 
 		complete_effect = {
 			set_cosmetic_tag = UNL_UNIFIED
-			8 = { add_core_of = ROOT }
 			# Netherlands
 			custom_effect_tooltip = form_eu_netherlands_coring_states_tt
 			hidden_effect = {
@@ -886,9 +991,10 @@ form_united_netherlands_category = {
 			hidden_effect = {
 				6 = { add_core_of = ROOT }
 				34 = { add_core_of = ROOT }
-				812 = { add_core_of = ROOT }
+				1182 = { add_core_of = ROOT }	
 				813 = { add_core_of = ROOT }
-				1182 = { add_core_of = ROOT }
+				812 = { add_core_of = ROOT }
+				8 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.58 hours = 6 }
@@ -925,7 +1031,6 @@ form_united_central_america_category = {
 		}
 
 		available = {
-			is_subject = no
 			controls_state = 313
 			controls_state = 314
 			controls_state = 312
@@ -940,29 +1045,30 @@ form_united_central_america_category = {
 				original_tag = HON
 				original_tag = NIC
 				original_tag = COS
+				original_tag = BLZ
 			}
 			NOT = { has_global_flag = form_united_central_america_flag }
 		}
 
 		complete_effect = {
 			set_cosmetic_tag = USC_UNIFIED
-			313 = { add_core_of = ROOT }
-			314 = { add_core_of = ROOT }
-			312 = { add_core_of = ROOT }
-			317 = { add_core_of = ROOT }
-			316 = { add_core_of = ROOT }
-			311 = { add_core_of = ROOT }
 			hidden_effect = {
 				news_event = { id = wtt_news.59 hours = 6 }
 				set_global_flag = form_united_central_america_flag
+				313 = { add_core_of = ROOT }
+				314 = { add_core_of = ROOT }
+				312 = { add_core_of = ROOT }
+				317 = { add_core_of = ROOT }
+				316 = { add_core_of = ROOT }
+				311 = { add_core_of = ROOT }
 			}
-		}
 
-		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
+			ai_will_do = {
+				factor = 200
+				modifier = {
+					factor = 0
+					is_historical_focus_on = yes
+				}
 			}
 		}
 	}
@@ -984,7 +1090,7 @@ form_baltic_federation_category = {
 		}
 
 		available = {
-			is_subject = no
+			#is_subject = no
 			# Estonia
 			custom_trigger_tooltip = {
 				tooltip = form_country_estonia_required_states_tt
@@ -1008,7 +1114,6 @@ form_baltic_federation_category = {
 				tooltip = form_country_lithuania_required_states_tt
 				controls_state = 11
 				controls_state = 189
-				controls_state = 188
 				controls_state = 879
 			}
 		}
@@ -1023,7 +1128,7 @@ form_baltic_federation_category = {
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = BAL_UNIFIED
+			set_cosmetic_tag = BAL_UNIFIED		
 			# Estonia
 			custom_effect_tooltip = form_country_estonia_coring_states_tt
 			hidden_effect = {
@@ -1040,6 +1145,7 @@ form_baltic_federation_category = {
 				190 = { add_core_of = ROOT }
 				880 = { add_core_of = ROOT }
 				881 = { add_core_of = ROOT }
+				891 = { add_core_of = ROOT }
 			}
 			# Lithuania
 			custom_effect_tooltip = form_country_lithuania_coring_states_tt
@@ -1075,17 +1181,18 @@ form_ottoman_empire_category = {
 		allowed = {
 			original_tag = TUR
 			has_dlc = "Waking the Tiger"
+			NOT = { has_dlc = "Battle for the Bosporus" }
 		}
 
 		available = {
 			is_subject = no
-			controls_state = 679
-			controls_state = 293
-			controls_state = 454
-			controls_state = 1117
-			controls_state = 1118
-			controls_state = 455
-			controls_state = 656
+			controls_state = 679 # Hejaz
+			#controls_state = 293 # Yemen not required
+			controls_state = 454 # Palestine
+			controls_state = 1117 # Palestine
+			controls_state = 1118 # Palestine
+			controls_state = 455 # Jordan
+			controls_state = 656 # Kuwait
 			controls_state = 1155
 			# Turkey
 			custom_trigger_tooltip = {
@@ -1109,7 +1216,7 @@ form_ottoman_empire_category = {
 				controls_state = 354
 				controls_state = 353
 				controls_state = 352
-                controls_state = 950
+				controls_state = 950
                 controls_state = 951
                 controls_state = 953
                 controls_state = 954
@@ -1145,10 +1252,12 @@ form_ottoman_empire_category = {
 		visible = {
 			original_tag = TUR
 			NOT = { has_global_flag = form_ottoman_empire_flag }
+			NOT = { has_global_flag = form_turan_flag }		 
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = OTT_UNIFIED
+			drop_cosmetic_tag = yes				   
+			set_cosmetic_tag = OTT_UNIFIED		   
 			679 = { add_core_of = ROOT }
 			293 = { add_core_of = ROOT }
 			665 = { add_core_of = ROOT }
@@ -1157,6 +1266,7 @@ form_ottoman_empire_category = {
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
 			hidden_effect = {
 				676 = { add_core_of = ROOT }
+				#675 = { add_core_of = ROOT }
 				291 = { add_core_of = ROOT }
 				946 = { add_core_of = ROOT }
 				945 = { add_core_of = ROOT }
@@ -1173,7 +1283,7 @@ form_ottoman_empire_category = {
 			# Italian North Africa and Dodecanese
 			custom_effect_tooltip = form_ottoman_italy_coring_states_tt
 			hidden_effect = {
-			    184 = { add_core_of = ROOT }
+				184 = { add_core_of = ROOT }
 				448 = { add_core_of = ROOT }
 				661 = { add_core_of = ROOT }
 				449 = { add_core_of = ROOT }
@@ -1214,7 +1324,7 @@ form_ottoman_empire_category = {
 				1142 = { add_core_of = ROOT }
 				1143 = { add_core_of = ROOT }
 				1144 = { add_core_of = ROOT }
-				1146 = { add_core_of = ROOT }
+				#1146 = { add_core_of = ROOT }
 				1149 = { add_core_of = ROOT }
 				1150 = { add_core_of = ROOT }
 				1151 = { add_core_of = ROOT }
@@ -1226,7 +1336,8 @@ form_ottoman_empire_category = {
 				1157 = { add_core_of = ROOT }
 				1159 = { add_core_of = ROOT }
 				1160 = { add_core_of = ROOT }
-				1177 = { add_core_of = ROOT }
+				#1177 = { add_core_of = ROOT }
+				1070 = { add_core_of = ROOT }
 			}
 			# Britain
 			custom_effect_tooltip = form_persia_britain_coring_states_tt
@@ -1259,6 +1370,806 @@ form_ottoman_empire_category = {
 			}
 		}
 	}
+
+	ott_reform_the_eyalet_of_rumelia = { #Greece + Albania + Bulgaria + South Yugoslavia
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			#Greece
+			custom_trigger_tooltip = {
+				tooltip = form_rumelia_greece_required_states_tt
+				controls_state = 47
+				controls_state = 185
+				controls_state = 731
+				controls_state = 184
+				controls_state = 186
+			}
+			#Bulgaria
+			custom_trigger_tooltip = {
+				tooltip = form_rumelia_bulgaria_required_states_tt
+				controls_state = 48
+				controls_state = 801
+				controls_state = 212
+				controls_state = 211
+			}
+			#Yugoslavia 
+			custom_trigger_tooltip = {
+				tooltip = form_rumelia_yugoslavia_required_states_tt
+				controls_state = 106 
+				controls_state = 803
+				controls_state = 802
+				controls_state = 108 
+				controls_state = 105 
+				controls_state = 107
+			}
+			#Albania
+			controls_state = 44
+			controls_state = 805
+			custom_trigger_tooltip = {
+				tooltip = form_rumelia_albania_required_states_tt
+				controls_state = 677
+				controls_state = 680
+				controls_state = 553
+				controls_state = 554
+			}
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_balkans_flag }
+			has_completed_focus = TUR_reclaim_macedonia
+		}
+
+		complete_effect = {
+			# Greece
+			custom_effect_tooltip = form_rumelia_greece_coring_states_tt
+			hidden_effect = {
+				47 = { add_core_of = ROOT }
+				185 = { add_core_of = ROOT }
+				731 = { add_core_of = ROOT }
+				184 = { add_core_of = ROOT }
+				186 = { add_core_of = ROOT }
+				1063 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
+				182 = { add_core_of = ROOT }
+                975 = { add_core_of = ROOT }
+                976 = { add_core_of = ROOT }
+                977 = { add_core_of = ROOT }
+                978 = { add_core_of = ROOT }
+			}
+			# Bulgaria
+			custom_effect_tooltip = form_rumelia_bulgaria_coring_states_tt
+			hidden_effect = {
+				48 = { add_core_of = ROOT }
+				801 = { add_core_of = ROOT }
+				212 = { add_core_of = ROOT }
+				211 = { add_core_of = ROOT }
+				943 = { add_core_of = ROOT }
+				942 = { add_core_of = ROOT }
+				1141 = { add_core_of = ROOT }
+				1142 = { add_core_of = ROOT }
+				1143 = { add_core_of = ROOT }
+				1103 = { add_core_of = ROOT }
+				1179 = { add_core_of = ROOT }
+			}
+			# Yugoslavia
+			custom_effect_tooltip = form_rumelia_yugoslavia_coring_states_tt
+			hidden_effect = {
+				106 = { add_core_of = ROOT }
+				870 = { add_core_of = ROOT }
+				878 = { add_core_of = ROOT }
+				108 = { add_core_of = ROOT }
+				105 = { add_core_of = ROOT }
+				107 = { add_core_of = ROOT }
+				871 = { add_core_of = ROOT }
+				941 = { add_core_of = ROOT }
+				872 = { add_core_of = ROOT }
+				1189 = { add_core_of = ROOT }
+				1190 = { add_core_of = ROOT }
+				#1047 = { add_core_of = ROOT }
+				940 = { add_core_of = ROOT }
+				#1046 = { add_core_of = ROOT }
+				#1048 = { add_core_of = ROOT }
+				#938 = { add_core_of = ROOT }
+				#1104 = { add_core_of = ROOT }
+				#103 = { add_core_of = ROOT }
+				#939 = { add_core_of = ROOT }
+			}
+			44 = { add_core_of = ROOT }
+			1045 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ottoman_balkans_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_merge_the_eyalets_of_morea_crete_and_kibris = { #Greece + Cyprus
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			#Greece
+			controls_state = 186
+			controls_state = 182
+			controls_state = 187
+			controls_state = 164 #Dodecanese
+			controls_state = 183 #Cyprus
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_greece_flag }
+			has_completed_focus = TUR_reclaim_macedonia
+		}
+
+		complete_effect = {
+			186 = { add_core_of = ROOT }
+			182 = { add_core_of = ROOT }
+			187 = { add_core_of = ROOT }
+			164 = { add_core_of = ROOT }
+			183 = { add_core_of = ROOT }
+			1157 = { add_core_of = ROOT }
+			952 = { add_core_of = ROOT }
+			975 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ottoman_greece_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_enlarge_the_vilayet_of_bosnia = { #Bosnia + Croatia
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			controls_state = 104
+			controls_state = 804
+			controls_state = 103
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_bosnia_flag }
+			has_completed_focus = TUR_reclaiming_our_lost_empire
+		}
+
+		complete_effect = {
+			104 = { add_core_of = ROOT }
+			804 = { add_core_of = ROOT }
+			103 = { add_core_of = ROOT }
+			1047 = { add_core_of = ROOT }
+			1046 = { add_core_of = ROOT }
+			1048 = { add_core_of = ROOT }
+			938 = { add_core_of = ROOT }
+			1104 = { add_core_of = ROOT }
+			103 = { add_core_of = ROOT }
+			939 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ottoman_bosnia_flag
+				163 = { add_core_of = ROOT }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_restore_the_vilayet_of_the_danube_and_moldova = { #Romania
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			controls_state = 46
+			controls_state = 79
+			controls_state = 81
+			controls_state = 77
+			controls_state = 766 
+			controls_state = 84 
+			controls_state = 76
+			controls_state = 83 
+			controls_state = 82 
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_romania_flag }
+			has_completed_focus = TUR_reclaiming_our_lost_empire
+		}
+
+		complete_effect = {
+			46 = { add_core_of = ROOT }
+			79 = { add_core_of = ROOT }
+			81 = { add_core_of = ROOT }
+			77 = { add_core_of = ROOT }
+			766 = { add_core_of = ROOT }
+			84 = { add_core_of = ROOT }
+			76 = { add_core_of = ROOT }
+			83 = { add_core_of = ROOT }
+			82 = { add_core_of = ROOT }
+			831 = { add_core_of = ROOT }
+			832 = { add_core_of = ROOT }
+			833 = { add_core_of = ROOT }
+			766 = { add_core_of = ROOT }
+			830 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ottoman_romania_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_restore_the_vilayet_of_halep = { #Syria
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			# France
+			custom_trigger_tooltip = {
+				tooltip = form_persia_france_required_states_tt
+				# Syria
+				controls_state = 680
+				controls_state = 554
+				controls_state = 656
+			}
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_syria_flag }
+			OR = {
+				has_completed_focus = TUR_reclaiming_our_lost_empire
+				has_completed_focus = TUR_the_damascus_diktat
+			}
+		}
+
+		complete_effect = {
+			# French Syria
+			custom_effect_tooltip = form_persia_france_coring_states_tt 
+			hidden_effect = {
+				677 = { add_core_of = ROOT }
+				680 = { add_core_of = ROOT }
+				554 = { add_core_of = ROOT }
+				877 = { add_core_of = ROOT }
+				1153 = { add_core_of = ROOT }
+				1040 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = ottoman_syria_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_restore_the_vilayet_of_beirut = { #Lebanon + Levant
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			controls_state = 454
+			controls_state = 455
+			controls_state = 553
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_levant_flag }
+			has_completed_focus = TUR_reclaiming_our_lost_empire
+		}
+
+		complete_effect = {
+			454 = { add_core_of = ROOT }
+			455 = { add_core_of = ROOT }
+			553 = { add_core_of = ROOT }
+			1117 = { add_core_of = ROOT }
+			1118 = { add_core_of = ROOT }
+			947 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ottoman_levant_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_restore_the_vilayet_of_baghdad = { #Iraq
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			# Iraq
+			custom_trigger_tooltip = {
+				tooltip = form_country_iraq_required_states_tt
+				controls_state = 676
+				controls_state = 675
+				controls_state = 291
+			}
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_mesopotamia_flag }
+			has_completed_focus = TUR_reclaiming_our_lost_empire
+		}
+
+		complete_effect = {
+			# Iraq
+			custom_effect_tooltip = form_country_iraq_coring_states_tt
+			hidden_effect = {
+				676 = { add_core_of = ROOT }
+				675 = { add_core_of = ROOT }
+				291 = { add_core_of = ROOT }
+				945 = { add_core_of = ROOT }
+				946 = { add_core_of = ROOT }
+				1154 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = ottoman_mesopotamia_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_extend_the_lasha_eyalet = { #Arabia + Gulf + Oman
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			controls_state = 656
+			controls_state = 765
+			controls_state = 658
+			controls_state = 292
+			controls_state = 678
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_arabia_flag }
+			has_completed_focus = TUR_reclaiming_our_lost_empire
+		}
+
+		complete_effect = {
+			656 = { add_core_of = ROOT }
+			765 = { add_core_of = ROOT }
+			658 = { add_core_of = ROOT }
+			292 = { add_core_of = ROOT }
+			678 = { add_core_of = ROOT }
+			294 = { add_core_of = ROOT }
+			944 = { add_core_of = ROOT }
+			875 = { add_core_of = ROOT }
+			1158 = { add_core_of = ROOT }
+			876 = { add_core_of = ROOT }
+			create_wargoal = { 
+				type = annex_everything
+				target = OMA
+			}
+			hidden_effect = {
+				set_global_flag = ottoman_arabia_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_merge_the_eyalets_of_jeddah_habesh_and_yemen = { #Yemen + Hejaz
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			controls_state = 679
+			controls_state = 293
+			controls_state = 659
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_yemen_flag }
+			has_completed_focus = TUR_reclaiming_our_lost_empire
+		}
+
+		complete_effect = {
+			679 = { add_core_of = ROOT }
+			293 = { add_core_of = ROOT }
+			659 = { add_core_of = ROOT }
+			1152 = { add_core_of = ROOT }
+			1151 = { add_core_of = ROOT }
+			948 = { add_core_of = ROOT }
+			1155 = { add_core_of = ROOT }
+			1149 = { add_core_of = ROOT }
+			949 = { add_core_of = ROOT }
+			1039 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ottoman_yemen_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_integrate_the_khedivate_of_egypt = { #Egypt
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			controls_state = 446
+			controls_state = 453
+			controls_state = 452
+			controls_state = 456
+			controls_state = 457
+			controls_state = 552
+			controls_state = 767
+			controls_state = 551
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_egypt_flag }
+			has_completed_focus = TUR_reclaiming_our_lost_empire
+		}
+
+		complete_effect = {
+			446 = { add_core_of = ROOT }
+			453 = { add_core_of = ROOT }
+			452 = { add_core_of = ROOT }
+			456 = { add_core_of = ROOT }
+			457 = { add_core_of = ROOT }
+			552 = { add_core_of = ROOT }
+			767 = { add_core_of = ROOT }
+			551 = { add_core_of = ROOT }
+			873 = { add_core_of = ROOT }
+			874 = { add_core_of = ROOT }
+			995 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ottoman_egypt_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_restore_the_vilayet_of_tripolitania = { #Libya
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			controls_state = 448
+			controls_state = 661
+			controls_state = 449
+			controls_state = 662
+			controls_state = 450
+			controls_state = 451
+			controls_state = 663
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_libya_flag }
+			has_completed_focus = TUR_reclaiming_our_lost_empire
+		}
+
+		complete_effect = {
+			# Italian North Africa
+			custom_effect_tooltip = form_ottoman_italy_coring_states_tt
+			hidden_effect = {
+				448 = { add_core_of = ROOT }
+				661 = { add_core_of = ROOT }
+				449 = { add_core_of = ROOT }
+				662 = { add_core_of = ROOT }
+				450 = { add_core_of = ROOT }
+				451 = { add_core_of = ROOT }
+				663 = { add_core_of = ROOT }
+				1070 = { add_core_of = ROOT }
+				273 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = ottoman_libya_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	ott_absorb_the_tunis_and_algerian_eyalets = { #Tunisia + Algeria
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = TUR
+			has_dlc = "Battle for the Bosporus"
+		}
+
+		available = {
+			is_subject = no
+			OR = { 
+				has_country_leader = {
+					name = "Abdulmejid II"
+					ruling_only = yes
+				}
+				has_country_leader = {
+					name = "Dürrüşehvar I"
+					ruling_only = yes
+				}
+			}
+			controls_state = 458
+			controls_state = 665
+			controls_state = 459
+			controls_state = 460
+			controls_state = 513
+		}
+
+		visible = {
+			original_tag = TUR
+			NOT = { has_global_flag = ottoman_tunisia_flag }
+			has_completed_focus = TUR_reclaiming_our_lost_empire
+		}
+
+		complete_effect = {
+			458 = { add_core_of = ROOT }
+			665 = { add_core_of = ROOT }
+			459 = { add_core_of = ROOT }
+			460 = { add_core_of = ROOT }
+			513 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = ottoman_tunisia_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }
 
 form_european_union_category = {
@@ -1268,20 +2179,7 @@ form_european_union_category = {
 		icon = generic_form_nation
 
 		allowed = {
-			OR = {
-				original_tag = HOL
-				original_tag = BEL
-				original_tag = LUX
-				original_tag = FRA
-				original_tag = ITA
-				original_tag = GER
-				original_tag = WGR
-				original_tag = ENG
-			}
-			OR = {
-				has_dlc = "Waking the Tiger"
-				has_dlc = "Man the Guns"
-			}
+			has_dlc = "Waking the Tiger"
 		}
 
 		available = {
@@ -1306,7 +2204,7 @@ form_european_union_category = {
 				controls_state = 34
 				controls_state = 812
 				controls_state = 813
-				controls_state = 1182
+				controls_state = 1182	   
 			}
 			# France
 			custom_trigger_tooltip = {
@@ -1326,7 +2224,7 @@ form_european_union_category = {
 				controls_state = 33
 				controls_state = 26
 				controls_state = 20
-				controls_state = 1185
+				controls_state = 1185	   
 				controls_state = 32
 				controls_state = 735
 				controls_state = 1132
@@ -1335,7 +2233,6 @@ form_european_union_category = {
 				controls_state = 21
 				controls_state = 19
 				controls_state = 20
-				controls_state = 1185
 				controls_state = 1
 				controls_state = 785
 				controls_state = 31
@@ -1366,9 +2263,9 @@ form_european_union_category = {
 				controls_state = 156
 				controls_state = 115
 				controls_state = 114
-				controls_state = 736
-				controls_state = 866
-				controls_state = 163
+				#controls_state = 736
+				#controls_state = 866
+				#controls_state = 163
 				controls_state = 986
 				controls_state = 987
 				controls_state = 988
@@ -1377,92 +2274,70 @@ form_european_union_category = {
 				controls_state = 991
 				controls_state = 992
 				controls_state = 993
+				controls_state = 1193
 			}
 			# Germany
 			custom_trigger_tooltip = {
-				tooltip = form_country_germany_required_states_tt
+				#tooltip = form_country_germany_required_states_tt
+				tooltip = form_country_west_germany_required_states_tt
 				controls_state = 51
 				controls_state = 42
 				controls_state = 56
-				controls_state = 979
 				controls_state = 57
 				controls_state = 55
 				controls_state = 50
 				controls_state = 59
 				controls_state = 58
-				controls_state = 60
 				controls_state = 54
 				controls_state = 52
 				controls_state = 53
-				controls_state = 61
-				controls_state = 64
-				controls_state = 1105
-				controls_state = 65
-				controls_state = 62
-				controls_state = 68
-				controls_state = 66
-				controls_state = 67
-				controls_state = 63
-				controls_state = 1112
-				controls_state = 5
-				controls_state = 763
+				controls_state = 979
 				controls_state = 788
 				controls_state = 789
-				controls_state = 790
-				controls_state = 791
 				controls_state = 792
-				controls_state = 793
-				controls_state = 794
-				controls_state = 795
-				controls_state = 796
-				controls_state = 797
-				controls_state = 798
+				controls_state = 791
 				controls_state = 799
-				controls_state = 801
-				controls_state = 802
-				controls_state = 803
+				controls_state = 798
+				controls_state = 800
+				controls_state = 796
 			}
 		}
 
 		visible = {
-			OR = { 
-				AND = {
-					OR = {
-						original_tag = HOL
-						original_tag = BEL
-						original_tag = LUX
-						original_tag = FRA
-						original_tag = ITA
-						original_tag = GER
-					}
-					has_government = democratic
-				}
+			OR = {
+				original_tag = HOL
+				original_tag = BEL
+				original_tag = LUX
+				original_tag = FRA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = WGR
+				original_tag = DDR
 				AND = {
 					original_tag = ENG
-					has_country_leader = {
-						name = "Oswald Mosley"
-						ruling_only = yes
-					}
-					has_completed_focus = ENG_imperial_federation
+					has_global_flag = flag_franco_british_union
 				}
 			}
+			OR = {
+				has_government = communism
+				has_government = democratic 
+			}
 			NOT = { has_global_flag = form_european_union_flag }
-			is_major = yes
+			NOT = { has_global_flag = form_roman_empire_flag }
+			#is_major = yes
 		}
 
 		complete_effect = {
+			drop_cosmetic_tag = yes
 			if = {
 				limit = {
 					NOT = { original_tag = ENG }
-				}
+				}   
 				set_cosmetic_tag = EUR_UNIFIED
 			}
-			else = {
-				set_cosmetic_tag = ENG_imperial_federation_unified #Europe-a-Nation
-			}
-			8 = { add_core_of = ROOT }
+			set_capital = 6
 			# Netherlands
-			custom_effect_tooltip = form_eu_netherlands_coring_states_tt 
+			custom_effect_tooltip = form_eu_netherlands_coring_states_tt
 			hidden_effect = {
 				7 = { add_core_of = ROOT }
 				35 = { add_core_of = ROOT }
@@ -1478,9 +2353,10 @@ form_european_union_category = {
 			hidden_effect = {
 				6 = { add_core_of = ROOT }
 				34 = { add_core_of = ROOT }
-				812 = { add_core_of = ROOT }
+				1182 = { add_core_of = ROOT }	
 				813 = { add_core_of = ROOT }
-				1182 = { add_core_of = ROOT }
+				812 = { add_core_of = ROOT }			
+				8 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_eu_france_coring_states_tt
@@ -1500,7 +2376,7 @@ form_european_union_category = {
 				33 = { add_core_of = ROOT }
 				26 = { add_core_of = ROOT }
 				20 = { add_core_of = ROOT }
-				1185 = {add_core_of = ROOT }
+				1185 = {add_core_of = ROOT }			   
 				32 = { add_core_of = ROOT }
 				735 = { add_core_of = ROOT }
 				1132 = { add_core_of = ROOT }
@@ -1509,7 +2385,6 @@ form_european_union_category = {
 				21 = { add_core_of = ROOT }
 				19 = { add_core_of = ROOT }
 				20 = { add_core_of = ROOT }
-				1185 = {add_core_of = ROOT }
 				1 = { add_core_of = ROOT }
 				785 = { add_core_of = ROOT }
 				31 = { add_core_of = ROOT }
@@ -1523,6 +2398,13 @@ form_european_union_category = {
 				821 = { add_core_of = ROOT }
 				822 = { add_core_of = ROOT }
 				823 = { add_core_of = ROOT }
+				1147 = { add_core_of = ROOT }
+				1148 = { add_core_of = ROOT }
+				1194 = { add_core_of = ROOT }
+				1184 = { add_core_of = ROOT }
+				1183 = { add_core_of = ROOT }
+				1194 = { add_core_of = ROOT }
+				1186 = { add_core_of = ROOT }
 			}
 			# Italy
 			custom_effect_tooltip = form_eu_italy_coring_states_tt
@@ -1551,6 +2433,8 @@ form_european_union_category = {
 				991 = { add_core_of = ROOT }
 				992 = { add_core_of = ROOT }
 				993 = { add_core_of = ROOT }
+				1066 = { add_core_of = ROOT }
+				1193 = { add_core_of = ROOT }
 			}
 			# Germany
 			custom_effect_tooltip = form_country_germany_coring_states_tt
@@ -1558,45 +2442,68 @@ form_european_union_category = {
 				51 = { add_core_of = ROOT }
 				42 = { add_core_of = ROOT }
 				56 = { add_core_of = ROOT }
-				979 = { add_core_of = ROOT }
 				57 = { add_core_of = ROOT }
 				55 = { add_core_of = ROOT }
 				50 = { add_core_of = ROOT }
 				59 = { add_core_of = ROOT }
 				58 = { add_core_of = ROOT }
-				60 = { add_core_of = ROOT }
+				60 = { add_core_of = ROOT } #DDR
 				54 = { add_core_of = ROOT }
 				52 = { add_core_of = ROOT }
 				53 = { add_core_of = ROOT }
-				61 = { add_core_of = ROOT }
-				64 = { add_core_of = ROOT }
-				1105 = { add_core_of = ROOT }
-				65 = { add_core_of = ROOT }
-				62 = { add_core_of = ROOT }
-				68 = { add_core_of = ROOT }
-				66 = { add_core_of = ROOT }
-				67 = { add_core_of = ROOT }
-				63 = { add_core_of = ROOT }
-				1112 = { add_core_of = ROOT }
-				5 = { add_core_of = ROOT }
-				763 = { add_core_of = ROOT }
+				979 = { add_core_of = ROOT }
 				788 = { add_core_of = ROOT }
 				789 = { add_core_of = ROOT }
-				790 = { add_core_of = ROOT }
-				791 = { add_core_of = ROOT }
 				792 = { add_core_of = ROOT }
-				793 = { add_core_of = ROOT }
-				794 = { add_core_of = ROOT }
-				795 = { add_core_of = ROOT }
-				796 = { add_core_of = ROOT }
-				797 = { add_core_of = ROOT }
-				798 = { add_core_of = ROOT }
+				791 = { add_core_of = ROOT }
 				799 = { add_core_of = ROOT }
+				798 = { add_core_of = ROOT }
 				800 = { add_core_of = ROOT }
+				796 = { add_core_of = ROOT }
+				1105 = { add_core_of = ROOT }
+				790 = { add_core_of = ROOT }
+				61 = { add_core_of = ROOT } #DDR
+				64 = { add_core_of = ROOT } #DDR
+				65 = { add_core_of = ROOT } #DDR
+				62 = { add_core_of = ROOT } #DDR
+				68 = { add_core_of = ROOT } #Western post-war Poland
+				66 = { add_core_of = ROOT } #Western post-war Poland
+				67 = { add_core_of = ROOT } #Western post-war Poland
+				63 = { add_core_of = ROOT } #Western post-war Poland
+				5 = { add_core_of = ROOT } #East Prussia
+				763 = { add_core_of = ROOT } #East Prussia
+				793 = { add_core_of = ROOT }
+				795 = { add_core_of = ROOT }
+				794 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
 				801 = { add_core_of = ROOT }
-				802 = { add_core_of = ROOT }
 				803 = { add_core_of = ROOT }
-
+				802 = { add_core_of = ROOT }
+				1112 = { add_core_of = ROOT }
+				762 = { add_core_of = ROOT }
+				85 = { add_core_of = ROOT }
+				86 = { add_core_of = ROOT }
+				865 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				127 = { add_core_of = ROOT }
+				123 = { add_core_of = ROOT }
+				338 = { add_core_of = ROOT }
+				126 = { add_core_of = ROOT }
+				125 = { add_core_of = ROOT }
+				129 = { add_core_of = ROOT }
+				128 = { add_core_of = ROOT }
+				122 = { add_core_of = ROOT }
+				132 = { add_core_of = ROOT }
+				130 = { add_core_of = ROOT }
+				131 = { add_core_of = ROOT }
+				133 = { add_core_of = ROOT }
+				121 = { add_core_of = ROOT }
+				136 = { add_core_of = ROOT }
+				120 = { add_core_of = ROOT }
+				119 = { add_core_of = ROOT }
+				861 = { add_core_of = ROOT }
+				862 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.62 hours = 6 }
@@ -1605,13 +2512,14 @@ form_european_union_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			factor = 0
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
 		}
 	}
+
 }
 
 form_mutapa_category = {
@@ -1626,6 +2534,7 @@ form_mutapa_category = {
 				original_tag = BOT
 				original_tag = ZIM
 				original_tag = MZB
+				original_tag = NMB			
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -1651,23 +2560,27 @@ form_mutapa_category = {
 				original_tag = BOT
 				original_tag = ZIM
 				original_tag = MZB
+				original_tag = NMB
 			}
-			NOT = { has_global_flag = form_mutapa_flag }
+			NOT = { has_cosmetic_tag = MUT_UNIFIED }
+			#NOT = { has_global_flag = form_mutapa_flag } #This is a workaround bugfix that allows Mutapa to form again after unforming when the government switches to communist. No idea what casuses it, but Mutapa is supposed to be permanent union.
 		}
 
 		complete_effect = {
 			set_cosmetic_tag = MUT_UNIFIED
-			541 = { add_core_of = ROOT }
-			1056 = { add_core_of = ROOT }
-			1057 = { add_core_of = ROOT }
-			681 = { add_core_of = ROOT }
-			719 = { add_core_of = ROOT }
-			275 = { add_core_of = ROOT }
-			542 = { add_core_of = ROOT }
-			545 = { add_core_of = ROOT }
-			544 = { add_core_of = ROOT }
-			1037 = { add_core_of = ROOT }
-			1038 = { add_core_of = ROOT }
+			hidden_effect = {
+				541 = { add_core_of = ROOT }
+				1056 = { add_core_of = ROOT }
+				1057 = { add_core_of = ROOT }
+				681 = { add_core_of = ROOT }
+				719 = { add_core_of = ROOT }
+				275 = { add_core_of = ROOT }
+				542 = { add_core_of = ROOT }
+				545 = { add_core_of = ROOT }
+				544 = { add_core_of = ROOT }
+				1037 = { add_core_of = ROOT }
+				1038 = { add_core_of = ROOT }
+			}
 			hidden_effect = {
 				news_event = { id = wtt_news.63 hours = 6 }
 				set_global_flag = form_mutapa_flag
@@ -1698,36 +2611,33 @@ form_roman_empire_category = {
 		available = {
 			is_subject = no
 			# Some Dutch states
-			controls_state = 7
-			controls_state = 35
+			#controls_state = 7
+			#controls_state = 35
 			# Some Luxemburgian states
-			controls_state = 8
+			#controls_state = 8
 			# Some Austrian states
-			controls_state = 153
+			#controls_state = 153
 			# Some Hungarian states
-			controls_state = 154
+			#controls_state = 154
 			# Some Romanian states
-			controls_state = 82
-			controls_state = 83
-			controls_state = 76
-			controls_state = 84
-			controls_state = 81
-			controls_state = 46
-			controls_state = 77
-			controls_state = 831
-			controls_state = 832
-			controls_state = 833
+			#controls_state = 82
+			#controls_state = 83
+			#controls_state = 76
+			#controls_state = 84
+			#controls_state = 81
+			#controls_state = 46
+			#controls_state = 77
 			# Some Albanian states
 			controls_state = 44
 			controls_state = 1045
 			# Some Andorran states
-			controls_state = 824
+			#controls_state = 824
 			# Some Liechtenstein states
-			controls_state = 826
+			#controls_state = 826
 			# Some San Marino states
-			controls_state = 827
+			#controls_state = 827
 			# Some Vatican states
-			controls_state = 828
+			#controls_state = 828
 			# Yugoslavia
 			custom_trigger_tooltip = {
 				tooltip = form_country_yugoslavia_required_states_tt
@@ -1836,6 +2746,9 @@ form_roman_empire_category = {
 				tooltip = form_country_switzerland_required_states_tt
 				controls_state = 3
 				controls_state = 151
+				controls_state = 892
+				controls_state = 893
+				controls_state = 894
 			}
 			# Portugal
 			custom_trigger_tooltip = {
@@ -1847,14 +2760,11 @@ form_roman_empire_category = {
 				controls_state = 1134
 			}
 			# Belgium
-			custom_trigger_tooltip = {
-				tooltip = form_eu_belgium_required_states_tt
-				controls_state = 6
-				controls_state = 34
-				controls_state = 812
-				controls_state = 813
-				controls_state = 1182
-			}
+			#custom_trigger_tooltip = {
+			#	tooltip = form_eu_belgium_required_states_tt
+			#	controls_state = 6
+			#	controls_state = 34
+			#}
 			# Italy
 			custom_trigger_tooltip = {
 				tooltip = form_spqr_italy_required_states_tt
@@ -1925,23 +2835,22 @@ form_roman_empire_category = {
 			}
 			# France
 			custom_trigger_tooltip = {
-				tooltip = form_spqr_france_required_states_tt
-				controls_state = 29
-				controls_state = 1089
-				controls_state = 18
-				controls_state = 17
-				controls_state = 28
-				controls_state = 15
-				controls_state = 16
-				controls_state = 27
-				controls_state = 14
-				controls_state = 30
-				controls_state = 24
-				controls_state = 23
+				tooltip = form_spqr_southern_france_required_states_tt
+				#controls_state = 29
+				#controls_state = 18
+				#controls_state = 17
+				#controls_state = 28
+				#controls_state = 785 #Picardy
+				#controls_state = 15
+				#controls_state = 16
+				#controls_state = 27
+				#controls_state = 14
+				#controls_state = 30
+				#controls_state = 24
+				#controls_state = 23
 				controls_state = 33
 				controls_state = 26
 				controls_state = 20
-				controls_state = 1185
 				controls_state = 32
 				controls_state = 735
 				controls_state = 1132
@@ -1950,7 +2859,7 @@ form_roman_empire_category = {
 				controls_state = 21
 				controls_state = 19
 				controls_state = 20
-				controls_state = 1185
+				controls_state = 1185		
 				controls_state = 1
 				controls_state = 785
 				controls_state = 31
@@ -2017,37 +2926,73 @@ form_roman_empire_category = {
 		visible = {
 			original_tag = ITA
 			NOT = { has_global_flag = form_roman_empire_flag }
+			NOT = { has_global_flag = form_european_union_flag }
 		}
 
 		complete_effect = {
+			drop_cosmetic_tag = yes
 			set_cosmetic_tag = SPQR_UNIFIED
-			# Some Dutch states
-			7 = { add_core_of = ROOT }
-			35 = { add_core_of = ROOT }
-			# Some Luxemburgian states
-			8 = { add_core_of = ROOT }
-			# Some Austrian states
-			153 = { add_core_of = ROOT }
-			# Some Hungarian states
-			154 = { add_core_of = ROOT }
-			# Some Romanian states
-			82 = { add_core_of = ROOT }
-			83 = { add_core_of = ROOT }
-			76 = { add_core_of = ROOT }
-			84 = { add_core_of = ROOT }
-			81 = { add_core_of = ROOT }
-			46 = { add_core_of = ROOT }
-			77 = { add_core_of = ROOT }
-			831 = { add_core_of = ROOT }
-			832 = { add_core_of = ROOT }
-			833 = { add_core_of = ROOT }
-			# Some Albanian states
-			44 = { add_core_of = ROOT }
-			1045 = { add_core_of = ROOT }
-			# Some Andorra states
-			824 = { add_core_of = ROOT }
-			# Some Liechtenstein states
-			826 = { add_core_of = ROOT }
+			hidden_effect = {
+				827 = { add_core_of = ROOT }
+				828 = { add_core_of = ROOT }
+				825 = { add_core_of = ROOT }
+				824 = { add_core_of = ROOT }
+				995 = { add_core_of = ROOT }
+				462 = { add_core_of = ROOT }
+				783 = { add_core_of = ROOT }
+				# Some Dutch states
+				1062 = { add_core_of = ROOT }
+				1061 = { add_core_of = ROOT }
+				#7 = { add_core_of = ROOT }
+				#36 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				1060 = { add_core_of = ROOT }
+				51 = { add_core_of = ROOT }
+				792 = { add_core_of = ROOT }
+				789 = { add_core_of = ROOT }
+				42 = { add_core_of = ROOT }
+				# Some Luxemburgian states
+				8 = { add_core_of = ROOT }
+				# Some Austrian states
+				153 = { add_core_of = ROOT }
+				806 = { add_core_of = ROOT }
+				152 = { add_core_of = ROOT }
+				4 = { add_core_of = ROOT }
+				1107 = { add_core_of = ROOT }
+				810 = { add_core_of = ROOT }
+				798 = { add_core_of = ROOT }
+				800 = { add_core_of = ROOT }
+				52 = { add_core_of = ROOT }
+				799 = { add_core_of = ROOT }
+				50 = { add_core_of = ROOT }
+				791 = { add_core_of = ROOT }
+				# Some Hungarian states
+				154 = { add_core_of = ROOT }
+				994 = { add_core_of = ROOT }
+				155 = { add_core_of = ROOT }
+				808 = { add_core_of = ROOT }
+				809 = { add_core_of = ROOT }
+				43 = { add_core_of = ROOT }
+				154 = { add_core_of = ROOT }
+				# Some Romanian states
+				82 = { add_core_of = ROOT }
+				83 = { add_core_of = ROOT }
+				76 = { add_core_of = ROOT }
+				84 = { add_core_of = ROOT }
+				81 = { add_core_of = ROOT }
+				46 = { add_core_of = ROOT }
+				77 = { add_core_of = ROOT }
+				831 = { add_core_of = ROOT }
+				832 = { add_core_of = ROOT }
+				833 = { add_core_of = ROOT }
+				# Some Albanian states
+				44 = { add_core_of = ROOT }
+				1045 = { add_core_of = ROOT }
+				# Some Andorra states
+				824 = { add_core_of = ROOT }
+				# Some Liechtenstein states
+				826 = { add_core_of = ROOT }
+			}
 			# Yugoslavia
 			custom_effect_tooltip = form_country_yugoslavia_coring_states_tt
 			hidden_effect = {
@@ -2080,6 +3025,31 @@ form_roman_empire_category = {
 				870 = { add_core_of = ROOT }
 				871 = { add_core_of = ROOT }
 				764 = { add_core_of = ROOT }
+				163 = { add_core_of = ROOT }
+				1189 = { add_core_of = ROOT }
+				1190 = { add_core_of = ROOT }
+				ROOT = {
+					set_party_name = { 
+						ideology = communism 
+    						long_name = SPQR_UNIFIED_communism_party_long 
+    						name = SPQR_UNIFIED_communism_party 
+					}
+					set_party_name = { 
+						ideology = fascism 
+    						long_name = SPQR_UNIFIED_fascism_party_long 
+    						name = SPQR_UNIFIED_fascism_party 
+					}
+					set_party_name = { 
+						ideology = democratic 
+    						long_name = SPQR_UNIFIED_democratic_party_long 
+    						name = SPQR_UNIFIED_democratic_party 
+					}
+					set_party_name = { 
+						ideology = neutrality 
+    						long_name = SPQR_UNIFIED_neutrality_party_long 
+    						name = SPQR_UNIFIED_neutrality_party 
+					}
+				}
 			}
 			# Greece
 			custom_effect_tooltip = form_country_greece_coring_states_tt
@@ -2097,6 +3067,16 @@ form_roman_empire_category = {
                 977 = { add_core_of = ROOT }
                 978 = { add_core_of = ROOT }
 				164 = { add_core_of = ROOT }
+				1160 = { add_core_of = ROOT }
+				1139 = { add_core_of = ROOT }
+				1159 = { add_core_of = ROOT }
+				1143 = { add_core_of = ROOT }
+				1142 = { add_core_of = ROOT }
+				1156 = { add_core_of = ROOT }
+				1140 = { add_core_of = ROOT }
+				1141 = { add_core_of = ROOT }
+				1157 = { add_core_of = ROOT }
+				877 = { add_core_of = ROOT }
 			}
 			# Bulgaria
 			custom_effect_tooltip = form_country_bulgaria_coring_states_tt
@@ -2107,6 +3087,7 @@ form_roman_empire_category = {
 				942 = { add_core_of = ROOT }
 				943 = { add_core_of = ROOT }
 				1103 = { add_core_of = ROOT }
+				1179 = { add_core_of = ROOT }
 			}
 			# Turkey
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
@@ -2142,6 +3123,17 @@ form_roman_empire_category = {
                 960 = { add_core_of = ROOT }
                 961 = { add_core_of = ROOT }
 				1001 = { add_core_of = ROOT }
+				1188 = { add_core_of = ROOT }
+				1086 = { add_core_of = ROOT }
+				1004 = { add_core_of = ROOT }
+				1003 = { add_core_of = ROOT }
+				230 = { add_core_of = ROOT }
+				1005 = { add_core_of = ROOT }
+				229 = { add_core_of = ROOT }
+				1092 = { add_core_of = ROOT }
+				1091 = { add_core_of = ROOT }
+				231 = { add_core_of = ROOT }
+				1002 = { add_core_of = ROOT }
 			}
 			# Iraq
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
@@ -2151,12 +3143,20 @@ form_roman_empire_category = {
 				291 = { add_core_of = ROOT }
 				946 = { add_core_of = ROOT }
 				945 = { add_core_of = ROOT }
+				1153 = { add_core_of = ROOT }
+				1154 = { add_core_of = ROOT }
+				679 = { add_core_of = ROOT }
+				1152 = { add_core_of = ROOT }
+				1151 = { add_core_of = ROOT }
 			}
 			# Switzerland
 			custom_effect_tooltip = form_country_switzerland_coring_states_tt
 			hidden_effect = {
 				3 = { add_core_of = ROOT }
 				151 = { add_core_of = ROOT }
+				892 = { add_core_of = ROOT }
+				893 = { add_core_of = ROOT }
+				894 = { add_core_of = ROOT }
 			}
 			# Portugal
 			custom_effect_tooltip = form_eu_portugal_coring_states_tt
@@ -2174,7 +3174,7 @@ form_roman_empire_category = {
 				34 = { add_core_of = ROOT }
 				812 = { add_core_of = ROOT }
 				813 = { add_core_of = ROOT }
-				1182 = { add_core_of = ROOT }
+				1182 = { add_core_of = ROOT }				
 			}
 			# Italian North Africa
 			custom_effect_tooltip = form_spqr_italy_coring_states_tt
@@ -2186,6 +3186,8 @@ form_roman_empire_category = {
 				450 = { add_core_of = ROOT }
 				451 = { add_core_of = ROOT }
 				663 = { add_core_of = ROOT }
+				1070 = { add_core_of = ROOT }
+				273 = { add_core_of = ROOT }
 			}
 			# Spain
 			custom_effect_tooltip = form_spqr_spain_coring_states_tt
@@ -2233,7 +3235,7 @@ form_roman_empire_category = {
 				33 = { add_core_of = ROOT }
 				26 = { add_core_of = ROOT }
 				20 = { add_core_of = ROOT }
-				1185 = { add_core_of = ROOT }
+				1185 = { add_core_of = ROOT }			   
 				32 = { add_core_of = ROOT }
 				735 = { add_core_of = ROOT }
 				1132 = { add_core_of = ROOT }
@@ -2242,7 +3244,6 @@ form_roman_empire_category = {
 				21 = { add_core_of = ROOT }
 				19 = { add_core_of = ROOT }
 				20 = { add_core_of = ROOT }
-				1185 = { add_core_of = ROOT }
 				1 = { add_core_of = ROOT }
 				785 = { add_core_of = ROOT }
 				31 = { add_core_of = ROOT }
@@ -2267,6 +3268,12 @@ form_roman_empire_category = {
 				821 = { add_core_of = ROOT }
 				822 = { add_core_of = ROOT }
 				823 = { add_core_of = ROOT }
+				1148 = { add_core_of = ROOT }
+				1147 = { add_core_of = ROOT }
+				1186 = { add_core_of = ROOT }
+				1194 = { add_core_of = ROOT }
+				1184 = { add_core_of = ROOT }
+				1183 = { add_core_of = ROOT }
 			}
 			# Britain
 			custom_effect_tooltip = form_spqr_britain_coring_states_tt
@@ -2298,6 +3305,7 @@ form_roman_empire_category = {
 				656 = { add_core_of = ROOT }
 				118 = { add_core_of = ROOT }
 				116 = { add_core_of = ROOT }
+				974 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.64 hours = 6 }
@@ -2433,31 +3441,27 @@ form_persian_empire_category = {
 				controls_state = 554
 			}
 			# Italy: North Africa / Dodecanese
-			custom_trigger_tooltip = {
-				tooltip = form_persia_italy_required_states_tt
-				controls_state = 164
-				controls_state = 450
-				controls_state = 451
-				controls_state = 663
-			}
+			#custom_trigger_tooltip = {
+				#tooltip = form_persia_italy_required_states_tt
+				#controls_state = 164
+				#controls_state = 450
+				#controls_state = 451
+				#controls_state = 663
+			#}
 			# Britain: Egypt / Middle East
-			custom_trigger_tooltip = {
-				tooltip = form_persia_britain_required_states_tt
-				controls_state = 452
-				controls_state = 447
-				controls_state = 446
-				controls_state = 456
-				controls_state = 457
-				controls_state = 453
+			#custom_trigger_tooltip = {
+				#tooltip = form_persia_britain_required_states_tt
+				#controls_state = 452
+				#controls_state = 447
+				#controls_state = 446
+				#controls_state = 456
+				#controls_state = 457
+				#controls_state = 453
 				controls_state = 454
-				controls_state = 1117
-				controls_state = 1118
 				controls_state = 455
-				controls_state = 947
-				controls_state = 183
-				controls_state = 952
+				#controls_state = 183
 				controls_state = 656
-			}
+			#}
 		}
 
 		visible = {
@@ -2492,6 +3496,9 @@ form_persian_empire_category = {
 			hidden_effect = {
 				415 = { add_core_of = ROOT }
 				267 = { add_core_of = ROOT }
+				1129 = { add_core_of = ROOT }
+				1130 = { add_core_of = ROOT }
+				1131 = { add_core_of = ROOT }
 			}
 			# Iraq
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
@@ -2501,6 +3508,7 @@ form_persian_empire_category = {
 				291 = { add_core_of = ROOT }
 				946 = { add_core_of = ROOT }
 				945 = { add_core_of = ROOT }
+				1154 = { add_core_of = ROOT }
 			}
 			# Turkey
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
@@ -2536,6 +3544,9 @@ form_persian_empire_category = {
                 960 = { add_core_of = ROOT }
                 961 = { add_core_of = ROOT }
 				1001 = { add_core_of = ROOT }
+				877 = { add_core_of = ROOT }
+				1188 = { add_core_of = ROOT }
+				1140 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_persia_france_coring_states_tt
@@ -2545,6 +3556,7 @@ form_persian_empire_category = {
 				1040 = { add_core_of = ROOT }
 				553 = { add_core_of = ROOT }
 				554 = { add_core_of = ROOT }
+				1153 = { add_core_of = ROOT }
 			}
 			# Italy
 			custom_effect_tooltip = form_persia_italy_coring_states_tt
@@ -2553,6 +3565,7 @@ form_persian_empire_category = {
 				450 = { add_core_of = ROOT }
 				451 = { add_core_of = ROOT }
 				663 = { add_core_of = ROOT }
+				1070 = { add_core_of = ROOT }
 			}
 			# Britain
 			custom_effect_tooltip = form_persia_britain_coring_states_tt
@@ -2572,6 +3585,7 @@ form_persian_empire_category = {
 				952 = { add_core_of = ROOT }
 				656 = { add_core_of = ROOT }
 				118 = { add_core_of = ROOT }
+				995 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.65 hours = 6 }
@@ -2598,19 +3612,17 @@ form_byzantine_empire_category = {
 		allowed = {
 			original_tag = GRE
 			has_dlc = "Waking the Tiger"
+			NOT = { has_dlc = "Battle for the Bosporus" }									
 		}
 
 		available = {
 			is_subject = no
 			controls_state = 44
 			controls_state = 1045
-			controls_state = 82
-			controls_state = 81
-			controls_state = 46
-			controls_state = 831
-			controls_state = 832
-			controls_state = 833
-			controls_state = 77
+			#controls_state = 82
+			#controls_state = 81
+			#controls_state = 46
+			#controls_state = 77
 			# Greece
 			custom_trigger_tooltip = {
 				tooltip = form_country_greece_required_states_tt
@@ -2708,29 +3720,30 @@ form_byzantine_empire_category = {
 		}
 
 		visible = {
-			original_tag = GRE
 			NOT = { has_global_flag = form_byzantine_empire_flag }
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = BYZ_UNIFIED
+			set_cosmetic_tag = BYZ_UNIFIED								  
 			set_capital = 341
-			341 = { add_core_of = ROOT }
-			1116 = { add_core_of = ROOT }
 			hidden_effect = { 
                 341 = { set_state_name = "Constantinople" }
-                950 = { set_state_name = "EastConstantinople" }
+                1188 = { set_state_name = "East Constantinople" }
             }
 			set_province_name = { id = 9833 name = "Constantinople" }
-			44 = { add_core_of = ROOT }
-			1045 = { add_core_of = ROOT }
-			82 = { add_core_of = ROOT }
-			81 = { add_core_of = ROOT }
-			46 = { add_core_of = ROOT }
-			77 = { add_core_of = ROOT }
-			831 = { add_core_of = ROOT }
-			832 = { add_core_of = ROOT }
-			833 = { add_core_of = ROOT }
+			hidden_effect = { 
+				341 = { add_core_of = ROOT }
+				1116 = { add_core_of = ROOT }
+				44 = { add_core_of = ROOT }
+				1045 = { add_core_of = ROOT }
+				82 = { add_core_of = ROOT }
+				81 = { add_core_of = ROOT }
+				46 = { add_core_of = ROOT }
+				77 = { add_core_of = ROOT }
+				831 = { add_core_of = ROOT }
+				832 = { add_core_of = ROOT }
+				833 = { add_core_of = ROOT }
+			}
 			# Greece
 			custom_effect_tooltip = form_country_greece_coring_states_tt
 			hidden_effect = {
@@ -2830,6 +3843,7 @@ form_byzantine_empire_category = {
 				set_global_flag = form_byzantine_empire_flag
 			}
 			set_country_flag = achivement_i_swear_im_not_a_byzantophile
+			set_country_flag = achivement_istanbul_is_constantinople_again													 
 		}
 
 		ai_will_do = {
@@ -2851,7 +3865,7 @@ form_byzantine_empire_category = {
 
 		available = {
 			is_subject = no
-			has_completed_focus = GRE_reviving_the_double_headed_eagle
+			#has_completed_focus = GRE_reviving_the_double_headed_eagle
 			# Greece
 			custom_trigger_tooltip = {
 				tooltip = form_country_greece_required_states_tt
@@ -2866,15 +3880,16 @@ form_byzantine_empire_category = {
 			# Turkey
 			custom_trigger_tooltip = {
 				tooltip = form_country_turkey_required_states_tt
-				controls_state = 797
+				controls_state = 1116
 				controls_state = 341
 				controls_state = 340
 				controls_state = 339
+				controls_state = 341
 				controls_state = 342
 				controls_state = 343
 				controls_state = 347
 				controls_state = 49
-				controls_state = 798
+				controls_state = 1188
 				controls_state = 346
 				controls_state = 345
 				controls_state = 356
@@ -2886,24 +3901,33 @@ form_byzantine_empire_category = {
 				controls_state = 354
 				controls_state = 353
 				controls_state = 352
-				controls_state = 800
+				controls_state = 951
 			}
 		}
 
 		visible = {
-			AND = { 
-				has_completed_focus = GRE_horror_and_fear
-				has_government = fascism
+			NOT = {
+				OR = {
+					has_completed_focus = GRE_moulding_the_new_world_order
+					has_completed_focus = GRE_protectors_of_the_mediterranean
+				}
 			}
+			#AND = { 
+			#	has_completed_focus = GRE_horror_and_fear #AGAIN?
+			#	has_government = fascism #what? why?
+			#}
 			NOT = { has_global_flag = form_byzantine_empire_flag }
+			NOT = { has_global_flag = form_macedonian_empire_flag }
+			#NOT = { has_global_flag = form_greater_greece_flag } #you might still choose to form Byzantium as the Greater Greece
 		}
 
 		complete_effect = {
+			drop_cosmetic_tag = yes
 			set_country_flag = GRE_byz_unified_flag
-			GRE_set_appropriate_cosmetic_tag = yes
-			set_capital = 797
-			797 = { add_core_of = ROOT }
-			hidden_effect = { 797 = { set_state_name = "Constantinople" } }
+			set_cosmetic_tag = BYZ_UNIFIED
+			set_capital = 341
+			341 = { add_core_of = ROOT }
+			hidden_effect = { 341 = { set_state_name = "Constantinople" } }
 			set_province_name = { id = 9833 name = "Constantinople" }
 			# Greece
 			custom_effect_tooltip = form_country_greece_coring_states_tt
@@ -2915,8 +3939,8 @@ form_byzantine_empire_category = {
 				184 = { add_core_of = ROOT }
 				187 = { add_core_of = ROOT }
 				182 = { add_core_of = ROOT }
-				731 = { set_state_name = "Thessalonica" }
-				184 = { set_state_name = "Strymon" }
+				1160 = { set_state_name = "Thessalonica" }
+				1063 = { set_state_name = "Strymon" }
 			}
 			# Turkey
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
@@ -2969,8 +3993,8 @@ form_byzantine_empire_category = {
 				349 = { add_core_of = ROOT }
 				349 = { set_state_name = "Koloneia" }
 				set_province_name = { id = 9777 name = "Sebasteia" }
-				798 = { add_core_of = ROOT }
-				798 = { set_state_name = "Carsiano" }
+				958 = { add_core_of = ROOT }
+				958 = { set_state_name = "Carsiano" }
 				set_province_name = { id = 919 name = "Amaseia" }
 				set_province_name = { id = 3862 name = "Taouion" }
 				350 = { add_core_of = ROOT }
@@ -2987,24 +4011,49 @@ form_byzantine_empire_category = {
 				352 = { add_core_of = ROOT }
 				352 = { set_state_name = "Hubushkia" }
 				set_province_name = { id = 12476 name = "Kondylis" }
-				800 = { add_core_of = ROOT }
-				800 = { set_state_name = "Vaspurakan" }
+				960 = { add_core_of = ROOT }
+				960 = { set_state_name = "Vaspurakan" }
 				set_province_name = { id = 6935 name = "Eua" }
+				954 = { add_core_of = ROOT }
+				953 = { add_core_of = ROOT }
+				1140 = { add_core_of = ROOT }
+				1116 = { add_core_of = ROOT }
+				1188 = { add_core_of = ROOT }
+				950 = { add_core_of = ROOT }
+				951 = { add_core_of = ROOT }
+				956 = { add_core_of = ROOT }
+				955 = { add_core_of = ROOT }
+				957 = { add_core_of = ROOT }
+				958 = { add_core_of = ROOT }
+				959 = { add_core_of = ROOT }
+				960 = { add_core_of = ROOT }
+				961 = { add_core_of = ROOT }
+				1001 = { add_core_of = ROOT }
+				137 = { add_core_of = ROOT }
+				877 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.66 hours = 6 }
 				set_global_flag = form_byzantine_empire_flag
-				swap_ruler_traits = { remove = archon_basileus add = autokrator }
+				if = {
+					limit = {
+						OR = {
+							has_government = fascism
+							has_government = neutrality
+						}
+					}
+					swap_ruler_traits = { remove = archon_basileus add = autokrator }
+				}
 			}
 			set_country_flag = achivement_i_swear_im_not_a_byzantophile
 			set_country_flag = achivement_istanbul_is_constantinople_again
 		}
 
 		ai_will_do = {
-			factor = 200
+			factor = 0
 			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
+				factor = 200
+				has_completed_focus = GRE_reviving_the_double_headed_eagle
 			}
 		}
 	}
@@ -3025,7 +4074,7 @@ form_byzantine_empire_category = {
 				tooltip = form_country_dyrrachium_required_states_tt
 				controls_state = 44
 				controls_state = 105
-				controls_state = 805
+				controls_state = 1045
 			}
 			# Romania
 			custom_trigger_tooltip = {
@@ -3043,7 +4092,7 @@ form_byzantine_empire_category = {
 				controls_state = 212
 				controls_state = 211
 				controls_state = 106
-				controls_state = 801
+				controls_state = 943
 			}
 			# Yugoslavia
 			custom_trigger_tooltip = {
@@ -3055,9 +4104,9 @@ form_byzantine_empire_category = {
 				controls_state = 45
 				controls_state = 107
 				controls_state = 108
-				controls_state = 802
-				controls_state = 803
-				controls_state = 804
+				controls_state = 878
+				controls_state = 870
+				controls_state = 1046
 				controls_state = 764
 			}
 		}
@@ -3065,7 +4114,8 @@ form_byzantine_empire_category = {
 		visible = {
 			if = {
 				limit = { has_dlc = "Battle for the Bosporus" }
-				has_completed_focus = GRE_byzantine_themata
+				#has_completed_focus = GRE_byzantine_themata
+				has_global_flag = form_byzantine_empire_flag
 			}
 			NOT = { has_global_flag = triumph_for_the_balkans }
 		}
@@ -3081,8 +4131,9 @@ form_byzantine_empire_category = {
 				105 = { add_core_of = ROOT }
 				105 = { set_state_name = "Dyrrhachion" }
 				set_province_name = { id = 9809 name = "Dyrrhachium" }
-				805 = { add_core_of = ROOT }
+				1045 = { add_core_of = ROOT }
 				set_province_name = { id = 914 name = "Argyrokastro" }
+				940 = { add_core_of = ROOT }
 			}
 			# Romania
 			custom_effect_tooltip = form_country_paristrion_coring_states_tt
@@ -3102,6 +4153,9 @@ form_byzantine_empire_category = {
 				766 = { add_core_of = ROOT }
 				766 = { set_state_name = "Silistra" }
 				set_province_name = { id = 6727 name = "Velissarios" }
+				833 = { add_core_of = ROOT }
+				832 = { add_core_of = ROOT }
+				831 = { add_core_of = ROOT }
 				
 			}
 			# Bulgaria
@@ -3121,7 +4175,13 @@ form_byzantine_empire_category = {
 				106 = { set_state_name = "Boulgarias" }
 				set_province_name = { id = 3882 name = "Scupi" }
 				731 = { set_state_name = "Macedonia" }
-				801 = { add_core_of = ROOT }
+				943 = { add_core_of = ROOT }
+				942 = { add_core_of = ROOT }
+				1141 = { add_core_of = ROOT }
+				1142 = { add_core_of = ROOT }
+				1143 = { add_core_of = ROOT }
+				1103 = { add_core_of = ROOT }
+				1179 = { add_core_of = ROOT }
 			}
 			# Yugoslavia
 			custom_effect_tooltip = form_country_sirmium_coring_states_tt
@@ -3140,10 +4200,26 @@ form_byzantine_empire_category = {
 				108 = { add_core_of = ROOT }
 				108 = { set_state_name = "Pizren" }
 				set_province_name = { id = 9602 name = "Naissus" }
-				802 = { add_core_of = ROOT }
-				803 = { add_core_of = ROOT }
-				804 = { add_core_of = ROOT }
+				878 = { add_core_of = ROOT }
+				870 = { add_core_of = ROOT }
+				1046 = { add_core_of = ROOT }
 				764 = { add_core_of = ROOT }
+				871 = { add_core_of = ROOT }
+				872 = { add_core_of = ROOT }
+				869 = { add_core_of = ROOT }
+				941 = { add_core_of = ROOT }
+				1189 = { add_core_of = ROOT }
+				1190 = { add_core_of = ROOT }
+				1047 = { add_core_of = ROOT }
+				1048 = { add_core_of = ROOT }
+				937 = { add_core_of = ROOT }
+				938 = { add_core_of = ROOT }
+				939 = { add_core_of = ROOT }
+				934 = { add_core_of = ROOT }
+				935 = { add_core_of = ROOT }
+				936 = { add_core_of = ROOT }
+				1104 = { add_core_of = ROOT }
+				868 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = triumph_for_the_balkans
@@ -3151,10 +4227,10 @@ form_byzantine_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			factor = 0
 			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
+				factor = 200
+				has_completed_focus = GRE_reviving_the_double_headed_eagle
 			}
 		}
 	}
@@ -3165,7 +4241,10 @@ form_byzantine_empire_category = {
 
 		allowed = {
 			original_tag = GRE
-			has_dlc = "Waking the Tiger"
+			OR = {
+				has_dlc = "Waking the Tiger"
+				has_dlc = "Battle for the Bosporus"
+			}
 		}
 
 		available = {
@@ -3202,6 +4281,7 @@ form_byzantine_empire_category = {
 		visible = {
 			original_tag = GRE
 			NOT = { has_global_flag = triumph_for_italy }
+			has_global_flag = form_byzantine_empire_flag
 		}
 
 		complete_effect = {
@@ -3231,6 +4311,11 @@ form_byzantine_empire_category = {
 				991 = { add_core_of = ROOT }
 				992 = { add_core_of = ROOT }
 				993 = { add_core_of = ROOT }
+				1193 = { add_core_of = ROOT }
+				114 = { add_core_of = ROOT }
+				1066 = { add_core_of = ROOT }
+				1 = { add_core_of = ROOT }
+				177 = { add_core_of = ROOT }
 				
 				#Some micro nations in Italy
 				827 = { add_core_of = ROOT }
@@ -3240,10 +4325,10 @@ form_byzantine_empire_category = {
 		}
 
 		ai_will_do = {
-			factor = 200
+			factor = 0
 			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
+				factor = 200
+				has_completed_focus = GRE_reviving_the_double_headed_eagle
 			}
 		}
 	}
@@ -3281,6 +4366,7 @@ form_byzantine_empire_category = {
 		visible = {
 			original_tag = GRE
 			NOT = { has_global_flag = triumph_for_middle_east }
+			has_global_flag = form_byzantine_empire_flag
 		}
 
 		complete_effect = {
@@ -3298,14 +4384,15 @@ form_byzantine_empire_category = {
 			947 = { add_core_of = ROOT }
 			183 = { add_core_of = ROOT }
 			952 = { add_core_of = ROOT }
+			1153 = { add_core_of = ROOT }
 			set_global_flag = triumph_for_middle_east
 		}
 
 		ai_will_do = {
-			factor = 200
+			factor = 0
 			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
+				factor = 200
+				has_completed_focus = GRE_reviving_the_double_headed_eagle
 			}
 		}
 	}
@@ -3343,6 +4430,7 @@ form_byzantine_empire_category = {
 		visible = {
 			original_tag = GRE
 			NOT = { has_global_flag = triumph_for_egypt_and_tunis }
+			has_global_flag = form_byzantine_empire_flag
 		}
 
 		complete_effect = {
@@ -3360,14 +4448,17 @@ form_byzantine_empire_category = {
 			446 = { add_core_of = ROOT }
 			456 = { add_core_of = ROOT }
 			457 = { add_core_of = ROOT }
+			995 = { add_core_of = ROOT }
+			1070 = { add_core_of = ROOT }
+			273 = { add_core_of = ROOT }
 			set_global_flag = triumph_for_egypt_and_tunis
 		}
 
 		ai_will_do = {
-			factor = 200
+			factor = 0
 			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
+				factor = 200
+				has_completed_focus = GRE_reviving_the_double_headed_eagle
 			}
 		}
 	}
@@ -3394,16 +4485,17 @@ form_arabia_category = {
 				original_tag = KUW
 				original_tag = UAE
 				original_tag = QAT
+				original_tag = UAE
 			}
 			has_dlc = "Waking the Tiger"
 		}
 
 		available = {
 			is_subject = no
-			# Spain: Northern Africa
-			controls_state = 290
-			controls_state = 1043
-			controls_state = 1044
+			#controls_state = 290 # Spain: Northern Africa
+			#controls_state = 290
+			#controls_state = 1043
+			#controls_state = 1044
 			# Iraq
 			custom_trigger_tooltip = {
 				tooltip = form_country_iraq_required_states_tt
@@ -3449,13 +4541,13 @@ form_arabia_category = {
 			custom_trigger_tooltip = {
 				tooltip = form_arabia_france_required_states_tt
 				# North Africa
-				controls_state = 458
-				controls_state = 665
-				controls_state = 460
-				controls_state = 513
-				controls_state = 459
-				controls_state = 461
-				controls_state = 462
+				#controls_state = 458
+				#controls_state = 665
+				#controls_state = 460
+				#controls_state = 513
+				#controls_state = 459
+				#controls_state = 461
+				#controls_state = 462
 				# Syria
 				controls_state = 677
 				controls_state = 680
@@ -3472,7 +4564,7 @@ form_arabia_category = {
 				controls_state = 456
 				controls_state = 457
 				controls_state = 453
-				controls_state = 551
+				#controls_state = 551
 				controls_state = 454
 				controls_state = 1117
 				controls_state = 1118
@@ -3501,16 +4593,24 @@ form_arabia_category = {
 				original_tag = PAL
 				original_tag = LEB
 				original_tag = SYR
+				original_tag = KUW
+				original_tag = QAT
+				original_tag = UAE
 			}
 			NOT = { has_global_flag = form_arabia_flag }
 		}
 
 		complete_effect = {
+			drop_cosmetic_tag = yes
 			set_cosmetic_tag = ARA_UNIFIED
-			290 = { add_core_of = ROOT }
-			1050 = { add_core_of = ROOT }
-			1043 = { add_core_of = ROOT }
-			1044 = { add_core_of = ROOT }
+			hidden_effect = {		
+				290 = { add_core_of = ROOT }
+				1043 = { add_core_of = ROOT }
+				1044 = { add_core_of = ROOT }
+				783 = { add_core_of = ROOT }
+				1106 = { add_core_of = ROOT }
+				699 = { add_core_of = ROOT }
+			}
 			# Iraq
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
 			hidden_effect = {
@@ -3529,6 +4629,12 @@ form_arabia_category = {
 				678 = { add_core_of = ROOT }
 				948 = { add_core_of = ROOT }
 				944 = { add_core_of = ROOT }
+				1149 = { add_core_of = ROOT }
+				1150 = { add_core_of = ROOT }
+				1151 = { add_core_of = ROOT }
+				1152 = { add_core_of = ROOT }
+				1155 = { add_core_of = ROOT }
+				1158 = { add_core_of = ROOT }
 			}
 			# Oman
 			custom_effect_tooltip = form_country_oman_coring_states_tt
@@ -3552,6 +4658,17 @@ form_arabia_category = {
 				450 = { add_core_of = ROOT }
 				451 = { add_core_of = ROOT }
 				663 = { add_core_of = ROOT }
+				273 = { add_core_of = ROOT }
+				1070 = { add_core_of = ROOT }
+				1144 = { add_core_of = ROOT }
+				1145 = { add_core_of = ROOT }
+				1146 = { add_core_of = ROOT }
+				1069 = { add_core_of = ROOT }
+				#998 = { add_core_of = ROOT }
+				1071 = { add_core_of = ROOT }
+				1072 = { add_core_of = ROOT }
+				1176 = { add_core_of = ROOT }
+				1177 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_arabia_france_coring_states_tt
@@ -3569,6 +4686,11 @@ form_arabia_category = {
 				554 = { add_core_of = ROOT }
 				462 = { add_core_of = ROOT }
 				1153 = { add_core_of = ROOT }
+				514 = { add_core_of = ROOT }
+				1172 = { add_core_of = ROOT }
+				1173 = { add_core_of = ROOT }
+				786 = { add_core_of = ROOT }
+				557 = { add_core_of = ROOT }
 			}
 			# Britain
 			custom_effect_tooltip = form_arabia_britain_coring_states_tt
@@ -3580,6 +4702,7 @@ form_arabia_category = {
 				457 = { add_core_of = ROOT }
 				453 = { add_core_of = ROOT }
 				551 = { add_core_of = ROOT }
+				552 = { add_core_of = ROOT }
 				454 = { add_core_of = ROOT }
 				1117 = { add_core_of = ROOT }
 				1118 = { add_core_of = ROOT }
@@ -3593,6 +4716,13 @@ form_arabia_category = {
 				874 = { add_core_of = ROOT }
 				875 = { add_core_of = ROOT }
 				765 = { add_core_of = ROOT }
+				995 = { add_core_of = ROOT }
+				269 = { add_core_of = ROOT }
+				1088 = { add_core_of = ROOT }
+				559 = { add_core_of = ROOT }
+				1087 = { add_core_of = ROOT }
+				767 = { add_core_of = ROOT }
+				549 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.67 hours = 6 }
@@ -3644,6 +4774,9 @@ form_majapahit_empire_category = {
 				tooltip = form_majapahit_malaya_required_states_tt
 				controls_state = 336
 				controls_state = 333
+				controls_state = 982
+				controls_state = 980
+				controls_state = 981
 			}
 		}
 
@@ -3669,6 +4802,9 @@ form_majapahit_empire_category = {
 				667 = { add_core_of = ROOT }
 				738 = { add_core_of = ROOT }
 				669 = { add_core_of = ROOT }
+				980 = { add_core_of = ROOT }
+				981 = { add_core_of = ROOT }
+				982 = { add_core_of = ROOT }
 			}
 			# British Malaya
 			custom_effect_tooltip = form_country_malaya_coring_states_tt
@@ -3848,6 +4984,9 @@ form_hre_category = {
 				tooltip = form_country_switzerland_required_states_tt
 				controls_state = 3
 				controls_state = 151
+				controls_state = 892
+				controls_state = 893
+				controls_state = 894
 			}
 			# Austria
 			custom_trigger_tooltip = {
@@ -3879,7 +5018,7 @@ form_hre_category = {
 				controls_state = 34
 				controls_state = 812
 				controls_state = 813
-				controls_state = 1182
+				controls_state = 1182		 
 			}
 		}
 
@@ -3887,43 +5026,85 @@ form_hre_category = {
 			AND = {
 				original_tag = GER
 				has_government = neutrality
-				has_country_leader = { ruling_only = yes name = "Victoria" }
+				#has_country_leader = { ruling_only = yes name = "Victoria" }
 			}
 			NOT = { has_global_flag = form_hre_flag }
 		}
 
 		complete_effect = {
 			set_cosmetic_tag = HRE_UNIFIED
-			8 = { add_core_of = ROOT }
-			28 = { add_core_of = ROOT }
-			735 = { add_core_of = ROOT }
-			1132 = { add_core_of = ROOT }
-			69 = { add_core_of = ROOT }
-			9 = { add_core_of = ROOT }
-			75 = { add_core_of = ROOT }
-			74 = { add_core_of = ROOT }
-			158 = { add_core_of = ROOT }
-			159 = { add_core_of = ROOT }
-			39 = { add_core_of = ROOT }
-			867 = { add_core_of = ROOT }
-			160 = { add_core_of = ROOT }
-			161 = { add_core_of = ROOT }
-			162 = { add_core_of = ROOT }
-			736 = { add_core_of = ROOT }
-			866 = { add_core_of = ROOT }
-			884 = { add_core_of = ROOT }
-			885 = { add_core_of = ROOT }
-			886 = { add_core_of = ROOT }
-			887 = { add_core_of = ROOT }
-			888 = { add_core_of = ROOT }
-			885 = { add_core_of = ROOT }
-			#Some Liechtenstein states
-			826 = { add_core_of = ROOT }
+			hidden_effect = {
+				8 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
+				735 = { add_core_of = ROOT }
+				1132 = { add_core_of = ROOT }
+				69 = { add_core_of = ROOT }
+				9 = { add_core_of = ROOT }
+				75 = { add_core_of = ROOT }
+				74 = { add_core_of = ROOT }
+				158 = { add_core_of = ROOT }
+				159 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				867 = { add_core_of = ROOT }
+				160 = { add_core_of = ROOT }
+				161 = { add_core_of = ROOT }
+				162 = { add_core_of = ROOT }
+				736 = { add_core_of = ROOT }
+				866 = { add_core_of = ROOT }
+				884 = { add_core_of = ROOT }
+				885 = { add_core_of = ROOT }
+				886 = { add_core_of = ROOT }
+				887 = { add_core_of = ROOT }
+				888 = { add_core_of = ROOT }
+				987 = { add_core_of = ROOT }
+				986 = { add_core_of = ROOT }
+				993 = { add_core_of = ROOT }
+				1066 = { add_core_of = ROOT }
+				102 = { add_core_of = ROOT }
+				934 = { add_core_of = ROOT }
+				935 = { add_core_of = ROOT }
+				988 = { add_core_of = ROOT }
+				989 = { add_core_of = ROOT }
+				804 = { add_core_of = ROOT }
+				865 = { add_core_of = ROOT }
+				85 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				762 = { add_core_of = ROOT }
+				863 = { add_core_of = ROOT }
+				827 = { add_core_of = ROOT }
+				#Some Liechtenstein states
+				826 = { add_core_of = ROOT }
+			}
 			# Switzerland
 			custom_effect_tooltip = form_country_switzerland_coring_states_tt
 			hidden_effect = {
 				3 = { add_core_of = ROOT }
 				151 = { add_core_of = ROOT }
+				892 = { add_core_of = ROOT }
+				893 = { add_core_of = ROOT }
+				894 = { add_core_of = ROOT }
+				ROOT = {
+					set_party_name = { 
+						ideology = communism 
+    						long_name = HRE_UNIFIED_communism_party_long 
+    						name = HRE_UNIFIED_communism_party 
+					}
+					set_party_name = { 
+						ideology = fascism 
+    						long_name = HRE_UNIFIED_fascism_party_long 
+    						name = HRE_UNIFIED_fascism_party 
+					}
+					set_party_name = { 
+						ideology = democratic 
+    						long_name = HRE_UNIFIED_democratic_party_long 
+    						name = HRE_UNIFIED_democratic_party 
+					}
+					set_party_name = { 
+						ideology = neutrality 
+    						long_name = HRE_UNIFIED_neutrality_party_long 
+    						name = HRE_UNIFIED_neutrality_party 
+					}
+				}
 			}
 			# Austria
 			custom_effect_tooltip = form_country_austria_coring_states_tt
@@ -3955,7 +5136,7 @@ form_hre_category = {
 				34 = { add_core_of = ROOT }
 				812 = { add_core_of = ROOT }
 				813 = { add_core_of = ROOT }
-				1182 = { add_core_of = ROOT }
+				1182 = { add_core_of = ROOT }				 
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.70 hours = 6 }
@@ -3984,40 +5165,51 @@ form_greater_german_reich_category = {
 			has_dlc = "Waking the Tiger"
 		}
 
-		available = {
-			is_subject = no
-			has_full_control_of_state = 195
-			has_full_control_of_state = 217
-			all_owned_state = {
-				is_fully_controlled_by = ROOT
-			}
+	available = {
+		is_subject = no
+		28 = { is_controlled_by_ROOT_or_ally = yes }
+		4 = { is_controlled_by_ROOT_or_ally = yes }
+		64 = { is_controlled_by_ROOT_or_ally = yes }
+		85 = { is_controlled_by_ROOT_or_ally = yes }
+		188 = { is_controlled_by_ROOT_or_ally = yes }
+		8 = { is_controlled_by_ROOT_or_ally = yes }
+		137 = { is_controlled_by_ROOT_or_ally = yes }
+		242 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 
 		visible = {
 			AND = {
 				original_tag = GER
 				has_government = fascism
-				has_country_leader = { ruling_only = yes name = "Adolf Hitler" }
 			}
 			NOT = { has_global_flag = form_greater_german_reich_flag }
-			OR = {
-				AND = {
-					has_war_with = FRA
-					FRA = { has_capitulated = yes }
-				}
-				AND = {
-					owns_state = 16
-					has_full_control_of_state = 16
-				}
-			}
+			controls_state = 4 #Vienna
 		}
 
 		complete_effect = {
 			set_cosmetic_tag = GER_greater_german_reich
 			set_province_name = { id = 6521 name = "Germania" }
-			8 = { add_core_of = ROOT }
-			28 = { add_core_of = ROOT }
-			812 = { add_core_of = ROOT }
+			hidden_effect = {
+				153 = { add_core_of = ROOT }
+				152 = { add_core_of = ROOT }
+				4 = { add_core_of = ROOT }
+				806 = { add_core_of = ROOT }
+				1107 = { add_core_of = ROOT }
+				807 = { add_core_of = ROOT }
+				810 = { add_core_of = ROOT }
+				85 = { add_core_of = ROOT }
+				865 = { add_core_of = ROOT }
+				86 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				888 = { add_core_of = ROOT }
+				886 = { add_core_of = ROOT }
+				69 = { add_core_of = ROOT }
+				887 = { add_core_of = ROOT }
+				74 = { add_core_of = ROOT }
+				884 = { add_core_of = ROOT }
+				804 = { add_core_of = ROOT }
+				762 = { add_core_of = ROOT }
+			}			
 			hidden_effect = {
 				set_global_flag = form_greater_german_reich_flag
 			}
@@ -4026,7 +5218,7 @@ form_greater_german_reich_category = {
 		ai_will_do = {
 			factor = 200
 			modifier = {
-				factor = 0
+				factor = 200
 				is_historical_focus_on = yes
 			}
 		}
@@ -4045,7 +5237,7 @@ form_andalusia_category = {
 				original_tag = ALG
 				original_tag = TUN
 				original_tag = WES
-				original_tag = LBA
+				#original_tag = LBA#It can form Arabia already
 			}
 			has_dlc = "La Resistance"
 		}
@@ -4070,7 +5262,7 @@ form_andalusia_category = {
 				original_tag = ALG
 				original_tag = TUN
 				original_tag = WES
-				original_tag = LBA
+				#original_tag = LBA
 			}
 			NOT = { has_global_flag = form_andalusia_flag }
 			ADU = { exists = no }
@@ -4109,8 +5301,12 @@ form_andalusia_category = {
 				181 = { add_core_of = ROOT }
 				697 = { add_core_of = ROOT }
 				698 = { add_core_of = ROOT }
+				699 = { add_core_of = ROOT }
 				1134 = { add_core_of = ROOT }
 				118 = { add_core_of = ROOT }
+				1172 = { add_core_of = ROOT }
+				178 = { add_core_of = ROOT }
+				1106 = { add_core_of = ROOT }
 				set_capital = 1051
 			}
 			hidden_effect = {
@@ -4191,6 +5387,7 @@ form_andalusia_category = {
 				460 = { add_core_of = ROOT }
 				513 = { add_core_of = ROOT }
 				514 = { add_core_of = ROOT }
+				1172 = { add_core_of = ROOT }
 				#Libya
 				273 = { add_core_of = ROOT }
 				448 = { add_core_of = ROOT }
@@ -4200,6 +5397,50 @@ form_andalusia_category = {
 				661 = { add_core_of = ROOT }
 				662 = { add_core_of = ROOT }
 				663 = { add_core_of = ROOT }
+				1070 = { add_core_of = ROOT }
+				1144 = { add_core_of = ROOT }
+				1145 = { add_core_of = ROOT }
+				1146 = { add_core_of = ROOT }
+				1176 = { add_core_of = ROOT }
+				1177 = { add_core_of = ROOT }
+				1071 = { add_core_of = ROOT }
+				1072 = { add_core_of = ROOT }
+				1069 = { add_core_of = ROOT }
+				#Andulusia
+				165 = { add_core_of = ROOT }
+				171 = { add_core_of = ROOT }
+				1054 = { add_core_of = ROOT }
+				172 = { add_core_of = ROOT }
+				1052 = { add_core_of = ROOT }
+				1051 = { add_core_of = ROOT }
+				41 = { add_core_of = ROOT }
+				173 = { add_core_of = ROOT }
+				169 = { add_core_of = ROOT }
+				168 = { add_core_of = ROOT }
+				167 = { add_core_of = ROOT }
+				1133 = { add_core_of = ROOT }
+				1055 = { add_core_of = ROOT }
+				1053 = { add_core_of = ROOT }
+				1050 = { add_core_of = ROOT }
+				178 = { add_core_of = ROOT }
+				177 = { add_core_of = ROOT }
+				176 = { add_core_of = ROOT }
+				175 = { add_core_of = ROOT }
+				174 = { add_core_of = ROOT }
+				170 = { add_core_of = ROOT }
+				166 = { add_core_of = ROOT }
+				112 = { add_core_of = ROOT }
+				179 = { add_core_of = ROOT }
+				180 = { add_core_of = ROOT }
+				181 = { add_core_of = ROOT }
+				697 = { add_core_of = ROOT }
+				698 = { add_core_of = ROOT }
+				699 = { add_core_of = ROOT }
+				1134 = { add_core_of = ROOT }
+				118 = { add_core_of = ROOT }
+				1172 = { add_core_of = ROOT }
+				178 = { add_core_of = ROOT }
+				1106 = { add_core_of = ROOT }
 				set_global_flag = sultanate_of_africa_flag
 			}
 		}
@@ -4252,8 +5493,10 @@ form_andalusia_category = {
 				164 = { add_core_of = ROOT }
 				#Crete
 				182 = { add_core_of = ROOT }
+				1157 = { add_core_of = ROOT }
 				#Cyprus
 				183 = { add_core_of = ROOT }
+				952 = { add_core_of = ROOT }
 				#Sardinia and Corsica
 				114 = { add_core_of = ROOT }
 				1 = { add_core_of = ROOT }
@@ -4320,6 +5563,7 @@ form_andalusia_category = {
 			controls_state = 455
 			controls_state = 656
 			controls_state = 658
+			controls_state = 765
 		}
 
 		visible = {
@@ -4337,10 +5581,21 @@ form_andalusia_category = {
 				676 = { add_core_of = ROOT }
 				675 = { add_core_of = ROOT }
 				291 = { add_core_of = ROOT }
+				945 = { add_core_of = ROOT }
+				946 = { add_core_of = ROOT }
 				# Saudi Arabia
 				292 = { add_core_of = ROOT }
 				679 = { add_core_of = ROOT }
 				678 = { add_core_of = ROOT }
+				947 = { add_core_of = ROOT }
+				1152 = { add_core_of = ROOT }
+				1151 = { add_core_of = ROOT }
+				948 = { add_core_of = ROOT }
+				1158 = { add_core_of = ROOT }
+				1149 = { add_core_of = ROOT }
+				1155 = { add_core_of = ROOT }
+				944 = { add_core_of = ROOT }
+				1150 = { add_core_of = ROOT }
 				# French Arabia
 				677 = { add_core_of = ROOT }
 				680 = { add_core_of = ROOT }
@@ -4353,6 +5608,17 @@ form_andalusia_category = {
 				455 = { add_core_of = ROOT }
 				656 = { add_core_of = ROOT }
 				658 = { add_core_of = ROOT }
+				1117 = { add_core_of = ROOT }
+				1118 = { add_core_of = ROOT }
+				1153 = { add_core_of = ROOT }
+				1154 = { add_core_of = ROOT }
+				765 = { add_core_of = ROOT }
+				875 = { add_core_of = ROOT }
+				949 = { add_core_of = ROOT }
+				659 = { add_core_of = ROOT }
+				1039 = { add_core_of = YEM }
+				1040 = { add_core_of = ROOT }
+				876 = { add_core_of = ROOT }
 				# Egypt
 				552 = { add_core_of = ROOT }
 				453 = { add_core_of = ROOT }
@@ -4361,6 +5627,7 @@ form_andalusia_category = {
 				457 = { add_core_of = ROOT }
 				452 = { add_core_of = ROOT }
 				447 = { add_core_of = ROOT }
+				995 = { add_core_of = ROOT }
 				set_global_flag = restored_umayyad_flag
 			}
 		}
@@ -4442,12 +5709,16 @@ form_andalusia_category = {
 				416 = { add_core_of = ROOT }
 				414 = { add_core_of = ROOT }
 				410 = { add_core_of = ROOT }
+				1086 = { add_core_of = ROOT }
 			}
 			# Afghanistan
 			custom_effect_tooltip = form_country_afghanistan_coring_states_tt
 			hidden_effect = {
 				415 = { add_core_of = ROOT }
 				267 = { add_core_of = ROOT }
+				1129 = { add_core_of = ROOT }
+				1130 = { add_core_of = ROOT }
+				1131 = { add_core_of = ROOT }		
 			}
 			# Pakistan
 			custom_effect_tooltip = form_country_pakistan_coring_states_tt
@@ -4458,6 +5729,8 @@ form_andalusia_category = {
 				444 = { add_core_of = ROOT }
 				440 = { add_core_of = ROOT }
 				441 = { add_core_of = ROOT }
+				443 = { add_core_of = ROOT }
+				1124 = { add_core_of = ROOT }
 				443 = { add_core_of = ROOT }
 			}
 			hidden_effect = { set_global_flag = restored_rashid_flag }
@@ -4507,20 +5780,32 @@ form_andalusia_category = {
 
 		complete_effect = {
 			# Azerbaijan
-			229 = { add_core_of = ROOT }
-			# Armenia
-			230 = { add_core_of = ROOT }
-			# Georgia
-			231 = { add_core_of = ROOT }
-			# Grozny
-			232 = { add_core_of = ROOT }
-			233 = { add_core_of = ROOT }
-			# Turkey
-			350 = { add_core_of = ROOT }
-			352 = { add_core_of = ROOT }
-			353 = { add_core_of = ROOT }
-			354 = { add_core_of = ROOT }
-			hidden_effect = { set_global_flag = andalusia_north_expansion_flag }
+			hidden_effect = {
+				229 = { add_core_of = ROOT }
+				1004 = { add_core_of = ROOT }
+				1005 = { add_core_of = ROOT }
+				# Armenia
+				230 = { add_core_of = ROOT }
+				1003 = { add_core_of = ROOT }
+				# Georgia
+				231 = { add_core_of = ROOT }
+				1002 = { add_core_of = ROOT }
+				1091 = { add_core_of = ROOT }
+				1092 = { add_core_of = ROOT }
+				# Grozny
+				232 = { add_core_of = ROOT }
+				233 = { add_core_of = ROOT }
+				931 = { add_core_of = ROOT }
+				932 = { add_core_of = ROOT }
+				# Turkey
+				350 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				353 = { add_core_of = ROOT }
+				354 = { add_core_of = ROOT }
+				1001 = { add_core_of = ROOT }
+				960 = { add_core_of = ROOT }
+				959 = { add_core_of = ROOT }
+				hidden_effect = { set_global_flag = andalusia_north_expansion_flag }
 		}
 
 		ai_will_do = {
@@ -4547,8 +5832,8 @@ form_polynesia_category = {
 				original_tag = FSM
 				original_tag = SAM
 				original_tag = SOL
-				original_tag = FIJ
 				original_tag = NZL
+				original_tag = FIJ
 			}
 		}
 
@@ -4558,14 +5843,41 @@ form_polynesia_category = {
 				has_autonomy_state = autonomy_dominion #New Zealand should be able to do it
 			}
 			# Polynesia
-			controls_state = 284 #North Island
-			controls_state = 629 #Hawaii
-			controls_state = 684 #Caroline Islands
-			controls_state = 638 #Guam
-			controls_state = 641 #Tahiti
-			controls_state = 646 #Saipan
-			controls_state = 723 #South Island
-			controls_state = 726 #Samoa
+			#controls_state = 284 #North Island
+			#controls_state = 629 #Hawaii
+			#controls_state = 684 #Caroline Islands
+			#controls_state = 638 #Guam
+			#controls_state = 641 #Tahiti
+			#controls_state = 646 #Saipan
+			#controls_state = 723 #South Island
+			#controls_state = 726 #Samoa
+			#controls_state = 636 #Fiji	
+
+			controls_state = 284
+			#controls_state = 524
+			controls_state = 629
+			controls_state = 630
+			controls_state = 631
+			controls_state = 632
+			controls_state = 633
+			controls_state = 634
+			controls_state = 635	
+			controls_state = 636
+			controls_state = 638
+			controls_state = 639
+			controls_state = 641
+			controls_state = 642
+			controls_state = 643
+			#controls_state = 645
+			controls_state = 646
+			controls_state = 647	
+			controls_state = 648
+			controls_state = 684
+			controls_state = 723
+			controls_state = 725
+			controls_state = 726
+			controls_state = 727
+			controls_state = 734					
 		}
 
 		visible = {
@@ -4576,8 +5888,8 @@ form_polynesia_category = {
 				original_tag = FSM
 				original_tag = SAM
 				original_tag = SOL
-				original_tag = FIJ
 				original_tag = NZL
+				original_tag = FIJ
 			}
 			NOT = { has_global_flag = form_polynesia_flag }
 		}
@@ -4612,6 +5924,8 @@ form_polynesia_category = {
 				726 = { add_core_of = ROOT }
 				727 = { add_core_of = ROOT }
 				734 = { add_core_of = ROOT }
+				1101 = { add_core_of = ROOT }
+				1102 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = lar_news.291 hours = 6 }
@@ -4627,7 +5941,7 @@ form_polynesia_category = {
 			}
 		}
 	}
-	
+
 	NZL_demand_islands = {
 
 		icon = generic_form_nation
@@ -4834,7 +6148,7 @@ form_greater_greece_category = {
 			# Turkey
 			custom_trigger_tooltip = {
 				tooltip = form_country_turkish_coastal_required_states_tt
-				controls_state = 797
+				controls_state = 1188
 				controls_state = 341
 				controls_state = 340
 				controls_state = 339
@@ -4864,6 +6178,8 @@ form_greater_greece_category = {
 
 		visible = {
 			NOT = { has_global_flag = form_greater_greece_flag }
+			NOT = { has_global_flag = form_byzantine_empire_flag }
+			NOT = { has_global_flag = form_macedonian_empire_flag }		
 			OR = { 
 				AND = {
 					has_completed_focus = GRE_the_modern_movement
@@ -4886,6 +6202,7 @@ form_greater_greece_category = {
 		}
 
 		complete_effect = {
+			drop_cosmetic_tag = yes
 			set_country_flag = GRE_GREATER_GREECE_flag
 			GRE_set_appropriate_cosmetic_tag = yes
 			# Greece
@@ -4908,11 +6225,11 @@ form_greater_greece_category = {
 				340 = { set_state_name = "Prousa" }
 				set_province_name = { id = 947 name = "Prousa" } 
 				set_province_name = { id = 947 name = "Palaeokastron" }
-				341 = { add_core_of = ROOT }
-				341 = { set_state_name = "Thrace" }
+				1140 = { add_core_of = ROOT }
+				1140 = { set_state_name = "Thrace" }
 				set_province_name = { id = 11842 name = "Adrianople" }
-				791 = { add_core_of = ROOT }
-				791 = { set_state_name = "Constantinople" }
+				341 = { add_core_of = ROOT }
+				341 = { set_state_name = "Constantinople" }
 				set_province_name = { id = 9833 name = "Constantinople" }
 				184 = { set_state_name = "Eastern Macedonia" }
 				339 = { add_core_of = ROOT }
@@ -4923,6 +6240,10 @@ form_greater_greece_category = {
 				347 = { set_state_name = "Nikomedeia" }
 				set_province_name = { id = 11811 name = "Nikomedeia" }
 				set_province_name = { id = 904 name = "Kieros" }
+				1116 = { add_core_of = ROOT }
+				1188 = { add_core_of = ROOT }
+				1188 = { set_state_name = "East Constantinople" }
+				950 = { add_core_of = ROOT }
 				if = {
 					limit = {
 						controls_state = 342
@@ -4936,9 +6257,10 @@ form_greater_greece_category = {
 			custom_effect_tooltip = form_country_cyprus_coring_state_tt
 			hidden_effect = {
 				183 = { add_core_of = ROOT }
+				952 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
-				805 = { add_core_of = ROOT }
+				1045 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				if = {
@@ -4960,6 +6282,7 @@ form_greater_greece_category = {
 			}
 		}
 	}
+
 	GRE_appoint_aristotle_onassis_as_prime_minister = {
 
 		icon = generic_form_nation
@@ -4979,6 +6302,7 @@ form_greater_greece_category = {
 
 		visible = {
 			has_global_flag = form_greater_greece_flag
+			NOT = { has_global_flag = form_byzantine_empire_flag }
 		}
 
 		fire_only_once = yes
@@ -5005,6 +6329,7 @@ form_greater_greece_category = {
 			}
 		}
 	}
+
 	rename_antalya = {
 
 		icon = generic_form_nation
@@ -5053,6 +6378,7 @@ form_greater_greece_category = {
 			}
 		}
 	}
+
 	rename_gjirokaster = {
 
 		icon = generic_form_nation
@@ -5070,7 +6396,7 @@ form_greater_greece_category = {
 				}
 				has_completed_focus = GRE_nenikikamen
 			}
-			controls_state = 805
+			controls_state = 1045
 		}
 
 		visible = {
@@ -5093,6 +6419,7 @@ form_greater_greece_category = {
 			}
 		}
 	}
+
 	move_capital_to_constantinople = {
 
 		icon = generic_form_nation
@@ -5110,7 +6437,7 @@ form_greater_greece_category = {
 				}
 				has_completed_focus = GRE_nenikikamen
 			}
-			controls_state = 797
+			controls_state = 341
 		}
 
 		visible = {
@@ -5122,7 +6449,7 @@ form_greater_greece_category = {
 
 		complete_effect = {
 			add_war_support = 0.05
-			set_capital = 797
+			set_capital = 341
 			hidden_effect = {
 				set_country_flag = GRE_chose_a_new_capital_city
 			}
@@ -5136,6 +6463,7 @@ form_greater_greece_category = {
 			}
 		}
 	}
+	
 	move_capital_to_thessaloniki = {
 
 		icon = generic_form_nation
@@ -5153,7 +6481,7 @@ form_greater_greece_category = {
 				}
 				has_completed_focus = GRE_nenikikamen
 			}
-			controls_state = 797
+			controls_state = 341
 		}
 
 		visible = {
@@ -5165,7 +6493,7 @@ form_greater_greece_category = {
 
 		complete_effect = {
 			add_stability = 0.1
-			set_capital = 731
+			set_capital = 1160
 			hidden_effect = {
 				set_country_flag = GRE_chose_a_new_capital_city
 			}
@@ -5210,13 +6538,13 @@ form_macedonian_empire_category = {
 				tooltip = form_country_southern_yugoslavia_required_states_tt
 				controls_state = 48
 				controls_state = 212
-				controls_state = 801
+				controls_state = 943
 				controls_state = 211
 				controls_state = 106
-				controls_state = 803
+				controls_state = 870
 				controls_state = 105
 				controls_state = 44
-				controls_state = 805
+				controls_state = 1045
 			}
 			# Iran
 			custom_trigger_tooltip = {
@@ -5319,23 +6647,25 @@ form_macedonian_empire_category = {
 			OR = {
 				AND = {
 					has_completed_focus = GRE_moulding_the_new_world_order
-					has_country_leader = {
-						name = "George Mercouris"
-						ruling_only = yes
-					}
+					#has_country_leader = {
+						#name = "George Mercouris"
+						#ruling_only = yes
+					#}
 				}
 				AND = {
 					has_completed_focus = GRE_protectors_of_the_mediterranean
-					has_country_leader = {
-						name = "George II"
-						ruling_only = yes
-					}
+					#has_country_leader = {
+						#name = "George II"
+						#ruling_only = yes
+					#}
 				}
 			}
 			NOT = { has_global_flag = form_macedonian_empire_flag }
+			NOT = { has_global_flag = form_byzantine_empire_flag }
 		}
 
 		complete_effect = {
+			drop_cosmetic_tag = yes
 			set_country_flag = GRE_mae_flag
 			GRE_set_appropriate_cosmetic_tag = yes
 			# Iran
@@ -5353,12 +6683,20 @@ form_macedonian_empire_category = {
 				416 = { add_core_of = ROOT }
 				414 = { add_core_of = ROOT }
 				410 = { add_core_of = ROOT }
+				1086 = { add_core_of = ROOT }
 			}
 			# Afghanistan
 			custom_effect_tooltip = form_country_afghanistan_coring_states_tt
 			hidden_effect = {
 				415 = { add_core_of = ROOT }
 				267 = { add_core_of = ROOT }
+				1129 = { add_core_of = ROOT }
+				1130 = { add_core_of = ROOT }
+				1131 = { add_core_of = ROOT }
+				619 = { add_core_of = ROOT }
+				732 = { add_core_of = ROOT }
+				742 = { add_core_of = ROOT }
+				405 = { add_core_of = ROOT }
 			}
 			# Iraq
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
@@ -5366,6 +6704,9 @@ form_macedonian_empire_category = {
 				676 = { add_core_of = ROOT }
 				675 = { add_core_of = ROOT }
 				291 = { add_core_of = ROOT }
+				945 = { add_core_of = ROOT }
+				946 = { add_core_of = ROOT }
+				1154 = { add_core_of = ROOT }
 			}
 			# Turkey
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
@@ -5388,6 +6729,39 @@ form_macedonian_empire_category = {
 				354 = { add_core_of = ROOT }
 				353 = { add_core_of = ROOT }
 				352 = { add_core_of = ROOT }
+				954 = { add_core_of = ROOT }
+				953 = { add_core_of = ROOT }
+				1140 = { add_core_of = ROOT }
+				1116 = { add_core_of = ROOT }
+				1188 = { add_core_of = ROOT }
+				950 = { add_core_of = ROOT }
+				951 = { add_core_of = ROOT }
+				956 = { add_core_of = ROOT }
+				955 = { add_core_of = ROOT }
+				957 = { add_core_of = ROOT }
+				958 = { add_core_of = ROOT }
+				959 = { add_core_of = ROOT }
+				960 = { add_core_of = ROOT }
+				961 = { add_core_of = ROOT }
+				1001 = { add_core_of = ROOT }
+				877 = { add_core_of = ROOT }
+				230 = { add_core_of = ROOT }
+				1004 = { add_core_of = ROOT }
+				1003 = { add_core_of = ROOT }
+				48 = { add_core_of = ROOT }
+				212 = { add_core_of = ROOT }
+				211 = { add_core_of = ROOT }
+				942 = { add_core_of = ROOT }
+				943 = { add_core_of = ROOT }
+				1103 = { add_core_of = ROOT }
+				77 = { add_core_of = ROOT }
+				832 = { add_core_of = ROOT }
+				831 = { add_core_of = ROOT }
+				870 = { add_core_of = ROOT }
+				106 = { add_core_of = ROOT }
+				1143 = { add_core_of = ROOT }
+				1142 = { add_core_of = ROOT }
+				1141 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_persia_france_coring_states_tt
@@ -5396,6 +6770,8 @@ form_macedonian_empire_category = {
 				680 = { add_core_of = ROOT }
 				553 = { add_core_of = ROOT }
 				554 = { add_core_of = ROOT }
+				1040 = { add_core_of = ROOT }
+				1153 = { add_core_of = ROOT }
 			}
 			# Italy
 			custom_effect_tooltip = form_persia_italy_coring_states_tt
@@ -5404,6 +6780,8 @@ form_macedonian_empire_category = {
 				450 = { add_core_of = ROOT }
 				451 = { add_core_of = ROOT }
 				663 = { add_core_of = ROOT }
+				1070 = { add_core_of = ROOT }
+				1045 = { add_core_of = ROOT }
 			}
 			# Britain
 			custom_effect_tooltip = form_persia_britain_coring_states_tt
@@ -5418,7 +6796,22 @@ form_macedonian_empire_category = {
 				455 = { add_core_of = ROOT }
 				183 = { add_core_of = ROOT }
 				656 = { add_core_of = ROOT }
-				118 = { add_core_of = ROOT }
+				#118 = { add_core_of = ROOT }
+				1117 = { add_core_of = ROOT }
+				1118 = { add_core_of = ROOT }
+				995 = { add_core_of = ROOT }
+				952 = { add_core_of = ROOT }
+				787 = { add_core_of = ROOT }
+				445 = { add_core_of = ROOT }
+				442 = { add_core_of = ROOT }
+				444 = { add_core_of = ROOT }
+				440 = { add_core_of = ROOT }
+				441 = { add_core_of = ROOT }
+				443 = { add_core_of = ROOT }
+				984 = { add_core_of = ROOT }
+				947 = { add_core_of = ROOT }
+				1124 = { add_core_of = ROOT }
+				443 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_macedonian_empire_flag
@@ -5451,7 +6844,7 @@ form_turan_category = {
 			# Turkey
 			custom_trigger_tooltip = {
 				tooltip = form_country_turkey_required_states_tt
-				controls_state = 797
+				controls_state = 1116
 				controls_state = 341
 				controls_state = 340
 				controls_state = 339
@@ -5459,7 +6852,7 @@ form_turan_category = {
 				controls_state = 343
 				controls_state = 347
 				controls_state = 49
-				controls_state = 798
+				controls_state = 958
 				controls_state = 346
 				controls_state = 345
 				controls_state = 356
@@ -5471,7 +6864,7 @@ form_turan_category = {
 				controls_state = 354
 				controls_state = 353
 				controls_state = 352
-				controls_state = 800
+				controls_state = 960
 			}
 			# Syria
 			custom_trigger_tooltip = {
@@ -5567,12 +6960,13 @@ form_turan_category = {
 		}
 
 		complete_effect = {
+			drop_cosmetic_tag = yes
 			set_country_flag = TUR_trn_flag
 			TUR_set_appropriate_cosmetic_tag = yes
 			hidden_effect = {
 				news_event = { id = bftb_news.209 hours = 6 }
 				#TURKEY
-				797 = { add_core_of = TUR }
+				1141 = { add_core_of = TUR }
 				341 = { add_core_of = TUR }
 				340 = { add_core_of = TUR }
 				339 = { add_core_of = TUR }
@@ -5580,7 +6974,7 @@ form_turan_category = {
 				343 = { add_core_of = TUR }
 				347 = { add_core_of = TUR }
 				49 = { add_core_of = TUR }
-				798 = { add_core_of = TUR }
+				1142 = { add_core_of = TUR }
 				346 = { add_core_of = TUR }
 				345 = { add_core_of = TUR }
 				356 = { add_core_of = TUR }
@@ -5592,11 +6986,12 @@ form_turan_category = {
 				354 = { add_core_of = TUR }
 				353 = { add_core_of = TUR }
 				352 = { add_core_of = TUR }
-				800 = { add_core_of = TUR }
-				799 = { add_core_of = TUR }
+				960 = { add_core_of = TUR }
+				877 = { add_core_of = TUR }
 				#SYRIA
 				677 = { add_core_of = TUR }
 				680 = { add_core_of = TUR }
+				1040 = { add_core_of = TUR }
 				#IRAQ
 				676 = { add_core_of = TUR }
 				291 = { add_core_of = TUR }
@@ -5608,8 +7003,11 @@ form_turan_category = {
 				413 = { add_core_of = TUR }
 				266 = { add_core_of = TUR }
 				416 = { add_core_of = TUR }
+				1086 = { add_core_of = TUR }
 				#AZERBAIJAN
 				229 = { add_core_of = TUR }
+				1005 = { add_core_of = TUR }
+				1004 = { add_core_of = TUR }
 				#KUBAN REGION + CRIMEA
 				233 = { add_core_of = TUR }
 				232 = { add_core_of = TUR }
@@ -5626,6 +7024,10 @@ form_turan_category = {
 				200 = { add_core_of = TUR }
 				196 = { add_core_of = TUR }
 				137 = { add_core_of = TUR }
+				931 = { add_core_of = TUR }
+				932 = { add_core_of = TUR }
+				1121 = { add_core_of = TUR }
+				1122 = { add_core_of = TUR }
 				#URALS + CENTRAL ASIA
 				582 = { add_core_of = TUR }
 				402 = { add_core_of = TUR }
@@ -5641,6 +7043,9 @@ form_turan_category = {
 				589 = { add_core_of = TUR }
 				588 = { add_core_of = TUR }
 				590 = { add_core_of = TUR }
+				1130 = { add_core_of = TUR }
+				1123 = { add_core_of = TUR }
+				999 = { add_core_of = TUR }
 				#SIBERIA
 				654 = { add_core_of = TUR }
 				40 = { add_core_of = TUR }
@@ -5657,6 +7062,7 @@ form_turan_category = {
 				562 = { add_core_of = TUR }
 				644 = { add_core_of = TUR }
 				637 = { add_core_of = TUR }
+				1167 = { add_core_of = TUR }
 				set_global_flag = form_turan_flag
 			}
 		}
@@ -5686,6 +7092,9 @@ form_turan_category = {
 			controls_state = 43
 			controls_state = 154
 			controls_state = 664
+			controls_state = 809
+			controls_state = 808
+			controls_state = 994
 			# Romania + Banat
 			controls_state = 76
 			controls_state = 84
@@ -5693,6 +7102,8 @@ form_turan_category = {
 			controls_state = 764
 			controls_state = 45
 			controls_state = 78
+			controls_state = 868
+			controls_state = 925
 		}
 
 		visible = {
@@ -5707,6 +7118,9 @@ form_turan_category = {
 			43 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			154 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			664 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			809 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			808 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			994 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			# Romania
 			76 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			84 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
@@ -5714,6 +7128,8 @@ form_turan_category = {
 			78 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			764 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			45 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			868 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			925 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 		}
 
 		ai_will_do = {
@@ -5757,6 +7173,13 @@ form_turan_category = {
 			controls_state = 601
 			# Mongolia / Manchuria
 			controls_state = 330
+			controls_state = 1015
+			controls_state = 1016
+			controls_state = 1017
+			controls_state = 1018
+			controls_state = 1019
+			controls_state = 1020
+			controls_state = 1021
 			controls_state = 612
 			controls_state = 611
 			controls_state = 621
@@ -5779,6 +7202,7 @@ form_turan_category = {
 			760 = { add_core_of = ROOT }
 			617 = { add_core_of = ROOT }
 			618 = { add_core_of = ROOT }
+			984 = { add_core_of = ROOT }
 			# China
 			604 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			755 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
@@ -5798,6 +7222,13 @@ form_turan_category = {
 			717 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			#Mongolia
 			330 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			1015 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			1016 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			1017 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			1018 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			1019 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			1020 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			1021 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 		}
 
 		ai_will_do = {
@@ -5831,9 +7262,16 @@ form_turan_category = {
 			controls_state = 147
 			controls_state = 722
 			controls_state = 213
+			controls_state = 1067
+			controls_state = 1068
+			controls_state = 928
+			controls_state = 929
 			# Estonia
 			controls_state = 13
 			controls_state = 191
+			controls_state = 882
+			controls_state = 883
+			controls_state = 890
 		}
 
 		visible = {
@@ -5854,9 +7292,16 @@ form_turan_category = {
 			147 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			722 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			213 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			1067 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			1068 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			928 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			929 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			#ESTONIA
 			13 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
-			191 = { add_dynamic_modifier = { modifier = turanist_assimilation } }		
+			191 = { add_dynamic_modifier = { modifier = turanist_assimilation } }	
+			882 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			883 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			890	= { add_dynamic_modifier = { modifier = turanist_assimilation } }
 		}
 
 		ai_will_do = {
