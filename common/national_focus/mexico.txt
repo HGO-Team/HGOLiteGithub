@@ -6275,10 +6275,12 @@ focus_tree = {
 						state = 848
 						state = 849
 						state = 850
+						state = 851
 						state = 852
 						state = 853
 						state = 854
 						state = 855
+						state = 1195
 					}
 				}
 				add_core_of = ROOT
