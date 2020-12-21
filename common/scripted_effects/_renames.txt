@@ -1954,7 +1954,7 @@ do_bulgarian_renames = {
 		        id = 11842
 		        name = "Odrin"
 		}
-		set_state_name = "Edirne"
+		set_state_name = "Odrin"
 	}
         
 	if = {
