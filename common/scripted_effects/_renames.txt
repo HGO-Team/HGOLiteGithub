@@ -1944,3 +1944,27 @@ do_belgian_renames = {
 	}
 
 }
+
+do_bulgarian_renames = {
+        if = {
+	        limit = {
+		        state = 1140
+		}
+		set_province_name = {
+		        id = 11842
+		        name = "Odrin"
+		}
+		set_state_name = "Edirne"
+	}
+        
+	if = {
+	       limit = {
+	               state = 341
+	       }
+	       set_province_name = {
+	               id = 9833
+		       name = "Tsarigrad"
+	       }
+	       set_state_name = "Tsarigrad"
+	}
+}
