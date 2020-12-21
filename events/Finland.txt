@@ -329,6 +329,7 @@ country_event = {
 			}
 			transfer_state = 146
 			transfer_state = 147
+			transfer_state = 1067
 			if = {
 				limit = {
 					722 = {
@@ -337,14 +338,14 @@ country_event = {
 				}
 				SOV = { remove_state_claim = 722 }
 			}
-			if = {
-				limit = {
-					1067 = {
-						is_claimed_by = SOV
-					}
-				}
-				SOV = { remove_state_claim = 1067 }
-			}
+			#if = {
+				#limit = {
+					#1067 = {
+						#is_claimed_by = SOV
+					#}
+				#}
+				#SOV = { remove_state_claim = 1067 }
+			#}
 			if = {
 				limit = {
 					1068 = {
@@ -387,6 +388,7 @@ country_event = {
 		white_peace = FIN
 		transfer_state = 146
 		transfer_state = 147
+		transfer_state = 1067
 		if = {
 			limit = {
 				722 = {
@@ -395,14 +397,14 @@ country_event = {
 			}
 			remove_state_claim = 722
 		}
-		if = {
-			limit = {
-				1067 = {
-					is_claimed_by = SOV
-				}
-			}
-			SOV = { remove_state_claim = 1067 }
-		}
+		#if = {
+			#limit = {
+				#1067 = {
+					#is_claimed_by = SOV
+				#}
+			#}
+			#SOV = { remove_state_claim = 1067 }
+		#}
 		if = {
 			limit = {
 				1068 = {

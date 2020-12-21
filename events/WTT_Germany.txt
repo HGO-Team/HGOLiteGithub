@@ -794,6 +794,8 @@ country_event = {
 		add_state_claim = 91
 		add_state_claim = 89
 		add_state_claim = 78
+		add_state_claim = 766
+		add_state_claim = 925
 		hidden_effect = { news_event = { id = wtt_news.10 hours = 6 } }
 	}
 
