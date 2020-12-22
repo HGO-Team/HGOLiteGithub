@@ -5077,6 +5077,10 @@ form_hre_category = {
 				762 = { add_core_of = ROOT }
 				863 = { add_core_of = ROOT }
 				827 = { add_core_of = ROOT }
+				1183 = { add_core_of = ROOT }
+				86 = { add_core_of = ROOT }
+				72 = { add_core_of = ROOT }
+				1171 = { add_core_of = ROOT }
 				#Some Liechtenstein states
 				826 = { add_core_of = ROOT }
 			}

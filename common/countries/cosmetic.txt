@@ -399,6 +399,11 @@ HUN_GER = {
 	color_ui = rgb { 114 58 45 }
 }
 
+TEX_CSA = {
+	color = rgb { 145 163 176 }
+	color_ui = rgb { 145 163 176 }
+}
+
 ###Colored Puppet####
 
 GER_PUPPET = {	
