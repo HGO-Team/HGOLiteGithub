@@ -123,6 +123,13 @@ form_confederate_states_category = {
 			368 = { add_core_of = ROOT }
 			363 = { add_core_of = ROOT }
 			362 = { add_core_of = ROOT }
+			843 = { add_core_of = ROOT }
+			369 = { add_core_of = ROOT }
+			374 = { add_core_of = ROOT }
+			849 = { add_core_of = ROOT }
+			1200 = { add_core_of = ROOT }
+			1199 = { add_core_of = ROOT }
+			1195 = { add_core_of = ROOT }
 			
 			set_capital = 362
 
