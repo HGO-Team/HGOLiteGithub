@@ -1059,6 +1059,7 @@ form_united_central_america_category = {
 				316 = { add_core_of = ROOT }
 				311 = { add_core_of = ROOT }
 			}
+		}
 
 			ai_will_do = {
 				factor = 200
@@ -2275,8 +2276,7 @@ form_european_union_category = {
 			}
 			# Germany
 			custom_trigger_tooltip = {
-				#tooltip = form_country_germany_required_states_tt
-				tooltip = form_country_west_germany_required_states_tt
+				tooltip = form_country_germany_required_states_tt
 				controls_state = 51
 				controls_state = 42
 				controls_state = 56
@@ -2329,7 +2329,7 @@ form_european_union_category = {
 			if = {
 				limit = {
 					NOT = { original_tag = ENG }
-				}   
+				}
 				set_cosmetic_tag = EUR_UNIFIED
 			}
 			set_capital = 6
@@ -2402,6 +2402,7 @@ form_european_union_category = {
 				1183 = { add_core_of = ROOT }
 				1194 = { add_core_of = ROOT }
 				1186 = { add_core_of = ROOT }
+				825 = { add_core_of = ROOT }
 			}
 			# Italy
 			custom_effect_tooltip = form_eu_italy_coring_states_tt
@@ -2432,6 +2433,9 @@ form_european_union_category = {
 				993 = { add_core_of = ROOT }
 				1066 = { add_core_of = ROOT }
 				1193 = { add_core_of = ROOT }
+				827 = { add_core_of = ROOT }
+				828 = { add_core_of = ROOT }
+				116 = { add_core_of = ROOT }
 			}
 			# Germany
 			custom_effect_tooltip = form_country_germany_coring_states_tt
@@ -2481,6 +2485,9 @@ form_european_union_category = {
 				85 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
 				865 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				884 = { add_core_of = ROOT }
+				804 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				127 = { add_core_of = ROOT }
@@ -2501,6 +2508,7 @@ form_european_union_category = {
 				119 = { add_core_of = ROOT }
 				861 = { add_core_of = ROOT }
 				862 = { add_core_of = ROOT }
+				974 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.62 hours = 6 }
@@ -5803,6 +5811,7 @@ form_andalusia_category = {
 				959 = { add_core_of = ROOT }
 				hidden_effect = { set_global_flag = andalusia_north_expansion_flag }
 			}
+		}
 
 			ai_will_do = {
 				factor = 200
