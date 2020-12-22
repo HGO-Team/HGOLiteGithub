@@ -6036,7 +6036,7 @@ focus_tree = {
 					type = take_state_focus
 					target = USA
 					expire = 0
-					generator = { 375 376 1064 377 378 379 380 382 1065 846 848 849 850 851 852 853 854 855 }
+					generator = { 375 376 1064 377 378 379 380 382 1065 846 848 849 850 851 852 853 854 855 1195 1199 1200 }
 				}
 			}
 			every_other_country = {
@@ -6049,7 +6049,7 @@ focus_tree = {
 						type = take_state_focus
 						target = PREV
 						expire = 0
-						generator = { 375 376 1064 377 378 379 380 382 1065 846 848 849 850 851 852 853 854 855 }
+						generator = { 375 376 1064 377 378 379 380 382 1065 846 848 849 850 851 852 853 854 855 1195 1199 1200 }
 					}
 				}
 			}
@@ -6074,6 +6074,9 @@ focus_tree = {
 						state = 853
 						state = 854
 						state = 855
+						state = 1195
+						state = 1199
+						state = 1200
 					}
 					NOT = {
 						is_core_of = ROOT
@@ -6247,6 +6250,30 @@ focus_tree = {
 					}
 				}
 			}
+			1195 = {
+				controller = {
+					OR = {
+						is_subject_of = ROOT
+						tag = ROOT
+					}
+				}
+			}
+			1199 = {
+				controller = {
+					OR = {
+						is_subject_of = ROOT
+						tag = ROOT
+					}
+				}
+			}
+			1200 = {
+				controller = {
+					OR = {
+						is_subject_of = ROOT
+						tag = ROOT
+					}
+				}
+			}
 		}
 
 		bypass = {
@@ -6281,6 +6308,8 @@ focus_tree = {
 						state = 854
 						state = 855
 						state = 1195
+						state = 1199
+						state = 1200
 					}
 				}
 				add_core_of = ROOT

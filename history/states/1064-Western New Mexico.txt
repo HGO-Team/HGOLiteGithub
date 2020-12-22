@@ -12,16 +12,13 @@ state={
 		victory_points = {
 			1972 1 
 		}
-		victory_points = {
-			5044 1 
-		}
 
 	}
 
 	provinces={
-		1972 5044 10645 10914 12552 
+		1972 10645 12552 13373
 	}
-	manpower=201200
+	manpower=150900
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
