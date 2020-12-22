@@ -4960,17 +4960,21 @@ focus_tree = {
 			add_state_core = 8
 			add_state_core = 28
 			add_state_core = 812
+			add_state_core = 1183
+			add_state_core = 1060
 			if = {
 				limit = {
 					NOT = { owns_state = 28 }
 					NOT = { owns_state = 812 }
+					NOT = { owns_state = 1183 }
 				}
 				transfer_state = 28
 				transfer_state = 812
+				transfer_state = 1183
 			}
-			28 = { set_state_name = "Elsass" }
-			set_province_name = { id = 9503 name = "Strassburg" }
-			set_province_name = { id = 678 name = "Mulhausen" }
+			#28 = { set_state_name = "Elsass" } Renames already takes care of this
+			#set_province_name = { id = 9503 name = "Strassburg" } Renames already takes care of this
+			#set_province_name = { id = 678 name = "Mulhausen" } Renames already takes care of this
 			FRA = {
 				country_event = { id = wtt_germany.63 }
 			}
@@ -7638,6 +7642,8 @@ focus_tree = {
 		completion_reward = {
 			add_state_core = 8
 			add_state_core = 28
+			add_state_core = 812
+			add_state_core = 1183
 			if = {
 				limit = {
 					NOT = { owns_state = 28 }
