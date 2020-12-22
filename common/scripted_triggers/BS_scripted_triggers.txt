@@ -16,6 +16,8 @@ is_German_country = {
 		tag = RKO
 		tag = RKM
 		tag = RKU
+		tag = RKW
+		tag = RKS
 		tag = NID
 		tag = NWG
 		tag = BNF
@@ -24,6 +26,7 @@ is_German_country = {
 		tag = SAX
 		tag = SHL
 		tag = HAN
+		tag = BGN
 	}
 }
 
@@ -33,13 +36,28 @@ is_German_puppet = {
 		is_puppet_of = WGR
 		is_puppet_of = DDR
 		is_puppet_of = DAN
-		is_puppet_of = PRS
+		is_puppet_of = PRE
 		is_puppet_of = AUS
-		is_puppet_of = BAV
-		is_puppet_of = SAR
+		is_puppet_of = BAY
 		is_puppet_of = WUR
+		is_puppet_of = SAR
 		is_puppet_of = BDN
 		is_puppet_of = MEK
+		is_puppet_of = RKK
+		is_puppet_of = RKO
+		is_puppet_of = RKM
+		is_puppet_of = RKU
+		is_puppet_of = RKW
+		is_puppet_of = RKS
+		is_puppet_of = NID
+		is_puppet_of = NWG
+		is_puppet_of = BNF
+		is_puppet_of = PBM
+		is_puppet_of = GGO
+		is_puppet_of = SAX
+		is_puppet_of = SHL
+		is_puppet_of = HAN
+		is_puppet_of = BGN
 	}
 }
 

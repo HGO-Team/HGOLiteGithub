@@ -507,7 +507,7 @@ GER_reichskommissariats = {
 			controls_state = 36
 			controls_state = 1058
 			controls_state = 1059
-			controls_state = 1060
+			#controls_state = 1060
 			controls_state = 1061
 			controls_state = 1062
 		}
@@ -536,7 +536,7 @@ GER_reichskommissariats = {
 				transfer_state = 36
 				transfer_state = 1058
 				transfer_state = 1059
-				transfer_state = 1060
+				#transfer_state = 1060
 				transfer_state = 1061
 				transfer_state = 1062
 			}
