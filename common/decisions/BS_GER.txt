@@ -186,7 +186,7 @@ GER_reichsprotektorat = {
 			controls_state = 814
 			controls_state = 816
 			controls_state = 817
-			#controls_state = 1183
+			controls_state = 1183
 			controls_state = 1184
 		}
 
@@ -209,7 +209,7 @@ GER_reichsprotektorat = {
 				transfer_state = 814
 				transfer_state = 816
 				transfer_state = 817
-				#transfer_state = 1183
+				transfer_state = 1183
 				transfer_state = 1184
 				
 				hidden_effect = {
