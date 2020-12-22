@@ -2402,6 +2402,7 @@ form_european_union_category = {
 				1194 = { add_core_of = ROOT }
 				1186 = { add_core_of = ROOT }
 				825 = { add_core_of = ROOT }
+				1198 = { add_core_of = ROOT }
 			}
 			# Italy
 			custom_effect_tooltip = form_eu_italy_coring_states_tt
@@ -3277,6 +3278,7 @@ form_roman_empire_category = {
 				1194 = { add_core_of = ROOT }
 				1184 = { add_core_of = ROOT }
 				1183 = { add_core_of = ROOT }
+				1198 = { add_core_of = ROOT }
 			}
 			# Britain
 			custom_effect_tooltip = form_spqr_britain_coring_states_tt
