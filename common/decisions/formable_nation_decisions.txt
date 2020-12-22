@@ -1061,12 +1061,11 @@ form_united_central_america_category = {
 			}
 		}
 
-			ai_will_do = {
-				factor = 200
-				modifier = {
-					factor = 0
-					is_historical_focus_on = yes
-				}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
 			}
 		}
 	}
@@ -5813,12 +5812,11 @@ form_andalusia_category = {
 			}
 		}
 
-			ai_will_do = {
-				factor = 200
-				modifier = {
-					factor = 0
-					is_historical_focus_on = yes
-				}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
 			}
 		}
 	}
