@@ -1340,6 +1340,7 @@ GER_mittelafrika_plan_category = {
 			controls_state = 1136
 			controls_state = 1137
 			controls_state = 1174
+			controls_state = 1197
 		}
 
 		cost = 100
@@ -1389,6 +1390,7 @@ GER_mittelafrika_plan_category = {
 				transfer_state = 1136
 				transfer_state = 1137
 				transfer_state = 1174
+				transfer_state = 1197
 			}
 			GER = {
 				puppet = MTA
@@ -1846,6 +1848,7 @@ GER_mittelafrika_plan_category = {
 			controls_state = 767
 			controls_state = 873
 			controls_state = 874
+			controls_state = 1196
 			MTA = {
 			controls_state = 660
 			}
@@ -1880,6 +1883,7 @@ GER_mittelafrika_plan_category = {
 				transfer_state = 767
 				transfer_state = 873
 				transfer_state = 874
+				transfer_state = 1196
                 set_cosmetic_tag = RKA	
 			}
 		}

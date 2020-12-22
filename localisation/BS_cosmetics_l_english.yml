@@ -36,6 +36,7 @@
  SAR_FRA_communism_ADJ:0 "Saarlandian"
 
  RKA_GER_fascism:0 "Reichskolonie Afrika"
+ RKA_fascism:0 "Reichskolonie Afrika"
  RKA_fascism_DEF:0 "Reichskolonie Afrika"
  RKA_fascism_ADJ:0 "German African"
  RKA_neutrality:0 "Reichskolonie Afrika"
