@@ -570,6 +570,7 @@ form_austria_hungary_category = {
 				830 = { add_core_of = ROOT }
 				1181 = { add_core_of = ROOT }
 				1180 = { add_core_of = ROOT }
+				1201 = { add_core_of = ROOT }
 
 			}
 			hidden_effect = {
@@ -697,6 +698,7 @@ form_austria_hungary_category = {
 			830 = { add_core_of = ROOT }
 			1181 = { add_core_of = ROOT }
 			1180 = { add_core_of = ROOT }
+			1201 = { add_core_of = ROOT }
 			set_global_flag = reintegrate_the_empire_flag
 				ROOT = {
 					set_party_name = { 
@@ -1674,6 +1676,7 @@ form_ottoman_empire_category = {
 			833 = { add_core_of = ROOT }
 			766 = { add_core_of = ROOT }
 			830 = { add_core_of = ROOT }
+			1201 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = ottoman_romania_flag
 			}
@@ -2989,6 +2992,7 @@ form_roman_empire_category = {
 				831 = { add_core_of = ROOT }
 				832 = { add_core_of = ROOT }
 				833 = { add_core_of = ROOT }
+				1201 = { add_core_of = ROOT }
 				# Some Albanian states
 				44 = { add_core_of = ROOT }
 				1045 = { add_core_of = ROOT }
@@ -7140,6 +7144,7 @@ form_turan_category = {
 			45 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			868 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 			925 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
+			1201 = { add_dynamic_modifier = { modifier = turanist_assimilation } }
 		}
 
 		ai_will_do = {

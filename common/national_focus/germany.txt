@@ -4554,6 +4554,7 @@ focus_tree = {
 									NOT = { controls_state = 76 }
 									NOT = { controls_state = 83 }
 									NOT = { controls_state = 84 }
+									NOT = { controls_state = 1201 }
 								}
 								has_war_with = HUN
 								AND = {
@@ -4588,6 +4589,7 @@ focus_tree = {
 					}
 					ROM = {
 						controls_state = 76
+						controls_state = 1201
 						NOT = { has_war_with = HUN }
 					}
 				}
