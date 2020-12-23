@@ -2276,6 +2276,17 @@ do_italian_renames = {
 	
 	if = {
 		limit = {
+			state = 821
+		}
+		set_province_name = {
+			id = 9909
+			name = "Nizza"
+		}
+		set_state_name = "Nizza"
+	}
+	
+	if = {
+		limit = {
 			state = 39
 		}
 		set_province_name = {
