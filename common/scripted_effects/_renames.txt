@@ -1394,7 +1394,28 @@ do_french_renames = {
 		}
 		set_state_name = "Nancy"
 	}
-
+	
+	if = {
+		limit = {
+			state = 789
+		}		
+		set_province_name = {
+			id = 11531
+			name = "Sarrebruck"
+		}
+		set_state_name = "Sarrebruck"
+	}
+        if = {
+		limit = {
+			state = 792
+		}		
+		set_province_name = {
+			id = 11435
+			name = "Bitbourg"
+		}
+		set_state_name = "Bitbourg"
+	}
+	
 	if = {
 		limit = {
 			state = 1183
