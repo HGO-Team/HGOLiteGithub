@@ -8430,10 +8430,14 @@ focus_tree = {
 			if = {
 				limit = {
 					has_full_control_of_state = 106
+					has_full_control_of_state = 1204
 					106 = { NOT = { is_core_of = ROOT } }
+					1204 = { NOT = { is_core_of = ROOT } }
 				}
 				106 = { set_state_flag = BUL_bulgarian_reintegration_campaign_flag }
+				1204 = { set_state_flag = BUL_bulgarian_reintegration_campaign_flag }
 				add_state_core = 106
+				add_state_core = 1204
 			}
 			if = {
 				limit = {

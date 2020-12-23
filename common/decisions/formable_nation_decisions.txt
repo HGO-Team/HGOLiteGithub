@@ -1337,6 +1337,7 @@ form_ottoman_empire_category = {
 				1160 = { add_core_of = ROOT }
 				#1177 = { add_core_of = ROOT }
 				1070 = { add_core_of = ROOT }
+				1204 = { add_core_of = ROOT }
 			}
 			# Britain
 			custom_effect_tooltip = form_persia_britain_coring_states_tt
@@ -1411,12 +1412,13 @@ form_ottoman_empire_category = {
 			#Yugoslavia 
 			custom_trigger_tooltip = {
 				tooltip = form_rumelia_yugoslavia_required_states_tt
-				controls_state = 106 
+				controls_state = 106
 				controls_state = 803
 				controls_state = 802
 				controls_state = 108 
 				controls_state = 105 
 				controls_state = 107
+				controls_state = 1204
 			}
 			#Albania
 			controls_state = 44
@@ -1490,6 +1492,7 @@ form_ottoman_empire_category = {
 				#1104 = { add_core_of = ROOT }
 				#103 = { add_core_of = ROOT }
 				#939 = { add_core_of = ROOT }
+				1204 = { add_core_of = ROOT }
 			}
 			44 = { add_core_of = ROOT }
 			1045 = { add_core_of = ROOT }
@@ -2679,6 +2682,7 @@ form_roman_empire_category = {
 				controls_state = 870
 				controls_state = 871
 				controls_state = 764
+				controls_state = 1204
 			}
 			# Greece
 			custom_trigger_tooltip = {
@@ -3039,6 +3043,7 @@ form_roman_empire_category = {
 				163 = { add_core_of = ROOT }
 				1189 = { add_core_of = ROOT }
 				1190 = { add_core_of = ROOT }
+				1204 = { add_core_of = ROOT }
 				ROOT = {
 					set_party_name = { 
 						ideology = communism 
@@ -3728,6 +3733,7 @@ form_byzantine_empire_category = {
 				controls_state = 764
 				controls_state = 870
 				controls_state = 871
+				controls_state = 1204
 			}
 		}
 
@@ -3849,6 +3855,7 @@ form_byzantine_empire_category = {
 				764 = { add_core_of = ROOT }
 				870 = { add_core_of = ROOT }
 				871 = { add_core_of = ROOT }
+				1204 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.66 hours = 6 }
@@ -4105,6 +4112,7 @@ form_byzantine_empire_category = {
 				controls_state = 211
 				controls_state = 106
 				controls_state = 943
+				controls_state = 1204
 			}
 			# Yugoslavia
 			custom_trigger_tooltip = {
@@ -4194,6 +4202,7 @@ form_byzantine_empire_category = {
 				1143 = { add_core_of = ROOT }
 				1103 = { add_core_of = ROOT }
 				1179 = { add_core_of = ROOT }
+				1204 = { add_core_of = ROOT }
 			}
 			# Yugoslavia
 			custom_effect_tooltip = form_country_sirmium_coring_states_tt
@@ -6783,6 +6792,7 @@ form_macedonian_empire_category = {
 				1143 = { add_core_of = ROOT }
 				1142 = { add_core_of = ROOT }
 				1141 = { add_core_of = ROOT }
+				1204 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_persia_france_coring_states_tt
