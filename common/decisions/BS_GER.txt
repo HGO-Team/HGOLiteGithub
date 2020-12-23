@@ -19,6 +19,7 @@ GER_operation_achse_category = {
 			controls_state = 988
 			controls_state = 989
 			controls_state = 990
+			controls_state = 1203
 		}
 
 		cost = 0
@@ -71,7 +72,7 @@ GER_operation_achse_category = {
 					start_civil_war = {
 						ideology = fascism
 						size = 0.3
-						states = { 158 2 159 867 160 66 161 162 157 987 988 989 990 }
+						states = { 158 2 159 867 160 66 161 162 157 987 988 989 990 1203 }
 					}
 					hidden_effect = {
 						load_oob = "ITA_Italian_Civil_War"
@@ -102,6 +103,7 @@ GER_operation_achse_category = {
 						set_state_controller = 162
 						set_state_controller = 990
 						set_state_controller = 157
+						set_state_controller = 1203
 						GER = {
 							puppet = PREV
 							set_autonomy = { target = PREV autonomy_state = autonomy_reichsprotectorate }
