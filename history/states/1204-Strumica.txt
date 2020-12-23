@@ -1,14 +1,12 @@
 state={
-    id=13315
-    name="STATE_13315"
+    id=1204
+    name="STATE_1204"
 
     history={
         owner = YUG
         
         buildings = {
             infrastructure = 3
-            
-            
         }
         add_core_of = YUG
         add_core_of = BUL
@@ -24,6 +22,6 @@ state={
     
     resources={
         aluminium=2
-                chromium=4
+        chromium=4
     }
 }
