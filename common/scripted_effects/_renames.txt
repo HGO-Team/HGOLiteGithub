@@ -686,6 +686,208 @@ do_german_renames = {
 		}
 		set_state_name = "Eupen-Malmünd"
 	}
+	
+	if = {
+		limit = {
+			state = 1184
+		}
+		set_state_name = "Brietz"
+	}
+	
+	if = {
+		limit = {
+			state = 816
+		}
+		set_province_name = {
+			id = 13368
+			name = "Sedan"
+		}
+		set_state_name = "Langich"
+	}
+	
+	if = {
+		limit = {
+			state = 17
+		}
+		set_province_name = {
+			id = 9642
+			name = "Bisanz"
+		}
+		set_state_name = "Freigrafschaft Burgund"
+	}
+	
+	if = {
+		limit = {
+			state = 817
+		}
+		set_province_name = {
+			id = 6545
+			name = "Wirten"
+		}
+		set_state_name = "Maas"
+	}
+	
+	if = {
+		limit = {
+			state = 815
+		}
+		set_state_name = "Hirson"
+	}
+	
+	if = {
+		limit = {
+			state = 29
+		}
+		set_province_name = {
+			id = 11548
+			name = "Kalen"
+		}
+		set_province_name = {
+			id = 6504
+			name = "Atrecht"
+		}
+		set_state_name = "Französische-Niederlande"
+	}
+	
+	if = {
+		limit = {
+			state = 1089
+		}
+		set_province_name = {
+			id = 575
+			name = "Dünkirchen"
+		}
+		set_province_name = {
+			id = 11483
+			name = "Ryssel"
+		}
+		set_state_name = "Französisch-Flandern"
+	}
+	
+	if = {
+		limit = {
+			state = 18
+		}
+		set_province_name = {
+			id = 9490
+			name = "Troyes"
+		}
+		set_province_name = {
+			id = 13011
+			name = "Rheims"
+		}
+		set_state_name = "Champagne"
+	}
+	
+	if = {
+		limit = {
+			state = 785
+		}
+		set_province_name = {
+			id = 11420
+			name = "Amiens"
+		}
+		set_state_name = "Picardie"
+	}
+	
+	if = {
+		limit = {
+			state = 785
+		}
+		set_province_name = {
+			id = 11420
+			name = "Amiens"
+		}
+		set_state_name = "Picardie"
+	}
+	
+	if = {
+		limit = {
+			state = 818
+		}
+		set_province_name = {
+			id = 485
+			name = "Dieppe"
+		}
+		set_province_name = {
+			id = 11563
+			name = "Rodomo"
+		}
+		set_province_name = {
+			id = 9434
+			name = "Le Havre"
+		}
+		set_state_name = "Obere Normandie"
+	}
+	
+	if = {
+		limit = {
+			state = 1194
+		}
+		set_state_name = "Meaux"
+	}
+	
+	if = {
+		limit = {
+			state = 27
+		}
+		set_province_name = {
+			id = 3652
+			name = "Dision"
+		}
+		set_state_name = "Burgund"
+	}
+	
+	if = {
+		limit = {
+			state = 1185
+		}
+		set_province_name = {
+			id = 3650
+			name = "Oyonnax"
+		}
+		set_state_name = "Oyonnax"
+	}
+	
+	if = {
+		limit = {
+			state = 20
+		}
+		set_province_name = {
+			id = 6613
+			name = "Leyden"
+		}
+		set_state_name = "Rhone"
+	}
+	
+	if = {
+		limit = {
+			state = 32
+		}
+		set_province_name = {
+			id = 3768
+			name = "Graswalde"
+		}
+		set_state_name = "Alpen"
+	}
+	
+	if = {
+		limit = {
+			state = 1147
+		}
+		set_state_name = "Oberalpen"
+	}
+	
+	if = {
+		limit = {
+			state = 16
+		}
+		set_province_name = {
+			id = 11506
+			name = "Paris"
+		}
+		set_state_name = "Insel Frankreichs"
+	}
 }
 
 do_polish_renames = {
@@ -1209,6 +1411,197 @@ do_french_renames = {
 			name = "Malmedy"
 		}
 		set_state_name = "Eupen-Malmedy"
+	}
+	
+	if = {
+		limit = {
+			state = 1184
+		}
+		set_state_name = "Briey"
+	}
+	
+	if = {
+		limit = {
+			state = 816
+		}
+		set_province_name = {
+			id = 13368
+			name = "Sedan"
+		}
+		set_state_name = "Longwy"
+	}
+	
+	if = {
+		limit = {
+			state = 17
+		}
+		set_province_name = {
+			id = 9642
+			name = "Besançon"
+		}
+		set_state_name = "Franche-Comté"
+	}
+	
+	if = {
+		limit = {
+			state = 817
+		}
+		set_province_name = {
+			id = 6545
+			name = "Verdun"
+		}
+		set_state_name = "Meuse"
+	}
+	
+	if = {
+		limit = {
+			state = 815
+		}
+		set_state_name = "Hirson"
+	}
+	
+	if = {
+		limit = {
+			state = 29
+		}
+		set_province_name = {
+			id = 11548
+			name = "Calais"
+		}
+		set_province_name = {
+			id = 6504
+			name = "Arras"
+		}
+		set_state_name = "Nord-Pas-de-Calais"
+	}
+	
+	if = {
+		limit = {
+			state = 1089
+		}
+		set_province_name = {
+			id = 575
+			name = "Dunkerque"
+		}
+		set_province_name = {
+			id = 11483
+			name = "Lille"
+		}
+		set_state_name = "Flandre française"
+	}
+	
+	if = {
+		limit = {
+			state = 18
+		}
+		set_province_name = {
+			id = 9490
+			name = "Troyes"
+		}
+		set_province_name = {
+			id = 13011
+			name = "Reims"
+		}
+		set_state_name = "Champagne"
+	}
+	
+	if = {
+		limit = {
+			state = 785
+		}
+		set_province_name = {
+			id = 11420
+			name = "Amiens"
+		}
+		set_state_name = "Picardie"
+	}
+	
+	if = {
+		limit = {
+			state = 818
+		}
+		set_province_name = {
+			id = 485
+			name = "Dieppe"
+		}
+		set_province_name = {
+			id = 11563
+			name = "Rouen"
+		}
+		set_province_name = {
+			id = 9434
+			name = "Le Havre"
+		}
+		set_state_name = "Haute Normandie"
+	}
+	
+	if = {
+		limit = {
+			state = 1194
+		}
+		set_state_name = "Meaux"
+	}
+	
+	if = {
+		limit = {
+			state = 27
+		}
+		set_province_name = {
+			id = 3652
+			name = "Dijon"
+		}
+		set_state_name = "Bourgogne"
+	}
+	
+	if = {
+		limit = {
+			state = 1185
+		}
+		set_province_name = {
+			id = 3650
+			name = "Oyonnax"
+		}
+		set_state_name = "Oyonnax"
+	}
+	
+	if = {
+		limit = {
+			state = 20
+		}
+		set_province_name = {
+			id = 6613
+			name = "Lyon"
+		}
+		set_state_name = "Rhône"
+	}
+	
+	if = {
+		limit = {
+			state = 32
+		}
+		set_province_name = {
+			id = 3768
+			name = "Grenoble"
+		}
+		set_state_name = "Alpes"
+	}
+	
+	if = {
+		limit = {
+			state = 1147
+		}
+		set_state_name = "Haute Alpes"
+	}
+	
+	if = {
+		limit = {
+			state = 16
+		}
+		set_province_name = {
+			id = 11506
+			name = "Paris"
+		}
+		set_state_name = "Île-de-France"
 	}
 }
 
@@ -1946,6 +2339,7 @@ do_belgian_renames = {
 }
 
 do_bulgarian_renames = {
+
         if = {
 	        limit = {
 		        state = 1140
@@ -1966,5 +2360,74 @@ do_bulgarian_renames = {
 		       name = "Tsarigrad"
 	       }
 	       set_state_name = "Tsarigrad"
+	}
+}
+
+do_west_east_paris_renames = {
+
+	if = {
+		limit = {
+			state = 16
+		}
+		set_province_name = {
+			id = 11506
+			name = "Ost-Paris"
+		}
+		set_province_name = {
+			id = 9523
+			name = "West-Paris"
+		}
+		set_state_name = "Ost-Paris"
+		1198 = { set_state_name = "West-Paris" }
+	}
+
+	if = {
+		limit = {
+			state = 1198
+		}
+		set_province_name = {
+			id = 9523
+			name = "West-Paris"
+		}
+		set_province_name = {
+			id = 11506
+			name = "Ost-Paris"
+		}
+		set_state_name = "West-Paris"
+		16 = { set_state_name = "Ost-Paris" }
+	}
+}
+
+do_united_paris_renames = {
+
+	if = {
+		limit = {
+			state = 16
+		}
+		set_province_name = {
+			id = 11506
+			name = "Paris"
+		}
+		set_province_name = {
+			id = 9523
+			name = "Versailles"
+		}
+		set_state_name = "Île-de-France"
+		1198 = { set_state_name = "Yvelines" }
+	}
+	if = {
+		limit = {
+			state = 1198
+		}
+		set_province_name = {
+			id = 9523
+			name = "Versailles"
+		}
+		set_province_name = {
+			id = 11506
+			name = "Paris"
+		}
+		set_state_name = "Yvelines"
+		16 = { set_state_name = "Île-de-France" }
 	}
 }

@@ -144,3 +144,12 @@ is_Germany_divided = {
 		}
 	}
 }
+
+is_France_divided = {
+	BGN = { controls_state = 16 }
+}
+
+is_France_united = {
+	country_exists = BGN
+	NOT = { BGN = { controls_state = 16 } }
+}

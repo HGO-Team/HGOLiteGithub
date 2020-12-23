@@ -4,6 +4,16 @@ on_actions = {
 		effect = {
 			FROM.FROM = {
 
+				### United France ###
+				if = {
+					limit = {
+						ROOT = {
+							is_France_united = yes
+						}
+					}
+					do_united_paris_renames = yes
+				}
+
 				### GER ###
 				if = {
 					limit = {
@@ -162,6 +172,16 @@ on_actions = {
 						}
 					}
 					do_belgian_renames = yes
+				}
+
+				### West-Paris and Ost-Paris ###
+				if = {
+					limit = {
+						ROOT = {
+							is_France_divided = yes
+						}
+					}
+					do_west_east_paris_renames = yes
 				}
 			}
 		}
