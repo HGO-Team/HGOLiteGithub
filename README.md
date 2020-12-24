@@ -1,7 +1,7 @@
 How to install HGO Lite Github - presented by Cass, your Corporate Overlady
 1) Download the mod, check your download directory (usually ThisPC/Downloads)
-2) Unzip the modfile. Make sure the folder name is still HGOLite, and if isn't rename it.
-3) Enter the folder, Take out the .MOD file (the file called HGOLite.mod) and put it outside the folder into whatever directory you downloaded the mod into.
+2) Unzip the modfile. Make sure the folder name is still HGOLiteGithub, and if isn't rename it.
+3) Enter the folder, Take out the .MOD file (the file called HGOLiteGithub.mod) and put it outside the folder into whatever directory you downloaded the mod into.
 4) Hold control, and click the folder and the .MOD file and press copy
 5) Go to documents/Paradox Interactive/Hearts of Iron 4/mod and paste it into the mod folder.
 6) Boot up HOI4, click "Manage Playset, then click "Add More Mods" 
