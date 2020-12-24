@@ -1082,7 +1082,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = ROM
-			generator = { 76 }
+			generator = { 76 1201 }
 		}
 	}
 }
