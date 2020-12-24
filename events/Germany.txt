@@ -383,6 +383,16 @@ country_event = {
 					}
 				}
 				OR = {
+					owns_state = 1205
+					any_other_country = {
+						is_in_faction_with = GER
+						GER = {
+							is_faction_leader = yes
+						}
+						owns_state = 1205
+					}
+				}
+				OR = {
 					owns_state = 94
 					any_other_country = {
 						is_in_faction_with = GER
