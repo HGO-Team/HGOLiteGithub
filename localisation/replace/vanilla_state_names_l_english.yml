@@ -67,7 +67,7 @@
  STATE_516:0 "Central Siberia"
  STATE_290:0 "Ar Reef"
  STATE_273:0 "Tabaqah"
- STATE_341:0 "Istanbul"
+ STATE_341:0 "İstanbul"
  STATE_797:0 "Stettin"
  STATE_798:0 "Berchtesgaden"
  STATE_799:0 "Südbaden"
@@ -84,3 +84,4 @@
  STATE_17:0 "Franche-Comté"
  STATE_785:0 "Picardie"
  STATE_20:0 "Rhône"
+ STATE_189:0 "Šiauliai"

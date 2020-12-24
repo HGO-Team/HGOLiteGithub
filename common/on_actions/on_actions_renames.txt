@@ -183,6 +183,36 @@ on_actions = {
 					}
 					do_west_east_paris_renames = yes
 				}
+
+				### BUL ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = BUL
+						}
+					}
+					do_bulgarian_renames = yes
+				}
+
+				### LAT ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = LAT
+						}
+					}
+					do_latvian_renames = yes
+				}
+
+				### TUR ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = TUR
+						}
+					}
+					do_turkish_renames = yes
+				}
 			}
 		}
 	}

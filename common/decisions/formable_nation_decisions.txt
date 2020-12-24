@@ -783,6 +783,7 @@ form_commonwealth_category = {
 				controls_state = 933
 				controls_state = 997
 				controls_state = 1170
+				controls_state = 1205
 			}
 		}
 
@@ -826,6 +827,7 @@ form_commonwealth_category = {
 				94 = { add_core_of = ROOT }
 				95 = { add_core_of = ROOT }
 				96 = { add_core_of = ROOT }
+				1205 = { add_core_of = ROOT }
 				784 = { add_core_of = ROOT } #Wilno
 				762 = { add_core_of = ROOT } #Katowice
 				865 = { add_core_of = ROOT } 
@@ -859,7 +861,6 @@ form_commonwealth_category = {
 				763 = { add_core_of = ROOT }
 				94 = { add_core_of = ROOT }
 				95 = { add_core_of = ROOT }
-				96 = { add_core_of = ROOT }
 				242 = { add_core_of = ROOT }
 				204 = { add_core_of = ROOT }
 				206 = { add_core_of = ROOT }
