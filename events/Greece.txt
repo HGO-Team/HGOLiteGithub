@@ -45,7 +45,7 @@ country_event = {
 			}
 			BUL = { 
 				transfer_state = 184
-                                transfer_state = 1063
+                transfer_state = 1063
 				transfer_state = 1156
 				add_opinion_modifier = { target = SOV modifier = SOV_ultimatum_to_greece_thrace }
 			}
