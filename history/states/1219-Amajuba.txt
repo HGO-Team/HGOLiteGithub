@@ -1,0 +1,21 @@
+state={
+	id=1219
+	name="STATE_1219"
+	
+	state_category=town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = SAF
+	}
+	
+	provinces={
+		1494 2171 
+	}
+	manpower=531327
+	buildings_max_level_factor=1.000
+}
