@@ -2849,7 +2849,7 @@ form_roman_empire_category = {
 			}
 			# France
 			custom_trigger_tooltip = {
-				tooltip = form_spqr_southern_france_required_states_tt
+				tooltip = form_spqr_france_required_states_tt
 				#controls_state = 29
 				#controls_state = 18
 				#controls_state = 17
@@ -3044,28 +3044,6 @@ form_roman_empire_category = {
 				1189 = { add_core_of = ROOT }
 				1190 = { add_core_of = ROOT }
 				1204 = { add_core_of = ROOT }
-				ROOT = {
-					set_party_name = { 
-						ideology = communism 
-    						long_name = SPQR_UNIFIED_communism_party_long 
-    						name = SPQR_UNIFIED_communism_party 
-					}
-					set_party_name = { 
-						ideology = fascism 
-    						long_name = SPQR_UNIFIED_fascism_party_long 
-    						name = SPQR_UNIFIED_fascism_party 
-					}
-					set_party_name = { 
-						ideology = democratic 
-    						long_name = SPQR_UNIFIED_democratic_party_long 
-    						name = SPQR_UNIFIED_democratic_party 
-					}
-					set_party_name = { 
-						ideology = neutrality 
-    						long_name = SPQR_UNIFIED_neutrality_party_long 
-    						name = SPQR_UNIFIED_neutrality_party 
-					}
-				}
 			}
 			# Greece
 			custom_effect_tooltip = form_country_greece_coring_states_tt
