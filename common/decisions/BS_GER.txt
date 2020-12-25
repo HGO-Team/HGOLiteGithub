@@ -967,6 +967,7 @@ BS_transfer_territories_category = {
 				has_full_control_of_state = 883
 				has_full_control_of_state = 890
 				has_full_control_of_state = 891
+				has_full_control_of_state = 1205
 			}
 		}
 
