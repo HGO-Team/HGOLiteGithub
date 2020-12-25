@@ -213,6 +213,26 @@ on_actions = {
 					}
 					do_turkish_renames = yes
 				}
+
+				### HUN ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = HUN
+						}
+					}
+					do_hungarian_renames = yes
+				}
+
+				### SWI ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = SWI
+						}
+					}
+					do_swiss_renames = yes
+				}
 			}
 		}
 	}
