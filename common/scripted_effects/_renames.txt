@@ -917,6 +917,86 @@ do_german_renames = {
 		}
 		set_state_name = "Aschmjany"
 	}
+       
+       if = {
+		limit = {
+			state = 994
+		}		
+		set_province_name = {
+			id = 13287
+			name = "Ödenburg"
+		}
+		set_state_name = "Ostburgenland"
+	}
+        
+	  if = {
+		limit = {
+			state = 102
+		}		
+		set_province_name = {
+			id = 9627
+			name = "Laibach"
+		}
+		set_state_name = "Slowenien"
+	}
+	
+        if = {
+		limit = {
+			state = 866
+		}		
+		set_province_name = {
+			id = 599
+			name = "Oberidria"
+		}
+		set_state_name = "Oberistrien"
+	}
+	
+	 if = {
+		limit = {
+			state = 867
+		}		
+		set_province_name = {
+			id = 9598
+			name = "Trent"
+		}
+		set_state_name = "Trient"
+	}
+	
+	 if = {
+		limit = {
+			state = 893
+		}		
+		set_province_name = {
+			id = 9600
+			name = "Tessin"
+		}
+		set_state_name = "Lauwis"
+	}
+	
+		 if = {
+		       limit = {
+			       state = 892
+		}		
+		set_province_name = {
+			id = 13124
+			name = "Genf"
+		}
+		set_state_name = "Welschland"
+	}
+	
+	 if = {
+		       limit = {
+			       state = 892
+		}		
+		set_province_name = {
+			id = 9418
+			name = "Bastnach"
+		}
+		set_province_name = {
+		        id = 11407
+			name = "Aarel"
+		set_state_name = "West-Luxemburg"
+	 }
 }
 
 do_polish_renames = {
@@ -1720,6 +1800,17 @@ do_french_renames = {
 		}
 		set_state_name = "Nice"
 	}
+	
+	if = {
+		limit = {
+			state = 148
+		}
+		set_province_name = {
+			id = 6780
+			name = "Torino"
+		}
+		set_state_name = "Piémont"
+	}
 }
 
 do_soviet_renames = {
@@ -2412,6 +2503,17 @@ do_italian_renames = {
 			name = "Nizza"
 		}
 		set_state_name = "Nizza"
+	}
+	
+	if = {
+		limit = {
+			state = 735
+		}
+		set_province_name = {
+			id = 778
+			name = "Anessi"
+		}
+		set_state_name = "Alto-Savoia"
 	}
 	
 	if = {
