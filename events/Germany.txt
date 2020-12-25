@@ -258,7 +258,6 @@ country_event = {
 		add_state_claim = 1192
 		add_state_claim = 95
 		add_state_claim = 933
-		add_state_claim = 96
 		add_state_claim = 97
 		add_state_claim = 80
 		add_state_claim = 784
@@ -266,6 +265,7 @@ country_event = {
 		add_state_claim = 997
 		add_state_claim = 925
 		add_state_claim = 766
+		add_state_claim = 1205
 		hidden_effect =  { add_timed_idea = { idea = SOV_molotov_ribbentrop_pact days = 730 } }
 		GER = {
 			country_event = { days = 1 id = germany.12 }
@@ -380,16 +380,6 @@ country_event = {
 							is_faction_leader = yes
 						}
 						owns_state = 95
-					}
-				}
-				OR = {
-					owns_state = 1205
-					any_other_country = {
-						is_in_faction_with = GER
-						GER = {
-							is_faction_leader = yes
-						}
-						owns_state = 1205
 					}
 				}
 				OR = {
@@ -510,6 +500,16 @@ country_event = {
 							is_faction_leader = yes
 						}
 						owns_state = 996
+					}
+				}
+				OR = {
+					owns_state = 1205
+					any_other_country = {
+						is_in_faction_with = GER
+						GER = {
+							is_faction_leader = yes
+						}
+						owns_state = 1205
 					}
 				}
 			}
@@ -654,6 +654,16 @@ country_event = {
 								is_faction_leader = yes
 							}
 							controls_state = 996
+						}
+					}
+					OR = {
+						controls_state = 1205
+						any_other_country = {
+							is_in_faction_with = GER
+							GER = {
+								is_faction_leader = yes
+							}
+							controls_state = 1205
 						}
 					}
 				}
@@ -905,6 +915,21 @@ country_event = {
 			}
 			SOV = { transfer_state = 996 }
 		}
+		if = {
+			limit = {
+				1205 = {
+					OR = {
+						is_controlled_by = GER
+						any_other_country = {
+							controls_state = 1205
+							is_in_faction_with = GER
+							GER = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			SOV = { transfer_state = 1205 }
+		}
 		SOV = { country_event = germany.15 }
 	}
 	option = {
@@ -947,6 +972,7 @@ country_event = {
 			add_state_claim = 1181
 			add_state_claim = 784
 			add_state_claim = 996
+			add_state_claim = 1205
 			effect_tooltip = {
 				create_wargoal = {
 					type = annex_everything
