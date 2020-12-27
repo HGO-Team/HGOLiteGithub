@@ -8212,6 +8212,8 @@ focus_tree = {
 			add_state_core = 1156
 			add_state_core = 1063
 			add_state_claim = 230
+			add_state_claim = 1123
+			add_state_claim = 1003
 			add_state_claim = 187
 			add_state_claim = 975
 			add_state_claim = 731
@@ -8349,10 +8351,20 @@ focus_tree = {
 	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
+			add_state_claim = 1227
+			add_state_claim = 1225
+			add_state_claim = 1002
+			add_state_claim = 1226
+			add_state_claim = 1091
 			add_state_claim = 231
 			add_state_claim = 230
+			add_state_claim = 1004
+			add_state_claim = 1223
+			add_state_claim = 1003
+			add_state_claim = 1222
 			add_state_claim = 229
-			add_state_claim = 233
+			add_state_claim = 1092
+			controls_state = 233
 			if = {
 				limit = {
 					has_global_flag = TUR_soviets_keeping_eye_on_turkey
@@ -8364,10 +8376,20 @@ focus_tree = {
 						any_allied_country = {
 							NOT = { tag = TUR }
 							OR = {
-								controls_state = 231
-								controls_state = 230
-								controls_state = 229
-								controls_state = 233
+							add_state_claim = 1227
+							add_state_claim = 1225
+							add_state_claim = 1002
+							add_state_claim = 1226
+							add_state_claim = 1091
+							add_state_claim = 231
+							add_state_claim = 230
+							add_state_claim = 1004
+							add_state_claim = 1223
+							add_state_claim = 1003
+							add_state_claim = 1222
+							add_state_claim = 229
+							add_state_claim = 1092
+							controls_state = 233
 							}
 						}
 					}
