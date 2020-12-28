@@ -2754,6 +2754,8 @@ focus_tree = {
 				controls_state = 554
 				controls_state = 553
 				controls_state = 680
+				controls_state = 1153
+				controls_state = 1040
 			}
 		}
 
@@ -2766,6 +2768,8 @@ focus_tree = {
 							controls_state = 554
 							controls_state = 553
 							controls_state = 680
+							controls_state = 1153
+							controls_state = 1040
 						}
 						country_event = { id = bftb_turkey.102 }
 					}
