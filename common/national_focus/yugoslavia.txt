@@ -4799,15 +4799,15 @@ focus_tree = {
 						}
 					}
 				}
-				45 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
+					45 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			}
 
 			if = {
 				limit = {
@@ -4821,15 +4821,15 @@ focus_tree = {
 						}
 					}
 				}
-				105 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
+					105 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			}
 
 			if = {
 				limit = {
@@ -4843,15 +4843,15 @@ focus_tree = {
 						}
 					}
 				}
-				940 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
+					940 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			}
 
 			if = {
 				limit = {
@@ -4865,15 +4865,15 @@ focus_tree = {
 						}
 					}
 				}
-				105 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
+					105 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			}
 
 			if = {
 				limit = {
@@ -4887,15 +4887,15 @@ focus_tree = {
 						}
 					}
 				}
-				107 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
+					107 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			}
 
 			if = {
 				limit = {
@@ -4909,15 +4909,15 @@ focus_tree = {
 						}
 					}
 				}
-				108 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
+					108 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
-			}
 			
 			if = {
 				limit = {
@@ -4931,15 +4931,15 @@ focus_tree = {
 						}
 					}
 				}
-			872 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
+					872 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
 				}
-			}
-		}
 
 		if = {
 			limit = {
@@ -4953,12 +4953,13 @@ focus_tree = {
 					}
 				}
 			}
-			764 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
+				764 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
 				}
 			}
 		}
