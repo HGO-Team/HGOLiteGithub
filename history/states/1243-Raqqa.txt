@@ -1,0 +1,24 @@
+state={
+	id=1243
+	name="STATE_1243"
+
+	history={
+		owner = FRA
+		victory_points = {
+			1606 1 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		901 1578 1606 1634 6883 10882 
+	}
+	manpower=350500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
