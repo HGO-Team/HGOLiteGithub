@@ -16,6 +16,9 @@ state={
 
 		}
 		victory_points = {
+			1086 1 
+		}
+		victory_points = {
 			4206 1 
 		}
 		add_core_of = PAL
@@ -24,9 +27,9 @@ state={
 	}
 
 	provinces={
-		1065 1201 4206 13412
+		1 1015 1065 1086 1201 4088 4206 7107 7176 11970 
 	}
-	manpower=413122
+	manpower=513122
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
