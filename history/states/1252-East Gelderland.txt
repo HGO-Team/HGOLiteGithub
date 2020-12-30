@@ -8,13 +8,13 @@ state={
 		owner = HOL
 		add_core_of = HOL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 6
 			
 		}
 	}
 	provinces={
 		13422 13423
 	}
-	manpower=1000
+	manpower=372678
 	buildings_max_level_factor=1.000
 }

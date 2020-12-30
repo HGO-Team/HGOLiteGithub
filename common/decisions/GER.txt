@@ -803,11 +803,11 @@ GER_reichskommissariats = {
 				transfer_state = 1005
 				transfer_state = 1091
 				transfer_state = 1092
-				controls_state = 1222
-				controls_state = 1223
-				controls_state = 1226
-				controls_state = 1225
-				controls_state = 1227
+				transfer_state = 1222
+				transfer_state = 1223
+				transfer_state = 1226
+				transfer_state = 1225
+				transfer_state = 1227
 				GER = {
 					puppet = RKK
 					set_autonomy = { target = RKK autonomy_state = autonomy_integrated_puppet }
