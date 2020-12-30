@@ -1256,6 +1256,20 @@ form_ottoman_empire_category = {
 				291 = { add_core_of = ROOT }
 				946 = { add_core_of = ROOT }
 				945 = { add_core_of = ROOT }
+				1247 = { add_core_of = ROOT }
+				1243 = { add_core_of = ROOT }
+				1244 = { add_core_of = ROOT }
+				1245 = { add_core_of = ROOT }
+				1246 = { add_core_of = ROOT }
+				1241 = { add_core_of = ROOT }
+				1240 = { add_core_of = ROOT }
+				1239 = { add_core_of = ROOT }
+				1232 = { add_core_of = ROOT }
+				1233 = { add_core_of = ROOT }
+				1234 = { add_core_of = ROOT }
+				1236 = { add_core_of = ROOT }
+				1235 = { add_core_of = ROOT }
+				1238 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_persia_france_coring_states_tt
@@ -1480,6 +1494,10 @@ form_ottoman_empire_category = {
 				#103 = { add_core_of = ROOT }
 				#939 = { add_core_of = ROOT }
 				1204 = { add_core_of = ROOT }
+				1228 = { add_core_of = ROOT }
+				1229 = { add_core_of = ROOT }
+				1230 = { add_core_of = ROOT }
+				1231 = { add_core_of = ROOT }
 			}
 			44 = { add_core_of = ROOT }
 			1045 = { add_core_of = ROOT }
@@ -1731,6 +1749,10 @@ form_ottoman_empire_category = {
 				877 = { add_core_of = ROOT }
 				1153 = { add_core_of = ROOT }
 				1040 = { add_core_of = ROOT }
+				1242 = { add_core_of = ROOT }
+				1243 = { add_core_of = ROOT }
+				1241 = { add_core_of = ROOT }
+				1240 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = ottoman_syria_flag
@@ -1781,10 +1803,12 @@ form_ottoman_empire_category = {
 		complete_effect = {
 			454 = { add_core_of = ROOT }
 			455 = { add_core_of = ROOT }
+			1238 = { add_core_of = ROOT }
 			553 = { add_core_of = ROOT }
 			1117 = { add_core_of = ROOT }
 			1118 = { add_core_of = ROOT }
 			947 = { add_core_of = ROOT }
+			1239 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = ottoman_levant_flag
 			}
@@ -1845,6 +1869,10 @@ form_ottoman_empire_category = {
 				945 = { add_core_of = ROOT }
 				946 = { add_core_of = ROOT }
 				1154 = { add_core_of = ROOT }
+				1244 = { add_core_of = ROOT }
+				1245 = { add_core_of = ROOT }
+				1246 = { add_core_of = ROOT }
+				1247 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = ottoman_mesopotamia_flag
@@ -2029,6 +2057,7 @@ form_ottoman_empire_category = {
 			873 = { add_core_of = ROOT }
 			874 = { add_core_of = ROOT }
 			995 = { add_core_of = ROOT }
+			1237 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = ottoman_egypt_flag
 			}
@@ -2993,6 +3022,8 @@ form_roman_empire_category = {
 				# Some Albanian states
 				44 = { add_core_of = ROOT }
 				1045 = { add_core_of = ROOT }
+				1228 = { add_core_of = ROOT }
+				1229 = { add_core_of = ROOT }
 				# Some Andorra states
 				824 = { add_core_of = ROOT }
 				# Some Liechtenstein states
@@ -3034,6 +3065,8 @@ form_roman_empire_category = {
 				1189 = { add_core_of = ROOT }
 				1190 = { add_core_of = ROOT }
 				1204 = { add_core_of = ROOT }
+				1230 = { add_core_of = ROOT }
+				1231 = { add_core_of = ROOT }
 			}
 			# Greece
 			custom_effect_tooltip = form_country_greece_coring_states_tt
@@ -3118,6 +3151,12 @@ form_roman_empire_category = {
 				1091 = { add_core_of = ROOT }
 				231 = { add_core_of = ROOT }
 				1002 = { add_core_of = ROOT }
+				1224 = { add_core_of = ROOT }
+				1227 = { add_core_of = ROOT }
+				1225 = { add_core_of = ROOT }
+				1226 = { add_core_of = ROOT }
+				1222 = { add_core_of = ROOT }
+				1223 = { add_core_of = ROOT }
 			}
 			# Iraq
 			custom_effect_tooltip = form_country_iraq_coring_states_tt
@@ -3132,6 +3171,21 @@ form_roman_empire_category = {
 				679 = { add_core_of = ROOT }
 				1152 = { add_core_of = ROOT }
 				1151 = { add_core_of = ROOT }
+				1247 = { add_core_of = ROOT }
+				1243 = { add_core_of = ROOT }
+				1244 = { add_core_of = ROOT }
+				1245 = { add_core_of = ROOT }
+				1246 = { add_core_of = ROOT }
+				1241 = { add_core_of = ROOT }
+				1240 = { add_core_of = ROOT }
+				1239 = { add_core_of = ROOT }
+				1232 = { add_core_of = ROOT }
+				1233 = { add_core_of = ROOT }
+				1234 = { add_core_of = ROOT }
+				1236 = { add_core_of = ROOT }
+				1235 = { add_core_of = ROOT }
+				1238 = { add_core_of = ROOT }
+				1242 = { add_core_of = ROOT }
 			}
 			# Switzerland
 			custom_effect_tooltip = form_country_switzerland_coring_states_tt
@@ -3293,6 +3347,7 @@ form_roman_empire_category = {
 				118 = { add_core_of = ROOT }
 				116 = { add_core_of = ROOT }
 				974 = { add_core_of = ROOT }
+				1237 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.64 hours = 6 }
@@ -4613,6 +4668,20 @@ form_arabia_category = {
 				946 = { add_core_of = ROOT }
 				945 = { add_core_of = ROOT }
 				1154 = { add_core_of = ROOT }
+				1247 = { add_core_of = ROOT }
+				1243 = { add_core_of = ROOT }
+				1244 = { add_core_of = ROOT }
+				1245 = { add_core_of = ROOT }
+				1246 = { add_core_of = ROOT }
+				1241 = { add_core_of = ROOT }
+				1240 = { add_core_of = ROOT }
+				1239 = { add_core_of = ROOT }
+				1232 = { add_core_of = ROOT }
+				1233 = { add_core_of = ROOT }
+				1234 = { add_core_of = ROOT }
+				1236 = { add_core_of = ROOT }
+				1235 = { add_core_of = ROOT }
+				1238 = { add_core_of = ROOT }
 			}
 			# Saudi Arabia
 			custom_effect_tooltip = form_country_saudi_coring_states_tt
@@ -4684,6 +4753,7 @@ form_arabia_category = {
 				1173 = { add_core_of = ROOT }
 				786 = { add_core_of = ROOT }
 				557 = { add_core_of = ROOT }
+				1242 = { add_core_of = ROOT }
 			}
 			# Britain
 			custom_effect_tooltip = form_arabia_britain_coring_states_tt
@@ -4716,6 +4786,7 @@ form_arabia_category = {
 				1087 = { add_core_of = ROOT }
 				767 = { add_core_of = ROOT }
 				549 = { add_core_of = ROOT }
+				1237 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.67 hours = 6 }
@@ -5563,6 +5634,22 @@ form_andalusia_category = {
 				291 = { add_core_of = ROOT }
 				945 = { add_core_of = ROOT }
 				946 = { add_core_of = ROOT }
+				1247 = { add_core_of = ROOT }
+				1243 = { add_core_of = ROOT }
+				1244 = { add_core_of = ROOT }
+				1245 = { add_core_of = ROOT }
+				1246 = { add_core_of = ROOT }
+				1241 = { add_core_of = ROOT }
+				1240 = { add_core_of = ROOT }
+				1239 = { add_core_of = ROOT }
+				1232 = { add_core_of = ROOT }
+				1233 = { add_core_of = ROOT }
+				1234 = { add_core_of = ROOT }
+				1236 = { add_core_of = ROOT }
+				1235 = { add_core_of = ROOT }
+				1238 = { add_core_of = ROOT }
+				1248 = { add_core_of = ROOT }
+				1249 = { add_core_of = ROOT }
 				# Saudi Arabia
 				292 = { add_core_of = ROOT }
 				679 = { add_core_of = ROOT }
@@ -5599,6 +5686,7 @@ form_andalusia_category = {
 				1039 = { add_core_of = YEM }
 				1040 = { add_core_of = ROOT }
 				876 = { add_core_of = ROOT }
+				1242 = { add_core_of = ROOT }
 				# Egypt
 				552 = { add_core_of = ROOT }
 				453 = { add_core_of = ROOT }
@@ -5608,7 +5696,16 @@ form_andalusia_category = {
 				452 = { add_core_of = ROOT }
 				447 = { add_core_of = ROOT }
 				995 = { add_core_of = ROOT }
+				1237 = { add_core_of = ROOT }
 				set_global_flag = restored_umayyad_flag
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						998 = { is_core_of = LIB }
+					}
+					998 = { add_core_of = ROOT }
+				}
 			}
 		}
 
@@ -5764,14 +5861,19 @@ form_andalusia_category = {
 				229 = { add_core_of = ROOT }
 				1004 = { add_core_of = ROOT }
 				1005 = { add_core_of = ROOT }
+				1222 = { add_core_of = ROOT }
 				# Armenia
 				230 = { add_core_of = ROOT }
 				1003 = { add_core_of = ROOT }
+				1223 = { add_core_of = ROOT }
 				# Georgia
 				231 = { add_core_of = ROOT }
 				1002 = { add_core_of = ROOT }
 				1091 = { add_core_of = ROOT }
 				1092 = { add_core_of = ROOT }
+				1225 = { add_core_of = ROOT }
+				1226 = { add_core_of = ROOT }
+				1227 = { add_core_of = ROOT }
 				# Grozny
 				232 = { add_core_of = ROOT }
 				233 = { add_core_of = ROOT }
@@ -5785,6 +5887,7 @@ form_andalusia_category = {
 				1001 = { add_core_of = ROOT }
 				960 = { add_core_of = ROOT }
 				959 = { add_core_of = ROOT }
+				1224 = { add_core_of = ROOT }
 				hidden_effect = { set_global_flag = andalusia_north_expansion_flag }
 			}
 		}
