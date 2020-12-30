@@ -1,20 +1,20 @@
 state={
-	id=1251
-	name="STATE_1251"
+	id=1254
+	name="STATE_1254"
 	
 	state_category = rural
 	
 	history={
-		owner = CZE
-		add_core_of = CZE
-		add_core_of = SLO
+		owner = BEL
+		add_core_of = BEL
+		add_core_of = WLL
 		buildings = {
 			infrastructure = 2
 			
 		}
 	}
 	provinces={
-		13421
+		13425
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000
