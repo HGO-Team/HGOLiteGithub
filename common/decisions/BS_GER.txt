@@ -142,7 +142,7 @@ GER_reichsprotektorat = {
 			controls_state = 9
 			controls_state = 75
 			controls_state = 885
-			#controls_state = 1171
+			controls_state = 1171
 		}
 
 		cost = 0
@@ -155,7 +155,7 @@ GER_reichsprotektorat = {
 			controls_state = 9
 			controls_state = 75
 			controls_state = 885
-			#controls_state = 1171
+			controls_state = 1171
 		}
 		
 		complete_effect = {
@@ -165,7 +165,7 @@ GER_reichsprotektorat = {
 				transfer_state = 9
 				transfer_state = 75
 				transfer_state = 885
-				#transfer_state = 1171
+				transfer_state = 1171
 				GER = {
 					puppet = PBM
 					set_autonomy = { target = PBM autonomy_state = autonomy_reichsprotectorate }
@@ -241,7 +241,7 @@ GER_reichsprotektorat = {
 			controls_state = 92
 			controls_state = 90
 			controls_state = 88
-			#controls_state = 1138
+			controls_state = 1138
 			#controls_state = 996
 			#controls_state = 91
 			#controls_state = 89
@@ -261,7 +261,7 @@ GER_reichsprotektorat = {
 			controls_state = 92
 			controls_state = 90
 			controls_state = 88
-			#controls_state = 1138
+			controls_state = 1138
 			#controls_state = 996
 			#controls_state = 91
 			#controls_state = 89
@@ -278,7 +278,7 @@ GER_reichsprotektorat = {
 				transfer_state = 92
 				transfer_state = 90
 				transfer_state = 88
-				#transfer_state = 1138
+				transfer_state = 1138
 				#transfer_state = 91
 				#transfer_state = 89
 				#transfer_state = 996

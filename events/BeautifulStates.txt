@@ -438,6 +438,8 @@ country_event = {  #German-Slovak Treaty
 		has_global_flag = GER_slovakia_become_puppet
 		NOT = { has_global_flag = schutzzone_occupied }
 		SLO = { controls_state = 889 }
+		SLO = { controls_state = 1250 }
+		SLO = { controls_state = 1251 }
 		has_game_rule = {
 			rule = allow_bs_extra
 			option = BS_ALLOWED
@@ -448,8 +450,17 @@ country_event = {  #German-Slovak Treaty
 	
 	option = {	#Occupy Schutzzone
 		name = bs.5.a
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 10
+				is_historical_focus_on = yes
+			}
+		}
 
 		transfer_state = 889
+		transfer_state = 1250
+		transfer_state = 1251
 
 		hidden_effect = {
 			set_global_flag = schutzzone_occupied
@@ -459,6 +470,13 @@ country_event = {  #German-Slovak Treaty
 	
 	option = {	#do nothing
 		name = bs.5.b
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				is_historical_focus_on = no
+			}
+		}
 		
 	}
 }

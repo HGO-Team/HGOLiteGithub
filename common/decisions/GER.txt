@@ -507,9 +507,10 @@ GER_reichskommissariats = {
 			controls_state = 36
 			controls_state = 1058
 			controls_state = 1059
-			#controls_state = 1060
+			controls_state = 1060
 			controls_state = 1061
 			controls_state = 1062
+			controls_state = 1252
 		}
 
 		cost = 0
@@ -536,9 +537,10 @@ GER_reichskommissariats = {
 				transfer_state = 36
 				transfer_state = 1058
 				transfer_state = 1059
-				#transfer_state = 1060
+				transfer_state = 1060
 				transfer_state = 1061
 				transfer_state = 1062
+				transfer_state = 1252
 			}
 			GER = {
 				puppet = NID
@@ -560,6 +562,8 @@ GER_reichskommissariats = {
 			controls_state = 34
 			controls_state = 813
 			controls_state = 1182
+			controls_state = 1253
+			controls_state = 1254
 		}
 
 		cost = 0
@@ -587,6 +591,8 @@ GER_reichskommissariats = {
 				transfer_state = 34
 				transfer_state = 813
 				transfer_state = 1182
+				transfer_state = 1253
+				transfer_state = 1254
 			}
 			GER = {
 				puppet = BNF
