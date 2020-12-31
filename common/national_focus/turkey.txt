@@ -8069,6 +8069,7 @@ focus_tree = {
 		completion_reward = {
 			164 = { add_core_of = TUR } 
 			183 = { add_core_of = TUR } 
+			952 = { add_core_of = TUR } 
 			GRE = {
 				add_opinion_modifier = {
 					target = TUR
@@ -8492,6 +8493,11 @@ focus_tree = {
 			add_state_core = 420
 			add_state_core = 419
 			add_state_core = 417
+			add_state_core = 1005
+			add_state_core = 1222
+			add_state_core = 1092
+			add_state_core = 1004
+			add_state_core = 1003
 			add_state_claim = 413
 			add_state_claim = 232
 			if = {
@@ -8642,6 +8648,9 @@ focus_tree = {
 			add_state_claim = 680
 			add_state_claim = 291
 			add_state_core = 676
+			add_state_core = 1005
+			add_state_core = 1222
+			add_state_core = 1004
 			if = {
 				limit = {
 					has_global_flag = TUR_soviets_keeping_eye_on_turkey
