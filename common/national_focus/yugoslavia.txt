@@ -1157,11 +1157,11 @@ focus_tree = {
 				}
 				45 = {
 					remove_core_of = ROOT
-					add_core_of = ROM
+					add_core_of = HUN
 				}
 				868 = {
 					remove_core_of = ROOT
-					add_core_of = ROM
+					add_core_of = HUN
 				}
 			}
 			hidden_effect = { 
