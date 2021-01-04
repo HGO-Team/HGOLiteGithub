@@ -234,6 +234,26 @@ on_actions = {
 					}
 					do_swiss_renames = yes
 				}
+
+				### EST ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = EST
+						}
+					}
+					do_estonian_renames = yes
+				}
+
+				### FIN ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = FIN
+						}
+					}
+					do_finnish_renames = yes
+				}
 			}
 		}
 	}

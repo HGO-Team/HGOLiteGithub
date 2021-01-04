@@ -998,6 +998,13 @@ do_german_renames = {
 		}
 		set_state_name = "Welschland"
 	}
+
+	if = {
+		limit = {
+			state = 1255
+		}
+		set_state_name = "Legionowo"
+	}
 }
 
 do_polish_renames = {
@@ -1530,6 +1537,20 @@ do_polish_renames = {
 			state = 1205
 		}
 		set_state_name = "Oszmiana"
+	}
+
+	if = {
+		limit = {
+			state = 1255
+		}
+		set_state_name = "Legionowo"
+	}
+	
+	if = {
+		limit = {
+			state = 879
+		}
+		set_state_name = "Suwałki"
 	}
 }
 
@@ -2221,6 +2242,108 @@ do_soviet_renames = {
 		}
 		set_state_name = "Oshmyány"
 	}
+
+	if = {
+		limit = {
+			state = 1255
+		}
+		set_state_name = "Legionovo"
+	}
+	
+	if = {
+		limit = {
+			state = 879
+		}
+		set_state_name = "Suvalki"
+	}
+	
+	if = {
+		limit = {
+			state = 11
+		}
+		set_province_name = {
+			id = 6296
+			name = "Kovno"
+		}
+		set_state_name = "Kovno"
+	}
+	
+	if = {
+		limit = {
+			state = 189
+		}
+		set_province_name = {
+			id = 6314
+			name = "Polangen"
+		}
+		set_province_name = {
+			id = 9483
+			name = "Shyaulyáy"
+		}
+		set_state_name = "Shyaulyáy"
+	}
+
+	if = {
+		limit = {
+			state = 13
+		}		
+		set_province_name = {
+			id = 3152
+			name = "Tallin"
+		}
+		set_state_name = "Khar'yu"
+	}
+	
+	if = {
+		limit = {
+			state = 191
+		}		
+		set_province_name = {
+			id = 9221
+			name = "Yur′yev"
+		}
+		set_state_name = "Yur'yev"
+	}
+	
+	if = {
+		limit = {
+			state = 882
+		}
+		set_state_name = "Syaere-Khiyu"
+	}
+	
+	if = {
+		limit = {
+			state = 146
+		}		
+		set_province_name = {
+			id = 9206
+			name = "Vyborg"
+		}
+		set_state_name = "Kareliya"
+	}
+	
+	if = {
+		limit = {
+			state = 147
+		}		
+		set_province_name = {
+			id = 197
+			name = "Kuolojarvi"
+		}
+		set_state_name = "Kuolojarvi"
+	}
+	
+	if = {
+		limit = {
+			state = 147
+		}		
+		set_province_name = {
+			id = 11142
+			name = "Níkel'"
+		}
+		set_state_name = "Péchengskiy"
+	}
 }
 
 do_west_east_berlin_renames = {
@@ -2378,6 +2501,24 @@ do_lithuanian_renames = {
 			name = "Šiauliai"
 		}
 		set_state_name = "Šiauliai"
+	}
+	
+	if = {
+		limit = {
+			state = 879
+		}
+		set_state_name = "Suvalkija"
+	}
+	
+	if = {
+		limit = {
+			state = 11
+		}
+		set_province_name = {
+			id = 6296
+			name = "Kaunas"
+		}
+		set_state_name = "Kaunas"
 	}
 }
 
@@ -2808,5 +2949,87 @@ do_swiss_renames = {
 			name = "Geneve"
 		}
 		set_state_name = "Romandy"
+	}
+}
+
+do_estonian_renames = {
+	
+	if = {
+		limit = {
+			state = 13
+		}		
+		set_province_name = {
+			id = 3152
+			name = "Tallinn"
+		}
+		set_state_name = "Harju"
+	}
+	
+	if = {
+		limit = {
+			state = 890
+		}
+		set_state_name = "Petseri"
+	}
+	
+	if = {
+		limit = {
+			state = 883
+		}
+		set_state_name = "Jaanilinn"
+	}
+	
+	if = {
+		limit = {
+			state = 191
+		}		
+		set_province_name = {
+			id = 9221
+			name = "Tartu"
+		}
+		set_state_name = "Tartu"
+	}
+	
+	if = {
+		limit = {
+			state = 882
+		}
+		set_state_name = "Sääre-Hiiu"
+	}
+}
+
+do_finnish_renames = {
+	
+	if = {
+		limit = {
+			state = 146
+		}		
+		set_province_name = {
+			id = 9206
+			name = "Viipuri"
+		}
+		set_state_name = "Karjala"
+	}
+	
+	if = {
+		limit = {
+			state = 147
+		}		
+		set_province_name = {
+			id = 197
+			name = "Kuolajärvi"
+		}
+		set_state_name = "Kuolajärvi"
+	}
+	
+	if = {
+		limit = {
+			state = 147
+		}		
+		set_province_name = {
+			id = 11142
+			name = "Nikkeli"
+		}
+		set_state_name = "Petsamo"
 	}
 }
