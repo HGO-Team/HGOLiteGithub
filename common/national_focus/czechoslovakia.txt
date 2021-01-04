@@ -248,6 +248,16 @@
 						level < 3
 					}
 				}
+				9 = {
+					any_province_building_level = {
+						province = {
+							id = 9541
+							limit_to_border = yes
+						}
+						building = bunker
+						level < 3
+					}
+				}
 			}
 		}
 
@@ -392,6 +402,21 @@
 						level = 3
 						province = {
 							id = 9539
+							limit_to_border = yes
+							level < 3
+						}
+					}
+				}
+			}
+			
+			if = {
+				limit = { controls_state = 9 }
+				9 = {
+					set_building_level = {
+						type = bunker
+						level = 3
+						province = {
+							id = 9541
 							limit_to_border = yes
 							level < 3
 						}
@@ -527,6 +552,16 @@
 						level < 5
 					}
 				}
+				9 = {
+					any_province_building_level = {
+						province = {
+							id = 9541
+							limit_to_border = yes
+						}
+						building = bunker
+						level < 5
+					}
+				}
 			}
 		}
 
@@ -671,6 +706,21 @@
 						level = 5
 						province = {
 							id = 9539
+							limit_to_border = yes
+							level < 5
+						}
+					}
+				}
+			}
+			
+			if = {
+				limit = { controls_state = 9 }
+				9 = {
+					set_building_level = {
+						type = bunker
+						level = 5
+						province = {
+							id = 9541
 							limit_to_border = yes
 							level < 5
 						}
@@ -805,6 +855,16 @@
 						level < 7
 					}
 				}
+				9 = {
+					any_province_building_level = {
+						province = {
+							id = 9541
+							limit_to_border = yes
+						}
+						building = bunker
+						level < 7
+					}
+				}
 			}
 		}
 
@@ -955,6 +1015,21 @@
 					}
 				}
 			}
+			
+			if = {
+				limit = { controls_state = 9 }
+				9 = {
+					set_building_level = {
+						type = bunker
+						level = 7
+						province = {
+							id = 9541
+							limit_to_border = yes
+							level < 7
+						}
+					}
+				}
+			}
 
 			swap_ideas = {
 				add_idea = CZE_fortification_focus4
@@ -1041,6 +1116,7 @@
 		available = {
 			CZE = { controls_state = 71 }
 			CZE = { controls_state = 72 }
+			CZE = { controls_state = 1250 }
 		}
 
 		bypass = {
@@ -1063,6 +1139,9 @@
 				add_building_construction = { type = bunker province = 3581 level = 2 instant_build = yes }
 				add_building_construction = { type = bunker province = 6604 level = 2 instant_build = yes }
 				add_building_construction = { type = bunker province = 11554 level = 2 instant_build = yes }
+			}
+			1250 = {
+				add_building_construction = { type = bunker province = 13418 level = 2 instant_build = yes }
 			}
 		}
 	}
