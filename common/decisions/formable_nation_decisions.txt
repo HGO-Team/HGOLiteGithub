@@ -2611,6 +2611,23 @@ form_mutapa_category = {
 				544 = { add_core_of = ROOT }
 				1037 = { add_core_of = ROOT }
 				1038 = { add_core_of = ROOT }
+				1128 = { add_core_of = ROOT }
+				1206 = { add_core_of = ROOT }
+				1207 = { add_core_of = ROOT }
+				1208 = { add_core_of = ROOT }
+				1209 = { add_core_of = ROOT }
+				1210 = { add_core_of = ROOT }
+				1211 = { add_core_of = ROOT }
+				1212 = { add_core_of = ROOT }
+				1213 = { add_core_of = ROOT }
+				1214 = { add_core_of = ROOT }
+				1215 = { add_core_of = ROOT }
+				1216 = { add_core_of = ROOT }
+				1217 = { add_core_of = ROOT }
+				1218 = { add_core_of = ROOT }
+				1219 = { add_core_of = ROOT }
+				1220 = { add_core_of = ROOT }
+				1221 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.63 hours = 6 }

@@ -2336,11 +2336,7 @@ do_soviet_renames = {
 	
 	if = {
 		limit = {
-			state = 147
-		}		
-		set_province_name = {
-			id = 11142
-			name = "Níkel'"
+			state = 722
 		}
 		set_state_name = "Péchengskiy"
 	}
@@ -3024,11 +3020,7 @@ do_finnish_renames = {
 	
 	if = {
 		limit = {
-			state = 147
-		}		
-		set_province_name = {
-			id = 11142
-			name = "Nikkeli"
+			state = 722
 		}
 		set_state_name = "Petsamo"
 	}
