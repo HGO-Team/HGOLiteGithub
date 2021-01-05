@@ -1174,6 +1174,24 @@ country_event = {
 				transfer_state = 820
 			}
 		}
+		if = {
+            limit = {
+                806 = { #French Basque Country
+                    OR = {
+                        owner = { original_tag = FRA }
+                        owner = { original_tag = GER } #should never go to Vichy
+                    }
+                    controller = { original_tag = SPR }
+                }
+            }
+            random_other_country = {
+                limit = {
+                    original_tag = SPR
+                    has_war_with = FRA
+                }
+                transfer_state = 806
+            }
+        }
 		FRA = {
 			set_capital = 539
 			hidden_effect = {
@@ -1733,7 +1751,7 @@ country_event = {
 				}
 			}
 		}
-
+		
 		name = france.20.a
 	}
 }
@@ -1777,7 +1795,7 @@ country_event = {
 	title = france.21.t
 	desc = france.21.d
 	picture = GFX_report_event_worker_protests
-
+	
 	is_triggered_only = yes
 
 	option = {
@@ -2271,11 +2289,10 @@ country_event = {
         	expire = "1965.1.1"
         	ideology = liberalism
         	traits = {
-			
             }
 		}
         set_country_flag = daladier_resigned
-    }
+	}
 }
 
 # Hidden event to add AI values for nationalist spain if France is going fascist

@@ -1,4 +1,4 @@
-### search_filters = {FOCUS_FILTER_POLITICAL}
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -40,7 +40,7 @@ focus_tree = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = hjalmar_schacht
 		}
-
+		
 	}
 
 	focus = {
@@ -1402,6 +1402,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_four_year_plan
 		cost = 10
+		
 		ai_will_do = {
 			factor = 9
 		}
@@ -1699,6 +1700,7 @@ focus_tree = {
 				1105 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
+
 						add_building_construction = {
 							type = infrastructure
 							level = 10
@@ -1846,6 +1848,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_four_year_plan
 		cost = 10
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1863,6 +1866,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_grosraumwirtschaft
 		cost = 10
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1926,6 +1930,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_grosraumwirtschaft
 		cost = 10
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -2010,7 +2015,6 @@ focus_tree = {
 		}
 
 		available_if_capitulated = no
-		
 		complete_tooltip = {
 			every_state = {
 				limit = { has_state_flag = GER_integrate_war_economies_1 }
@@ -2071,7 +2075,7 @@ focus_tree = {
 				}
 			}
 		}
-
+		
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			if = {
@@ -2359,7 +2363,7 @@ focus_tree = {
 			custom_effect_tooltip = available_chief_of_airforce
 			show_ideas_tooltip = ritter_von_greim
 		}
-
+		
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			
@@ -2793,6 +2797,7 @@ focus_tree = {
 			}
 		}	
 		completion_reward = {
+		
 			SOV = {
 				country_event = { id = germany.11 days = 1 }
 				custom_effect_tooltip = GER_mol_rib_pact_tt
@@ -4974,7 +4979,7 @@ focus_tree = {
 				transfer_state = 812
 				#transfer_state = 1183
 			}
-			#28 = { set_state_name = "Elsass" } Renames already takes care of this
+			#28 = { set_state_name = "Elsass-Lothringen" } Renames already takes care of this
 			#set_province_name = { id = 9503 name = "Strassburg" } Renames already takes care of this
 			#set_province_name = { id = 678 name = "Mulhausen" } Renames already takes care of this
 			FRA = {
@@ -5752,16 +5757,26 @@ focus_tree = {
 		bypass = {
 			OR = {
 				NOT = {
-					YUG = { 
-					    owns_state = 102
-						owns_state = 934
-						owns_state = 935
-						owns_state = 936
+					OR = {
+						AND = {
+							YUG = { owns_state = 102 }
+							YUG = { owns_state = 934 }
+							YUG = { owns_state = 935 }
+							YUG = { owns_state = 936 }
+							}
+						AND = {
+							102 = { owner = { is_subject_of = YUG } }
+							934 = { owner = { is_subject_of = YUG } }
+							935 = { owner = { is_subject_of = YUG } }
+							936 = { owner = { is_subject_of = YUG } }
+						}
 					}
 				}
 				has_war_with = YUG
 				is_in_faction_with = YUG
 				YUG = { is_subject_of = GER }
+				YUG = { has_non_aggression_pact_with = GER }
+				YUG = { has_opinion_modifier = tripartite_pact_opinion }
 			}
 		}
 		cancel_if_invalid = yes
@@ -5812,29 +5827,79 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			NOT = { is_in_faction_with = YUG }
+			NOT = { YUG = { has_non_aggression_pact_with = GER } }
+			NOT = { YUG = { has_opinion_modifier = tripartite_pact_opinion } }
 			OR = {
 				AND = {
 					country_exists = YUG
 					NOT = { has_war_with = YUG }
-					owns_state = 934
-					owns_state = 935
+					OR = {
+						owns_state = 934
+						934 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 935
+						935 = { owner = { is_subject_of = YUG } }
+					}
 				}
 				AND = {
 					NOT = { country_exists = YUG }
-					owns_state = 934
-					owns_state = 935
-					owns_state = 45
-					owns_state = 868
-					owns_state = 106
-					owns_state = 870
-					owns_state = 103
-					owns_state = 938
-					owns_state = 939
-					owns_state = 1104
-					owns_state = 105
-					owns_state = 878
-					owns_state = 871
-					owns_state = 940
+					OR = {
+						owns_state = 934
+						934 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 935
+						935 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 45
+						45 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 868
+						868 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 106
+						106 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 870
+						870 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 103
+						103 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 938
+						938 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 939
+						939 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 1104
+						1104 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 105
+						105 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 878
+						878 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 871
+						871 = { owner = { is_subject_of = YUG } }
+					}
+					OR = {
+						owns_state = 940
+						940 = { owner = { is_subject_of = YUG } }
+					}
 				}
 			}
 			OR = {
@@ -5850,6 +5915,8 @@ focus_tree = {
 		bypass = {
 			OR = {	
 				is_in_faction_with = YUG
+				YUG = { has_non_aggression_pact_with = GER }
+				YUG = { has_opinion_modifier = tripartite_pact_opinion }
 				NOT = { country_exists = YUG }
 				NOT = {
 					OR = {
@@ -5857,10 +5924,15 @@ focus_tree = {
 							owns_state = 45
 							owns_state = 868
 						}
+						45 = { owner = { is_subject_of = YUG } }
+						868 = { owner = { is_subject_of = YUG } }
+						
 						YUG = {
 							owns_state = 106
 							owns_state = 870
 						}
+						106 = { owner = { is_subject_of = YUG } }
+						870 = { owner = { is_subject_of = YUG } }
 					}
 				}
 				AND = {
@@ -5893,10 +5965,6 @@ focus_tree = {
 							    AND = {
 							        45 = { is_owned_by = YUG }
 									868 = { is_owned_by = YUG }
-								}
-								AND = {
-								    45 = { is_owned_by = GER }
-									868 = { is_owned_by = GER }
 								}
 							}
 						}
@@ -5976,8 +6044,20 @@ focus_tree = {
 						}
 						BUL = {
 							add_opinion_modifier = { target = GER modifier = GER_first_ljubljana_award_GER }
+							if = {
+								limit = {
+									106 = { is_owned_by = YUG }
+									106 = { is_owned_by = GER }
+								}
 							transfer_state = 106
+							}
+							if = {
+								limit = {
+									803 = { is_owned_by = YUG }
+									803 = { is_owned_by = GER }
+								}
 							transfer_state = 870
+							}
 						}
 					}
 				}
@@ -6015,9 +6095,11 @@ focus_tree = {
 							transfer_state = 1104
 						}
 						if = {
-							limit = { 
+							limit = {
 								owns_state = 44
 								owns_state = 1045
+								owns_state = 1228
+								owns_state = 1229
 							}
 							transfer_state = 105
 							transfer_state = 940
@@ -6304,7 +6386,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		ai_will_do = {
-			factor = 1
+			factor = 7
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
@@ -6630,6 +6712,7 @@ focus_tree = {
 			}
 			add_ideas = GER_rebuild_the_high_seas_fleet
 		}
+		
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			navy_experience = 50
@@ -6732,6 +6815,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 9
 		}
+		
 		complete_tooltip = {
 			navy_experience = 50
 			every_state = {
@@ -6856,7 +6940,7 @@ focus_tree = {
 				target = FRA
 				expire = 0
 			}
-            if = {
+			if = {
 				limit = {
 					BEL = {
 						OR = {
@@ -6898,7 +6982,7 @@ focus_tree = {
 					generator = { 541 }
 				}
 			}
-            if = {
+			if = {
 				limit = {
 					country_exists = CMR
 				}
@@ -7021,6 +7105,7 @@ focus_tree = {
 			}
 			add_state_claim = 918
 			add_state_claim = 523
+			add_state_claim = 773
 			add_state_claim = 541
 			add_state_claim = 546
 			add_state_claim = 737
@@ -7031,7 +7116,7 @@ focus_tree = {
 			add_state_claim = 726
 			add_state_claim = 777
 			add_state_claim = 768
-			add_state_claim = 773
+			add_state_claim = 769
 			add_state_claim = 897
 			add_state_claim = 896
 			add_state_claim = 899
@@ -8175,13 +8260,7 @@ focus_tree = {
 				idea = GER_reestablish_free_elections
 				days = 720
 			}
-			add_popularity = { ideology = democratic popularity = 0.1 }
 			set_party_name = { ideology = neutrality long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }
-			set_politics = {
-				ruling_party = democratic
-				elections_allowed = yes
-			}
-			country_event = { id = bs_ger.3 }
 		}
 	}
 
@@ -8203,6 +8282,12 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 		completion_reward = {
+			add_popularity = { ideology = democratic popularity = 0.1 }
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
+			country_event = { id = bs_ger.3 }
 			add_ideas = { GER_wilhelm_iii }
 			add_stability = 0.05
 			hidden_effect = {

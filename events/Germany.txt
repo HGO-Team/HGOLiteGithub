@@ -1767,6 +1767,26 @@ country_event = {
 				}
 			}
 		}
+		if = {
+			limit = {
+				YUG = { is_guaranteed_by = FRA }
+			}
+			FRA = {
+				diplomatic_relation = {
+   					country = YUG
+   					relation = guarantee
+   					active = no
+  				}
+  				add_ai_strategy = {
+					type = ignore
+					id = "YUG"
+					value = 100
+				}
+			}
+			YUG = {
+				add_opinion_modifier = { target = FRA modifier = western_betrayal }
+			}
+		}
 	}
 	option = { # Support the Czechs alone
 		name = germany.41.b	
@@ -2015,6 +2035,26 @@ country_event = {
 					id = "CZE"
 					value = 100
 				}
+			}
+		}
+		if = {
+			limit = {
+				YUG = { is_guaranteed_by = FRA }
+			}
+			FRA = {
+				diplomatic_relation = {
+   					country = YUG
+   					relation = guarantee
+   					active = no
+  				}
+  				add_ai_strategy = {
+					type = ignore
+					id = "YUG"
+					value = 100
+				}
+			}
+			YUG = {
+				add_opinion_modifier = { target = FRA modifier = western_betrayal }
 			}
 		}
 		CZE = {
@@ -2317,6 +2357,7 @@ country_event = {
 		set_country_flag = sudetenland_acquired
 		add_war_support = 0.1
 		add_stability = 0.05
+		play_peace_in_our_time_effect = yes
 		USA = {
 			set_country_flag = { flag = USA_munich_window days = 60 value = 1 }
 		}
@@ -4801,15 +4842,15 @@ country_event = {
 
 # Germany (Yugoslavia Surrenders Slovenia)
 country_event = {
-	id = germany.940
-	title = germany.940.t
-	desc = germany.940.d
+	id = germany.94
+	title = germany.94.t
+	desc = germany.94.d
 	picture = GFX_report_event_german_politician_speech
 	
 	is_triggered_only = yes
 	
 	option = {               #Divide with Italy and Hungary
-		name = germany.940.a
+		name = germany.94.a
 		ai_chance = { factor = 40 }
 		GER = { 
 		    transfer_state = 934
@@ -4828,7 +4869,7 @@ country_event = {
 	}
 	
 	option = {
-		name = germany.940.b #Take All
+		name = germany.94.b #Take All
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -4895,10 +4936,25 @@ country_event = {
 	
 	option = {
 		name = germany.95.a
+		if = {
+			limit = {
+				YUG = { owns_state = 102 }
+				YUG = { owns_state = 934 }
+				YUG = { owns_state = 935 }
+				YUG = { owns_state = 936 }
+			}
 		create_wargoal = {
 			type = take_state_focus
 			target = YUG
 			generator = { 102 934 935 936 }
+			}
+		}
+		else = {
+			create_wargoal = {
+				type = take_state_focus
+				target = SLV
+				generator = { 102 }
+			}
 		}
 		hidden_effect = {
 			news_event = { id = news.166 hours = 6 }
@@ -5320,6 +5376,8 @@ country_event = {
 				news_event = { hours = 6 id = news.169 }
 			}
 		}
+		
+
 		custom_effect_tooltip = yugoslavia_mefo_bills_tt
 		add_to_variable = { var = GER_mefo_bill_counter value = -5 }
 		GER_mefo_bills_level_down = yes
@@ -5341,6 +5399,7 @@ country_event = {
 		name = germany.99.a
 
 		ITA = { add_opinion_modifier = { target = GER modifier = GER_second_ljubljana_award_GER } }
+
 		if = {
 			limit = {
 				GRE = { owns_state = 185 }
