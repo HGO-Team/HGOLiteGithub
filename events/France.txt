@@ -565,10 +565,10 @@ country_event = {
 						owner = { original_tag = FRA }
 						is_controlled_by = ITA
 					}
-					1148 = { #Alpes
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
+					#1148 = { #Alpes
+						#owner = { original_tag = FRA }
+						#is_controlled_by = ITA
+					#}
 				}
 			}
 			ITA = { transfer_state = 32 }
@@ -639,17 +639,17 @@ country_event = {
 			}
 			ITA = { transfer_state = 1147 }
 		}
-		if = {
-			limit = {
-				AND = {
-					1148 = { #Savoy
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 1148 }
-		}
+		#if = {
+			#limit = {
+				#AND = {
+					#1148 = { #Savoy
+						#owner = { original_tag = FRA }
+						#is_controlled_by = ITA
+					#}
+				#}
+			#}
+			#ITA = { transfer_state = 1148 }
+		#}
 		if = {
 			limit = {
 				AND = {
@@ -853,7 +853,7 @@ country_event = {
 				ideology = fascism
 				size = 0.9
 				capital = 26
-				states = { 26 21 822 22 31 820 25 20 1185 32 33 1 735 1132 821 823 677 680 1040 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 1147 1148}
+				states = { 26 21 822 22 31 820 25 20 1185 32 33 1 735 1132 821 823 677 680 1040 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 1147} #1148
 				states_filter = {
 					owner = { original_tag = FRA }
 					OR = {		
@@ -1028,10 +1028,10 @@ country_event = {
 						owner = { original_tag = FRA }
 						is_controlled_by = ITA
 					}					
-					1148 = { #Savoy
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
+					#1148 = { #Savoy
+						#owner = { original_tag = FRA }
+						#is_controlled_by = ITA
+					#}
 					823 = { #Savoy
 						owner = { original_tag = FRA }
 						is_controlled_by = ITA
@@ -1130,17 +1130,17 @@ country_event = {
 			}
 			ITA = { transfer_state = 1147 }
 		}
-		if = {
-			limit = {
-				AND = {
-					1148 = { #Savoy
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 1148 }
-		}
+		#if = {
+			#limit = {
+				#AND = {
+					#1148 = { #Savoy
+						#owner = { original_tag = FRA }
+						#is_controlled_by = ITA
+					#}
+				#}
+			#}
+			#ITA = { transfer_state = 1148 }
+		#}
 		if = {
 			limit = {
 				AND = {
@@ -1346,7 +1346,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.5
 				capital = 26
-				states = { 26 21 822 22 31 820 25 20 1185 32 33 1 735 1132 821 823 677 680 1040 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 1147 1148}
+				states = { 26 21 822 22 31 820 25 20 1185 32 33 1 735 1132 821 823 677 680 1040 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 1147} #1148
 				states_filter = {
 					owner = { original_tag = FRA }
 					OR = {		
@@ -1466,7 +1466,7 @@ country_event = {
 							state = 823
 							state = 1132
 							state = 1147
-							state = 1148
+							#state = 1148
 							state = 21
 							state = 32
 							state = 20
@@ -1510,7 +1510,7 @@ country_event = {
 		                        state = 823
 								state = 1132
 								state = 1147
-								state = 1148
+								#state = 1148
 							}
 							has_state_flag = vichy_italian_conquest
 						}
@@ -2169,10 +2169,10 @@ country_event = {
 				limit = { has_global_flag = ITA_claims_on_france_1147 }
 				ITA = { transfer_state = 1147 }
 			}
-			if = {
-				limit = { has_global_flag = ITA_claims_on_france_1148 }
-				ITA = { transfer_state = 1148 }
-			}
+			#if = {
+				#limit = { has_global_flag = ITA_claims_on_france_1148 }
+				#ITA = { transfer_state = 1148 }
+			#}
 		}
 
 		if = {

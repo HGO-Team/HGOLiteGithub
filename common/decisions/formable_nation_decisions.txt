@@ -979,8 +979,8 @@ form_united_netherlands_category = {
 				813 = { add_core_of = ROOT }
 				812 = { add_core_of = ROOT }
 				8 = { add_core_of = ROOT }
-				1253 = { add_core_of = ROOT }
-				1254 = { add_core_of = ROOT }
+				#1253 = { add_core_of = ROOT }
+				#1254 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.58 hours = 6 }
@@ -2377,8 +2377,8 @@ form_european_union_category = {
 				813 = { add_core_of = ROOT }
 				812 = { add_core_of = ROOT }			
 				8 = { add_core_of = ROOT }
-				1253 = { add_core_of = ROOT }
-				1254 = { add_core_of = ROOT }
+				#1253 = { add_core_of = ROOT }
+				#1254 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_eu_france_coring_states_tt
@@ -2421,7 +2421,7 @@ form_european_union_category = {
 				822 = { add_core_of = ROOT }
 				823 = { add_core_of = ROOT }
 				1147 = { add_core_of = ROOT }
-				1148 = { add_core_of = ROOT }
+				#1148 = { add_core_of = ROOT }
 				1194 = { add_core_of = ROOT }
 				1184 = { add_core_of = ROOT }
 				1183 = { add_core_of = ROOT }
@@ -3230,8 +3230,8 @@ form_roman_empire_category = {
 				812 = { add_core_of = ROOT }
 				813 = { add_core_of = ROOT }
 				1182 = { add_core_of = ROOT }
-				1253 = { add_core_of = ROOT }
-				1254 = { add_core_of = ROOT }		
+				#1253 = { add_core_of = ROOT }
+				#1254 = { add_core_of = ROOT }		
 			}
 			# Italian North Africa
 			custom_effect_tooltip = form_spqr_italy_coring_states_tt
@@ -3325,7 +3325,7 @@ form_roman_empire_category = {
 				821 = { add_core_of = ROOT }
 				822 = { add_core_of = ROOT }
 				823 = { add_core_of = ROOT }
-				1148 = { add_core_of = ROOT }
+				#1148 = { add_core_of = ROOT }
 				1147 = { add_core_of = ROOT }
 				1186 = { add_core_of = ROOT }
 				1194 = { add_core_of = ROOT }
@@ -5221,8 +5221,8 @@ form_hre_category = {
 				812 = { add_core_of = ROOT }
 				813 = { add_core_of = ROOT }
 				1182 = { add_core_of = ROOT }
-				1253 = { add_core_of = ROOT }
-				1254 = { add_core_of = ROOT }
+				#1253 = { add_core_of = ROOT }
+				#1254 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.70 hours = 6 }
@@ -7068,6 +7068,7 @@ form_turan_category = {
 				controls_state = 732
 				controls_state = 742
 				controls_state = 589
+				controls_state = 1148
 				controls_state = 588
 				controls_state = 590
 				controls_state = 570
@@ -7186,6 +7187,7 @@ form_turan_category = {
 				732 = { add_core_of = TUR }
 				742 = { add_core_of = TUR }
 				589 = { add_core_of = TUR }
+				1148 = { add_core_of = TUR }
 				588 = { add_core_of = TUR }
 				590 = { add_core_of = TUR }
 				1130 = { add_core_of = TUR }

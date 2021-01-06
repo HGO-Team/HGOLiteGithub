@@ -2104,7 +2104,7 @@
 					owns_state = 1
 					owns_state = 821
 					owns_state = 823
-					owns_state = 1148
+					#owns_state = 1148
 					owns_state = 735
 					owns_state = 1132
 					owns_state = 458
@@ -2141,7 +2141,7 @@
 				target = FRA
 				type = take_state_focus
 				expire = 0
-				generator = { 1 735 1132 458 821 823 825 1148 }
+				generator = { 1 735 1132 458 821 823 825 } #1148
 			}
 		}
 	}	
@@ -2502,8 +2502,8 @@
 					controls_state = 821
 					owns_state = 823
 					controls_state = 823
-					owns_state = 1148
-					controls_state = 1148
+					#owns_state = 1148
+					#controls_state = 1148
 					owns_state = 825
 					controls_state = 825
 				}
@@ -2572,16 +2572,16 @@
 				}
 				set_global_flag = ITA_claims_on_france_821
 			}
-			if = {
-				limit = { 
-					any_other_country = {
-						original_tag = FRA
-						has_government = fascism
-						owns_state = 1148
-					}
-				}
-				set_global_flag = ITA_claims_on_france_1148
-			}
+			#if = {
+				#limit = { 
+					#any_other_country = {
+						#original_tag = FRA
+						#has_government = fascism
+						#owns_state = 1148
+					#}
+				#}
+				#set_global_flag = ITA_claims_on_france_1148
+			#}
 			if = {
 				limit = { 
 					any_other_country = {
