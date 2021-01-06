@@ -918,7 +918,7 @@ do_german_renames = {
 		set_state_name = "Aschmjany"
 	}
 
-        if = {
+	if = {
 		limit = {
 			state = 102
 		}		
@@ -926,10 +926,10 @@ do_german_renames = {
 			id = 9627
 			name = "Laibach"
 		}
-		set_state_name = "Slowenien"
+		set_state_name = "Unterkrain"
 	}
 	
-        if = {
+	if = {
 		limit = {
 			state = 866
 		}		
@@ -937,7 +937,7 @@ do_german_renames = {
 			id = 599
 			name = "Oberidria"
 		}
-		set_state_name = "Oberistrien"
+		set_state_name = "Oberidria"
 	}
 	
 	 if = {
@@ -1004,6 +1004,35 @@ do_german_renames = {
 			state = 1255
 		}
 		set_state_name = "Legionowo"
+	}
+	
+	if = {
+		limit = {
+			state = 736
+		}		
+		set_province_name = {
+			id = 11735
+			name = "Pola"
+		}
+		set_state_name = "Istrien"
+	}
+	
+	if = {
+		limit = {
+			state = 1066
+		}		
+		set_province_name = {
+			id = 11564
+			name = "Sankt Veit am Flaum"
+		}
+		set_state_name = "Sankt Veit am Flaum"
+	}
+	
+	if = {
+		limit = {
+			state = 936
+		}
+		set_state_name = "Olsnitz"
 	}
 }
 
@@ -2708,6 +2737,87 @@ do_italian_renames = {
 		}
 		set_state_name = "Piedmont"
 	}
+	
+	if = {
+		limit = {
+			state = 866
+		}		
+		set_province_name = {
+			id = 599
+			name = "Idria"
+		}
+		set_state_name = "Idria"
+	}
+	
+	if = {
+		limit = {
+			state = 736
+		}		
+		set_province_name = {
+			id = 11735
+			name = "Pola"
+		}
+		set_state_name = "Istria"
+	}
+	
+	if = {
+		limit = {
+			state = 1066
+		}		
+		set_province_name = {
+			id = 11564
+			name = "Fiume"
+		}
+		set_state_name = "Fiume"
+	}
+	
+	if = {
+		limit = {
+			state = 163
+		}		
+		set_province_name = {
+			id = 11901
+			name = "Zara"
+		}
+		set_state_name = "Zara"
+	}
+	
+	if = {
+		limit = {
+			state = 1104
+		}		
+		set_province_name = {
+			id = 3924
+			name = "Spalato"
+		}
+		set_state_name = "Spalato"
+	}
+	
+	if = {
+		limit = {
+			state = 102
+		}
+		set_province_name = {
+			id = 9627
+			name = "Lubiana"
+		}
+		set_state_name = "Bassa Carniola"
+	}
+	
+	if = {
+		limit = {
+			state = 934
+		}
+		set_province_name = {
+			id = 3631
+			name = "Bleda"
+		}
+		set_province_name = {
+			id = 596
+			name = "Marburgo"
+		}
+		set_state_name = "Alta Carniola"
+	}
 }
 
 do_yugoslavia_renames = {
@@ -2724,7 +2834,7 @@ do_yugoslavia_renames = {
 			id = 596
 			name = "Maribor"
 		}
-		set_state_name = "Upper Carniola"
+		set_state_name = "Gorenjska"
 	}
 	
 	if = {
@@ -2736,13 +2846,75 @@ do_yugoslavia_renames = {
 	
 	if = {
 		limit = {
-			state = 6650
+			state = 102
 		}
 		set_province_name = {
 			id = 9627
 			name = "Ljubljana"
 		}
-		set_state_name = "Slovenia"
+		set_state_name = "Dolenjska"
+	}
+	
+	if = {
+		limit = {
+			state = 866
+		}		
+		set_province_name = {
+			id = 599
+			name = "Idrija"
+		}
+		set_state_name = "Idrija"
+	}
+	
+	if = {
+		limit = {
+			state = 736
+		}		
+		set_province_name = {
+			id = 11735
+			name = "Pula"
+		}
+		set_state_name = "Istra"
+	}
+	
+	if = {
+		limit = {
+			state = 1066
+		}		
+		set_province_name = {
+			id = 11564
+			name = "Rijeka"
+		}
+		set_state_name = "Rijeka"
+	}
+	
+	if = {
+		limit = {
+			state = 163
+		}		
+		set_province_name = {
+			id = 11901
+			name = "Zadar"
+		}
+		set_state_name = "Zadar"
+	}
+	
+	if = {
+		limit = {
+			state = 1104
+		}		
+		set_province_name = {
+			id = 3924
+			name = "Split"
+		}
+		set_state_name = "Split"
+	}
+	
+	if = {
+		limit = {
+			state = 936
+		}
+		set_state_name = "Murska Sobota"
 	}
 }
 
@@ -2921,6 +3093,68 @@ do_hungarian_renames = {
 		}
 		set_state_name = "Burgenland"
 	}
+	
+	if = {
+		limit = {
+			state = 936
+		}
+		set_state_name = "Muraszombat"
+	}
+
+	if = {
+		limit = {
+			state = 76
+		}
+		set_province_name = {
+			id = 6711
+			name = "Kolozsvár"
+		}
+		set_province_name = {
+			id = 3696
+			name = "Nagyvárad"
+		}
+		set_state_name = "Észak-Erdély"
+	}
+
+	if = {
+		limit = {
+			state = 1201
+		}
+		set_state_name = "Székelyföld"
+	}
+
+	if = {
+		limit = {
+			state = 84
+		}
+		set_province_name = {
+			id = 690
+			name = "Brassó"
+		}
+		set_state_name = "Erdély"
+	}
+
+	if = {
+		limit = {
+			state = 83
+		}
+		set_province_name = {
+			id = 6682
+			name = "Arad"
+		}
+		set_state_name = "Körösvidék"
+	}
+
+	if = {
+		limit = {
+			state = 82
+		}
+		set_province_name = {
+			id = 9606
+			name = "Temesvár"
+		}
+		set_state_name = "Bánság"
+	}
 }
 
 do_swiss_renames = {
@@ -3023,5 +3257,63 @@ do_finnish_renames = {
 			state = 722
 		}
 		set_state_name = "Petsamo"
+	}
+}
+
+do_romanian_renames = {
+
+	if = {
+		limit = {
+			state = 76
+		}
+		set_province_name = {
+			id = 6711
+			name = "Cluj-Napoca"
+		}
+		set_province_name = {
+			id = 3696
+			name = "Oradea"
+		}
+		set_state_name = "Transilvania de Nord"
+	}
+
+	if = {
+		limit = {
+			state = 1201
+		}
+		set_state_name = "Ținutul Secuiesc"
+	}
+
+	if = {
+		limit = {
+			state = 84
+		}
+		set_province_name = {
+			id = 690
+			name = "Brașov"
+		}
+		set_state_name = "Transilvania"
+	}
+
+	if = {
+		limit = {
+			state = 83
+		}
+		set_province_name = {
+			id = 6682
+			name = "Arad"
+		}
+		set_state_name = "Crișana"
+	}
+
+	if = {
+		limit = {
+			state = 82
+		}
+		set_province_name = {
+			id = 9606
+			name = "Timișoara"
+		}
+		set_state_name = "Banat"
 	}
 }

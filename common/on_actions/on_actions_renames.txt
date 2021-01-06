@@ -254,6 +254,16 @@ on_actions = {
 					}
 					do_finnish_renames = yes
 				}
+
+				### ROM ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = ROM
+						}
+					}
+					do_romanian_renames = yes
+				}
 			}
 		}
 	}
