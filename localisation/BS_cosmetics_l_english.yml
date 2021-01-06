@@ -131,10 +131,10 @@
  TEX_CSA_democratic_DEF:0 "the Confederate States"
  TEX_CSA_neutrality:0 "Loyalist America"
  TEX_CSA_neutrality_DEF:0 "the Loyalist America"
- TEX_CSA_fascism:0 "Nationalist states of America"
- TEX_CSA_fascism_DEF:0 "Nationalist states of America"
- TEX_CSA_communism:0 "Socialist states of America"
- TEX_CSA_communism_DEF:0 "Socialist states of America"
+ TEX_CSA_fascism:0 "Nationalist States of America"
+ TEX_CSA_fascism_DEF:0 "Nationalist States of America"
+ TEX_CSA_communism:0 "Socialist States of America"
+ TEX_CSA_communism_DEF:0 "Socialist States of America"
  TEX_CSA_democratic_ADJ:0 "Confederate"
  TEX_CSA_neutrality_ADJ:0 "Confederate"
  TEX_CSA_fascism_ADJ:0 "Confederate"
@@ -177,7 +177,7 @@
  GER_ISR_fascism_DEF:0 "Protektorat Madagaskar"
  GER_ISR_fascism_ADJ:0 "Protektorat Madagaskar"
 
- SER_GER_fascism:0 "Government of National Salvatian"
+ SER_GER_fascism:0 "Government of National Salvation"
  SER_GER_fascism_DEF:0 "Government of National Salvation"
  SER_GER_fascism_ADJ:0 "Serbian" 
 
