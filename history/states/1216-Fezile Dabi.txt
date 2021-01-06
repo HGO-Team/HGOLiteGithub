@@ -11,8 +11,11 @@ state={
 			industrial_complex = 2
 		}
 		add_core_of = SAF
+		victory_points = {
+			12648 5
 	}
-	
+	}
+
 	provinces={
 		12064 12648 
 	}
