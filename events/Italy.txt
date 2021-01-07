@@ -479,6 +479,8 @@ country_event = {
 			has_completed_focus = ITA_slovenia_dalmatia_claims
 			owns_state = 44
 			owns_state = 1045
+			owns_state = 1228
+			owns_state = 1229
 		}
 	}
 	desc = { 
@@ -487,6 +489,8 @@ country_event = {
 			has_completed_focus = ITA_slovenia_dalmatia_claims
 			NOT = { owns_state = 44 }
 			NOT = { owns_state = 1045 }
+			NOT = { owns_state = 1228 }
+			NOT = { owns_state = 1229 }
 		}
 	}
 	desc = { 
@@ -495,6 +499,8 @@ country_event = {
 			NOT = { has_completed_focus = ITA_slovenia_dalmatia_claims }
 			owns_state = 44
 			owns_state = 1045
+			owns_state = 1228
+			owns_state = 1229
 		}
 	}
  
@@ -512,11 +518,16 @@ country_event = {
 			limit = { 
 				owns_state = 44
 				owns_state = 1045
+				owns_state = 1228
+				owns_state = 1229
 			}
 			ITA = { transfer_state = 105 }
 			ITA = { transfer_state = 940 }
 			ITA = { transfer_state = 871 }
 			ITA = { transfer_state = 878 }
+			ITA = { transfer_state = 1231 }
+			ITA = { transfer_state = 1189 }
+			ITA = { transfer_state = 1190 }
 		}		
 	}
 }

@@ -11,7 +11,7 @@ state={
 		add_core_of = YUG
 		add_core_of = SLV
 		1939.3.14 = {
-			owner = HUN
+			owner = YUG
 			
 		}
 

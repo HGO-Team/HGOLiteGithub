@@ -6041,6 +6041,14 @@ focus_tree = {
 								870 = { is_owned_by = YUG }
 								870 = { is_owned_by = GER }
 							}
+							OR = {
+								1230 = { is_owned_by = YUG }
+								1230 = { is_owned_by = GER }
+							}
+							OR = {
+								1204 = { is_owned_by = YUG }
+								1204 = { is_owned_by = GER }
+							}
 						}
 						BUL = {
 							add_opinion_modifier = { target = GER modifier = GER_first_ljubljana_award_GER }
@@ -6053,10 +6061,24 @@ focus_tree = {
 							}
 							if = {
 								limit = {
-									803 = { is_owned_by = YUG }
-									803 = { is_owned_by = GER }
+									870 = { is_owned_by = YUG }
+									870 = { is_owned_by = GER }
 								}
 							transfer_state = 870
+							}
+							if = {
+								limit = {
+									1230 = { is_owned_by = YUG }
+									1230 = { is_owned_by = GER }
+								}
+							transfer_state = 1230
+							}
+							if = {
+								limit = {
+									1204 = { is_owned_by = YUG }
+									1204 = { is_owned_by = GER }
+								}
+							transfer_state = 1204
 							}
 						}
 					}
@@ -6076,6 +6098,8 @@ focus_tree = {
 							has_completed_focus = ITA_slovenia_dalmatia_claims
 							owns_state = 44
 							owns_state = 1045
+							owns_state = 1229
+							owns_state = 1228
 						}
 						is_friend_or_potential_friend_of_GER = yes
 						NOT = { is_in_faction_with = YUG }
@@ -6105,6 +6129,9 @@ focus_tree = {
 							transfer_state = 940
 							transfer_state = 878
 							transfer_state = 871
+							transfer_state = 1231
+							transfer_state = 1189
+							transfer_state = 1190
 						}	
 					}
 				}

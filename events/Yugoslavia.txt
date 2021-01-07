@@ -338,7 +338,13 @@ country_event = {
 	}
 	option = { # Refuse anyway
 		name = yugoslavia.5.b
-		ai_chance = { factor = 10 }
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
+		}
 		GER = {
 			country_event = germany.95 #Germany gains wargoal
 			effect_tooltip = {
