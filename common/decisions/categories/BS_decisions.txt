@@ -291,3 +291,22 @@ BS_golden_gate_bridge_category = {
 		}
 	}
 }
+
+form_east_africa_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_picture_gateway_to_europe
+
+	allowed = {
+
+	}
+
+	visible = {
+		has_game_rule = {
+			rule = allow_bs_extra
+			option = BS_ALLOWED
+		}
+	}
+
+}

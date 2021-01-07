@@ -813,6 +813,10 @@ PRC_PUPPET = {
 	color_ui = rgb { 255 255 255 }
 }
 
+EAF_UNIFIED = { 
+color = rgb { 224 5 5 }
+color_ui = rgb { 193 81 81 }
+}
 
 ###Colored Puppet with names###
 ##Majors
@@ -2777,4 +2781,5 @@ PRC_PUPPET = {
 	WUR_CIVILWAR = { color = rgb { 65  23  127 }color_ui = rgb { 65  23  127 }}
 	ZMB_CIVILWAR = { color = rgb { 127  23  65 }color_ui = rgb { 127  23  65 }}
 	TJK_CIVILWAR = { color = rgb { 167  147  114 }color_ui = rgb { 167  147  114 }}
+	
 	

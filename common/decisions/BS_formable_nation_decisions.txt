@@ -143,3 +143,194 @@ form_confederate_states_category = {
 		}
 	}
 }
+
+form_east_africa_category = {
+	
+	form_east_africa = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = UGA
+				original_tag = KEN
+				original_tag = TZN
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Kenya
+			custom_trigger_tooltip = {
+				tooltip = form_country_kenya_required_states_tt
+				controls_state = 547
+				
+			}
+			# Tanzania
+			custom_trigger_tooltip = {
+				tooltip = form_country_tanzania_required_states_tt
+				controls_state = 546
+				
+			}
+			# Uganda
+			custom_trigger_tooltip = {
+				tooltip = form_country_uganda_required_states_tt
+				controls_state = 548
+				controls_state = 1197
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = UGA
+				original_tag = TZN
+				original_tag = KEN
+			}
+			NOT = { has_global_flag = form_east_africa_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = EAF_UNIFIED
+			# Kenya
+			custom_effect_tooltip = form_country_kenya_coring_states_tt
+			hidden_effect = {
+				547 = { add_core_of = ROOT }
+			}
+			# Tanzania
+			custom_effect_tooltip = form_country_tanzania_coring_states_tt
+			hidden_effect = {
+				546 = { add_core_of = ROOT }
+			}
+			# Uganda
+			custom_effect_tooltip = form_country_uganda_coring_states_tt
+			hidden_effect = {
+				548 = { add_core_of = ROOT }
+				1197 = { add_core_of = ROOT }
+			}
+
+			#South Sudan
+			hidden_effect = {
+				769 = { add_core_of = ROOT }
+			}
+			
+			hidden_effect = {
+				set_global_flag = form_east_africa_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	integrate_ruanda_urundi = {
+
+		allowed = {
+			OR = {
+				original_tag = KEN
+				original_tag = UGA
+				original_tag = TZN
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_rwanda_required_states_tt
+				controls_state = 768
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_burundi_required_states_tt
+				controls_state = 769
+			}
+			custom_trigger_tooltip = {
+                tooltip = form_east_africa_required
+			    has_cosmetic_tag = EAF_UNIFIED
+            }
+		}
+
+		visible = {
+			OR = {
+				original_tag = KEN
+				original_tag = UGA
+				original_tag = TZN
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = form_country_rwanda_coring_states_tt
+			hidden_effect = {
+				768 = { add_core_of = ROOT }
+			}
+			custom_effect_tooltip = form_country_burundi_coring_states_tt
+			hidden_effect = {
+				769 = { add_core_of = ROOT }
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	integrate_south_sudan = {
+
+		allowed = {
+			OR = {
+				original_tag = KEN
+				original_tag = UGA
+				original_tag = TZN
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_south_sudan_required_states_tt
+				controls_state = 1187
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_lado_required_states_tt
+				controls_state = 1196
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_east_africa_required
+				has_cosmetic_tag = EAF_UNIFIED
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = KEN
+				original_tag = UGA
+				original_tag = TZN
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			1187 = { add_core_of = ROOT }
+			1196 = { add_core_of = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
