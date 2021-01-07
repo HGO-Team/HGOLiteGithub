@@ -170,13 +170,15 @@ on_actions = {
 						}
 					}
 					GER = {
-						release = PRS
-						release = BAV
+						release = BAY
 						release = WUR
 						release = MEK
 						release = SAX
 						release = SAR
 						release = BDN
+						release = SHL
+						release = HAN
+						release = PRE
 					}
 				}
 				# Game Rules - Italy fragmentation

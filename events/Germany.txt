@@ -5151,7 +5151,26 @@ country_event = {
 						transfer_state = 937
 					}
 				}
+				SER = {
+					if = {
+						limit = { YUG = { owns_state = 941 } }
+						transfer_state = 941
+					}
+					if = {
+						limit = { YUG = { owns_state = 108 } }
+						transfer_state = 108
+					}
+					if = {
+						limit = { YUG = { owns_state = 107 } }
+						transfer_state = 107
+					}
+					if = {
+						limit = { YUG = { owns_state = 872 } }
+						transfer_state = 872
+					}
+				}
 				puppet = CRO
+				puppet = SER
 				annex_country = { target = YUG transfer_troops = no }
 			}
 		}
