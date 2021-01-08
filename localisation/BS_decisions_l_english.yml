@@ -175,26 +175,19 @@
  form_country_eritrea_required_states_tt:0 "Controlls all of §YEritrea§!."
  form_country_eritrea_coring_states_tt:0 "Gain cores on §YEritrea§!."
  
- integrate_djibouti:0 "Integrate §YNorthern Somaliland§!."
- integrate_djibouti_desc:0 "We will take pride in protecting the Abyssinians of Djibouti and Berbera."
- form_country_djibouti_required_states_tt:0 "Controlls §YFrench Somaliland§! and §YBritish Somaliland§!."
- form_country_djibouti_coring_states_tt:0 "Gain a core on all of §YNorthern Somaliland§!."
+ integrate_somaliland:0 "Integrate §YNorthern Somaliland§!."
+ integrate_somaliland_desc:0 "We will take pride in protecting the Abyssinians of Djibouti and Berbera."
+ form_country_somaliland_required_states_tt:0 "Controlls §YFrench Somaliland§! and §YBritish Somaliland§!."
+ form_country_somaliland_coring_states_tt:0 "Gain cores on all of §YNorthern Somaliland§!."
  
- integrate_somaliland:0 "Integrate §YBritish Somaliland§!."
- integrate_somaliland_desc:0 "Through propaganda and education, we have now convinced the Somalis in British Somaliland that they too are Abyssinians. Berbera shall become as much Abyssinia as Addis Ababa!"
- start_integrate_somaliland:0 "Begin Integrating §YBritish Somaliland§!"
- start_integrate_somalialand_desc:0 "Even though the population of what was British Somaliland is Somali, we may be able to integrate them. Through propaganda and a new curriculum in the schools, we should be able to foster a common Abyssinian indentity among them."
- 
- form_country_somaliland_required_states_tt:0 "Controlls §YBritish Somaliland§!."
- form_country_somaliland_claiming_states_tt:0 "We will begin an integration campaign in §YBritish Somaliland§!."
- form_country_somaliland_coring_states_tt:0 "Gain a core on §YBritish Somaliland§!."
 
- integrate_somalia:0 "Integrate §YItalian Somaliland§!."
- integrate_somalia_desc:0 "While a great challenge, we have now convinced the Somalis in what was Italian Somaliland, that they are Abyssinians just like us. We will take care of them."
- start_integrate_somalia:0 "Begin Integrating §YItalian Somaliland§!."
- start_integrate_somalia_desc:0 "The Somalis in the former colony Italian Somaliland have suffered long enough under the Italian yoke. It will, however, take time for them to realise that the destiny of the Somalis, is to be Abyssinian."
+ integrate_somalia:0 "Integrate §YSouthern Somaliland§!."
+ integrate_somalia_desc:0 "While a great challenge, we have now convinced the Somalis in Southern Somaliland, that they are Abyssinians just like us. Mogadishu is now as Abyssinian as Addis Ababa!"
+ start_integrate_somalia:0 "Begin Integrating §YSouthern Somaliland§!."
+ start_integrate_somalia_desc:0 "The Somalis in the former colony Italian Somaliland have suffered long enough under the Italian yoke. It will, however, take time for them to realise that the destiny of the Somalis is to be Abyssinian."
+ form_country_somalia_coring_states_tt:0 "Gain cores on all of §YSouthern Somaliland§!."
 
- form_country_somalia_required_states_tt:0 "Controlls all of former §YItalian Somaliland§!."
- form_country_somalia_claiming_states_tt:0 "We will begin an integration campaign in former §YItalian Somaliland§!."
- form_country_somalia_coring_states_tt:0 "Gain cores on all of former §YItalian Somaliland§!."
+ form_country_somalia_required_states_tt:0 "Controlls all of §YSouthern Somaliland§!."
+ form_country_somalia_claiming_states_tt:0 "We will begin an integration campaign in the formerly Italian territories in §YSouthern Somaliland§!."
+ form_country_somalia_coring_states_tt:0 "Gain cores on all of §YSouthern Somaliland§!."
  
