@@ -175,10 +175,10 @@
  form_country_eritrea_required_states_tt:0 "Controlls all of §YEritrea§!."
  form_country_eritrea_coring_states_tt:0 "Gain cores on §YEritrea§!."
  
- integrate_djibouti:0 "Integrate §YFrench Somaliland§!."
- integrate_djibouti_desc:0 "We will take pride in protecting the Abyssinians of Djibouti."
- form_country_djibouti_required_states_tt:0 "Controlls §YFrench Somaliland§!."
- form_country_djibouti_coring_states_tt:0 "Gain a core on §YFrench Somaliland§!."
+ integrate_djibouti:0 "Integrate §YNorthern Somaliland§!."
+ integrate_djibouti_desc:0 "We will take pride in protecting the Abyssinians of Djibouti and Berbera."
+ form_country_djibouti_required_states_tt:0 "Controlls §YFrench Somaliland§! and §YBritish Somaliland§!."
+ form_country_djibouti_coring_states_tt:0 "Gain a core on all of §YNorthern Somaliland§!."
  
  integrate_somaliland:0 "Integrate §YBritish Somaliland§!."
  integrate_somaliland_desc:0 "Through propaganda and education, we have now convinced the Somalis in British Somaliland that they too are Abyssinians. Berbera shall become as much Abyssinia as Addis Ababa!"

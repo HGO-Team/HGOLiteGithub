@@ -362,7 +362,6 @@ form_abyssinia_category = {
 
 		complete_effect = {
 			set_cosmetic_tag = ABY_UNIFIED
-			# Eritrea
 			custom_effect_tooltip = form_country_eritrea_coring_states_tt
 			hidden_effect = {
 				550 = { add_core_of = ROOT }
@@ -422,43 +421,6 @@ form_abyssinia_category = {
 		}
 	}
 
-	start_integrate_somaliland = {
-
-		allowed = {
-			original_tag = ETH
-		}
-
-		icon = generic_political_discourse
-		available = {
-			is_subject = no
-
-			custom_trigger_tooltip = {
-				tooltip = form_country_somaliland_required_states_tt
-				controls_state = 269
-				}
-			}
-			visible = {
-			AND = {
-				original_tag = ETH
-				has_global_flag = form_abyssinia_flag
-				}
-			}
-
-			fire_only_once = yes
-
-			complete_effect = {
-				custom_effect_tooltip = form_country_somaliland_claiming_states_tt
-				hidden_effect = {
-				269 = { add_claim_by = ROOT }
-				269 = { add_compliance = 40 }
-			}
-			hidden_effect = {
-				set_global_flag = start_integrate_somaliland_flag
-			}
-		}
-	}
-
-
 	integrate_djibouti = {
 
 		allowed = {
@@ -470,9 +432,12 @@ form_abyssinia_category = {
 		icon = generic_political_discourse
 
 		available = {
+			is_subject = no
+
 			custom_trigger_tooltip = {
 				tooltip = form_country_djibouti_required_states_tt
 				controls_state = 268
+				controls_state = 269
 			}
 			custom_trigger_tooltip = {
 				tooltip = form_abyssinia_required
@@ -490,7 +455,11 @@ form_abyssinia_category = {
 		fire_only_once = yes
 		
 		complete_effect = {
-			268 = { add_core_of = ROOT }
+			custom_effect_tooltip = form_country_djibouti_coring_states_tt
+			hidden_effect = {
+				268 = { add_core_of = ROOT }
+				269 = { add_core_of = ROOT }
+			}
 		}
 
 		ai_will_do = {
@@ -513,6 +482,8 @@ form_abyssinia_category = {
 		icon = generic_political_discourse
 
 		available = {
+			is_subject = no
+
 			AND = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_somalia_required_states_tt
@@ -546,56 +517,6 @@ form_abyssinia_category = {
 			1088 = { add_core_of = ROOT }
 			559 = { add_core_of = ROOT }
 			1087 = { add_core_of = ROOT }
-		}
-		ai_will_do = {
-			factor = 200
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
-	integrate_somaliland = {
-
-		allowed = {
-				original_tag = ETH
-		}
-
-		icon = generic_political_discourse
-
-		available = {
-			AND = {
-				custom_trigger_tooltip = {
-					tooltip = form_country_somaliland_required_states_tt
-					controls_state = 269
-				}
-				custom_trigger_tooltip = {
-					tooltip = form_abyssinia_required
-					has_cosmetic_tag = ABY_UNIFIED
-				}
-				if = {
-					core_compliance = {
-					occupied_country_tag = SOM
-					value > 40
-					}
-				}
-			}
-		}
-
-		visible = {
-			AND = {
-				original_tag = ETH
-				has_global_flag = start_integrate_somaliland_flag
-			}
-		}
-
-		fire_only_once = yes
-
-		complete_effect = {
-			custom_effect_tooltip = form_country_somaliland_coring_states_tt
-			hidden_effect = {
-				269 = { add_core_of = ROOT }
-			}
 		}
 		ai_will_do = {
 			factor = 200
