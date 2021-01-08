@@ -1414,39 +1414,57 @@ form_ottoman_empire_category = {
 			custom_trigger_tooltip = {
 				tooltip = form_rumelia_greece_required_states_tt
 				controls_state = 47
+				controls_state = 184
 				controls_state = 185
 				controls_state = 731
 				controls_state = 184
-				controls_state = 186
+				controls_state = 978
+				controls_state = 1139
+				controls_state = 1056
+				controls_state = 1059
+				controls_state = 1063
+				controls_state = 1160
+				
 			}
 			#Bulgaria
 			custom_trigger_tooltip = {
 				tooltip = form_rumelia_bulgaria_required_states_tt
 				controls_state = 48
-				controls_state = 801
 				controls_state = 212
 				controls_state = 211
+				controls_state = 942
+				controls_state = 943
+				controls_state = 1103
+				controls_state = 1141
+				controls_state = 1142
+				controls_state = 1143
+				controls_state = 1179	
 			}
 			#Yugoslavia 
 			custom_trigger_tooltip = {
 				tooltip = form_rumelia_yugoslavia_required_states_tt
 				controls_state = 106
-				controls_state = 803
-				controls_state = 802
 				controls_state = 108 
 				controls_state = 105 
 				controls_state = 107
+				controls_state = 870
+				controls_state = 871
+				controls_state = 878
+				controls_state = 940
+				controls_state = 941
+				controls_state = 1189
+				controls_state = 1190
 				controls_state = 1204
+				controls_state = 1230
+				controls_state = 1231
 			}
 			#Albania
 			controls_state = 44
-			controls_state = 805
 			custom_trigger_tooltip = {
 				tooltip = form_rumelia_albania_required_states_tt
-				controls_state = 677
-				controls_state = 680
-				controls_state = 553
-				controls_state = 554
+				controls_state = 1045
+				controls_state = 1228
+				controls_state = 1229
 			}
 		}
 
@@ -1461,58 +1479,46 @@ form_ottoman_empire_category = {
 			custom_effect_tooltip = form_rumelia_greece_coring_states_tt
 			hidden_effect = {
 				47 = { add_core_of = ROOT }
+				184 = { add_core_of = ROOT }
 				185 = { add_core_of = ROOT }
 				731 = { add_core_of = ROOT }
 				184 = { add_core_of = ROOT }
-				186 = { add_core_of = ROOT }
+				978 = { add_core_of = ROOT }
+				1139 = { add_core_of = ROOT }
+				1056 = { add_core_of = ROOT }
+				1059 = { add_core_of = ROOT }
 				1063 = { add_core_of = ROOT }
-				187 = { add_core_of = ROOT }
-				182 = { add_core_of = ROOT }
-                975 = { add_core_of = ROOT }
-                976 = { add_core_of = ROOT }
-                977 = { add_core_of = ROOT }
-                978 = { add_core_of = ROOT }
+				1160 = { add_core_of = ROOT }
 			}
 			# Bulgaria
 			custom_effect_tooltip = form_rumelia_bulgaria_coring_states_tt
 			hidden_effect = {
 				48 = { add_core_of = ROOT }
-				801 = { add_core_of = ROOT }
 				212 = { add_core_of = ROOT }
 				211 = { add_core_of = ROOT }
-				943 = { add_core_of = ROOT }
 				942 = { add_core_of = ROOT }
+				943 = { add_core_of = ROOT }
+				1103 = { add_core_of = ROOT }
 				1141 = { add_core_of = ROOT }
 				1142 = { add_core_of = ROOT }
 				1143 = { add_core_of = ROOT }
-				1103 = { add_core_of = ROOT }
 				1179 = { add_core_of = ROOT }
 			}
 			# Yugoslavia
 			custom_effect_tooltip = form_rumelia_yugoslavia_coring_states_tt
 			hidden_effect = {
 				106 = { add_core_of = ROOT }
-				870 = { add_core_of = ROOT }
-				878 = { add_core_of = ROOT }
 				108 = { add_core_of = ROOT }
 				105 = { add_core_of = ROOT }
 				107 = { add_core_of = ROOT }
+				870 = { add_core_of = ROOT }
 				871 = { add_core_of = ROOT }
+				878 = { add_core_of = ROOT }
+				940 = { add_core_of = ROOT }
 				941 = { add_core_of = ROOT }
-				872 = { add_core_of = ROOT }
 				1189 = { add_core_of = ROOT }
 				1190 = { add_core_of = ROOT }
-				#1047 = { add_core_of = ROOT }
-				940 = { add_core_of = ROOT }
-				#1046 = { add_core_of = ROOT }
-				#1048 = { add_core_of = ROOT }
-				#938 = { add_core_of = ROOT }
-				#1104 = { add_core_of = ROOT }
-				#103 = { add_core_of = ROOT }
-				#939 = { add_core_of = ROOT }
 				1204 = { add_core_of = ROOT }
-				1228 = { add_core_of = ROOT }
-				1229 = { add_core_of = ROOT }
 				1230 = { add_core_of = ROOT }
 				1231 = { add_core_of = ROOT }
 			}
@@ -1559,6 +1565,9 @@ form_ottoman_empire_category = {
 			controls_state = 187
 			controls_state = 164 #Dodecanese
 			controls_state = 183 #Cyprus
+			controls_state = 952
+			controls_state = 975
+			controls_state = 1157
 		}
 
 		visible = {
@@ -1744,6 +1753,11 @@ form_ottoman_empire_category = {
 				controls_state = 680
 				controls_state = 554
 				controls_state = 656
+				controls_state = 1039
+				controls_state = 1040
+				controls_state = 1041
+				controls_state = 1042
+				controls_state = 1043
 			}
 		}
 
