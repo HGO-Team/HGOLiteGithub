@@ -207,11 +207,6 @@ form_east_africa_category = {
 				548 = { add_core_of = ROOT }
 				1197 = { add_core_of = ROOT }
 			}
-
-			#South Sudan
-			hidden_effect = {
-				769 = { add_core_of = ROOT }
-			}
 			
 			hidden_effect = {
 				set_global_flag = form_east_africa_flag
@@ -325,6 +320,283 @@ form_east_africa_category = {
 			1196 = { add_core_of = ROOT }
 		}
 
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+form_abyssinia_category = {
+	
+	form_abyssinia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = ETH
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Eritrea
+			custom_trigger_tooltip = {
+				tooltip = form_country_eritrea_required_states_tt
+				controls_state = 550
+				
+				}
+			}
+		
+
+		visible = {
+			OR = {
+			original_tag = ETH
+			}
+			NOT = { has_global_flag = form_abyssinia_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ABY_UNIFIED
+			# Eritrea
+			custom_effect_tooltip = form_country_eritrea_coring_states_tt
+			hidden_effect = {
+				550 = { add_core_of = ROOT }
+			}			
+			hidden_effect = {
+				set_global_flag = form_abyssinia_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	start_integrate_somalia = {
+
+		allowed = {
+			original_tag = ETH
+		}
+
+		icon = generic_political_discourse
+		available = {
+			is_subject = no
+
+			custom_trigger_tooltip = {
+				tooltip = form_country_somalia_required_states_tt
+				controls_state = 1088
+				controls_state = 559
+				controls_state = 1087
+				}
+			}
+			visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = form_abyssinia_flag
+				}
+			}
+
+			fire_only_once = yes
+
+			complete_effect = {
+				custom_effect_tooltip = form_country_somalia_claiming_states_tt
+				hidden_effect = {
+				1088 = { add_claim_by = ROOT }
+				559 = { add_claim_by = ROOT }
+				1087 = { add_claim_by = ROOT }
+				1088 = { add_compliance = 25 }
+				559 = { add_compliance = 25 }
+				1087 = { add_compliance = 25 }
+			}
+			hidden_effect = {
+				set_global_flag = start_integrate_somalia_flag
+			}
+		}
+	}
+
+	start_integrate_somaliland = {
+
+		allowed = {
+			original_tag = ETH
+		}
+
+		icon = generic_political_discourse
+		available = {
+			is_subject = no
+
+			custom_trigger_tooltip = {
+				tooltip = form_country_somaliland_required_states_tt
+				controls_state = 269
+				}
+			}
+			visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = form_abyssinia_flag
+				}
+			}
+
+			fire_only_once = yes
+
+			complete_effect = {
+				custom_effect_tooltip = form_country_somaliland_claiming_states_tt
+				hidden_effect = {
+				269 = { add_claim_by = ROOT }
+				269 = { add_compliance = 40 }
+			}
+			hidden_effect = {
+				set_global_flag = start_integrate_somaliland_flag
+			}
+		}
+	}
+
+
+	integrate_djibouti = {
+
+		allowed = {
+			OR = {
+				original_tag = ETH
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_djibouti_required_states_tt
+				controls_state = 268
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_abyssinia_required
+				has_cosmetic_tag = ABY_UNIFIED
+			}
+		}
+
+		visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = form_abyssinia_flag
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			268 = { add_core_of = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	integrate_somalia = {
+
+		allowed = {
+			OR = {
+				original_tag = ETH
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			AND = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_somalia_required_states_tt
+				controls_state = 1088
+				controls_state = 1087
+				controls_state = 559
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_abyssinia_required
+				has_cosmetic_tag = ABY_UNIFIED
+			}
+				if = {
+					core_compliance = {
+    				occupied_country_tag = SOM
+    				value > 70
+					}
+				}
+			}
+		}
+
+		visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = start_integrate_somalia_flag
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			1088 = { add_core_of = ROOT }
+			559 = { add_core_of = ROOT }
+			1087 = { add_core_of = ROOT }
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+		integrate_somaliland = {
+
+		allowed = {
+				original_tag = ETH
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			AND = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_somaliland_required_states_tt
+				controls_state = 269
+			}
+			custom_trigger_tooltip = {
+                tooltip = form_abyssinia_required
+			    has_cosmetic_tag = ABY_UNIFIED
+            }
+			if = {
+					core_compliance = {
+    				occupied_country_tag = SMA
+    				value > 70
+					}
+				}
+			}
+		}
+
+		visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = start_integrate_somaliland_flag
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = form_country_somaliland_coring_states_tt
+			hidden_effect = {
+				768 = { add_core_of = ROOT }
+			}
+		}
 		ai_will_do = {
 			factor = 200
 			modifier = {

@@ -186,7 +186,7 @@
  HUN_GER_fascism_ADJ:0 "Hungarian"
  
  EAF_UNIFIED_fascism:0 "East African Confederacy"
- EAF_UNIFIED_fascism_DEF:0 "East African Confederacy"
+ EAF_UNIFIED_fascism_DEF:0 "The East African Confederacy"
  EAF_UNIFIED_fascism_ADJ:0 "East African"
  EAF_UNIFIED_democratic:0 "East African Federation"
  EAF_UNIFIED_democratic_DEF:0 "The East African Federation"
@@ -197,3 +197,16 @@
  EAF_UNIFIED_neutrality:0 "East Africa"
  EAF_UNIFIED_neutrality_DEF:0 "East Africa"
  EAF_UNIFIED_neutrality_ADJ:0 "East African"
+
+ ABY_UNIFIED_fascism:0 "Empire of Solomon"
+ ABY_UNIFIED_fascism_DEF:0 "Empire of Solomon"
+ ABY_UNIFIED_fascism_ADJ:0 "Abyssinian"
+ ABY_UNIFIED_democratic:0 "Abyssinian Federation"
+ ABY_UNIFIED_democratic_DEF:0 "The Abyssinian Federation"
+ ABY_UNIFIED_democratic_ADJ:0 "Abyssinian
+ ABY_UNIFIED_communism:0 "Abyssinian Socialist Federative Republic"
+ ABY_UNIFIED_communism_DEF:0 "The Abyssinian Socialist Federative Republic"
+ ABY_UNIFIED_communism_ADJ:0 "Abyssinian"
+ ABY_UNIFIED_neutrality:0 "Abyssinian Empire"
+ ABY_UNIFIED_neutrality_DEF:0 "The Abyssinian Empire"
+ ABY_UNIFIED_neutrality_ADJ:0 "Abyssinian"

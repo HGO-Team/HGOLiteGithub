@@ -139,14 +139,14 @@
  BS_golden_gate_bridge:0 "Construction of the Bridge"
  golden_gate_bridge_tt:0 "§GYou'll able to cross the Golden Gate Strait.§!" 
  
- #East African Confederation
+ #East African Federation
  form_east_africa_category:0 "Uniting East Africa"
  form_east_africa_category_desc:0 "Strangely, there seem to be no one of importance who do not advocate for a §YUnited East Africa§!. The Europeans want regional stability for easier trade in our ports and we ourselves want a better economy and greater solidarity and protection against outside threats. The Europeans have so far done nothing; now it is time to take matters into our own hands."
  form_east_africa:0 "Unite East Africa!"
  form_east_africa_required:0 "East Africa must be formed first."
  
  form_country_kenya_coring_states_tt:0 "Gain cores on all §YKenyan§! states."
- form_country_kenya_required_states_tt:0 "Controlls of all §GKenyan§! states."
+ form_country_kenya_required_states_tt:0 "Controlls of all §YKenyan§! states."
  form_country_tanzania_coring_states_tt:0 "Gain cores on all §YTanzanian§! states."
  form_country_tanzania_required_states_tt:0 "Controlls all §YTanzanian§! states."
  form_country_burundi_coring_states_tt:0 "Gain cores on all §YBurundian§! states."
@@ -165,3 +165,36 @@
  integrate_south_sudan_desc:0 "The culture of south Sudan is much more similar to our own than to arab-aligned peoples to the north of them. Like us, southern Sudan is also Christian, and their climate and geography is similar to our own. It is obvious that we are destined to be united and now we have the chance!"
  form_country_south_sudan_required_states_tt:0 "Controls §YSouth Sudan§!."
  form_country_lado_required_states_tt:0 "Controlls §YLado§!."
+
+ #Abyssinia
+ form_abyssinia_category:0 "The Legacy of Solomon"
+ form_abyssinia_category_desc:0 "We have beat the Italians before and we can beat them again. Once we chase them off the mainland, we will be able integrate their former colonies and finally and live up to the legacy of King Solomon."
+ form_abyssinia:0 "Re-Integrate Eritrea"
+ form_abyssinia_desc:0 "Re-integrating Eritrea will be the first step in our quest to bring about a greater Ethiopia. After this is done, we will proclaim §YAbyssinia§!!"
+ form_abyssinia_required:0 "Abyssinia must be formed first."
+ form_country_eritrea_required_states_tt:0 "Controlls all of §YEritrea§!."
+ form_country_eritrea_coring_states_tt:0 "Gain cores on §YEritrea§!."
+ 
+ integrate_djibouti:0 "Integrate §YFrench Somaliland§!."
+ integrate_djibouti_desc:0 "We will take pride in protecting the Abyssinians of Djibouti."
+ form_country_djibouti_required_states_tt:0 "Controlls §YFrench Somaliland§!."
+ form_country_djibouti_coring_states_tt:0 "Gain a core on §YFrench Somaliland§!."
+ 
+ integrate_somaliland:0 "Integrate §YBritish Somaliland§!."
+ integrate_somaliland_desc:0 "Through propaganda and education, we have now convinced the Somalis in British Somaliland that they too are Abyssinians. Berbera shall become as much Abyssinia as Addis Ababa!"
+ start_integrate_somaliland:0 "Begin Integrating §YBritish Somaliland§!"
+ start_integrate_somalialand_desc:0 "Even though the population of what was British Somaliland is Somali, we may be able to integrate them. Through propaganda and a new curriculum in the schools, we should be able to foster a common Abyssinian indentity among them."
+ 
+ form_country_somaliland_required_states_tt:0 "Controlls §YBritish Somaliland§!."
+ form_country_somaliland_claiming_states_tt:0 "We will begin an integration campaign in §YBritish Somaliland§!."
+ form_country_somaliland_coring_states_tt:0 "Gain a core on §YBritish Somaliland§!."
+
+ integrate_somalia:0 "Integrate §YItalian Somaliland§!."
+ integrate_somalia_desc:0 "While a great challenge, we have now convinced the Somalis in what was Italian Somaliland, that they are Abyssinians just like us. We will take care of them."
+ start_integrate_somalia:0 "Begin Integrating §YItalian Somaliland§!."
+ start_integrate_somalia_desc:0 "The Somalis in the former colony Italian Somaliland have suffered long enough under the Italian yoke. It will, however, take time for them to realise that the destiny of the Somalis, is to be Abyssinian."
+
+ form_country_somalia_required_states_tt:0 "Controlls all of former §YItalian Somaliland§!."
+ form_country_somalia_claiming_states_tt:0 "We will begin an integration campaign in former §YItalian Somaliland§!."
+ form_country_somalia_coring_states_tt:0 "Gain cores on all of former §YItalian Somaliland§!."
+ 

@@ -310,3 +310,22 @@ form_east_africa_category = {
 	}
 
 }
+
+form_abyssinia_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_picture_gateway_to_europe
+
+	allowed = {
+
+	}
+
+	visible = {
+		has_game_rule = {
+			rule = allow_bs_extra
+			option = BS_ALLOWED
+		}
+	}
+
+}
