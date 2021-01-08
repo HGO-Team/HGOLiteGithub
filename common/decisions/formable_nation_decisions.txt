@@ -1281,6 +1281,7 @@ form_ottoman_empire_category = {
 				1040 = { add_core_of = ROOT }
 				553 = { add_core_of = ROOT }
 				554 = { add_core_of = ROOT }
+				1242 = { add_core_of = ROOT }
 			}
 			# Italian North Africa and Dodecanese
 			custom_effect_tooltip = form_ottoman_italy_coring_states_tt
@@ -1326,7 +1327,7 @@ form_ottoman_empire_category = {
 				1142 = { add_core_of = ROOT }
 				1143 = { add_core_of = ROOT }
 				1144 = { add_core_of = ROOT }
-				#1146 = { add_core_of = ROOT }
+				1146 = { add_core_of = ROOT }
 				1149 = { add_core_of = ROOT }
 				1150 = { add_core_of = ROOT }
 				1151 = { add_core_of = ROOT }
@@ -1338,9 +1339,15 @@ form_ottoman_empire_category = {
 				1157 = { add_core_of = ROOT }
 				1159 = { add_core_of = ROOT }
 				1160 = { add_core_of = ROOT }
-				#1177 = { add_core_of = ROOT }
+				1177 = { add_core_of = ROOT }
 				1070 = { add_core_of = ROOT }
 				1204 = { add_core_of = ROOT }
+				1145 = { add_core_of = ROOT }
+				#1071 = { add_core_of = ROOT }
+				#1069 = { add_core_of = ROOT }
+				#1176 = { add_core_of = ROOT }
+				#998 = { add_core_of = ROOT }
+				#1072 = { add_core_of = ROOT }
 			}
 			# Britain
 			custom_effect_tooltip = form_persia_britain_coring_states_tt
@@ -1358,6 +1365,14 @@ form_ottoman_empire_category = {
 				183 = { add_core_of = ROOT }
 				952 = { add_core_of = ROOT }
 				656 = { add_core_of = ROOT }
+				1237 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				871 = { add_core_of = ROOT }
+				1229 = { add_core_of = ROOT }
+				1228 = { add_core_of = ROOT }
+				1189 = { add_core_of = ROOT }
+				1190 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.61 hours = 6 }
