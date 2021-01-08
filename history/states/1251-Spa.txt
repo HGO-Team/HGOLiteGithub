@@ -5,19 +5,18 @@ state={
 	state_category = enclave
 	
 	history={
-		owner = CZE
-		add_core_of = CZE
-		add_core_of = SLO
-		buildings = {
-			infrastructure = 5
+		owner = BEL
+		victory_points = {
+			13237 1 
 		}
-		1939.3.14 = {
-			owner = SLO
-			
+		add_core_of = BEL
+		add_core_of = WLL
+		buildings = {
+			infrastructure = 6
 		}
 	}
 	provinces={
-		13421
+		13421 13237
 	}
 	manpower=35467
 	buildings_max_level_factor=1.000
