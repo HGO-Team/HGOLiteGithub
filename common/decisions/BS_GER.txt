@@ -241,7 +241,7 @@ GER_reichsprotektorat = {
 			controls_state = 92
 			controls_state = 90
 			controls_state = 88
-			controls_state = 1138
+			#controls_state = 1138
 			#controls_state = 996
 			#controls_state = 91
 			#controls_state = 89
@@ -261,7 +261,7 @@ GER_reichsprotektorat = {
 			controls_state = 92
 			controls_state = 90
 			controls_state = 88
-			controls_state = 1138
+			#controls_state = 1138
 			#controls_state = 996
 			#controls_state = 91
 			#controls_state = 89
@@ -278,7 +278,7 @@ GER_reichsprotektorat = {
 				transfer_state = 92
 				transfer_state = 90
 				transfer_state = 88
-				transfer_state = 1138
+				#transfer_state = 1138
 				#transfer_state = 91
 				#transfer_state = 89
 				#transfer_state = 996
@@ -528,6 +528,7 @@ BS_transfer_territories_category = {
 		available = {
 			controls_state = 34
 			controls_state = 813
+			controls_state = 1251
 			controls_state = 1182
 		}
 
@@ -549,7 +550,11 @@ BS_transfer_territories_category = {
 			BGN = {
 				transfer_state = 34
 				transfer_state = 813
+				#transfer_state = 1251
 				transfer_state = 1182
+			}
+			GER = {
+				transfer_state = 1251
 			}
 		}
 	}
@@ -624,6 +629,7 @@ BS_transfer_territories_category = {
 		    BNF = {
 			controls_state = 34
 			controls_state = 813
+			controls_state = 1251
 			controls_state = 1182
 			}
 		}
@@ -646,7 +652,11 @@ BS_transfer_territories_category = {
 			BGN = {
 				transfer_state = 34
 				transfer_state = 813
+				#transfer_state = 1251
 				transfer_state = 1182
+			}
+			GER = {
+				transfer_state = 1251
 			}
 		}
 	}
