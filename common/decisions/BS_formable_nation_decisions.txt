@@ -555,7 +555,7 @@ form_abyssinia_category = {
 			}
 		}
 	}
-		integrate_somaliland = {
+	integrate_somaliland = {
 
 		allowed = {
 				original_tag = ETH
@@ -565,18 +565,18 @@ form_abyssinia_category = {
 
 		available = {
 			AND = {
-			custom_trigger_tooltip = {
-				tooltip = form_country_somaliland_required_states_tt
-				controls_state = 269
-			}
-			custom_trigger_tooltip = {
-                tooltip = form_abyssinia_required
-			    has_cosmetic_tag = ABY_UNIFIED
-            }
-			if = {
+				custom_trigger_tooltip = {
+					tooltip = form_country_somaliland_required_states_tt
+					controls_state = 269
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_abyssinia_required
+					has_cosmetic_tag = ABY_UNIFIED
+				}
+				if = {
 					core_compliance = {
-    				occupied_country_tag = SMA
-    				value > 70
+					occupied_country_tag = SMA
+					value > 70
 					}
 				}
 			}
@@ -594,7 +594,7 @@ form_abyssinia_category = {
 		complete_effect = {
 			custom_effect_tooltip = form_country_somaliland_coring_states_tt
 			hidden_effect = {
-				768 = { add_core_of = ROOT }
+				269 = { add_core_of = ROOT }
 			}
 		}
 		ai_will_do = {
