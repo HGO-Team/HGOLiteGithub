@@ -52,3 +52,8 @@
  
  MON_communism:0 "Mongolian People's Republic"
  MON_communism_DEF:0 "Mongolian People's Republic"
+
+ 
+ SOM_democratic:0 "Federal Republic of Somalia"
+ SOM_democratic_DEF:0 "The Federal Republic of Somalia"
+ SOM_democratic_ADJ:0 "Somalian"
