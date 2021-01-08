@@ -575,8 +575,8 @@ form_abyssinia_category = {
 				}
 				if = {
 					core_compliance = {
-					occupied_country_tag = SMA
-					value > 70
+					occupied_country_tag = SOM
+					value > 40
 					}
 				}
 			}
