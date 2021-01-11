@@ -460,9 +460,9 @@ form_abyssinia_category = {
 				268 = { add_core_of = ROOT }
 				269 = { add_core_of = ROOT }
 			}
-		}
-		hidden_effect = {
-				set_global_flag = integrate_somaliland_flag
+			hidden_effect = {
+					set_global_flag = integrate_somaliland_flag
+			}
 		}
 
 		ai_will_do = {
@@ -521,6 +521,9 @@ form_abyssinia_category = {
 			1088 = { add_core_of = ROOT }
 			559 = { add_core_of = ROOT }
 			1087 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = integrate_somalia_flag
+			}
 		}
 		ai_will_do = {
 			factor = 200
@@ -528,9 +531,6 @@ form_abyssinia_category = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
-		}
-		hidden_effect = {
-				set_global_flag = integrate_somalia_flag
 		}
 	}
 }
