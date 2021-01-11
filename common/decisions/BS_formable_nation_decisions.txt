@@ -461,7 +461,7 @@ form_abyssinia_category = {
 				269 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
-					set_global_flag = integrate_somaliland_flag
+				set_global_flag = integrate_somaliland_flag
 			}
 		}
 
