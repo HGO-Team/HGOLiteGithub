@@ -528,6 +528,10 @@ country_event = {
 		if = {
 			limit = { 819 = { owner = { original_tag = FRA } } }
 			set_state_controller = 819
+
+                if = {
+			limit = { 1268 = { owner = { original_tag = FRA } } }
+			set_state_controller = 1268
 		}
 		# Italian Occupation Zone (if they did well)
 		if = { #if Italy did really well, they get an extra bonus state (but only if that doesn't lead to bordergore)
