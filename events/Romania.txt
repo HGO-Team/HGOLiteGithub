@@ -105,6 +105,7 @@ country_event = {
 		HUN = {
 			country_event = { days = 1 id = hungary.4 }
 			effect_tooltip = { add_state_claim = 76 }
+			effect_tooltip = { add_state_claim = 1201 }
 		}
 		GER = {
 			country_event = { days = 1 id = germany.21 }
@@ -112,7 +113,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state
 					target = ROM
-					generator = { 76 }
+					generator = { 76 1201 }
 				}
 			}
 		}
@@ -155,6 +156,7 @@ country_event = {
 				add_state_claim = 76
 				add_state_claim = 83
 				add_state_claim = 84
+				add_state_claim = 1201
 			}
 		}
 		GER = {
@@ -163,7 +165,7 @@ country_event = {
 				create_wargoal = {
 					type = take_state
 					target = ROM
-					generator = { 76 }
+					generator = { 76 1201 }
 				}
 			}
 		}

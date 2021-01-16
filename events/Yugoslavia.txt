@@ -25,6 +25,7 @@ country_event = {
 			}
 		}
 		HUN = { owns_state = 76 }
+		HUN = { owns_state = 1201 }
 		GER = {
 			OR = {
 				AND = { is_in_faction_with = ITA is_in_faction_with = HUN }

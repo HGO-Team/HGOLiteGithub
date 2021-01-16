@@ -2981,15 +2981,31 @@ focus_tree = {
 			if = {
 				limit = {
 					has_full_control_of_state = 659
+					has_full_control_of_state = 1039
 				}
 				YEM = {
 					transfer_state = 659
+					transfer_state = 1039
 					add_opinion_modifier = { target = ENG modifier = ENG_returned_our_territory }
 				}
 			}
 			if = {
 				limit = {
-					has_full_control_of_state = 326
+					has_full_control_of_state = 995
+					has_full_control_of_state = 1237
+				}
+				EGY = {
+					transfer_state = 995
+					transfer_state = 1237
+					add_opinion_modifier = { target = ENG modifier = ENG_returned_our_territory }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_full_control_of_state = 326 
+						326 = { is_controlled_by_ROOT_or_subject = yes }
+					}
 				}
 				event_target:WTT_current_china_leader = {
 					transfer_state = 326
@@ -3758,6 +3774,8 @@ focus_tree = {
 					has_full_control_of_state = 446
 					has_full_control_of_state = 457
 					has_full_control_of_state = 456
+					has_full_control_of_state = 995
+					has_full_control_of_state = 1237
 				}
 				release = EGY
 				if = {
@@ -4469,7 +4487,7 @@ focus_tree = {
 							tag = AST
 							tag = NZL
 							tag = MAL
-							tag = EGY
+							#tag = EGY
 							tag = HKG
 						}
 					}
@@ -4514,7 +4532,7 @@ focus_tree = {
 							tag = AST
 							tag = NZL
 							tag = MAL
-							tag = EGY
+							#tag = EGY
 							tag = HKG
 						}
 					}

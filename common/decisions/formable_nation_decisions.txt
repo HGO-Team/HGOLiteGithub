@@ -460,6 +460,7 @@ form_austria_hungary_category = {
 				controls_state = 888
 				controls_state = 889
 				controls_state = 885
+				controls_state = 1250
 			}
 			# Hungary
 			custom_trigger_tooltip = {
