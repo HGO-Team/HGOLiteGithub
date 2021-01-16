@@ -19,7 +19,7 @@
  STATE_18:0 "Champagne"
  STATE_19:0 "Aquitaine"
  STATE_20:0 "Rhône"
- STATE_21:0 "Provence"
+ STATE_21:1 "Marseille"
  STATE_22:0 "Languedoc"
  STATE_23:0 "Poitou"
  STATE_24:0 "Centre"
@@ -1267,3 +1267,4 @@
  STATE_1266:0 "Orfeas"
  STATE_1267:0 "Sevastopol"
  STATE_1268:0 "Pays-de-Loire"
+ STATE_1269:1 "Grenoble"
