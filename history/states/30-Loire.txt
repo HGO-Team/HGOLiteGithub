@@ -1,4 +1,3 @@
-
 state={
 	id=30
 	name="STATE_30"
@@ -9,9 +8,9 @@ state={
 			3509 5 
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 2
 			industrial_complex = 1
-			air_base = 2
+			air_base = 1
 
 		}
 		add_core_of = FRA
@@ -19,9 +18,9 @@ state={
 	}
 
 	provinces={
-		503 527 3495 3509 3523 9478 11463 
+		3509 9478 11463 
 	}
-	manpower=1388400
+	manpower=321500
 	buildings_max_level_factor=1.000
 	state_category=city
 }
