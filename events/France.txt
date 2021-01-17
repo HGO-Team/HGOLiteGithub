@@ -528,8 +528,8 @@ country_event = {
 		if = {
 			limit = { 819 = { owner = { original_tag = FRA } } }
 			set_state_controller = 819
-
-                if = {
+		}
+		if = {
 			limit = { 1268 = { owner = { original_tag = FRA } } }
 			set_state_controller = 1268
 		}
