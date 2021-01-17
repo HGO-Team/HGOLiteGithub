@@ -1375,6 +1375,14 @@ form_ottoman_empire_category = {
 				952 = { add_core_of = ROOT }
 				656 = { add_core_of = ROOT }
 				1237 = { add_core_of = ROOT }
+				1273 = { add_core_of = ROOT }
+				1274 = { add_core_of = ROOT }
+				1275 = { add_core_of = ROOT }
+				1276 = { add_core_of = ROOT }
+				1277 = { add_core_of = ROOT }
+				1278 = { add_core_of = ROOT }
+				1279 = { add_core_of = ROOT }
+				1288 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				871 = { add_core_of = ROOT }
@@ -1980,6 +1988,8 @@ form_ottoman_empire_category = {
 			875 = { add_core_of = ROOT }
 			1158 = { add_core_of = ROOT }
 			876 = { add_core_of = ROOT }
+			1259 = { add_core_of = ROOT }
+			1260 = { add_core_of = ROOT }
 			create_wargoal = { 
 				type = annex_everything
 				target = OMA
@@ -2105,6 +2115,8 @@ form_ottoman_empire_category = {
 			874 = { add_core_of = ROOT }
 			995 = { add_core_of = ROOT }
 			1237 = { add_core_of = ROOT }
+			1280 = { add_core_of = ROOT }
+			1281 = { add_core_of = ROOT }
 			hidden_effect = {
 				set_global_flag = ottoman_egypt_flag
 			}
@@ -3443,6 +3455,14 @@ form_roman_empire_category = {
 				974 = { add_core_of = ROOT }
 				1237 = { add_core_of = ROOT }
 				1258 = { add_core_of = ROOT }
+				1273 = { add_core_of = ROOT }
+				1274 = { add_core_of = ROOT }
+				1275 = { add_core_of = ROOT }
+				1276 = { add_core_of = ROOT }
+				1277 = { add_core_of = ROOT }
+				1278 = { add_core_of = ROOT }
+				1279 = { add_core_of = ROOT }
+				1288 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.64 hours = 6 }
@@ -3730,6 +3750,14 @@ form_persian_empire_category = {
 				118 = { add_core_of = ROOT }
 				995 = { add_core_of = ROOT }
 				1258 = { add_core_of = ROOT }
+				1273 = { add_core_of = ROOT }
+				1274 = { add_core_of = ROOT }
+				1275 = { add_core_of = ROOT }
+				1276 = { add_core_of = ROOT }
+				1277 = { add_core_of = ROOT }
+				1278 = { add_core_of = ROOT }
+				1279 = { add_core_of = ROOT }
+				1288 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.65 hours = 6 }
@@ -4629,6 +4657,14 @@ form_byzantine_empire_category = {
 			1070 = { add_core_of = ROOT }
 			273 = { add_core_of = ROOT }
 			1237 = { add_core_of = ROOT }
+			1273 = { add_core_of = ROOT }
+			1274 = { add_core_of = ROOT }
+			1275 = { add_core_of = ROOT }
+			1276 = { add_core_of = ROOT }
+			1277 = { add_core_of = ROOT }
+			1278 = { add_core_of = ROOT }
+			1279 = { add_core_of = ROOT }
+			1288 = { add_core_of = ROOT }
 			set_global_flag = triumph_for_egypt_and_tunis
 		}
 
@@ -4833,6 +4869,8 @@ form_arabia_category = {
 				1152 = { add_core_of = ROOT }
 				1155 = { add_core_of = ROOT }
 				1158 = { add_core_of = ROOT }
+				1259 = { add_core_of = ROOT }
+				1260 = { add_core_of = ROOT }
 			}
 			# Oman
 			custom_effect_tooltip = form_country_oman_coring_states_tt
@@ -4926,6 +4964,17 @@ form_arabia_category = {
 				549 = { add_core_of = ROOT }
 				1237 = { add_core_of = ROOT }
 				1258 = { add_core_of = ROOT }
+				1273 = { add_core_of = ROOT }
+				1274 = { add_core_of = ROOT }
+				1275 = { add_core_of = ROOT }
+				1276 = { add_core_of = ROOT }
+				1277 = { add_core_of = ROOT }
+				1278 = { add_core_of = ROOT }
+				1279 = { add_core_of = ROOT }
+				1288 = { add_core_of = ROOT }
+				1272 = { add_core_of = ROOT }
+				1280 = { add_core_of = ROOT }
+				1281 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.67 hours = 6 }
@@ -5795,6 +5844,7 @@ form_andalusia_category = {
 				1249 = { add_core_of = ROOT }
 				1261 = { add_core_of = ROOT }
 				1264 = { add_core_of = ROOT }
+				413 = { add_core_of = ROOT }
 				# Saudi Arabia
 				292 = { add_core_of = ROOT }
 				679 = { add_core_of = ROOT }
@@ -5809,6 +5859,8 @@ form_andalusia_category = {
 				944 = { add_core_of = ROOT }
 				1150 = { add_core_of = ROOT }
 				1258 = { add_core_of = ROOT }
+				1259 = { add_core_of = ROOT }
+				1260 = { add_core_of = ROOT }
 				# French Arabia
 				677 = { add_core_of = ROOT }
 				680 = { add_core_of = ROOT }
@@ -5845,6 +5897,15 @@ form_andalusia_category = {
 				447 = { add_core_of = ROOT }
 				995 = { add_core_of = ROOT }
 				1237 = { add_core_of = ROOT }
+				1273 = { add_core_of = ROOT }
+				1274 = { add_core_of = ROOT }
+				1275 = { add_core_of = ROOT }
+				1276 = { add_core_of = ROOT }
+				1277 = { add_core_of = ROOT }
+				1278 = { add_core_of = ROOT }
+				1279 = { add_core_of = ROOT }
+				1288 = { add_core_of = ROOT }
+				1272 = { add_core_of = ROOT }
 				set_global_flag = restored_umayyad_flag
 			}
 			hidden_effect = {
@@ -7077,6 +7138,14 @@ form_macedonian_empire_category = {
 				1232 = { add_core_of = ROOT }
 				1237 = { add_core_of = ROOT }
 				1258 = { add_core_of = ROOT }
+				1273 = { add_core_of = ROOT }
+				1274 = { add_core_of = ROOT }
+				1275 = { add_core_of = ROOT }
+				1276 = { add_core_of = ROOT }
+				1277 = { add_core_of = ROOT }
+				1278 = { add_core_of = ROOT }
+				1279 = { add_core_of = ROOT }
+				1288 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = form_macedonian_empire_flag
