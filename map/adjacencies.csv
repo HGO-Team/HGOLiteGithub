@@ -214,8 +214,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13069;13091;impassable;-1;-1;-1;-1;-1;;Alaska
 13069;4848;impassable;-1;-1;-1;-1;-1;;Alaska
 13069;7869;impassable;-1;-1;-1;-1;-1;;Alaska
-11910;10127;impassable;-1;-1;-1;-1;-1;;Alaska
-7148;10127;impassable;-1;-1;-1;-1;-1;;Alaska
-13364;10127;impassable;-1;-1;-1;-1;-1;;Alaska
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 -1;-1;;-1;-1;-1;-1;-1;-1
