@@ -1973,14 +1973,14 @@ do_soviet_renames = {
 			id = 12446
 			name = "Yuzhno-Sakhalinsk"
 		}
-		set_state_name = "South Sakhalin"
+		set_state_name = "Yuzhnyy Sakhalin"
 	}
 
 	if = {
 		limit = {
 			state = 655
 		}
-		set_state_name = "North Sakhalin"
+		set_state_name = "Severnyy Sakhalin"
 	}
 
 	if = {
@@ -2511,6 +2511,86 @@ do_soviet_renames = {
 		}
 		set_state_name = "Pytalovo"
 	}
+	
+	if = {
+		limit = {
+			state = 1067
+		}
+		set_state_name = "Khanko"
+	}
+	
+	if = {
+		limit = {
+			state = 1068
+		}
+		set_state_name = "Porkkala"
+	}
+
+	if = {
+		limit = {
+			state = 80
+		}
+		set_province_name = {
+			id = 577
+			name = "Chernovitsy"
+		}
+		set_state_name = "Bukovyna"
+	}
+
+	if = {
+		limit = {
+			state = 925
+		}
+		set_province_name = {
+			id = 3407
+			name = "Khotín"
+		}
+		set_state_name = "Khotín"
+	}
+
+	if = {
+		limit = {
+			state = 78
+		}
+		set_province_name = {
+			id = 3707
+			name = "Kishinev"
+		}
+		set_province_name = {
+			id = 6600
+			name = "Bel'tsy"
+		}
+		set_state_name = "Bessarabiya"
+	}
+
+	if = {
+		limit = {
+			state = 766
+		}
+		set_province_name = {
+			id = 6727
+			name = "Chetátya Álbe"
+		}
+		set_state_name = "Yuzhnaya Bessarabiya"
+	}
+
+	if = {
+		limit = {
+			state = 555
+		}
+		set_state_name = "Kuríl'skiye Ostrová"
+	}
+
+	if = {
+		limit = {
+			state = 329
+		}
+		set_province_name = {
+			id = 10627
+			name = "Kızıl"
+		}
+		set_state_name = "Tannú Túva"
+	}
 }
 
 do_west_east_berlin_renames = {
@@ -2610,6 +2690,13 @@ do_japanese_renames = {
 			state = 655
 		}
 		set_state_name = "Kita Karafuto"
+	}
+
+	if = {
+		limit = {
+			state = 555
+		}
+		set_state_name = "Chishima Rettō"
 	}
 }
 
@@ -3549,6 +3636,20 @@ do_finnish_renames = {
 		}
 		set_state_name = "Petsamo"
 	}
+	
+	if = {
+		limit = {
+			state = 1067
+		}
+		set_state_name = "Hanko"
+	}
+	
+	if = {
+		limit = {
+			state = 1068
+		}
+		set_state_name = "Porkkalanniemi"
+	}
 }
 
 do_romanian_renames = {
@@ -3606,5 +3707,53 @@ do_romanian_renames = {
 			name = "Timișoara"
 		}
 		set_state_name = "Banat"
+	}
+
+	if = {
+		limit = {
+			state = 80
+		}
+		set_province_name = {
+			id = 577
+			name = "Cernăuți"
+		}
+		set_state_name = "Bucovina"
+	}
+
+	if = {
+		limit = {
+			state = 925
+		}
+		set_province_name = {
+			id = 3407
+			name = "Hotin"
+		}
+		set_state_name = "Hotin"
+	}
+
+	if = {
+		limit = {
+			state = 78
+		}
+		set_province_name = {
+			id = 3707
+			name = "Chișinău"
+		}
+		set_province_name = {
+			id = 6600
+			name = "Bălți"
+		}
+		set_state_name = "Basarabia"
+	}
+
+	if = {
+		limit = {
+			state = 766
+		}
+		set_province_name = {
+			id = 6727
+			name = "Cetatea Albă"
+		}
+		set_state_name = "Basarabia de Sud"
 	}
 }
