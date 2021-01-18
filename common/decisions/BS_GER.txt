@@ -2356,6 +2356,9 @@ expand_reich_category = {
 			NOT = {
 				has_country_flag = reint_old_provinces
 			}
+			85 = {
+				is_core_of = GER
+			}
 		}
 
 		cost = 5
@@ -2445,6 +2448,7 @@ expand_reich_category = {
 			NOT = {
 				has_country_flag = integrated_wartheland
 			}
+			has_country_flag = reint_old_provinces
 		}
 
 		cost = 50
@@ -2531,6 +2535,7 @@ expand_reich_category = {
 			NOT = {
 				has_country_flag = integrated_new_east_prussia
 			}
+			has_country_flag = reint_old_provinces
 		}
 
 		cost = 50
