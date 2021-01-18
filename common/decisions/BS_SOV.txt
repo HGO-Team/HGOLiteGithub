@@ -23,28 +23,9 @@ expand_soviet_union_category = {
 				controls_state = 13
 				controls_state = 882
 				if = {
-					890 = {
-					compliance > 30
-					}
-				}
-				if = {
-					883 = {
-					compliance > 30
-					}
-				}
-				if = {
-					191 = {
-					compliance > 30
-					}
-				}
-				if = {
-					13 = {
-					compliance > 30
-					}
-				}
-				if = {
-					882 = {
-					compliance > 30
+					core_compliance = {
+    				occupied_country_tag = EST
+    				value > 30
 					}
 				}
 			}
@@ -101,28 +82,9 @@ expand_soviet_union_category = {
 				controls_state = 881
 				controls_state = 190
 				if = {
-					891 = {
-					compliance > 30
-					}
-				}
-				if = {
-					880 = {
-					compliance > 30
-					}
-				}
-				if = {
-					12 = {
-					compliance > 30
-					}
-				}
-				if = {
-					881 = {
-					compliance > 30
-					}
-				}
-				if = {
-					190 = {
-					compliance > 30
+					core_compliance = {
+    				occupied_country_tag = LAT
+    				value > 30
 					}
 				}
 			}
@@ -618,6 +580,8 @@ expand_soviet_union_category = {
 				784 = { remove_core_of = POL }
 				1205 = { remove_core_of = POL }
 				96 = { remove_core_of = POL }
+				1181 = { remove_core_of = UKR }
+				91 = { remove_core_of = UKR }
 			}
 			set_country_flag = formed_curzon_line_b
 		}
@@ -667,6 +631,8 @@ expand_soviet_union_category = {
 			hidden_effect = {
 				73 = { remove_core_of = HUN }
 				73 = { remove_claim_by = HUN }
+				73 = { add_core_of = UKR }
+				73 = { remove_core_of = SLO }
 			}
 			set_country_flag = integrated_carpathian_ruthenia
 		}
@@ -704,7 +670,7 @@ expand_soviet_union_category = {
 			}
 		}
 
-		cost = 5
+		cost = 10
 		
 		complete_effect = {
 			763 = { add_core_of = SOV }
@@ -762,7 +728,7 @@ expand_soviet_union_category = {
 			}
 		}
 
-		cost = 5
+		cost = 10
 		
 		complete_effect = {
 			146 = { add_core_of = SOV }

@@ -229,3 +229,13 @@ integrate_nordschleswig_desc:0 "While northern Schleswig may be Danish, it was o
  integrate_kaliningrad:0 "Integrate Kaliningrad into the Russian SFSR"
  new_finland_soviet_border:0 "Draw new Finland-Soviet Union Borders"
  new_japan_soviet_border:0 " Draw new Soviet-Japan Border"
+ 
+ #Generic Formable Nations
+ generic_formables_category:0 "General Formable Nations"
+ form_east_germany:0 "Form East Germany"
+ form_west_germany:0 "Form West Germany"
+ unite_germany:0 "Unite Germany"
+ form_united_germany_overlord_tt:0 "§YGermany§! is controlled by §H[Root.GetNameDef]§! or their subjects"
+ form_united_germany_subject_tt:0 "§YGermany§! is controlled by §H[Root.GetNameDef]§! or their allies"
+ form_united_germany_communism_tt:0 "All §YGerman§! states are cored by the §YGermany Democratic Republic§! and transferred"
+ form_united_germany_democratic_tt:0 "All §YGerman§! states are cored by the §YFederal Republic of Germany§! and transferred"

@@ -2339,7 +2339,7 @@ do_soviet_renames = {
 		limit = {
 			state = 890
 		}
-		set_state_name = "Pechóry"
+		set_state_name = "Pechóry"
 	}
 	
 	if = {

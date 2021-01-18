@@ -686,3 +686,360 @@ form_abyssinia_category = {
 		}
 	}
 }
+generic_formables_category = {
+
+	form_east_germany = {
+
+		icon = generic_form_nation
+
+		available = {
+			controls_state = 64 #East Berlin
+		}
+
+		visible = {
+			NOT = { original_tag = GER }
+			NOT = { original_tag = DDR }
+			NOT = { original_tag = WGR }
+			NOT = { has_global_flag = DDR_formed }
+			NOT = { has_global_flag = form_european_union_flag }
+			NOT = { has_global_flag = form_germany_united }
+			controls_state = 64			
+		}
+
+		complete_effect = {
+			set_global_flag = DDR_formed
+			60 = { add_core_of = DDR }
+			61 = { add_core_of = DDR }
+			64 = { add_core_of = DDR }
+			65 = { add_core_of = DDR }
+			62 = { add_core_of = DDR }
+			795 = { add_core_of = DDR }
+			793 = { add_core_of = DDR }
+			794 = { add_core_of = DDR }	
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				tag = SOV
+				has_government = communism
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	unite_germany = {
+
+		icon = generic_form_nation
+
+		available = {
+			AND = {
+				if = {
+					limit = {
+						has_government = communism
+						NOT = { original_tag = DDR }
+					}
+					custom_trigger_tooltip = {
+						tooltip = form_united_germany_overlord_tt
+						DDR = { is_puppet_of = ROOT }
+						61 = { is_controlled_by_ROOT_or_subject = yes }
+						62 = { is_controlled_by_ROOT_or_subject = yes }
+						64 = { is_controlled_by_ROOT_or_subject = yes }
+						65 = { is_controlled_by_ROOT_or_subject = yes }
+						60 = { is_controlled_by_ROOT_or_subject = yes }
+						59 = { is_controlled_by_ROOT_or_subject = yes }
+						58 = { is_controlled_by_ROOT_or_subject = yes }
+						56 = { is_controlled_by_ROOT_or_subject = yes }
+						57 = { is_controlled_by_ROOT_or_subject = yes }
+						55 = { is_controlled_by_ROOT_or_subject = yes }
+						51 = { is_controlled_by_ROOT_or_subject = yes }
+						42 = { is_controlled_by_ROOT_or_subject = yes }
+						54 = { is_controlled_by_ROOT_or_subject = yes }
+						50 = { is_controlled_by_ROOT_or_subject = yes }
+						53 = { is_controlled_by_ROOT_or_subject = yes }
+						52 = { is_controlled_by_ROOT_or_subject = yes }
+						979 = { is_controlled_by_ROOT_or_subject = yes }
+						788 = { is_controlled_by_ROOT_or_subject = yes }
+						789 = { is_controlled_by_ROOT_or_subject = yes }
+						792 = { is_controlled_by_ROOT_or_subject = yes }
+						791 = { is_controlled_by_ROOT_or_subject = yes }
+						799 = { is_controlled_by_ROOT_or_subject = yes }
+						798 = { is_controlled_by_ROOT_or_subject = yes }
+						800 = { is_controlled_by_ROOT_or_subject = yes }
+						796 = { is_controlled_by_ROOT_or_subject = yes }
+						793 = { is_controlled_by_ROOT_or_subject = yes }
+						795 = { is_controlled_by_ROOT_or_subject = yes }
+						794 = { is_controlled_by_ROOT_or_subject = yes }
+						1105 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				if = {
+					limit = {
+						has_government = democratic
+						NOT = { original_tag = WGR }
+					}
+					custom_trigger_tooltip = {
+						tooltip = form_united_germany_overlord_tt
+						WGR = { is_puppet_of = ROOT }
+						61 = { is_controlled_by_ROOT_or_subject = yes }
+						62 = { is_controlled_by_ROOT_or_subject = yes }
+						64 = { is_controlled_by_ROOT_or_subject = yes }
+						65 = { is_controlled_by_ROOT_or_subject = yes }
+						60 = { is_controlled_by_ROOT_or_subject = yes }
+						59 = { is_controlled_by_ROOT_or_subject = yes }
+						58 = { is_controlled_by_ROOT_or_subject = yes }
+						56 = { is_controlled_by_ROOT_or_subject = yes }
+						57 = { is_controlled_by_ROOT_or_subject = yes }
+						55 = { is_controlled_by_ROOT_or_subject = yes }
+						51 = { is_controlled_by_ROOT_or_subject = yes }
+						42 = { is_controlled_by_ROOT_or_subject = yes }
+						54 = { is_controlled_by_ROOT_or_subject = yes }
+						50 = { is_controlled_by_ROOT_or_subject = yes }
+						53 = { is_controlled_by_ROOT_or_subject = yes }
+						52 = { is_controlled_by_ROOT_or_subject = yes }
+						979 = { is_controlled_by_ROOT_or_subject = yes }
+						788 = { is_controlled_by_ROOT_or_subject = yes }
+						789 = { is_controlled_by_ROOT_or_subject = yes }
+						792 = { is_controlled_by_ROOT_or_subject = yes }
+						791 = { is_controlled_by_ROOT_or_subject = yes }
+						799 = { is_controlled_by_ROOT_or_subject = yes }
+						798 = { is_controlled_by_ROOT_or_subject = yes }
+						800 = { is_controlled_by_ROOT_or_subject = yes }
+						796 = { is_controlled_by_ROOT_or_subject = yes }
+						793 = { is_controlled_by_ROOT_or_subject = yes }
+						795 = { is_controlled_by_ROOT_or_subject = yes }
+						794 = { is_controlled_by_ROOT_or_subject = yes }
+						1105 = { is_controlled_by_ROOT_or_subject = yes }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							original_tag = DDR
+							original_tag = WGR
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = form_united_germany_subject_tt
+						61 = { is_controlled_by_ROOT_or_ally = yes }
+						62 = { is_controlled_by_ROOT_or_ally = yes }
+						64 = { is_controlled_by_ROOT_or_ally = yes }
+						65 = { is_controlled_by_ROOT_or_ally = yes }
+						60 = { is_controlled_by_ROOT_or_ally = yes }
+						59 = { is_controlled_by_ROOT_or_ally = yes }
+						58 = { is_controlled_by_ROOT_or_ally = yes }
+						56 = { is_controlled_by_ROOT_or_ally = yes }
+						57 = { is_controlled_by_ROOT_or_ally = yes }
+						55 = { is_controlled_by_ROOT_or_ally = yes }
+						51 = { is_controlled_by_ROOT_or_ally = yes }
+						42 = { is_controlled_by_ROOT_or_ally = yes }
+						54 = { is_controlled_by_ROOT_or_ally = yes }
+						50 = { is_controlled_by_ROOT_or_ally = yes }
+						53 = { is_controlled_by_ROOT_or_ally = yes }
+						52 = { is_controlled_by_ROOT_or_ally = yes }
+						979 = { is_controlled_by_ROOT_or_ally = yes }
+						788 = { is_controlled_by_ROOT_or_ally = yes }
+						789 = { is_controlled_by_ROOT_or_ally = yes }
+						792 = { is_controlled_by_ROOT_or_ally = yes }
+						791 = { is_controlled_by_ROOT_or_ally = yes }
+						799 = { is_controlled_by_ROOT_or_ally = yes }
+						798 = { is_controlled_by_ROOT_or_ally = yes }
+						800 = { is_controlled_by_ROOT_or_ally = yes }
+						796 = { is_controlled_by_ROOT_or_ally = yes }
+						793 = { is_controlled_by_ROOT_or_ally = yes }
+						795 = { is_controlled_by_ROOT_or_ally = yes }
+						794 = { is_controlled_by_ROOT_or_ally = yes }
+						1105 = { is_controlled_by_ROOT_or_ally = yes }
+					}
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				DDR = { is_puppet_of = ROOT }
+				WGR = { is_puppet_of = ROOT }
+				original_tag = DDR
+				original_tag = WGR
+			}
+			NOT = { has_global_flag = form_european_union_flag }
+			NOT = { has_global_flag = form_germany_united }
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				if = {
+					limit = {
+						has_government = communism
+					}
+					every_state = {
+						if = {
+							limit = { is_core_of = WGR }
+							remove_core_of = WGR
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					every_state = {
+						if = {
+							limit = { is_core_of = DDR }
+							remove_core_of = DDR
+						}
+					}
+				}
+				every_state = {
+					if = {
+						limit = { is_core_of = GER }
+						remove_core_of = GER
+					}
+				}
+				set_global_flag = form_germany_united
+			}
+			if = {
+				limit = {
+					has_government = communism
+				}
+				custom_effect_tooltip = form_united_germany_communism_tt
+				hidden_effect = {
+					51 = { add_core_of = DDR }
+					42 = { add_core_of = DDR }
+					56 = { add_core_of = DDR }
+					57 = { add_core_of = DDR }
+					55 = { add_core_of = DDR }
+					50 = { add_core_of = DDR }
+					59 = { add_core_of = DDR }
+					58 = { add_core_of = DDR }
+					54 = { add_core_of = DDR }
+					52 = { add_core_of = DDR }
+					53 = { add_core_of = DDR }
+					979 = { add_core_of = DDR }
+					788 = { add_core_of = DDR }
+					789 = { add_core_of = DDR }
+					792 = { add_core_of = DDR }
+					791 = { add_core_of = DDR }
+					799 = { add_core_of = DDR }
+					798 = { add_core_of = DDR }
+					800 = { add_core_of = DDR }
+					796 = { add_core_of = DDR }
+					1105 = { add_core_of = DDR }
+					790 = { add_core_of = DDR }
+					DDR = { transfer_state = 51 }
+					DDR = { transfer_state = 42 }
+					DDR = { transfer_state = 56 }
+					DDR = { transfer_state = 57 }
+					DDR = { transfer_state = 55 }
+					DDR = { transfer_state = 50 }
+					DDR = { transfer_state = 59 }
+					DDR = { transfer_state = 58 }
+					DDR = { transfer_state = 54 }
+					DDR = { transfer_state = 52 }
+					DDR = { transfer_state = 53 }
+					DDR = { transfer_state = 979 }
+					DDR = { transfer_state = 788 }
+					DDR = { transfer_state = 789 }
+					DDR = { transfer_state = 792 }
+					DDR = { transfer_state = 791 }
+					DDR = { transfer_state = 799 }
+					DDR = { transfer_state = 798 }
+					DDR = { transfer_state = 800 }
+					DDR = { transfer_state = 796 }
+					DDR = { transfer_state = 1105 }
+					DDR = { transfer_state = 790 }
+					DDR = { set_capital = 1105 }
+				}
+			}
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				custom_effect_tooltip = form_united_germany_democratic_tt
+				hidden_effect = {
+					60 = { add_core_of = WGR }
+					61 = { add_core_of = WGR }
+					64 = { add_core_of = WGR }
+					65 = { add_core_of = WGR }
+					62 = { add_core_of = WGR }
+					795 = { add_core_of = WGR }
+					793 = { add_core_of = WGR }
+					794 = { add_core_of = WGR }	
+					WGR = { transfer_state = 60 }
+					WGR = { transfer_state = 61 }
+					WGR = { transfer_state = 64 }
+					WGR = { transfer_state = 65 }
+					WGR = { transfer_state = 62 }
+					WGR = { transfer_state = 795 }
+					WGR = { transfer_state = 793 }
+					WGR = { transfer_state = 794 }
+					WGR = { set_capital = 1105 }
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	form_west_germany = {
+
+		icon = generic_form_nation
+
+		available = {
+			controls_state = 55 #Frankfurt
+		}
+
+		visible = {
+			NOT = { original_tag = GER }
+			NOT = { original_tag = DDR }
+			NOT = { original_tag = WGR }
+			NOT = { has_global_flag = WGR_formed }
+			NOT = { has_global_flag = form_european_union_flag }
+			NOT = { has_global_flag = form_germany_united }
+			controls_state = 55
+		}
+
+		complete_effect = {
+			set_global_flag = WGR_formed
+			51 = { add_core_of = WGR }
+			42 = { add_core_of = WGR }
+			56 = { add_core_of = WGR }
+			57 = { add_core_of = WGR }
+			55 = { add_core_of = WGR }
+			50 = { add_core_of = WGR }
+			59 = { add_core_of = WGR }
+			58 = { add_core_of = WGR }
+			54 = { add_core_of = WGR }
+			52 = { add_core_of = WGR }
+			53 = { add_core_of = WGR }
+			979 = { add_core_of = WGR }
+			788 = { add_core_of = WGR }
+			789 = { add_core_of = WGR }
+			792 = { add_core_of = WGR }
+			791 = { add_core_of = WGR }
+			799 = { add_core_of = WGR }
+			798 = { add_core_of = WGR }
+			800 = { add_core_of = WGR }
+			796 = { add_core_of = WGR }
+			1105 = { add_core_of = WGR }
+			790 = { add_core_of = WGR }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				has_government = democratic
+				country_exists = { original_tag = DDR }
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

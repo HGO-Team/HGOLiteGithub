@@ -367,3 +367,11 @@ expand_soviet_union_category = {
 	}
 
 }
+generic_formables_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+
+	}
+}
