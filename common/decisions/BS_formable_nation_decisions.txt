@@ -168,13 +168,12 @@ form_east_africa_category = {
 				controls_state = 1285
 				controls_state = 1286
 				controls_state = 1287
-				
 			}
 			# Tanzania
 			custom_trigger_tooltip = {
 				tooltip = form_country_tanzania_required_states_tt
 				controls_state = 546
-				
+				controls_state = 1289
 			}
 			# Uganda
 			custom_trigger_tooltip = {
@@ -208,6 +207,7 @@ form_east_africa_category = {
 			custom_effect_tooltip = form_country_tanzania_coring_states_tt
 			hidden_effect = {
 				546 = { add_core_of = ROOT }
+				1289 = { add_core_of = ROOT }
 			}
 			# Uganda
 			custom_effect_tooltip = form_country_uganda_coring_states_tt
