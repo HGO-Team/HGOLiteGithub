@@ -771,6 +771,8 @@ GER_reichskommissariats = {
 			controls_state = 1226
 			controls_state = 1225
 			controls_state = 1227
+			controls_state = 1262
+			controls_state = 1263
 		}
 
 		cost = 0
@@ -816,6 +818,8 @@ GER_reichskommissariats = {
 				transfer_state = 1226
 				transfer_state = 1225
 				transfer_state = 1227
+				transfer_state = 1262
+				transfer_state = 1263
 				GER = {
 					puppet = RKK
 					set_autonomy = { target = RKK autonomy_state = autonomy_integrated_puppet }

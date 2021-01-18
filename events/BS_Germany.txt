@@ -435,6 +435,7 @@ country_event = {
 		add_opinion_modifier = { target = GER modifier = RKU_transfer_crimea}
 		
 		transfer_state = 137
+		transfer_state = 1267
     }
 }
 

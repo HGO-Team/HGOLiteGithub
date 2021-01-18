@@ -371,6 +371,7 @@ BS_transfer_territories_category = {
 			controls_state = 32
 			controls_state = 1147
 			controls_state = 1185
+			controls_state = 1270
 		}
 
 		cost = 10
@@ -393,6 +394,7 @@ BS_transfer_territories_category = {
 				transfer_state = 32
 				transfer_state = 1147
 				transfer_state = 1185
+				transfer_state = 1270
 			}
 		}
 	}
@@ -436,6 +438,7 @@ BS_transfer_territories_category = {
 
 		available = {
 			controls_state = 21
+			controls_state = 1269
 		}
 
 		cost = 10
@@ -455,6 +458,7 @@ BS_transfer_territories_category = {
 		complete_effect = {
 			BGN = {
 				transfer_state = 21
+				transfer_state = 1269
 			}
 		}
 	}
@@ -1186,10 +1190,12 @@ BS_transfer_territories_category = {
 	GER_transfer_crimea = {
 		highlight_state_targets = {
 			state = 137
+			state = 1267
 		}
 
 		available = {
 			has_full_control_of_state = 137
+			has_full_control_of_state = 1267
 			
 			RKU = {
 				has_full_control_of_state = 196
@@ -1219,6 +1225,7 @@ BS_transfer_territories_category = {
 				exists = yes
 			}
 			controls_state = 137
+			controls_state = 1267
 		}
 
 		complete_effect = {
@@ -1228,6 +1235,7 @@ BS_transfer_territories_category = {
 			effect_tooltip = {
 				RKU = {
 					transfer_state = 137
+					transfer_state = 1267
 				}
 				
 				RKU = { add_opinion_modifier = { target = GER modifier = RKU_transfer_crimea }}
