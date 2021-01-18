@@ -146,7 +146,7 @@
  form_east_africa_required:0 "East Africa must be formed first."
  
  form_country_kenya_coring_states_tt:0 "Gain cores on all §YKenyan§! states."
- form_country_kenya_required_states_tt:0 "Controlls of all §YKenyan§! states."
+ form_country_kenya_required_states_tt:0 "Controls all §YKenyan§! states."
  form_country_tanzania_coring_states_tt:0 "Gain cores on all §YTanzanian§! states."
  form_country_tanzania_required_states_tt:0 "Controlls all §YTanzanian§! states."
  form_country_burundi_coring_states_tt:0 "Gain cores on all §YBurundian§! states."
@@ -174,6 +174,16 @@
  form_abyssinia_required:0 "Abyssinia must be formed first."
  form_country_eritrea_required_states_tt:0 "Controlls all of §YEritrea§!."
  form_country_eritrea_coring_states_tt:0 "Gain cores on §YEritrea§!."
+ 
+ integrate_sudan:0 "Integrate §YEast Sudan§!."
+ integrate_sudan_desc:0 "The integration of Sudanese territory will further enrich our empire."
+ form_country_eth_sudan_required_states_tt:0 "Controls §YEast Sudan§!."
+ form_country_eth_sudan_coring_states_tt:0 "Gain cores on §YEast Sudan§!."
+ 
+ integrate_kenya:0 "Integrate §YEast Kenya§!."
+ integrate_kenya_desc:0 "The acquisition of Kenyan land puts us closer towards the realization of §YGreater Abyssinia§!."
+ form_country_eth_kenya_required_states_tt:0 "Controls east §YKenyan§! states."
+ form_country_eth_kenya_coring_states_tt:0 "Gain cores on east §YKenyan§! states."
  
  integrate_somaliland:0 "Integrate §YNorthern Somaliland§!."
  integrate_somaliland_desc:0 "We will take pride in protecting the Abyssinians of Djibouti and Berbera."

@@ -533,4 +533,144 @@ form_abyssinia_category = {
 			}
 		}
 	}
+	
+	integrate_kenya = {
+
+		allowed = {
+			OR = {
+				original_tag = ETH
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+
+			AND = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_eth_kenya_required_states_tt
+				controls_state = 1287
+				controls_state = 1286
+				controls_state = 1285
+				controls_state = 1284
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_abyssinia_required
+				has_cosmetic_tag = ABY_UNIFIED
+			}
+				if = {
+					1284 = {
+					compliance > 70
+					}
+					1285 = {
+					compliance > 70
+					}
+					1286 = {
+					compliance > 70
+					}
+					1287 = {
+					compliance > 70
+					}
+				}
+			}
+		}
+
+		visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = form_abyssinia_flag
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			custom_effect_tooltip = form_country_eth_kenya_coring_states_tt
+			1284 = { add_core_of = ROOT }
+			1285 = { add_core_of = ROOT }
+			1286 = { add_core_of = ROOT }
+			1287 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = integrate_kenya_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	integrate_sudan = {
+
+		allowed = {
+			OR = {
+				original_tag = ETH
+			}
+		}
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+
+			AND = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_eth_sudan_required_states_tt
+				controls_state = 1280
+				controls_state = 1281
+				controls_state = 1282
+				controls_state = 1283
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_abyssinia_required
+				has_cosmetic_tag = ABY_UNIFIED
+			}
+				if = {
+					1280 = {
+					compliance > 70
+					}
+					1281 = {
+					compliance > 70
+					}
+					1282 = {
+					compliance > 70
+					}
+					1283 = {
+					compliance > 70
+					}
+				}
+			}
+		}
+
+		visible = {
+			AND = {
+				original_tag = ETH
+				has_global_flag = form_abyssinia_flag
+			}
+		}
+
+		fire_only_once = yes
+		
+		complete_effect = {
+			custom_effect_tooltip = form_country_eth_sudan_coring_states_tt
+			1280 = { add_core_of = ROOT }
+			1281 = { add_core_of = ROOT }
+			1282 = { add_core_of = ROOT }
+			1283 = { add_core_of = ROOT }
+			hidden_effect = {
+				set_global_flag = integrate_eth_sudan_flag
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }

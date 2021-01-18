@@ -1771,7 +1771,6 @@ form_ottoman_empire_category = {
 				controls_state = 656
 				controls_state = 1039
 				controls_state = 1040
-				controls_state = 1041
 				controls_state = 1042
 				controls_state = 1043
 				controls_state = 1256
