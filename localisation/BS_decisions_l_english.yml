@@ -203,6 +203,7 @@
  
  #Expanding the Reich
  expand_reich_category:0 "Expanding the Reich"
+ expand_reich_category_desc:0 "With the acquisition of new territories we can strengthen the Fatherland and expand our Lebensraum"
  integrate_old_provinces:0 "Reintegrate the Old Provinces"
  integrate_old_provinces_desc:0 "The provinces of Katowitz and Posen are rightfully a part of the German Reich"
 integrate_wartheland:0 "Germanization of Western Poland"
@@ -211,3 +212,20 @@ integrate_new_east_prussia:0 "Creation of Neuostpreußen"
 integrate_new_east_prussia_desc:0 "These eastern Polish lands will become the newest province of the kingdom of Prussia"
 integrate_nordschleswig:0 "Reintegrate Schleswig"
 integrate_nordschleswig_desc:0 "While northern Schleswig may be Danish, it was once a part of the Kaiserreich and the Danes are in no position to dispute it's reintegration into the Reich"
+
+ #Expanding the Soviet Union
+ expand_soviet_union_category:0 "Expanding the Soviet Union"
+ expand_soviet_union_category_desc:0 "The integration and reorganization of territory will allow us to secure new land and create buffer states between us and our enemies"
+ form_estonian_ssr:0 "Form the Estonian SSR"
+ form_latvian_ssr:0 "Form the Latvian SSR"
+ form_lithuanian_ssr:0 "Form the Lithuanian SSR"
+ new_soviet_romania_borders:0 "Draw new Soviet-Romanian Border"
+ curzon_line_a:0 "Curzon Line Treaty A"
+ curzon_line_b:0 "Curzon Line Treaty B"
+ form_eastern_poland_required:0 "Controls §YEastern Poland§! and has compliance of at least §Y70%§! in each state"
+ form_eastern_poland_cores:0 "Gains cores on §YEastern Poland§!"
+ poland_lose_eastern_poland_cores:0 "§YPoland§! loses cores on §YEastern Poland§!"
+ integrate_carpathian_ruthenia:0 "Integrate Carpathian Ruthenia"
+ integrate_kaliningrad:0 "Integrate Kaliningrad into the Russian SFSR"
+ new_finland_soviet_border:0 "Draw new Finland-Soviet Union Borders"
+ new_japan_soviet_border:0 " Draw new Soviet-Japan Border"

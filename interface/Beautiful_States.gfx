@@ -69,5 +69,15 @@ spriteTypes = {
 		name = "GFX_decision_golden_gate_bridge"
 		textureFile = "gfx/interface/decisions/decision_bs_golden_gate_bridge.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_generic_formable_soviet_union"
+		textureFile = "gfx/interface/decisions/decision_cat_generic_formable_soviet_union.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_generic_formable_germany"
+		textureFile = "gfx/interface/decisions/decision_cat_generic_formable_germany.dds"
+	}
 
 }
