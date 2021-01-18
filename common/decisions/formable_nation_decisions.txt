@@ -7331,6 +7331,7 @@ form_turan_category = {
 				controls_state = 200
 				controls_state = 196
 				controls_state = 137
+				controls_state = 1267
 			}
 			# Urals + Central Asia
 			custom_trigger_tooltip = {
@@ -7456,6 +7457,7 @@ form_turan_category = {
 				932 = { add_core_of = TUR }
 				1121 = { add_core_of = TUR }
 				1122 = { add_core_of = TUR }
+				1267 = { add_core_of = TUR }
 				#URALS + CENTRAL ASIA
 				582 = { add_core_of = TUR }
 				402 = { add_core_of = TUR }

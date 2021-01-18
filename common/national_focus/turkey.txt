@@ -2433,6 +2433,7 @@ focus_tree = {
 			add_state_claim = 1139
 			add_state_claim = 1159
 			add_state_claim = 1160
+			add_state_claim = 1266
 			create_wargoal = {
 				type = take_state_focus
 				target = GRE
@@ -3877,6 +3878,7 @@ focus_tree = {
 							controls_state = 184
 							controls_state = 1156
 							controls_state = 1063
+							controls_state = 1266
 						}
 					}
 				}
@@ -3930,6 +3932,13 @@ focus_tree = {
 					}
 				}
 				1063 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				1266 = {
 					add_building_construction = {
 						type = infrastructure
 						level = 1
@@ -4031,6 +4040,7 @@ focus_tree = {
 							controls_state = 184
 							controls_state = 1156
 							controls_state = 1063
+							controls_state = 1266
 						}
 					}
 				}
@@ -4086,6 +4096,13 @@ focus_tree = {
 						}
 					}
 					1063 = {
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+					1266 = {
 						add_building_construction = {
 							type = infrastructure
 							level = 1
@@ -6663,6 +6680,7 @@ focus_tree = {
 			add_state_claim = 1160
 			add_state_claim = 187
 			add_state_claim = 975
+			add_state_claim = 1266
 			create_wargoal = {
 				type = annex_everything
 				target = GRE
@@ -8216,6 +8234,7 @@ focus_tree = {
 			add_state_core = 184
 			add_state_core = 1156
 			add_state_core = 1063
+			add_state_core = 1266
 			add_state_claim = 230
 			add_state_claim = 1123
 			add_state_claim = 1003
@@ -8246,6 +8265,7 @@ focus_tree = {
 								controls_state = 1139
 								controls_state = 1159
 								controls_state = 1160
+								controls_state = 1266
 							}
 						}
 					}
@@ -8273,6 +8293,7 @@ focus_tree = {
 								controls_state = 1139
 								controls_state = 1159
 								controls_state = 1160
+								controls_state = 1266
 							}
 						}
 					}
@@ -8301,6 +8322,7 @@ focus_tree = {
 								controls_state = 1139
 								controls_state = 1159
 								controls_state = 1160
+								controls_state = 1266
 							}
 						}
 					}
@@ -8331,6 +8353,7 @@ focus_tree = {
 								controls_state = 1139
 								controls_state = 1159
 								controls_state = 1160
+								controls_state = 1266
 							}
 						}
 					}
