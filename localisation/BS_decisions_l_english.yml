@@ -122,7 +122,7 @@
  bund_militia_raise:0 "§Y5 Bund Militia will be raise.§!"
  
  #German Empire Nano states; Nordschleswig, Eupen-Malmedy, Hlucin
- BS_german_empire_territory_cateogry:0 "Reintegrate Old Legacy"
+ BS_german_empire_territory_cateogry:0 "Reclaiming the Empire"
  BS_integrate_eupen:0 "Reintegrate Eupen-Malmedy"
  BS_integrate_schleswig:0 "Reintegrate Nordschleswig"
  BS_integrate_hlucin:0 "Reintegrate Hultschin"
@@ -201,3 +201,13 @@
  form_country_somalia_claiming_states_tt:0 "We will begin an integration campaign in the formerly Italian territories in §YSouthern Somaliland§!."
  form_country_somalia_coring_states_tt:0 "Gain cores on all of §YSouthern Somaliland§!."
  
+ #Expanding the Reich
+ expand_reich_category:0 "Expanding the Reich"
+ integrate_old_provinces:0 "Reintegrate the Old Provinces"
+ integrate_old_provinces_desc:0 "The provinces of Katowitz and Posen are rightfully a part of the German Reich"
+integrate_wartheland:0 "Germanization of Western Poland"
+integrate_wartheland_desc:0 "The occupied western Polish lands will be made into proper Reichsgau of the Fatherland"
+integrate_new_east_prussia:0 "Creation of Neuostpreußen"
+integrate_new_east_prussia_desc:0 "These eastern Polish lands will become the newest province of the kingdom of Prussia"
+integrate_nordschleswig:0 "Reintegrate Schleswig"
+integrate_nordschleswig_desc:0 "While northern Schleswig may be Danish, it was once a part of the Kaiserreich and the Danes are in no position to dispute it's reintegration into the Reich"

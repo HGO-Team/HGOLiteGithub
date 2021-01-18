@@ -329,3 +329,19 @@ form_abyssinia_category = {
 	}
 
 }
+
+expand_reich_category = {
+
+	allowed = {
+		tag = GER
+	}
+
+	visible = {
+		has_government = fascism
+		
+		has_game_rule = {
+			rule = allow_bs_extra
+			option = BS_ALLOWED
+		}
+	}
+}

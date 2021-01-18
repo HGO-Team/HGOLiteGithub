@@ -2104,32 +2104,32 @@ GER_german_american_bund_category = {
 
 BS_german_empire_territory_cateogry = {
 	
-	BS_integrate_eupen = {
+	#BS_integrate_eupen = {
 	
-		icon = generic_operation
+		#icon = generic_operation
 
-		highlight_state_targets = {
-			state = 812
-		}
+		#highlight_state_targets = {
+			#state = 812
+		#}
 
-		visible = {
-			controls_state = 812
-			NOT = {
-				has_country_flag = reint_eupen
-			}
-		}
+		#visible = {
+			#controls_state = 812
+			#NOT = {
+				#has_country_flag = reint_eupen
+			#}
+		#}
 
-		cost = 25
+		#cost = 25
 		
-		complete_effect = {
-			812 = { add_core_of = GER }
-			set_country_flag = reint_eupen
-		}
+		#complete_effect = {
+			#812 = { add_core_of = GER }
+			#set_country_flag = reint_eupen
+		#}
 
-		ai_will_do = {
-			factor = 1
-		}
-	}
+		#ai_will_do = {
+			#factor = 1
+		#}
+	#}
 	
 	BS_integrate_schleswig = {
 	
@@ -2139,6 +2139,19 @@ BS_german_empire_territory_cateogry = {
 			state = 804
 		}
 
+		available = {
+			is_subject = no
+
+			AND = {
+				controls_state = 804
+				if = {
+					804 = {
+					compliance > 50
+					}
+				}
+			}
+		}
+
 		visible = {
 			controls_state = 804
 			NOT = {
@@ -2146,7 +2159,7 @@ BS_german_empire_territory_cateogry = {
 			}
 		}
 
-		cost = 25
+		cost = 15
 		
 		complete_effect = {
 			804 = { add_core_of = GER }
@@ -2166,6 +2179,19 @@ BS_german_empire_territory_cateogry = {
 			state = 884
 		}
 
+		available = {
+			is_subject = no
+
+			AND = {
+				controls_state = 884
+				if = {
+					884 = {
+					compliance > 30
+					}
+				}
+			}
+		}
+
 		visible = {
 			controls_state = 884
 			NOT = {
@@ -2173,7 +2199,7 @@ BS_german_empire_territory_cateogry = {
 			}
 		}
 
-		cost = 25
+		cost = 15
 		
 		complete_effect = {
 			884 = { add_core_of = GER }
@@ -2188,40 +2214,40 @@ BS_german_empire_territory_cateogry = {
 
 BS_demand_old_empire_territory_category = {
 	
-	BS_demand_eupen = {
+	#BS_demand_eupen = {
 	
-		icon = generic_operation
+		#icon = generic_operation
 
-		highlight_state_targets = {
-			state = 812
-		}
+		#highlight_state_targets = {
+			#state = 812
+		#}
 
-		visible = {
-			NOT = {
-				controls_state = 812
-				has_country_flag = forced_eupen
-			}
-			any_allied_country = {
-				controls_state = 812
-			}
-		}
+		#visible = {
+			#NOT = {
+				#controls_state = 812
+				#has_country_flag = forced_eupen
+			#}
+			#any_allied_country = {
+				#controls_state = 812
+			#}
+		#}
 
-		cost = 10
+		#cost = 10
 		
-		complete_effect = {
-			random_country = {
-				limit = {
-					controls_state = 812
-					is_in_faction_with = GER
-				}
-				country_event = { id = bs_ger.4 days = 3 }
-			}
-		}
+		#complete_effect = {
+			#random_country = {
+				#limit = {
+					#controls_state = 812
+					#is_in_faction_with = GER
+				#}
+				#country_event = { id = bs_ger.4 days = 3 }
+			#}
+		#}
 
-		ai_will_do = {
-			factor = 1
-		}
-	}
+		#ai_will_do = {
+			#factor = 1
+		#}
+	#}
 	
 	BS_demand_schleswig = {
 	
@@ -2286,6 +2312,277 @@ BS_demand_old_empire_territory_category = {
 				}
 				country_event = { id = bs_ger.6 days = 3 }
 			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+expand_reich_category = {
+	
+	integrate_old_provinces = {
+	
+		icon = ger_reichskommissariats
+		
+		highlight_state_targets = {
+			state = 762
+			state = 86
+		}
+
+		available = {
+			is_subject = no
+
+			AND = {
+				controls_state = 762
+				controls_state = 86
+				if = {
+					762 = {
+					compliance > 30
+					}
+				}
+				if = {
+					86 = {
+					compliance > 30
+					}
+				}
+			}
+		}
+
+		visible = {
+			controls_state = 762
+			controls_state = 86
+			NOT = {
+				has_country_flag = reint_old_provinces
+			}
+		}
+
+		cost = 5
+		
+		complete_effect = {
+			762 = { add_core_of = GER }
+			86 = { add_core_of = GER }
+			set_country_flag = reint_old_provinces
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrate_wartheland = {
+	
+		icon = ger_reichskommissariats
+		
+		highlight_state_targets = {
+			state = 1119
+			state = 72
+			state = 863
+			state = 1255
+			state = 98
+			state = 1178
+			state = 87
+		}
+
+		available = {
+			is_subject = no
+
+			AND = {
+				controls_state = 1119
+				controls_state = 72
+				controls_state = 863
+				controls_state = 1255
+				controls_state = 98
+				controls_state = 1178
+				controls_state = 87
+				if = {
+					1119 = {
+					compliance > 90
+					}
+				}
+				if = {
+					72 = {
+					compliance > 90
+					}
+				}
+				if = {
+					863 = {
+					compliance > 90
+					}
+				}
+				if = {
+					1255 = {
+					compliance > 90
+					}
+				}
+				if = {
+					98 = {
+					compliance > 90
+					}
+				}
+				if = {
+					1178 = {
+					compliance > 90
+					}
+				}
+				if = {
+					87 = {
+					compliance > 90
+					}
+				}
+			}
+		}
+
+		visible = {
+			controls_state = 1119
+			controls_state = 72
+			controls_state = 863
+			controls_state = 1255
+			controls_state = 98
+			controls_state = 1178
+			controls_state = 87
+			NOT = {
+				has_country_flag = integrated_wartheland
+			}
+		}
+
+		cost = 50
+		
+		complete_effect = {
+			1119 = { add_core_of = GER }
+			72 = { add_core_of = GER }
+			863 = { add_core_of = GER }
+			1255 = { add_core_of = GER }
+			98 = { add_core_of = GER }
+			1178 = { add_core_of = GER }
+			87 = { add_core_of = GER }
+			set_country_flag = integrated_wartheland
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrate_new_east_prussia = {
+	
+		icon = ger_reichskommissariats
+		
+		highlight_state_targets = {
+			state = 1191
+			state = 933
+			state = 1192
+			state = 997
+			state = 1170
+			state = 97
+		}
+
+		available = {
+			is_subject = no
+
+			AND = {
+				controls_state = 1191
+				controls_state = 933
+				controls_state = 1192
+				controls_state = 997
+				controls_state = 1170
+				controls_state = 97
+				if = {
+					1191 = {
+					compliance > 90
+					}
+				}
+				if = {
+					933 = {
+					compliance > 90
+					}
+				}
+				if = {
+					1192 = {
+					compliance > 90
+					}
+				}
+				if = {
+					997 = {
+					compliance > 90
+					}
+				}
+				if = {
+					1170 = {
+					compliance > 90
+					}
+				}
+				if = {
+					97 = {
+					compliance > 90
+					}
+				}
+			}
+		}
+
+		visible = {
+			controls_state = 1191
+			controls_state = 933
+			controls_state = 1192
+			controls_state = 997
+			controls_state = 1170
+			controls_state = 97
+			NOT = {
+				has_country_flag = integrated_new_east_prussia
+			}
+		}
+
+		cost = 50
+		
+		complete_effect = {
+			1191 = { add_core_of = GER }
+			933 = { add_core_of = GER }
+			1192 = { add_core_of = GER }
+			997 = { add_core_of = GER }
+			1170 = { add_core_of = GER }
+			97 = { add_core_of = GER }
+			set_country_flag = integrated_new_east_prussia
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrate_nordschleswig = {
+	
+		icon = ger_reichskommissariats
+		
+		highlight_state_targets = {
+			state = 804
+		}
+
+		available = {
+			is_subject = no
+
+			AND = {
+				controls_state = 804
+				if = {
+					804 = {
+					compliance > 30
+					}
+				}
+			}
+		}
+
+		visible = {
+			controls_state = 804
+			NOT = {
+				has_country_flag = integrated_nordschleswig
+			}
+		}
+
+		cost = 10
+		
+		complete_effect = {
+			804 = { add_core_of = GER }
+			set_country_flag = integrated_nordschleswig
 		}
 
 		ai_will_do = {
