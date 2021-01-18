@@ -164,6 +164,10 @@ form_east_africa_category = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_kenya_required_states_tt
 				controls_state = 547
+				controls_state = 1284
+				controls_state = 1285
+				controls_state = 1286
+				controls_state = 1287
 				
 			}
 			# Tanzania
@@ -195,6 +199,10 @@ form_east_africa_category = {
 			custom_effect_tooltip = form_country_kenya_coring_states_tt
 			hidden_effect = {
 				547 = { add_core_of = ROOT }
+				1284 = { add_core_of = ROOT }
+				1285 = { add_core_of = ROOT }
+				1286 = { add_core_of = ROOT }
+				1287 = { add_core_of = ROOT }
 			}
 			# Tanzania
 			custom_effect_tooltip = form_country_tanzania_coring_states_tt
@@ -294,6 +302,8 @@ form_east_africa_category = {
 			custom_trigger_tooltip = {
 				tooltip = form_country_south_sudan_required_states_tt
 				controls_state = 1187
+				controls_state = 1282
+				controls_state = 1283
 			}
 			custom_trigger_tooltip = {
 				tooltip = form_country_lado_required_states_tt
@@ -318,6 +328,8 @@ form_east_africa_category = {
 		complete_effect = {
 			1187 = { add_core_of = ROOT }
 			1196 = { add_core_of = ROOT }
+			1282 = { add_core_of = ROOT }
+			1283 = { add_core_of = ROOT }
 		}
 
 		ai_will_do = {
