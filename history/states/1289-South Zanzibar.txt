@@ -6,13 +6,11 @@ state={
 		owner = ENG
 		}
 		buildings = {
-			13500 = {
-				naval_base = 1
+			infrastructure = 1
 
-			}
+                }
+		add_core_of = TZN
 
-		}
-			add_core_of = TZN
 	}
 
 	provinces={
