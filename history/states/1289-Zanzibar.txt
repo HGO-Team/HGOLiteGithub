@@ -1,9 +1,26 @@
 state={
 	id=1289
 	name="STATE_1289"
+
+        history={
+		owner = ENG
+		victory_points = {
+			13501 1
+		}
+		buildings = {
+			infrastructure = 1
+			13502 = {
+				naval_base = 1
+
+			}
+
+		}
+			add_core_of = TZN
+	}
 	provinces={
 		13501 13502 
 	}
-	manpower=0
+	manpower=657500
 	buildings_max_level_factor=1.000
+        state_category = rural
 }
