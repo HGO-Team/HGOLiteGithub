@@ -1288,3 +1288,7 @@
  STATE_1287:0 "Dadaab"
  STATE_1288:0 "Sharm El-Sheikh"
  STATE_1289:1 "Zanzibar"
+ STATE_1290:0 "Iraq Neutral Zone"
+ STATE_1291:0 "Al Wafrah zone"
+ STATE_1292:0 "South Al Wafrah Zone"
+ STATE_1293:0 "Saudi Neutral Zone"
