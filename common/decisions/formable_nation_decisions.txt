@@ -1226,6 +1226,7 @@ form_ottoman_empire_category = {
 				controls_state = 946
 				controls_state = 945
 				controls_state = 1264
+				controls_state = 1290
 			}
 			# France
 			custom_trigger_tooltip = {
@@ -1278,6 +1279,7 @@ form_ottoman_empire_category = {
 				1238 = { add_core_of = ROOT }
 				1261 = { add_core_of = ROOT }
 				1264 = { add_core_of = ROOT }
+				1290 = { add_core_of = ROOT }
 			}
 			# France
 			custom_effect_tooltip = form_persia_france_coring_states_tt
@@ -1383,6 +1385,7 @@ form_ottoman_empire_category = {
 				1278 = { add_core_of = ROOT }
 				1279 = { add_core_of = ROOT }
 				1288 = { add_core_of = ROOT }
+				1291 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				871 = { add_core_of = ROOT }
@@ -1922,6 +1925,7 @@ form_ottoman_empire_category = {
 				controls_state = 675
 				controls_state = 291
 				controls_state = 1264
+				controls_state = 1290
 			}
 		}
 
@@ -1946,6 +1950,7 @@ form_ottoman_empire_category = {
 				1246 = { add_core_of = ROOT }
 				1247 = { add_core_of = ROOT }
 				1264 = { add_core_of = ROOT }
+				1290 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				set_global_flag = ottoman_mesopotamia_flag
@@ -1987,6 +1992,9 @@ form_ottoman_empire_category = {
 			controls_state = 658
 			controls_state = 292
 			controls_state = 678
+			controls_state = 1293
+			controls_state = 1292
+			controls_state = 1291
 		}
 
 		visible = {
@@ -2008,6 +2016,10 @@ form_ottoman_empire_category = {
 			876 = { add_core_of = ROOT }
 			1259 = { add_core_of = ROOT }
 			1260 = { add_core_of = ROOT }
+			1293 = { add_core_of = ROOT }
+			1292 = { add_core_of = ROOT }
+			1291 = { add_core_of = ROOT }
+			
 			create_wargoal = { 
 				type = annex_everything
 				target = OMA
@@ -2888,6 +2900,7 @@ form_roman_empire_category = {
 				controls_state = 946
 				controls_state = 945
 				controls_state = 1264
+				controls_state = 1290
 			}
 			# Switzerland
 			custom_trigger_tooltip = {
@@ -3075,6 +3088,7 @@ form_roman_empire_category = {
 				# Gibraltar
 				controls_state = 118
 				# Malta
+				controls_state = 1291
 				controls_state = 116
 			}
 		}
@@ -3315,6 +3329,7 @@ form_roman_empire_category = {
 				1242 = { add_core_of = ROOT }
 				1261 = { add_core_of = ROOT }
 				1264 = { add_core_of = ROOT }
+				1290 = { add_core_of = ROOT }
 			}
 			# Switzerland
 			custom_effect_tooltip = form_country_switzerland_coring_states_tt
@@ -3492,6 +3507,7 @@ form_roman_empire_category = {
 				1278 = { add_core_of = ROOT }
 				1279 = { add_core_of = ROOT }
 				1288 = { add_core_of = ROOT }
+				1291 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.64 hours = 6 }
@@ -3586,6 +3602,7 @@ form_persian_empire_category = {
 				controls_state = 1245
 				controls_state = 1246
 				controls_state = 1247
+				controls_state = 1290
 			}
 			# Turkey
 			custom_trigger_tooltip = {
@@ -3668,6 +3685,7 @@ form_persian_empire_category = {
 				controls_state = 1236
 				controls_state = 1237
 				controls_state = 1238
+				controls_state = 1291
 			}
 		}
 
@@ -3721,6 +3739,7 @@ form_persian_empire_category = {
 				1245 = { add_core_of = ROOT }
 				1246 = { add_core_of = ROOT }
 				1247 = { add_core_of = ROOT }
+				1290 = { add_core_of = ROOT }
 			}
 			# Turkey
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
@@ -3823,6 +3842,7 @@ form_persian_empire_category = {
 				1236 = { add_core_of = ROOT }
 				1237 = { add_core_of = ROOT }
 				1238 = { add_core_of = ROOT }
+				1291 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.65 hours = 6 }
@@ -4792,6 +4812,7 @@ form_arabia_category = {
 				controls_state = 946
 				controls_state = 945
 				controls_state = 1264
+				controls_state = 1290
 			}
 			# Saudi Arabia
 			custom_trigger_tooltip = {
@@ -4801,6 +4822,8 @@ form_arabia_category = {
 				controls_state = 678
 				controls_state = 948
 				controls_state = 944
+				controls_state = 1292
+				controls_state = 1293
 			}
 			# Oman
 			custom_trigger_tooltip = {
@@ -4869,6 +4892,7 @@ form_arabia_category = {
 				controls_state = 765
 				controls_state = 875
 				controls_state = 1258
+				controls_state = 1291
 			}
 		}
 
@@ -4927,6 +4951,7 @@ form_arabia_category = {
 				1238 = { add_core_of = ROOT }
 				1261 = { add_core_of = ROOT }
 				1264 = { add_core_of = ROOT }
+				1290 = { add_core_of = ROOT }
 			}
 			# Saudi Arabia
 			custom_effect_tooltip = form_country_saudi_coring_states_tt
@@ -4944,6 +4969,8 @@ form_arabia_category = {
 				1158 = { add_core_of = ROOT }
 				1259 = { add_core_of = ROOT }
 				1260 = { add_core_of = ROOT }
+				1292 = { add_core_of = ROOT }
+				1293 = { add_core_of = ROOT }
 			}
 			# Oman
 			custom_effect_tooltip = form_country_oman_coring_states_tt
@@ -5048,6 +5075,7 @@ form_arabia_category = {
 				1272 = { add_core_of = ROOT }
 				1280 = { add_core_of = ROOT }
 				1281 = { add_core_of = ROOT }
+				1291 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.67 hours = 6 }
