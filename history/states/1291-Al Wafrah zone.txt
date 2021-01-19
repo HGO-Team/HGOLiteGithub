@@ -3,12 +3,12 @@ state={
 	name="STATE_1291"
 	
 	history={
-		owner = SAU
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SAU
+		add_core_of = KUW
 		set_demilitarized_zone = yes
 
 	}
