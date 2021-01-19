@@ -2167,7 +2167,7 @@ BS_german_empire_territory_cateogry = {
 			}
 		}
 
-		cost = 15
+		cost = 10
 		
 		complete_effect = {
 			804 = { add_core_of = GER }
@@ -2207,7 +2207,7 @@ BS_german_empire_territory_cateogry = {
 			}
 		}
 
-		cost = 15
+		cost = 5
 		
 		complete_effect = {
 			884 = { add_core_of = GER }
