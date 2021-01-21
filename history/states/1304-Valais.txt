@@ -1,27 +1,24 @@
-
 state={
-	id=892
-	name="STATE_892"
+	id=1304
+	name="STATE_1304"
 
-	history={
+        history={
 		owner = SWI
 		victory_points = {
-			6666 3 
+			3612 1 
 		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
+			infrastructure = 2
 			industrial_complex = 1
 
 		}
 		add_core_of = SWI
 
 	}
-
 	provinces={
-		6666 6683 9622 11590 13124 
+		3612 9587 
 	}
-	manpower=800554
+	manpower=281660
 	buildings_max_level_factor=1.000
-	state_category=town
+        state_category=town
 }
