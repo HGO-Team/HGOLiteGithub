@@ -13,7 +13,7 @@ state={
 		}
 		owner = GRE
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			air_base = 3
 
 		}
@@ -22,9 +22,9 @@ state={
 	}
 
 	provinces={
-		1106 1205 3980 9916 11786 11895 12001 
+		1106 1205 11895 12001 
 	}
-	manpower=420400
+	manpower=3190400
 	buildings_max_level_factor=1.000
 	state_category=town
 }
