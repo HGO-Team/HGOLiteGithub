@@ -370,8 +370,8 @@ expand_soviet_union_category = {
 			option = BS_ALLOWED
 		}
 	}
-
 }
+
 generic_formables_category = {
 
 	icon = generic_formable_nations
@@ -379,4 +379,23 @@ generic_formables_category = {
 	allowed = {
 
 	}
+}
+
+form_la_plata_category = {
+	
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_picture_gateway_to_europe
+
+	allowed = {
+
+	}
+
+	visible = {
+		has_game_rule = {
+			rule = allow_bs_extra
+			option = BS_ALLOWED
+		}
+	}
+
 }
