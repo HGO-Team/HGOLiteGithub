@@ -9,15 +9,20 @@ state={
 		owner = CHI
 		add_core_of = PRC
 		add_core_of = CHI
-		victory_points = {
-			7418 1 
-		}
 		buildings = {
 			infrastructure = 3
 		}
 
 	}
+<<<<<<< HEAD
 	manpower=9000000
+=======
+
+	provinces={
+		1976 2006 4256 5092 7301 7406 7911 10257 12713 
+	}
+	manpower=7800000
+>>>>>>> parent of d4f3f4e... Revert "some fixes"
 	buildings_max_level_factor=1.000
 	state_category = town
 }

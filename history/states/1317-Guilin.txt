@@ -1,19 +1,16 @@
-
 state={
-	id=604
-	name="STATE_604"
-
+	id=1317
+	name="STATE_1317"
+	
 	history={
-		owner = XSM
-		add_core_of = XSM
+		owner = GXC
+		add_core_of = GXC
 		add_core_of = CHI
 		add_core_of = PRC
-		victory_points = {
-			7940 10 
-		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 2
+			arms_factory = 1
 
 		}
 		1938.10.25 = {
@@ -34,11 +31,11 @@ state={
 		}
 
 	}
-
+	
 	provinces={
-		4914 4964 7940 8018 8037 12899 
+		1023 7128 12407 
 	}
-	manpower=1196100
+	manpower=1285200
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }
