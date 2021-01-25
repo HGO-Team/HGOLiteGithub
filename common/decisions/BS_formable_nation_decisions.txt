@@ -686,6 +686,114 @@ form_abyssinia_category = {
 		}
 	}
 }
+form_la_plata_category = {
+	
+	form_la_plata = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = ARG
+				original_tag = URG
+				original_tag = CHL
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = ARG
+				original_tag = URG
+				original_tag = CHL
+			}
+			NOT = { has_global_flag = formed_la_plata }
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_bolivia_required_states_tt
+				controls_state = 487
+				controls_state = 302
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_paraguay_required_states_tt
+				controls_state = 688
+				controls_state = 301
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_argentina_required_states_tt
+				controls_state = 508
+				controls_state = 509
+				controls_state = 510
+				controls_state = 511
+				controls_state = 278
+				controls_state = 512
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_chile_required_states_tt
+				controls_state = 506
+				controls_state = 279
+				controls_state = 507
+				controls_state = 915
+				controls_state = 916
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_uruguay_required_states_tt
+				controls_state = 300
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = 	LPA_UNIFIED
+			custom_effect_tooltip = form_country_bolivia_coring_states_tt
+			hidden_effect = {
+				487 = { add_core_of = ROOT }
+				302 = { add_core_of = ROOT }
+			}
+			custom_effect_tooltip = form_country_paraguay_coring_states_tt
+			hidden_effect = {
+				688 = { add_core_of = ROOT }
+				301 = { add_core_of = ROOT }
+			}
+			custom_effect_tooltip = form_country_argentina_coring_states_tt
+			hidden_effect = {
+				508 = { add_core_of = ROOT }
+				509 = { add_core_of = ROOT }
+				510 = { add_core_of = ROOT }
+				511 = { add_core_of = ROOT }
+				278 = { add_core_of = ROOT }
+				512 = { add_core_of = ROOT }
+				299 = { add_core_of = ROOT }
+			}
+			custom_effect_tooltip = form_country_chile_coring_states_tt
+			hidden_effect = {
+				506 = { add_core_of = ROOT }
+				279 = { add_core_of = ROOT }
+				507 = { add_core_of = ROOT }
+				915 = { add_core_of = ROOT }
+				916 = { add_core_of = ROOT }
+			}
+			custom_effect_tooltip = form_country_uruguay_coring_states_tt
+			hidden_effect = {
+				300 = { add_core_of = ROOT }
+				720 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = formed_la_plata
+				720 = { remove_claim_by = ROOT}
+				300 = { remove_claim_by = ROOT}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 generic_formables_category = {
 
 	form_east_germany = {

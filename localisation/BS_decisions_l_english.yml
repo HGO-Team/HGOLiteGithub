@@ -239,3 +239,18 @@ integrate_nordschleswig_desc:0 "While northern Schleswig may be Danish, it was o
  form_united_germany_subject_tt:0 "§YGermany§! is controlled by §H[Root.GetNameDef]§! or their allies"
  form_united_germany_communism_tt:0 "All §YGerman§! states are cored by the §YGermany Democratic Republic§! and transferred"
  form_united_germany_democratic_tt:0 "All §YGerman§! states are cored by the §YFederal Republic of Germany§! and transferred"
+
+ #La Plata
+ form_la_plata_category:0 "Legacy of La Plata"
+ form_la_plata_category_desc:0 "The history of European colonialism has tarnished the memory of La Plata with Spanish Imperialism. Let us turn this against them - we are stronger in scale and might than any Spaniard. Long live La Plata."
+ form_la_plata:0 "Form La Plata"
+ form_country_bolivia_required_states_tt:0 "Controls all of §YBolivia§!."
+ form_country_paraguay_required_states_tt:0 "Controls all of §YParaguay§!."
+ form_country_argentina_required_states_tt:0 "Controls all of §YArgentina§!."
+ form_country_chile_required_states_tt:0 "Controls all of §YChile§!."
+ form_country_uruguay_required_states_tt:0 "Controls all of §YUruguay§!."
+ form_country_bolivia_coring_states_tt:0 "Gain cores on all of §YBolivia§!.\n"
+ form_country_paraguay_coring_states_tt:0 "Gain cores on all of §YParaguay§!.\n"
+ form_country_argentina_coring_states_tt:0 "Gain cores on all of §YArgentina§!.\n"
+ form_country_chile_coring_states_tt:0 "Gain cores on all of §YChile§!.\n"
+ form_country_uruguay_coring_states_tt:0 "Gain cores on all of §YUruguay§!.\n"
