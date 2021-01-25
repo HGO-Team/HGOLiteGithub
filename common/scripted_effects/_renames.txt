@@ -351,13 +351,6 @@ do_german_renames = {
 	
 	if = {
 		limit = {
-			state = 1138
-		}
-		set_state_name = "Warthenau"
-	}
-	
-	if = {
-		limit = {
 			state = 864
 		}
 		set_state_name = "Ostrau"
@@ -1564,13 +1557,6 @@ do_polish_renames = {
 	
 	if = {
 		limit = {
-			state = 1138
-		}
-		set_state_name = "Górnicza"
-	}
-	
-	if = {
-		limit = {
 			state = 864
 		}
 		set_state_name = "Ostrów"
@@ -2382,13 +2368,6 @@ do_soviet_renames = {
 			state = 1119
 		}
 		set_state_name = "Kalish"
-	}
-	
-	if = {
-		limit = {
-			state = 1138
-		}
-		set_state_name = "Dobycha"
 	}
 	
 	if = {

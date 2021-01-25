@@ -20,7 +20,7 @@
 
  
  #FASCIST
- GER_fascism:0 "Deutsches Reich"
+ GER_fascism:0 "German Reich"
  GER_fascism_DEF:0 "the German Reich" 
  GER_fascism_ADJ:0 "German"
  
@@ -44,8 +44,8 @@
  
  
  #DEMOCRATIC
- ENG_democratic:0 "United Kingdom of Great Britain and Northern Ireland"
- ENG_democratic_DEF:0 "the United Kingdom"
+ ENG_democratic:0 "United Kingdom"
+ ENG_democratic_DEF:0 "the United Kingdom of Great Britain"
  ENG_democratic_ADJ:0 "British"
  
  
@@ -62,8 +62,8 @@
 
 
  #NEUTRAL
- ENG_neutrality:0 "United Kingdom"
- ENG_neutrality_DEF:0 "United Kingdom"
+ ENG_neutrality:0 "United Kingdom of Great Britain"
+ ENG_neutrality_DEF:0 "United Kingdom of Great Britain"
  ENG_neutrality_ADJ:0 "British"
 
 
