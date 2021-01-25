@@ -3,6 +3,7 @@ state= {
 	name="STATE_599"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	manpower = 8685200
 	state_category = town
 	resources={
@@ -10,6 +11,8 @@ state= {
 		steel= 15 # was: 20
 		chromium = 3 # was: 4
 	}
+=======
+>>>>>>> parent of d4f3f4e... Revert "some fixes"
 =======
 >>>>>>> parent of d4f3f4e... Revert "some fixes"
 =======
@@ -24,6 +27,7 @@ state= {
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 			air_base = 2
@@ -45,6 +49,10 @@ state= {
 
 		}
 >>>>>>> parent of d4f3f4e... Revert "some fixes"
+=======
+
+		}
+>>>>>>> parent of d4f3f4e... Revert "some fixes"
 		1938.10.25 = {
 			if = {
 				limit = {
@@ -52,6 +60,7 @@ state= {
 						has_dlc = "Waking the Tiger" 
 					}
 
+<<<<<<< HEAD
 				}
 				CHI = {
 					transfer_state = PREV
@@ -59,6 +68,13 @@ state= {
 				}
 <<<<<<< HEAD
 =======
+=======
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+>>>>>>> parent of d4f3f4e... Revert "some fixes"
 
 			}
 >>>>>>> parent of d4f3f4e... Revert "some fixes"
@@ -70,8 +86,14 @@ state= {
 	}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	provinces={
 		1023 1469 1597 1625 4028 4077 4085 4134 4152 4628 4656 7095 7128 7168 7210 7650 10039 10121 10404 10431 10459 12407 12436 
+=======
+
+	provinces={
+		1625 4028 4077 4085 4628 7137 7650 10050 10459 
+>>>>>>> parent of d4f3f4e... Revert "some fixes"
 =======
 
 	provinces={
