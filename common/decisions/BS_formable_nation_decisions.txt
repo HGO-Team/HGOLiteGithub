@@ -794,6 +794,89 @@ form_la_plata_category = {
 		}
 	}
 }
+
+form_indochina_category = {
+	
+	form_indochina = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = CAM
+				original_tag = LAO
+				original_tag = VIN
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = form_country_cambodia_required_states_tt
+				controls_state = 741
+				controls_state = 1085
+				controls_state = 1084
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_laos_required_states_tt
+				controls_state = 670
+				controls_state = 1076
+				controls_state = 1077
+				controls_state = 1075
+				controls_state = 1074
+				controls_state = 1073
+		
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_vietnam_required_states_tt
+				controls_state = 671
+				controls_state = 286
+				controls_state = 1078
+				controls_state = 1079
+				controls_state = 1080
+				controls_state = 1082
+				controls_state = 1081
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = CAM
+				original_tag = LAO
+				original_tag = VIN
+			}
+			NOT = { has_global_flag = form_indochina }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = 	IDC_UNIFIED
+			custom_effect_tooltip = form_country_cambodia_coring_states_tt
+			hidden_effect = {
+				741 = { add_core_of = ROOT }
+			}
+			custom_effect_tooltip = form_country_laos_coring_states_tt
+			hidden_effect = {
+				670 = { add_core_of = ROOT }
+			}
+			custom_effect_tooltip = form_country_vietnam_coring_states_tt
+			hidden_effect = {
+				671 = { add_core_of = ROOT }
+				286 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = form_indochina
+			}
+		}
+		
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
 generic_formables_category = {
 
 	form_east_germany = {
@@ -836,7 +919,7 @@ generic_formables_category = {
 			}
 		}
 	}
-	
+}
 	unite_germany = {
 
 		icon = generic_form_nation
@@ -1150,3 +1233,4 @@ generic_formables_category = {
 		}
 	}
 }
+

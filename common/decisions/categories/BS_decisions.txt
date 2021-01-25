@@ -372,15 +372,6 @@ expand_soviet_union_category = {
 	}
 }
 
-generic_formables_category = {
-
-	icon = generic_formable_nations
-
-	allowed = {
-
-	}
-}
-
 form_la_plata_category = {
 	
 	icon = generic_formable_nations
@@ -397,5 +388,31 @@ form_la_plata_category = {
 			option = BS_ALLOWED
 		}
 	}
+}
 
+form_indochina_category = {
+	
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_picture_gateway_to_europe
+	
+	allowed = {
+
+	}
+	
+	visible = {
+		has_game_rule = {
+			rule = allow_bs_extra
+			option = BS_ALLOWED
+		}
+	}
+}
+
+generic_formables_category = {
+
+	icon = generic_formable_nations
+
+	allowed = {
+
+	}
 }

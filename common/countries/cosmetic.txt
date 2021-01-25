@@ -6717,6 +6717,10 @@ color = rgb { 0 0 0 }
 color_ui = rgb { 0 0 0 }
 }
 
+IDC_UNIFIED = {
+	color = rgb { 232 232 0 }
+	color_ui = rgb { 232 232 0 }
+}
 #/
 #/
 #/

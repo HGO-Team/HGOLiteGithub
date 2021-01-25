@@ -254,3 +254,14 @@ integrate_nordschleswig_desc:0 "While northern Schleswig may be Danish, it was o
  form_country_argentina_coring_states_tt:0 "Gain cores on all of §YArgentina§!.\n"
  form_country_chile_coring_states_tt:0 "Gain cores on all of §YChile§!.\n"
  form_country_uruguay_coring_states_tt:0 "Gain cores on all of §YUruguay§!.\n"
+
+ #Indochina
+ form_indochina_category:0 "Unite the South-East Asian Peninsula"
+  form_indochina_category_desc:0 "§YIndochina§! is a term adopted in modern times to describe the French owned territories of the South-East Asian Peninsula. We have aquired these territories for ourselves and can reject the colonial powers. It is now our choice if we unite these countries as one nation."
+  form_indochina:0 "Form a United Indochina"
+  form_country_cambodia_required_states_tt:0 "Controls all of §YCambodia§!."
+  form_country_laos_required_states_tt:0 "Controls all of §YLaos§!."
+  form_country_vietnam_required_states_tt:0 "Controls all of §YVietnam§!."
+  form_country_cambodia_coring_states_tt:0 "Gain cores on all of §YCambodia§!.\n"
+  form_country_laos_coring_states_tt:0 "Gain cores on all of §YLaos§!.\n"
+  form_country_vietnam_coring_states_tt:0 "Gain cores on all §YVietnamese§! states.\n"
