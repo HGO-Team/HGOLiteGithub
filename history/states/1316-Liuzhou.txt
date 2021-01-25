@@ -1,17 +1,21 @@
-
 state={
-	id=616
-	name="STATE_616"
-
+	id=1316
+	name="STATE_1316"
+	
 	history={
-		owner = NSI
-		add_core_of = NSI
-		add_core_of = XSM
+		owner = GXC
+		add_core_of = GXC
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
 
+		}
+		victory_points = {
+			10404 3 
 		}
 		1938.10.25 = {
 			if = {
@@ -31,11 +35,11 @@ state={
 		}
 
 	}
-
+	
 	provinces={
-		1630 5031 5057 5100 7511 8055 8127 10724 12327 12750 12776 
+		1597 4134 4152 7095 7168 10039 10404 10431 12436 
 	}
-	manpower=2077600
+	manpower=3685200
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 }

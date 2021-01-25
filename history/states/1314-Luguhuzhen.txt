@@ -1,16 +1,14 @@
-
 state={
-	id=616
-	name="STATE_616"
-
+	id=1314
+	name="STATE_1314"
+	
 	history={
-		owner = NSI
-		add_core_of = NSI
-		add_core_of = XSM
+		owner = YUN
+		add_core_of = YUN
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 
 		}
 		1938.10.25 = {
@@ -31,11 +29,10 @@ state={
 		}
 
 	}
-
 	provinces={
-		1630 5031 5057 5100 7511 8055 8127 10724 12327 12750 12776 
+		10726 
 	}
-	manpower=2077600
+	manpower=68000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

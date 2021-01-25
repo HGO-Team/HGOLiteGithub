@@ -2,11 +2,6 @@
 state={
 	id=599
 	name="STATE_599"
-	resources={
-		tungsten=15.000
-		steel=15.000
-		chromium=3.000
-	}
 
 	history={
 		owner = GXC
@@ -17,26 +12,29 @@ state={
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
-			air_base = 2
 
 		}
-		victory_points = {
-			10404 3 
-		}
 		1938.10.25 = {
-				if = {
-					limit = {
-						NOT = { has_dlc = "Waking the Tiger" }
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger" 
 					}
-					CHI = { transfer_state = PREV }
+
 				}
-				
+				CHI = {
+					transfer_state = PREV
+
+				}
+
 			}
 
 		}
-		
+
+	}
+
 	provinces={
-		1023 1469 1597 1625 4028 4077 4085 4121 4134 4152 4177 4628 4656 7095 7128 7137 7168 7650 10039 10050 10404 10431 10459 11926 12407 12436 
+		1625 4028 4077 4085 4628 7137 7650 10050 10459 
 	}
 	manpower=8685200
 	buildings_max_level_factor=1.000
