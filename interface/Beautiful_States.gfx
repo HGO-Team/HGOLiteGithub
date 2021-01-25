@@ -79,5 +79,10 @@ spriteTypes = {
 		name = "GFX_decision_cat_generic_formable_germany"
 		textureFile = "gfx/interface/decisions/decision_cat_generic_formable_germany.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_generic_formable_laplata"
+		textureFile = "gfx/interface/decisions/decision_cat_generic_formable_laplata.dds"
+	}
 
 }

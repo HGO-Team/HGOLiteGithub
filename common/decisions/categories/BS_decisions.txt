@@ -385,7 +385,7 @@ form_la_plata_category = {
 	
 	icon = generic_formable_nations
 
-	picture = GFX_decision_cat_picture_gateway_to_europe
+	picture = GFX_decision_cat_generic_formable_laplata
 
 	allowed = {
 
