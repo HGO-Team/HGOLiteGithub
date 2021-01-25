@@ -1,4 +1,4 @@
-state={	#Bitburg
+state={	#Trier
 	id=792
 	name="STATE_792"
 
@@ -22,7 +22,7 @@ state={	#Bitburg
 	}
 
 	provinces={
-		11435 
+		13236 3423 
 	}
 	manpower=22003
 	buildings_max_level_factor=1.000
