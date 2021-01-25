@@ -22,6 +22,9 @@ state={
 		1976 2006 4256 5092 7301 7406 7911 10257 12713 
 	}
 	manpower=7800000
+<<<<<<< HEAD
+>>>>>>> parent of d4f3f4e... Revert "some fixes"
+=======
 >>>>>>> parent of d4f3f4e... Revert "some fixes"
 	buildings_max_level_factor=1.000
 	state_category = town
