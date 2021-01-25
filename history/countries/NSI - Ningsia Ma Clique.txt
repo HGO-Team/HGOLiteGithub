@@ -1,4 +1,4 @@
-﻿capital = 759
+﻿capital = 756
 
 oob = "NSI_1936"
 
