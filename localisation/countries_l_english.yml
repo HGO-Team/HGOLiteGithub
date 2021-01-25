@@ -203,8 +203,8 @@
 
 
  #FASCIST
- FRA_fascism: "French State"
- FRA_fascism_DEF: "the French State"
+ FRA_fascism:0 "French State"
+ FRA_fascism_DEF:0 "the French State"
  FRA_fascism_ADJ:0 "French"  
  
  
@@ -231,8 +231,8 @@
  VIC_communism_ADJ:0 "French" 
  
  #FASCIST
- VIC_fascism: "French State"
- VIC_fascism_DEF: "the French State"
+ VIC_fascism:0 "French State"
+ VIC_fascism_DEF:0 "the French State"
  VIC_fascism_ADJ:0 "French"  
  
  #NEUTRAL
@@ -512,20 +512,29 @@
  SPR_ADJ:0 "Spanish"
  
  
+ ###Italy
  
- 
+ #Fascism
  ITA_fascism:0 "Kingdom of Italy"
  ITA_fascism_DEF:0 "the Kingdom of Italy"
+ ITA_fascism_ADJ:0 "Italian"
+
+ #Democratic
  ITA_democratic:0 "Italian Republic"
  ITA_democratic_DEF:0 "the Italian Republic"
+ ITA_democratic_ADJ:0 "Italian"
+
+ #Neutrality
  ITA_neutrality:0 "Kingdom of Italy"
  ITA_neutrality_DEF:0 "the Kingdom of Italy"
+ ITA_neutrality_ADJ:0 "Italian"
+
+ #Communism
  ITA_communism:0 "Italian People's Republic"
  ITA_communism_DEF:0 "the Italian People's Republic"
- ITA_fascism_ADJ:0 "Italian"
- ITA_democratic_ADJ:0 "Italian"
- ITA_neutrality_ADJ:0 "Italian"
  ITA_communism_ADJ:0 "Italian"
+
+ #Tag
  ITA:0 "Italy"
  ITA_DEF:0 "Italy"
  ITA_ADJ:0 "Italian"
@@ -1116,19 +1125,29 @@
  
  
  
- 
+ ###Mongolia
+
+ #Fascism
  MON_fascism:0 "Great Mongolian State"
  MON_fascism_DEF:0 "the Great Mongolian State"
+ MON_fascism_ADJ:0 "Mongolian"
+
+ #Democratic
  MON_democratic:0 "Mongolian Parliamentary Republic"
  MON_democratic_DEF:0 "the Mongolian Parliamentary Republic"
+ MON_democratic_ADJ:0 "Mongolian"
+
+ #Neutrality
  MON_neutrality:0 "Great Mongolian State"
  MON_neutrality_DEF:0 "the Great Mongolian State"
+ MON_neutrality_ADJ:0 "Mongolian"
+
+ #Communism
  MON_communism:0 "Mongolian People's Republic"
  MON_communism_DEF:0 "the Mongolian People's Republic"
- MON_fascism_ADJ:0 "Mongolian"
- MON_democratic_ADJ:0 "Mongolian"
- MON_neutrality_ADJ:0 "Mongolian"
  MON_communism_ADJ:0 "Mongolian"
+
+ #Tag
  MON:0 "Mongolia"
  MON_DEF:0 "Mongolia"
  MON_ADJ:0 "Mongolian"
@@ -1568,20 +1587,30 @@
  YEM_ADJ:0 "Yemeni"
  
  
+ ###Ethiopia
+
  
- 
+ #Fascism
  ETH_fascism:0 "Ethiopian Empire"
  ETH_fascism_DEF:0 "the Ethiopian Empire"
+ ETH_fascism_ADJ:0 "Ethiopian"
+
+ #Democratic
  ETH_democratic:0 "Republic of Ethiopia"
  ETH_democratic_DEF:0 "the Republic of Ethiopia"
+ ETH_democratic_ADJ:0 "Ethiopian"
+
+ #Neutrality
  ETH_neutrality:0 "Ethiopian Empire"
  ETH_neutrality_DEF:0 "the Ethiopian Empire"
+ ETH_neutrality_ADJ:0 "Ethiopian"
+
+ #Communism
  ETH_communism:0 "People's Democratic Republic of Ethiopia"
  ETH_communism_DEF:0 "the People's Democratic Republic of Ethiopia"
- ETH_fascism_ADJ:0 "Ethiopian"
- ETH_democratic_ADJ:0 "Ethiopian"
- ETH_neutrality_ADJ:0 "Ethiopian"
  ETH_communism_ADJ:0 "Ethiopian"
+
+ #Tag
  ETH:0 "Ethiopia"
  ETH_DEF:0 "Ethiopia"
  ETH_ADJ:0 "Ethiopian"
@@ -1910,39 +1939,57 @@
  LBA_ADJ:0 "Libyan"
  
  
+ ###West Germany
  
- 
+ #Fascism
  WGR_fascism:0 "German Reich"
  WGR_fascism_DEF:0 "the German Reich"
+ WGR_fascism_ADJ:0 "West German"
+
+ #Democratic
  WGR_democratic:0 "Federal Republic of Germany"
  WGR_democratic_DEF:0 "the Federal Republic of Germany"
+ WGR_democratic_ADJ:0 "West German"
+
+ #Neutrality
  WGR_neutrality:0 "German Empire"
  WGR_neutrality_DEF:0 "the German Empire"
+ WGR_neutrality_ADJ:0 "West German"
+
+ #Communism
  WGR_communism:0 "Socialist Republic of Germany"
  WGR_communism_DEF:0 "the Socialist Republic of Germany"
- WGR_fascism_ADJ:0 "West German"
- WGR_democratic_ADJ:0 "West German"
- WGR_neutrality_ADJ:0 "West German"
  WGR_communism_ADJ:0 "West German"
+
+ #Tag
  WGR:0 "Germany"
  WGR_DEF:0 "Germany"
  WGR_ADJ:0 "West German"
  
  
+ ###East Germany
  
- 
+ #Fascism
  DDR_fascism:0 "German Reich"
  DDR_fascism_DEF:0 "the German Reich"
+ DDR_fascism_ADJ:0 "East German"
+
+ #Democratic
  DDR_democratic:0 "Federal Republic of Germany"
  DDR_democratic_DEF:0 "the Federal Republic of Germany"
+ DDR_democratic_ADJ:0 "East German"
+
+ #Neutrality
  DDR_neutrality:0 "German Empire"
  DDR_neutrality_DEF:0 "the German Empire"
+ DDR_neutrality_ADJ:0 "East German"
+
+ #Communism
  DDR_communism:0 "German Democratic Republic"
  DDR_communism_DEF:0 "the German Democratic Republic"
- DDR_fascism_ADJ:0 "East German"
- DDR_democratic_ADJ:0 "East German"
- DDR_neutrality_ADJ:0 "East German"
  DDR_communism_ADJ:0 "East German"
+
+ #Tag
  DDR:0 "Germany"
  DDR_DEF:0 "Germany"
  DDR_ADJ:0 "East German"
@@ -3024,20 +3071,29 @@
  DJI_ADJ:0 "Djiboutian"
  
  
+ ###Somalia
  
- 
+ #Fascism
  SOM_fascism:0 "Sultanate of the Geledi"
  SOM_fascism_DEF:0 "the Sultanate of the Geledi"
- SOM_democratic:0 "Somali Republic"
- SOM_democratic_DEF:0 "the Somali Republic"
+ SOM_fascism_ADJ:0 "Ajuraan"
+
+ #Democratic
+ SOM_democratic:0 "Federal Republic of Somalia"
+ SOM_democratic_DEF:0 "The Federal Republic of Somalia"
+ SOM_democratic_ADJ:0 "Somalian"
+
+ #Neutrality
  SOM_neutrality:0 "Sultanate of the Geledi"
  SOM_neutrality_DEF:0 "the Sultanate of the Geledi"
+ SOM_neutrality_ADJ:0 "Somalian"
+
+ #Communism
  SOM_communism:0 "Somali Democratic Republic"
  SOM_communism_DEF:0 "the Somali Democratic Republic"
- SOM_fascism_ADJ:0 "Ajuraan"
- SOM_democratic_ADJ:0 "Somalian"
- SOM_neutrality_ADJ:0 "Somalian"
  SOM_communism_ADJ:0 "Somalian"
+
+ #Tag
  SOM:0 "Somalia"
  SOM_DEF:0 "Somalia"
  SOM_ADJ:0 "Somalian"

@@ -27,15 +27,6 @@
  KOR_neutrality:0 "People's Republic of Korea"
  KOR_neutrality_DEF:0 "People's Republic of Korea"
  
- WGR_democratic:0 "Federal Republic of Germany"
- WGR_democratic_DEF:0 "Federal Republic of Germany"
- 
- DDR_communism:0 "German Democratic Republic"
- DDR_communism_DEF:0 "German Democratic Republic"
- 
- ITA_democratic:0 "Republic of Italy"
- ITA_democratic_DEF:0 "the Republic of Italy"
- 
  FRA_democratic_party:0 "Front populaire"
  
  GRE_neutrality_party:0 "Freethinkers' Party"
@@ -50,14 +41,5 @@
  
  EGY_neutrality_party:0 "Wafd Party"
  
- MON_communism:0 "Mongolian People's Republic"
- MON_communism_DEF:0 "Mongolian People's Republic"
 
- 
- SOM_democratic:0 "Federal Republic of Somalia"
- SOM_democratic_DEF:0 "The Federal Republic of Somalia"
- SOM_democratic_ADJ:0 "Somalian"
 
- ETH_neutrality:0 "Ethiopian Empire"
- ETH_neutrality_DEF:0 "The Ethiopian Empire"
- ETH_neutrality_ADJ:0 "Ethiopian"
