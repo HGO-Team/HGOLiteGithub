@@ -57,11 +57,6 @@ MCU = "countries/Macau.txt"
 YAK = "countries/Yakut.txt"
 ROK = "countries/South Korea.txt"
 DPK = "countries/North Korea.txt"
-TUG = "countries/Tunganistan.txt"
-NSI = "countries/Ningsia Ma Clique.txt"
-SZH = "countries/Szechwan Clique.txt"
-NEA = "countries/Northeastern Army.txt"
-HSI = "countries/Hsikang Clique.txt"
 
 ##Africa##
 LES = "countries/Lesotho.txt"
@@ -76,4 +71,3 @@ KIR = "countries/Kiribati.txt"
 PLU = "countries/Palau.txt"
 MRS = "countries/Marshall.txt"
 NAU = "countries/Nauru.txt"
-

@@ -1,4 +1,3 @@
-
 state={
 	id=605
 	name="STATE_605"
@@ -7,8 +6,7 @@ state={
 	}
 
 	history={
-		owner = SZH
-		add_core_of = SZH
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
@@ -16,7 +14,6 @@ state={
 			arms_factory = 3
 			industrial_complex = 2
 			air_base = 2
-
 		}
 		victory_points = {
 			4925 5 
@@ -38,7 +35,7 @@ state={
 	}
 
 	provinces={
-		531 1257 1367 1395 1893 2030 2045 4041 4141 4375 4403 4431 4925 5048 5193 6999 7240 7256 8026 10132 10304 10822 11865 11972 12274 12705 12767 
+		1367 1395 1893 2030 2091 4925 5048 6999 7240 7256 8026 10132 10144 11865 12274 12705 12767 
 	}
 	manpower=52963300
 	buildings_max_level_factor=1.000
