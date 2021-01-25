@@ -108,7 +108,7 @@ country_event = {
 				ideology = fascism
 				size = 0.5
 				capital = 176
-				states = { 166 169 170 171 172 174 176 177 178 290 297 699 1044 1050 1051 1053 1106 }
+				states = { 166 169 170 171 172 174 176 177 178 290 297 699 1044 1050 1051 1053 1106 1150 1152 }
 			}
 			random_other_country = {
 				limit = {
@@ -486,7 +486,7 @@ country_event = {
 				ideology = fascism
 				size = 0.5
 				capital = 176
-				states = { 166 169 170 171 172 174 176 177 178 290 297 699 1044 1050 1051 1053 1106 }
+				states = { 166 169 170 171 172 174 176 177 178 290 297 699 1044 1050 1051 1053 1106 1150 1152 }
 			}
 			random_other_country = {
 				limit = {

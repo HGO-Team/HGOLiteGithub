@@ -676,6 +676,8 @@ country_event = {
 							state = 783
 							state = 297
 							state = 1106
+							state = 1150
+							state = 1152
 						}
 					}
 					# Transfer states and set flag to prepare for post-Civil War de-coring
@@ -2688,6 +2690,8 @@ country_event = {
 							state = 783
 							state = 297
 							state = 1106
+							state = 1150
+							state = 1152
 						}
 					}
 					create_unit = {

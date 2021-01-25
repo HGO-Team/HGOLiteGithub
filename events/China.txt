@@ -822,6 +822,10 @@ country_event = {
 			tag = GXC
 			tag = YUN
 			tag = XSM
+			tag = HSI
+			tag = SZH
+			tag = NEA
+			tag = NSI
 		}
 		CHI = {
 			has_war_with = JAP 
