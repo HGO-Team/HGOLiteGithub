@@ -905,10 +905,10 @@ do_german_renames = {
 			state = 792
 		}		
 		set_province_name = {
-			id = 11435
-			name = "Bitburg"
+			id = 13236
+			name = "Trier"
 		}
-		set_state_name = "Bitburg"
+		set_state_name = "Trier"
 	}
 
 	if = {
@@ -1811,10 +1811,10 @@ do_french_renames = {
 			state = 792
 		}		
 		set_province_name = {
-			id = 11435
-			name = "Bitbourg"
+			id = 13236
+			name = "Trèves"
 		}
-		set_state_name = "Bitbourg"
+		set_state_name = "Trèves"
 	}
 	
 	if = {
