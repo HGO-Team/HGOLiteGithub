@@ -2303,7 +2303,7 @@ country_event = {
 				add_state_claim = 961
 				add_state_claim = 350
 				add_state_claim = 352
-				add_state_claim = 961
+				#add_state_claim = 961
 				add_state_claim = 959
 				add_state_claim = 353
 				add_state_claim = 960
@@ -2829,7 +2829,7 @@ country_event = {
 				transfer_state = 961
 				transfer_state = 350
 				transfer_state = 352
-				transfer_state = 961
+				#transfer_state = 961
 				transfer_state = 959
 				transfer_state = 877
 				transfer_state = 353
@@ -2841,7 +2841,9 @@ country_event = {
 				}
 				KUR = {
 					transfer_state = 344
+					transfer_state = 961
 					add_state_core = 344
+					add_state_core = 961
 					set_cosmetic_tag = KUR_FRA
 				}
 				country_event = { id = bftb_greece.210 days = 7 }
