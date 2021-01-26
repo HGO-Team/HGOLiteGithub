@@ -4201,6 +4201,7 @@ form_byzantine_empire_category = {
 				47 = { add_core_of = ROOT }
 				186 = { add_core_of = ROOT }
 				184 = { add_core_of = ROOT }
+				184 = { set_state_name = "Eastern Macedonia" }
 				187 = { add_core_of = ROOT }
 				182 = { add_core_of = ROOT }
 				1160 = { set_state_name = "Thessalonica" }
@@ -4210,7 +4211,7 @@ form_byzantine_empire_category = {
 			custom_effect_tooltip = form_country_turkey_coring_states_tt
 			hidden_effect = {
 				341 = { add_core_of = ROOT }
-				340 = { set_state_name = "Thracia" }
+				#340 = { set_state_name = "Thracia" }
 				set_province_name = { id = 947 name = "Prusa" }
 				340 = { add_core_of = ROOT }
 				340 = { set_state_name = "Prusa" }
@@ -4268,6 +4269,7 @@ form_byzantine_empire_category = {
 				set_province_name = { id = 4512 name = "Amida" }
 				354 = { add_core_of = ROOT }
 				354 = { set_state_name = "Chaldia" }
+				set_province_name = { id = 3714 name = "Rizaíon" }
 				set_province_name = { id = 9932 name = "Trebizond" }
 				353 = { add_core_of = ROOT }
 				353 = { set_state_name = "Manzikert" }
@@ -4279,20 +4281,31 @@ form_byzantine_empire_category = {
 				960 = { set_state_name = "Vaspurakan" }
 				set_province_name = { id = 6935 name = "Eua" }
 				954 = { add_core_of = ROOT }
+				954 = { set_state_name = "Kotyaion" }
 				953 = { add_core_of = ROOT }
+				953 = { set_state_name = "Dorylaion" }
 				1140 = { add_core_of = ROOT }
+				1140 = { set_state_name = "Thrace" }
+				set_province_name = { id = 11842 name = "Hadrianopolis" }
 				1116 = { add_core_of = ROOT }
 				1188 = { add_core_of = ROOT }
 				950 = { add_core_of = ROOT }
 				951 = { add_core_of = ROOT }
+				951 = { set_state_name = "Attaleia" }
 				956 = { add_core_of = ROOT }
+				set_province_name = { id = 804 name = "Hattoúsa" }
 				955 = { add_core_of = ROOT }
 				957 = { add_core_of = ROOT }
+				957 = { set_state_name = "Pteria" }
+				set_province_name = { id = 3964 name = "Pteria" }
 				958 = { add_core_of = ROOT }
 				959 = { add_core_of = ROOT }
+				959 = { set_state_name = "Keltzeni" }
 				960 = { add_core_of = ROOT }
 				961 = { add_core_of = ROOT }
+				961 = { set_state_name = "Taúrou" }
 				1001 = { add_core_of = ROOT }
+				set_province_name = { id = 10472 name = "Khorzeni" }
 				137 = { add_core_of = ROOT }
 				877 = { add_core_of = ROOT }
 				1224 = { add_core_of = ROOT }
@@ -6548,7 +6561,7 @@ form_greater_greece_category = {
 				controls_state = 341
 				controls_state = 340
 				controls_state = 339
-				controls_state = 347
+				#controls_state = 347
 			}
 			# Dodecanese
 			if = {
@@ -6620,7 +6633,8 @@ form_greater_greece_category = {
 				340 = { add_core_of = ROOT }
 				340 = { set_state_name = "Prousa" }
 				set_province_name = { id = 947 name = "Prousa" } 
-				set_province_name = { id = 947 name = "Palaeokastron" }
+				set_province_name = { id = 6864 name = "Dardanellia" }
+				set_province_name = { id = 11778 name = "Palaiokastron" }
 				1140 = { add_core_of = ROOT }
 				1140 = { set_state_name = "Thrace" }
 				set_province_name = { id = 11842 name = "Adrianople" }
@@ -6631,12 +6645,16 @@ form_greater_greece_category = {
 				339 = { add_core_of = ROOT }
 				339 = { set_state_name = "Smyrni" }
 				set_province_name = { id = 4112 name = "Smyrna" }
+				set_province_name = { id = 11848 name = "Kydonies" }
 				set_province_name = { id = 928 name = "Magnesia" }
-				347 = { add_core_of = ROOT }
-				347 = { set_state_name = "Nikomedeia" }
+				#347 = { add_core_of = ROOT }
+				950 = { set_state_name = "Nikomedeia" }
 				set_province_name = { id = 11811 name = "Nikomedeia" }
 				set_province_name = { id = 904 name = "Kieros" }
 				1116 = { add_core_of = ROOT }
+				1116 = { set_state_name = "Raidestos" }
+				set_province_name = { id = 6895 name = "Raidestos" }
+				set_province_name = { id = 849 name = "Kallipoli" }
 				1188 = { add_core_of = ROOT }
 				1188 = { set_state_name = "East Constantinople" }
 				950 = { add_core_of = ROOT }
@@ -6646,7 +6664,9 @@ form_greater_greece_category = {
 					}
 					342 = { add_core_of = ROOT }
 					342 = { set_state_name = "Attalis" }
-					set_province_name = { id = 1005 name = "Attaleia" }
+					#951 = { set_state_name = "Attaleia" }
+					#set_province_name = { id = 1005 name = "Attaleia" }
+					set_province_name = { id = 9941 name = "Halikarnassos" }
 				}
 			}
 			# Cyprus
@@ -6763,6 +6783,7 @@ form_greater_greece_category = {
 			add_war_support = 0.05
 			342 = { add_core_of = ROOT }
 			342 = { set_state_name = "Attalis" }
+			951 = { set_state_name = "Attaleia" }
 			set_province_name = { id = 1005 name = "Attaleia" }
 		}
 
