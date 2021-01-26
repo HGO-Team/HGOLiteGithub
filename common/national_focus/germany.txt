@@ -5900,6 +5900,10 @@ focus_tree = {
 						owns_state = 940
 						940 = { owner = { is_subject_of = YUG } }
 					}
+					OR = {
+						owns_state = 1302
+						1302 = { owner = { is_subject_of = YUG } }
+					}
 				}
 			}
 			OR = {
@@ -5930,9 +5934,11 @@ focus_tree = {
 						YUG = {
 							owns_state = 106
 							owns_state = 870
+							owns_state = 1302
 						}
 						106 = { owner = { is_subject_of = YUG } }
 						870 = { owner = { is_subject_of = YUG } }
+						1302 = { owner = { is_subject_of = YUG } }
 					}
 				}
 				AND = {
@@ -6022,6 +6028,10 @@ focus_tree = {
 								870 = { is_owned_by = YUG }
 								870 = { is_owned_by = GER }
 							}
+							OR = {
+								1302 = { is_owned_by = YUG }
+								1302 = { is_owned_by = GER }
+							}
 						}
 						BUL = { 
 							country_event = { id = bulgaria.3 days = 1 } 
@@ -6048,6 +6058,10 @@ focus_tree = {
 							OR = {
 								1204 = { is_owned_by = YUG }
 								1204 = { is_owned_by = GER }
+							}
+							OR = {
+								1302 = { is_owned_by = YUG }
+								1302 = { is_owned_by = GER }
 							}
 						}
 						BUL = {
@@ -6086,6 +6100,13 @@ focus_tree = {
 									1265 = { is_owned_by = GER }
 								}
 							transfer_state = 1265
+							}
+							if = {
+								limit = {
+									1302 = { is_owned_by = YUG }
+									1302 = { is_owned_by = GER }
+								}
+							transfer_state = 1302
 							}
 						}
 					}
@@ -6208,6 +6229,7 @@ focus_tree = {
 				owns_state = 977
 				owns_state = 975
 				owns_state = 182
+				owns_state = 1303
 			}
 		}
 		x = 0
