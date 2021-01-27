@@ -82,16 +82,11 @@ country_event = {
 					1204 = { is_owned_by = YUG }
 					1204 = { is_owned_by = GER }
 				}
-				OR = {
-					1302 = { is_owned_by = YUG }
-					1302 = { is_owned_by = GER }
-				}
 			}
 			transfer_state = 106
 			transfer_state = 870
 			transfer_state = 1230
 			transfer_state = 1204
-			transfer_state = 1302
 		}
 	}
 }

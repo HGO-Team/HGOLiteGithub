@@ -87,7 +87,7 @@
  
  #COMMUNIST
  SOV_communism:0 "Union of Soviet Socialist Republics"
- SOV_communism_DEF:0 "the Soviet Union"
+ SOV_communism_DEF:0 "the Union of Soviet Socialist Republics"
  SOV_communism_ADJ:0 "Soviet"
  
  
@@ -616,9 +616,9 @@
  TUR_fascism:0 "Turkish State"
  TUR_fascism_DEF:0 "the Turkish State"
  TUR_democratic:0 "Republic of Turkey"
- TUR_democratic_DEF:0 "Turkey"
+ TUR_democratic_DEF:0 "the Republic of Turkey"
  TUR_neutrality:0 "Republic of Turkey"
- TUR_neutrality_DEF:0 "Turkey"
+ TUR_neutrality_DEF:0 "the Republic of Turkey"
  TUR_communism:0 "Turkish Socialist Republic"
  TUR_communism_DEF:0 "the Turkish Socialist Republic"
  TUR_fascism_ADJ:0 "Turkish"
@@ -1089,7 +1089,7 @@
  
  
  JAP_fascism:0 "Empire of Japan"
- JAP_fascism_DEF:0 "the Empire of Japan"
+ JAP_fascism_DEF:0 "The Empire of Japan"
  JAP_democratic:0 "Japan"
  JAP_democratic_DEF:0 "Japan"
  JAP_neutrality:0 "Empire of Japan"
@@ -1384,10 +1384,10 @@
  
  TIB_fascism:0 "Tibetan Empire"
  TIB_fascism_DEF:0 "the Tibetan Empire"
- TIB_democratic:0 "Tibet"
- TIB_democratic_DEF:0 "Tibet"
- TIB_neutrality:0 "Tibet"
- TIB_neutrality_DEF:0 "Tibet"
+ TIB_democratic:0 "Theocracy of Tibet"
+ TIB_democratic_DEF:0 "the Theocracy of Tibet"
+ TIB_neutrality:0 "Theocracy of Tibet"
+ TIB_neutrality_DEF:0 "Theocracy of Tibet"
  TIB_communism:0 "Xizang Autonomous Region"
  TIB_communism_DEF:0 "the Xizang Autonomous Region"
  TIB_fascism_ADJ:0 "Tibetan"

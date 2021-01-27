@@ -672,10 +672,10 @@ country_event = {
 						check_variable = { var = SPA_garrison_control value = 1 compare = equals }
 						NOT = {
 							state = 290
-							state = 1106
 							state = 699
 							state = 783
 							state = 297
+							state = 1106
 							state = 1150
 							state = 1152
 						}
@@ -2686,10 +2686,10 @@ country_event = {
 						check_variable = { var = SPA_garrison_control value = 1 compare = equals }
 						NOT = {
 							state = 290
-							state = 1106
 							state = 699
 							state = 783
 							state = 297
+							state = 1106
 							state = 1150
 							state = 1152
 						}

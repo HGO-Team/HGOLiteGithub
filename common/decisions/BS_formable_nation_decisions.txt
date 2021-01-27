@@ -815,7 +815,6 @@ form_indochina_category = {
 				controls_state = 741
 				controls_state = 1085
 				controls_state = 1084
-				controls_state = 1083
 			}
 			custom_trigger_tooltip = {
 				tooltip = form_country_laos_required_states_tt
@@ -855,14 +854,12 @@ form_indochina_category = {
 				741 = { add_core_of = ROOT }
 				1085 = { add_core_of = ROOT }
 				1084 = { add_core_of = ROOT }
-				1083 = { add_core_of = ROOT }
 			}
 			custom_effect_tooltip = form_country_laos_coring_states_tt
 			hidden_effect = {
 				670 = { add_core_of = ROOT }
 				1076 = { add_core_of = ROOT }
 				1077 = { add_core_of = ROOT }
-				1075 = { add_core_of = ROOT }
 				1074 = { add_core_of = ROOT }
 				1073 = { add_core_of = ROOT }
 			}
@@ -933,7 +930,7 @@ generic_formables_category = {
 			}
 		}
 	}
-
+}
 	unite_germany = {
 
 		icon = generic_form_nation
