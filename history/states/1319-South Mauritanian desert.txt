@@ -1,8 +1,7 @@
-
 state={
-	id=1172
-	name="STATE_1172"
-
+	id=1319
+	name="STATE_1319"
+	
 	history={
 		owner = FRA
 		add_core_of = ALG
@@ -12,11 +11,11 @@ state={
 		}
 
 	}
-
+	
 	provinces={
-		4903 13358 
+		1962 10771 
 	}
-	manpower=53423
+	manpower=23423
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }
