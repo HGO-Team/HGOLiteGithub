@@ -1777,13 +1777,15 @@ country_event = {
 				add_state_claim = 1140
 				add_state_claim = 341
 				add_state_claim = 1188
-				add_state_claim = 347
+				#add_state_claim = 347
 				add_state_claim = 340
 				add_state_claim = 339
+				add_state_claim = 950
 			}
 			ENG = {
 				add_state_claim = 354
 				add_state_claim = 1001
+				add_state_claim = 1224
 			}
 			FRA = {
 				add_state_claim = 344
@@ -1793,6 +1795,7 @@ country_event = {
 				add_state_claim = 960
 				add_state_claim = 959
 				add_state_claim = 353
+				add_state_claim = 960
 				if = {
 					limit = {
 						FRA = { NOT = { controls_state = 877 } }
@@ -1812,6 +1815,8 @@ country_event = {
 			}
 			ARM = {
 				add_state_core = 354
+				add_state_core = 1001
+				add_state_core = 1224
 			}
 			clear_variable = global.convention_ayes
 			clear_variable = global.convention_nays
@@ -1861,9 +1866,10 @@ country_event = {
 				add_state_claim = 1140
 				add_state_claim = 341
 				add_state_claim = 1188
-				add_state_claim = 347
+				#add_state_claim = 347
 				add_state_claim = 340
 				add_state_claim = 339
+				add_state_claim = 950
 			}
 			FRA = {
 				add_state_claim = 344
@@ -1873,6 +1879,7 @@ country_event = {
 				add_state_claim = 960
 				add_state_claim = 959
 				add_state_claim = 353
+				add_state_claim = 960
 				if = {
 					limit = {
 						FRA = { NOT = { controls_state = 877 } }
@@ -1964,15 +1971,20 @@ country_event = {
 				add_state_claim = 1140
 				add_state_claim = 341
 				add_state_claim = 1188
-				add_state_claim = 347
+				#add_state_claim = 347
 				add_state_claim = 340
 				add_state_claim = 339
+				add_state_claim = 950
 			}
 			ENG = {
 				add_state_claim = 354
+				add_state_claim = 1001
+				add_state_claim = 1224
 			}
 			ARM = {
 				add_state_core = 354
+				add_state_core = 1001
+				add_state_core = 1224
 			}
 			if = {
 				limit = {
@@ -2064,16 +2076,21 @@ country_event = {
 				add_state_claim = 1140
 				add_state_claim = 341
 				add_state_claim = 1188
-				add_state_claim = 347
+				#add_state_claim = 347
 				add_state_claim = 340
 				add_state_claim = 339
 				add_state_claim = 342
+				add_state_claim = 950
 			}
 			ENG = {
 				add_state_claim = 354
+				add_state_claim = 1001
+				add_state_claim = 1224
 			}
 			ARM = {
 				add_state_core = 354
+				add_state_core = 1001
+				add_state_core = 1224
 			}
 			FRA = {
 				add_state_claim = 344
@@ -2083,6 +2100,7 @@ country_event = {
 				add_state_claim = 960
 				add_state_claim = 959
 				add_state_claim = 353
+				add_state_claim = 960
 				if = {
 					limit = {
 						FRA = { NOT = { controls_state = 877 } }
@@ -2169,9 +2187,10 @@ country_event = {
 				add_state_claim = 1140
 				add_state_claim = 341
 				add_state_claim = 1188
-				add_state_claim = 347
+				#add_state_claim = 347
 				add_state_claim = 340
 				add_state_claim = 339
+				add_state_claim = 950
 			}
 			if = {
 				limit = {
@@ -2273,19 +2292,21 @@ country_event = {
 				add_state_claim = 1140
 				add_state_claim = 341
 				add_state_claim = 1188
-				add_state_claim = 347
+				#add_state_claim = 347
 				add_state_claim = 340
 				add_state_claim = 339
 				add_state_claim = 342
+				add_state_claim = 950
 			}
 			FRA = {
 				add_state_claim = 344
 				add_state_claim = 961
 				add_state_claim = 350
 				add_state_claim = 352
-				add_state_claim = 961
+				#add_state_claim = 961
 				add_state_claim = 959
 				add_state_claim = 353
+				add_state_claim = 960
 				if = {
 					limit = {
 						FRA = { NOT = { controls_state = 877 } }
@@ -2398,16 +2419,21 @@ country_event = {
 				add_state_claim = 1140
 				add_state_claim = 341
 				add_state_claim = 1188
-				add_state_claim = 347
+				#add_state_claim = 347
 				add_state_claim = 340
 				add_state_claim = 339
 				add_state_claim = 342
+				add_state_claim = 950
 			}
 			ENG = {
 				add_state_claim = 354
+				add_state_claim = 1001
+				add_state_claim = 1224
 			}
 			ARM = {
 				add_state_core = 354
+				add_state_core = 1001
+				add_state_core = 1224
 			}
 			clear_variable = global.convention_ayes
 			clear_variable = global.convention_nays
@@ -2697,12 +2723,26 @@ country_event = {
 			limit = { 
 				ENG = { has_country_flag = GRE_british_armenia }
 				OR = { 
-					ENG = { controls_state = 354 }
-					FRA = { controls_state = 354 }
-					GRE = { controls_state = 354 }
+					AND = {
+						ENG = { controls_state = 354 }
+						ENG = { controls_state = 1001 }
+						ENG = { controls_state = 1224 }
+					}
+					AND = {
+						FRA = { controls_state = 354 }
+						FRA = { controls_state = 1001 }
+						FRA = { controls_state = 1224 }
+					}
+					AND = {
+						GRE = { controls_state = 354 }
+						GRE = { controls_state = 1001 }
+						GRE = { controls_state = 1224 }
+					}
 					TUR = { 
 						AND = { 
 							controls_state = 354
+							controls_state = 1001
+							controls_state = 1224
 							has_capitulated = yes
 						}
 					}
@@ -2710,6 +2750,8 @@ country_event = {
 			}
 			ENG = { 
 				transfer_state = 354
+				transfer_state = 1001
+				transfer_state = 1224
 				release_autonomy = { 
 					target = ARM
 					autonomy_state = autonomy_puppet
@@ -2737,6 +2779,7 @@ country_event = {
 							controls_state = 959
 							controls_state = 877
 							controls_state = 353
+							controls_state = 960
 						}
 					}
 					ENG = { 
@@ -2749,6 +2792,7 @@ country_event = {
 							controls_state = 959
 							controls_state = 877
 							controls_state = 353
+							controls_state = 960
 						}
 					}
 					GRE = { 
@@ -2761,6 +2805,7 @@ country_event = {
 							controls_state = 959
 							controls_state = 877
 							controls_state = 353
+							controls_state = 960
 						}
 					}
 					TUR = {
@@ -2773,6 +2818,7 @@ country_event = {
 							controls_state = 959
 							controls_state = 877
 							controls_state = 353
+							controls_state = 960
 						}
 						has_capitulated = yes
 					}
@@ -2783,10 +2829,11 @@ country_event = {
 				transfer_state = 961
 				transfer_state = 350
 				transfer_state = 352
-				transfer_state = 961
+				#transfer_state = 961
 				transfer_state = 959
 				transfer_state = 877
 				transfer_state = 353
+				transfer_state = 960
 				release_autonomy = { 
 					target = KUR
 					autonomy_state = autonomy_puppet
@@ -2794,7 +2841,9 @@ country_event = {
 				}
 				KUR = {
 					transfer_state = 344
+					transfer_state = 961
 					add_state_core = 344
+					add_state_core = 961
 					set_cosmetic_tag = KUR_FRA
 				}
 				country_event = { id = bftb_greece.210 days = 7 }
@@ -2858,9 +2907,10 @@ country_event = {
 							controls_state = 1140
 							controls_state = 341
 							controls_state = 1188
-							controls_state = 347
+							#controls_state = 347
 							controls_state = 340
 							controls_state = 339
+							controls_state = 950
 						}
 					}
 					ENG = { 
@@ -2869,9 +2919,10 @@ country_event = {
 							controls_state = 1140
 							controls_state = 341
 							controls_state = 1188
-							controls_state = 347
+							#controls_state = 347
 							controls_state = 340
 							controls_state = 339
+							controls_state = 950
 						}
 					}
 					GRE = { 
@@ -2880,9 +2931,10 @@ country_event = {
 							controls_state = 1140
 							controls_state = 341
 							controls_state = 1188
-							controls_state = 347
+							#controls_state = 347
 							controls_state = 340
 							controls_state = 339
+							controls_state = 950
 						}
 					}
 					TUR = {
@@ -2891,9 +2943,10 @@ country_event = {
 							controls_state = 1140
 							controls_state = 341
 							controls_state = 1188
-							controls_state = 347
+							#controls_state = 347
 							controls_state = 340
 							controls_state = 339
+							controls_state = 950
 						}
 						has_capitulated = yes
 					}
@@ -2904,9 +2957,10 @@ country_event = {
 				transfer_state = 1140
 				transfer_state = 341
 				transfer_state = 1188
-				transfer_state = 347
+				#transfer_state = 347
 				transfer_state = 340
 				transfer_state = 339
+				transfer_state = 950
 				country_event = { id = bftb_greece.209 days = 7 }
 			}
 		}

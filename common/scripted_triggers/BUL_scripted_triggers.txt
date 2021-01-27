@@ -85,6 +85,7 @@ BUL_country_seeks_macedonian_stability = {
 		tooltip = BUL_country_seeks_macedonian_stability_tt
 		OR = {
 			controls_state = 870
+			controls_state = 1302
 			controls_state = 106
 			controls_state = 731
 			controls_state = 184
@@ -98,6 +99,7 @@ BUL_country_seeks_macedonian_stability = {
 					106 = { controller = { is_in_faction_with = ENG } }
 					731 = { controller = { is_in_faction_with = ENG } }
 					184 = { controller = { is_in_faction_with = ENG } }
+					1302 = { controller = { is_in_faction_with = ENG } }
 				}
 				
 			}
@@ -111,6 +113,7 @@ BUL_country_seeks_macedonian_stability = {
 					106 = { controller = { is_in_faction_with = ENG } }
 					731 = { controller = { is_in_faction_with = ENG } }
 					184 = { controller = { is_in_faction_with = ENG } }
+					1302 = { controller = { is_in_faction_with = ENG } }
 				}
 				
 			}
@@ -170,6 +173,7 @@ BUL_has_restored_greater_bulgaria = {
 	184 = { is_fully_controlled_by = ROOT } #Central Macedonia
 	731 = { is_fully_controlled_by = ROOT } #Thrace
 	77 = { is_fully_controlled_by = ROOT } #Dobrudja
+	1302 = { is_fully_controlled_by = ROOT } #Southern Serbia
 }
 
 BUL_country_can_influence_bulgaria = {
