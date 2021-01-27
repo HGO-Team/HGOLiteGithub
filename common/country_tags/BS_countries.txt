@@ -77,3 +77,7 @@ PLU = "countries/Palau.txt"
 MRS = "countries/Marshall.txt"
 NAU = "countries/Nauru.txt"
 
+
+KWP = "countries/Kweichow province.txt"
+GAD = "countries/Guangdong.txt"
+SHG = "countries/Shandong Clique.txt"

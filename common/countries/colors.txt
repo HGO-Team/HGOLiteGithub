@@ -952,3 +952,15 @@ HSI = {
 color = rgb { 72 121 147 }
 color_ui = rgb { 72 121 147 }
 }
+KWP = {
+color = rgb { 88 124 160 }
+color_ui = rgb { 88 124 160 }
+}
+GAD = {
+color = rgb { 63 106 145 }
+color_ui = rgb { 63 106 145 }
+}
+SHG = {
+color = rgb { 63 106 145 }
+color_ui = rgb { 63 106 145 }
+}
