@@ -889,7 +889,11 @@ form_caucasus_category = {
 	claim_greater_armenia = {
 	
 		icon = generic_political_discourse
+<<<<<<< HEAD
 		cost = 100
+=======
+
+>>>>>>> cddcd8427947317be9ad75686d130bcbcccf3a9f
 		allowed = {
 			original_tag = ARM	
 		}
@@ -906,11 +910,20 @@ form_caucasus_category = {
 		fire_only_once = yes
 
 		complete_effect = {
+<<<<<<< HEAD
 			1224 = { add_claim_by = ROOT }
 			1001 = { add_claim_by = ROOT }
 			353 = { add_claim_by = ROOT }
 			353 = { add_claim_by = ROOT }
 			hidden_effect = {
+=======
+			custom_effect_tooltip = greater_armenia_claiming_states_tt
+			hidden_effect = {
+				1224 = { add_claim_by = ROOT }
+				1001 = { add_claim_by = ROOT }
+				353 = { add_claim_by = ROOT }
+				353 = { add_claim_by = ROOT }
+>>>>>>> cddcd8427947317be9ad75686d130bcbcccf3a9f
 				set_global_flag = claimed_greater_armenia
 			}
 		}
@@ -927,7 +940,11 @@ form_caucasus_category = {
 	claim_south_azerbaijan = {
 	
 		icon = generic_political_discourse
+<<<<<<< HEAD
 		cost = 100
+=======
+
+>>>>>>> cddcd8427947317be9ad75686d130bcbcccf3a9f
 		allowed = {
 			original_tag = AZR	
 		}
@@ -944,10 +961,18 @@ form_caucasus_category = {
 		fire_only_once = yes
 
 		complete_effect = {
+<<<<<<< HEAD
 			420 = { add_claim_by = ROOT }
 			419 = { add_claim_by = ROOT }
 			1086 = { add_claim_by = ROOT }
 			hidden_effect = {
+=======
+			custom_effect_tooltip = south_azerbaijan_claiming_states_tt
+			hidden_effect = {
+				420 = { add_claim_by = ROOT }
+				419 = { add_claim_by = ROOT }
+				1086 = { add_claim_by = ROOT }
+>>>>>>> cddcd8427947317be9ad75686d130bcbcccf3a9f
 				set_global_flag = claimed_south_azerbaijan
 			}
 		}
@@ -963,7 +988,11 @@ form_caucasus_category = {
 	claim_caucasus_mountains = {
 	
 		icon = generic_political_discourse
+<<<<<<< HEAD
 		cost = 100
+=======
+
+>>>>>>> cddcd8427947317be9ad75686d130bcbcccf3a9f
 		allowed = {
 			original_tag = GEO	
 		}
@@ -980,11 +1009,20 @@ form_caucasus_category = {
 		fire_only_once = yes
 
 		complete_effect = {
+<<<<<<< HEAD
 			233 = { add_claim_by = ROOT }
 			232 = { add_claim_by = ROOT }
 			932 = { add_claim_by = ROOT }
 			931 = { add_claim_by = ROOT }
 			hidden_effect = {
+=======
+			custom_effect_tooltip = caucasus_mountains_required_states_tt
+			hidden_effect = {
+				233 = { add_claim_by = ROOT }
+				232 = { add_claim_by = ROOT }
+				932 = { add_claim_by = ROOT }
+				931 = { add_claim_by = ROOT }
+>>>>>>> cddcd8427947317be9ad75686d130bcbcccf3a9f
 				set_global_flag = claimed_caucasus_mountains
 			}
 		}
