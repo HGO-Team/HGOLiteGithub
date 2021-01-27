@@ -439,7 +439,6 @@ country_event = {  #German-Slovak Treaty
 		NOT = { has_global_flag = schutzzone_occupied }
 		SLO = { controls_state = 889 }
 		SLO = { controls_state = 1250 }
-		SLO = { controls_state = 1251 }
 		has_game_rule = {
 			rule = allow_bs_extra
 			option = BS_ALLOWED
@@ -460,7 +459,6 @@ country_event = {  #German-Slovak Treaty
 
 		transfer_state = 889
 		transfer_state = 1250
-		transfer_state = 1251
 
 		hidden_effect = {
 			set_global_flag = schutzzone_occupied
