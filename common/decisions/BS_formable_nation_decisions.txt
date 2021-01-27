@@ -795,6 +795,209 @@ form_la_plata_category = {
 	}
 }
 
+form_caucasus_category = {
+	
+	form_caucasus = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = GEO
+				original_tag = ARM
+				original_tag = AZR
+				original_tag = SOT
+				original_tag = ABH
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_country_georgia_required_states_tt
+				controls_state = 231
+				controls_state = 1092
+				controls_state = 1225
+				controls_state = 1227
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_armenia_required_states_tt
+				controls_state = 230
+				controls_state = 1223
+				controls_state = 1263
+				controls_state = 1003
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_country_azerbaijan_required_states_tt
+				controls_state = 229
+				controls_state = 1222
+				controls_state = 1262
+				controls_state = 1004
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = GEO
+				original_tag = ARM
+				original_tag = AZR
+				original_tag = SOT
+				original_tag = ABH
+			}
+			NOT = { has_global_flag = formed_caucasus }
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			set_cosmetic_tag = CAU_UNIFIED
+			custom_effect_tooltip = form_country_georgia_coring_states_tt
+			hidden_effect = {
+				231 = { add_core_of = ROOT }
+				1092 = { add_core_of = ROOT }
+				1225 = { add_core_of = ROOT }
+				1227 = { add_core_of = ROOT }
+			}
+			custom_effect_tooltip = form_country_armenia_coring_states_tt
+			hidden_effect = {
+				230 = { add_core_of = ROOT }
+				1223 = { add_core_of = ROOT }
+				1263 = { add_core_of = ROOT }
+				1003 = { add_core_of = ROOT }
+			}
+			custom_effect_tooltip = form_country_azerbaijan_coring_states_tt
+			hidden_effect = {
+				229 = { add_core_of = ROOT }
+				1222 = { add_core_of = ROOT }
+				1262 = { add_core_of = ROOT }
+				1004 = { add_core_of = ROOT }
+			}
+			hidden_effect = {
+				set_global_flag = formed_caucasus
+			}
+		}
+		
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	claim_greater_armenia = {
+	
+		icon = generic_political_discourse
+		cost = 100
+		allowed = {
+			original_tag = ARM	
+		}
+
+		available = {
+			has_cosmetic_tag = CAU_UNIFIED
+		}
+
+		visible = {
+			original_tag = ARM
+			NOT = { has_global_flag = claimed_greater_armenia }
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			1224 = { add_claim_by = ROOT }
+			1001 = { add_claim_by = ROOT }
+			353 = { add_claim_by = ROOT }
+			353 = { add_claim_by = ROOT }
+			hidden_effect = {
+				set_global_flag = claimed_greater_armenia
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	claim_south_azerbaijan = {
+	
+		icon = generic_political_discourse
+		cost = 100
+		allowed = {
+			original_tag = AZR	
+		}
+
+		available = {
+			has_cosmetic_tag = CAU_UNIFIED
+		}
+
+		visible = {
+			original_tag = AZR
+			NOT = { has_global_flag = claimed_south_azerbaijan }
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			420 = { add_claim_by = ROOT }
+			419 = { add_claim_by = ROOT }
+			1086 = { add_claim_by = ROOT }
+			hidden_effect = {
+				set_global_flag = claimed_south_azerbaijan
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	claim_caucasus_mountains = {
+	
+		icon = generic_political_discourse
+		cost = 100
+		allowed = {
+			original_tag = GEO	
+		}
+
+		available = {
+			has_cosmetic_tag = CAU_UNIFIED
+		}
+
+		visible = {
+			original_tag = GEO
+			NOT = { has_global_flag = claimed_caucasus_mountains }
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			233 = { add_claim_by = ROOT }
+			232 = { add_claim_by = ROOT }
+			932 = { add_claim_by = ROOT }
+			931 = { add_claim_by = ROOT }
+			hidden_effect = {
+				set_global_flag = claimed_caucasus_mountains
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
 form_indochina_category = {
 	
 	form_indochina = {

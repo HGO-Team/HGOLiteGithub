@@ -396,10 +396,20 @@ form_indochina_category = {
 
 	picture = GFX_decision_cat_picture_gateway_to_europe
 	
-	allowed = {
-
+	visible = {
+		has_game_rule = {
+			rule = allow_bs_extra
+			option = BS_ALLOWED
+		}
 	}
+}
+
+form_caucasus_category = {
 	
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_picture_gateway_to_europe
+
 	visible = {
 		has_game_rule = {
 			rule = allow_bs_extra
