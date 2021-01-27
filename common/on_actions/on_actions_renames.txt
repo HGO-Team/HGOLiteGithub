@@ -266,6 +266,16 @@ on_actions = {
 					}
 					do_romanian_renames = yes
 				}
+
+				### HOL ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = HOL
+						}
+					}
+					do_dutch_renames = yes
+				}
 			}
 		}
 	}
@@ -535,6 +545,16 @@ on_actions = {
 						}
 					}
 					do_romanian_renames = yes
+				}
+
+				### HOL ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = HOL
+						}
+					}
+					do_dutch_renames = yes
 				}
 			}
 		}
