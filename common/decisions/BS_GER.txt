@@ -241,7 +241,7 @@ GER_reichsprotektorat = {
 			controls_state = 92
 			controls_state = 90
 			controls_state = 88
-			controls_state = 1138
+			#controls_state = 1138
 			#controls_state = 996
 			#controls_state = 91
 			#controls_state = 89
@@ -261,7 +261,7 @@ GER_reichsprotektorat = {
 			controls_state = 92
 			controls_state = 90
 			controls_state = 88
-			controls_state = 1138
+			#controls_state = 1138
 			#controls_state = 996
 			#controls_state = 91
 			#controls_state = 89
@@ -278,7 +278,7 @@ GER_reichsprotektorat = {
 				transfer_state = 92
 				transfer_state = 90
 				transfer_state = 88
-				transfer_state = 1138
+				#transfer_state = 1138
 				#transfer_state = 91
 				#transfer_state = 89
 				#transfer_state = 996
@@ -803,7 +803,7 @@ BS_transfer_territories_category = {
 
 		visible = {
 		    BGN = {
-			controls_state = 892
+			controls_state = 1270
 			}
 		}
 	
