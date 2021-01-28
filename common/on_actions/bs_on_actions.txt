@@ -24,6 +24,21 @@ on_actions = {
 					country_event = { id = bs.12 }
 				}
 			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = DEN
+					}
+				}
+				GER = {
+					set_state_controller = 805
+				}
+				DEN = {
+					set_state_controller = 101
+					set_state_controller = 811
+				}
+			}
 		
 		}
 	}
