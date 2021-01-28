@@ -113,9 +113,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Han Zhongmou"
+	name = "Chang Hsüeh-liang"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	picture = "Chang_Hsueh-Liang.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
