@@ -1342,63 +1342,88 @@
  SIA_ADJ:0 "Siamese"
  
  
+ ###Sinkiang
  
+ #fascism
+ SIK_fascism:0 "State of Sinkiang"
+ SIK_fascism_DEF:0 "the State of Sinkiang"
+ SIK_fascism_ADJ:0 "Sinkiang"
+
+ #democratic
+ SIK_democratic:0 "Republic of Sinkiang"
+ SIK_democratic_DEF:0 "the Republic of Sinkiang"
+ SIK_democratic_ADJ:0 "Sinkiang"
+
+ #neutrality
+ SIK_neutrality:0 "Sinkiang Clique"
+ SIK_neutrality_DEF:0 "the Sinkiang Clique"
+ SIK_neutrality_ADJ:0 "Sinkiang"
+
+ #communism
+ SIK_communism:0 "Sinkiang Clique"
+ SIK_communism_DEF:0 "Sinkiang Clique"
+ SIK_communism_ADJ:0 "Sinkiang"
+
+ #tag
+ SIK:0 "Sinkiang"
+ SIK_DEF:0 "Sinkiang"
+ SIK_ADJ:0 "Sinkiang"
  
- SIK_fascism:0 "State of East Turkestan"
- SIK_fascism_DEF:0 "the State of East Turkestan"
- SIK_democratic:0 "East Turkestan Republic"
- SIK_democratic_DEF:0 "the East Turkestan Republic"
- SIK_neutrality:0 "Xinjiang Clique"
- SIK_neutrality_DEF:0 "the Xinjiang Clique"
- SIK_communism:0 "Xinjiang Clique"
- SIK_communism_DEF:0 "Xinjiang Clique"
- SIK_fascism_ADJ:0 "Turkestan"
- SIK_democratic_ADJ:0 "Turkestan"
- SIK_neutrality_ADJ:0 "Xinjiang"
- SIK_communism_ADJ:0 "Xinjiang"
- SIK:0 "Xinjiang"
- SIK_DEF:0 "Xinjiang"
- SIK_ADJ:0 "Xinjiang"
- 
- 
- 
- 
- TAN_fascism:0 "Uryankhay Krai"
- TAN_fascism_DEF:0 "Uryankhay Krai"
+ ###Tannu Tuva
+
+ #fascism
+ TAN_fascism:0 "Tuvan National Republic"
+ TAN_fascism_DEF:0 "Tuvan National Republic"
+ TAN_fascism_ADJ:0 "Tuvan"
+
+ #democratic
  TAN_democratic:0 "Tuva Republic"
  TAN_democratic_DEF:0 "the Tuva Republic"
- TAN_neutrality:0 "Uryankhay Krai"
- TAN_neutrality_DEF:0 "Uryankhay Krai"
+ TAN_democratic_ADJ:0 "Tuvan" 
+
+ #neutrality
+ TAN_neutrality:0 "Tuvan Khanate"
+ TAN_neutrality_DEF:0 "The Tuvan Khanate"
+ TAN_neutrality_ADJ:0 "Tuvan"
+
+ #communism
  TAN_communism:0 "Tuvan People's Republic"
  TAN_communism_DEF:0 "the Tuvan People's Republic"
- TAN_fascism_ADJ:0 "Tuvan"
- TAN_democratic_ADJ:0 "Tuvan"
- TAN_neutrality_ADJ:0 "Tuvan"
  TAN_communism_ADJ:0 "Tuvan"
+ 
+ #tag
  TAN:0 "Tannu Tuva"
  TAN_DEF:0 "Tannu Tuva"
  TAN_ADJ:0 "Tuvan"
  
  
  
- 
+ ###Tibet
+
+ #fascism
  TIB_fascism:0 "Tibetan Empire"
  TIB_fascism_DEF:0 "the Tibetan Empire"
- TIB_democratic:0 "Tibet"
+ TIB_fascism_ADJ:0 "Tibetan"
+
+ #democratic
+ TIB_democratic:0 "Republic of Tibet"
  TIB_democratic_DEF:0 "Tibet"
+ TIB_democratic_ADJ:0 "Tibetan"
+
+ #neutral
  TIB_neutrality:0 "Tibet"
  TIB_neutrality_DEF:0 "Tibet"
- TIB_communism:0 "Xizang Autonomous Region"
- TIB_communism_DEF:0 "the Xizang Autonomous Region"
- TIB_fascism_ADJ:0 "Tibetan"
- TIB_democratic_ADJ:0 "Tibetan"
  TIB_neutrality_ADJ:0 "Tibetan"
- TIB_communism_ADJ:0 "Xizang"
+
+ #communism
+ TIB_communism:0 "Tibetan Monastic Union"
+ TIB_communism_DEF:0 "the Tibetan Monastic Union"
+ TIB_communism_ADJ:0 "Tibetan"
+
+ #tag
  TIB:0 "Tibet"
  TIB_DEF:0 "Tibet"
  TIB_ADJ:0 "Tibetan"
- 
- 
  
  
  VEN_fascism:0 "Republic of Venezuela"
@@ -1418,19 +1443,29 @@
  VEN_ADJ:0 "Venezuelan"
  
  
- 
- YUN_fascism:0 "Yunnan Empire"
- YUN_fascism_DEF:0 "the Yunnan Empire"
- YUN_democratic:0 "Yunnan Republic"
- YUN_democratic_DEF:0 "the Yunnan Republic"
+ ###Yunnan
+
+ #fascism
+ YUN_fascism:0 "Yunnan Free State"
+ YUN_fascism_DEF:0 "the Yunnan Free State"
+ YUN_fascism_ADJ:0 "Yunnanese"
+
+ #democratic
+ YUN_democratic:0 "Republic of Yunnan"
+ YUN_democratic_DEF:0 "the Republic of Yunnan"
+ YUN_democratic_ADJ:0 "Yunnanese"
+
+ #neutrality
  YUN_neutrality:0 "Yunnan Clique"
  YUN_neutrality_DEF:0 "Yunnan Clique"
- YUN_communism:0 "Yunnan Clique"
- YUN_communism_DEF:0 "the Yunnan Clique"
- YUN_fascism_ADJ:0 "Yunnanese"
- YUN_democratic_ADJ:0 "Yunnanese"
- YUN_neutrality_ADJ:0 "Yunnanese"
+ YUN_neutrality_ADJ:0 "Yunnanese" 
+
+ #communism
+ YUN_communism:0 "Yunnan People's Republic"
+ YUN_communism_DEF:0 "the Yunnan People's Republic"
  YUN_communism_ADJ:0 "Yunnanese"
+ 
+ #tag
  YUN:0 "Yunnan"
  YUN_DEF:0 "Yunnan"
  YUN_ADJ:0 "Yunnanese"
