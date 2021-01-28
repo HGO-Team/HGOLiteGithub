@@ -670,15 +670,13 @@ country_event = {
 				every_owned_state = {
 					limit = {
 						check_variable = { var = SPA_garrison_control value = 1 compare = equals }
-						NOT = {
-							state = 1150
-							state = 1152
-							state = 290
-							state = 1106
-							state = 699
-							state = 783
-							state = 297
-						}
+						NOT = { state = 1150 }
+						NOT = { state = 1152 }
+						NOT = { state = 290 }
+						NOT = { state = 1106 }
+						NOT = { state = 699 }
+						NOT = { state = 783 }
+						NOT = { state = 297 }
 					}
 					# Transfer states and set flag to prepare for post-Civil War de-coring
 					SPD = {
@@ -2684,15 +2682,13 @@ country_event = {
 				every_owned_state = {
 					limit = {
 						check_variable = { var = SPA_garrison_control value = 1 compare = equals }
-						NOT = {
-							state = 1150
-							state = 1152
-							state = 290
-							state = 1106
-							state = 699
-							state = 783
-							state = 297
-						}
+						NOT = { state = 1150 }
+						NOT = { state = 1152 }
+						NOT = { state = 290 }
+						NOT = { state = 1106 }
+						NOT = { state = 699 }
+						NOT = { state = 783 }
+						NOT = { state = 297 }
 					}
 					create_unit = {
 						division = "division_template = \"Guarnición Republicana\" start_experience_factor = 0.1" 
