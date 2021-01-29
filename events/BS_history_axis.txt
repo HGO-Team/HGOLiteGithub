@@ -587,27 +587,3 @@ country_event = {
 		name = bshisaxis.4.b
 	}
 }
-
-country_event = {
-	id = bshisaxis.5
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = GER
-		has_war_with = FRA
-		has_war_with = ENG
-		GER = { is_faction_leader = yes }
-		FRA = { has_capitulated = yes }
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	hidden = yes
-
-	immediate = {
-		GER = { set_state_controller = 974 }
-	}
-}

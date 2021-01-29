@@ -766,7 +766,7 @@ form_commonwealth_category = {
 				controls_state = 1119
 				controls_state = 933
 				controls_state = 997
-				controls_state = 1170
+				#controls_state = 1170
 				controls_state = 1205
 			}
 		}
@@ -822,7 +822,6 @@ form_commonwealth_category = {
 				1119 = { add_core_of = ROOT } 
 				933 = { add_core_of = ROOT } 
 				997 = { add_core_of = ROOT } 
-				1170 = { add_core_of = ROOT } 
 				190 = { add_core_of = ROOT }
 				12 = { add_core_of = ROOT }
 				5 = { add_core_of = ROOT }
@@ -885,6 +884,7 @@ form_commonwealth_category = {
 				926 = { add_core_of = ROOT }
 				1126 = { add_core_of = ROOT }
 				1127 = { add_core_of = ROOT }
+				1170 = { add_core_of = ROOT } 
 			}
 
 

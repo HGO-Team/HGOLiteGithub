@@ -842,21 +842,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				1170 = {
-					OR = {
-						is_controlled_by = GER
-						any_other_country = {
-							controls_state = 1170
-							is_in_faction_with = GER
-							GER = { is_faction_leader = yes }
-						}
-					}
-				}
-			}
-			SOV = { transfer_state = 1170 }
-		}
-		if = {
-			limit = {
 				89 = {
 					OR = {
 						is_controlled_by = GER
