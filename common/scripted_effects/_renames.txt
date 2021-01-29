@@ -392,7 +392,7 @@ do_german_renames = {
 		limit = {
 			state = 1170
 		}
-		set_state_name = "Grajewo"
+		set_state_name = "Biarezinski"
 	}
 	
 	if = {
@@ -539,10 +539,6 @@ do_german_renames = {
 			state = 934
 		}
 		set_province_name = {
-			id = 3631
-			name = "Veldes"
-		}
-		set_province_name = {
 			id = 596
 			name = "Marburg an der Drau"
 		}
@@ -553,7 +549,11 @@ do_german_renames = {
 		limit = {
 			state = 935
 		}
-		set_state_name = "Benedikt"
+		set_province_name = {
+			id = 3631
+			name = "Veldes"
+		}
+		set_state_name = "Veldes"
 	}
 	
 	if = {
@@ -1605,7 +1605,7 @@ do_polish_renames = {
 		limit = {
 			state = 1170
 		}
-		set_state_name = "Grajewo"
+		set_state_name = "Biarezinski"
 	}
 	
 	if = {
@@ -2572,7 +2572,7 @@ do_soviet_renames = {
 		limit = {
 			state = 1170
 		}
-		set_state_name = "Grayeva"
+		set_state_name = "Biarezinski"
 	}
 	
 	if = {
@@ -3538,10 +3538,6 @@ do_yugoslavia_renames = {
 			state = 934
 		}
 		set_province_name = {
-			id = 3631
-			name = "Bled"
-		}
-		set_province_name = {
 			id = 596
 			name = "Maribor"
 		}
@@ -3552,7 +3548,11 @@ do_yugoslavia_renames = {
 		limit = {
 			state = 935
 		}
-		set_state_name = "Benedikt"
+		set_province_name = {
+			id = 3631
+			name = "Bled"
+		}
+		set_state_name = "Bled"
 	}
 	
 	if = {
