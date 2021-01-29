@@ -2,9 +2,6 @@
 state={
 	id=322
 	name="STATE_322"
-	
-	impassable = yes
-	
 	resources={
 		tungsten=2.000
 	}
