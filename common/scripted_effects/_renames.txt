@@ -2189,6 +2189,17 @@ do_french_renames = {
 		}
 		set_state_name = "Catalogne"
 	}
+
+	if = {
+		limit = {
+			state = 824
+		}
+		set_province_name = {
+			id = 13308
+			name = "Andorre-la-Vieille"
+		}
+		set_state_name = "Andorre"
+	}
 }
 
 do_soviet_renames = {
