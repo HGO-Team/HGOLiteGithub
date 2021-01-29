@@ -2143,7 +2143,18 @@ do_french_renames = {
 			id = 6542
 			name = "Offenbourg"
 		}
-		set_state_name = "Bade-Wurtemberg
+		set_state_name = "Bade-Wurtemberg"
+	}
+
+	if = {
+		limit = {
+			state = 813
+		}
+		set_province_name = {
+			id = 9444
+			name = "Liège"
+		}
+		set_state_name = "Wallonie de l'Est"
 	}
 }
 
