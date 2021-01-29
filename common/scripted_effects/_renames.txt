@@ -2174,6 +2174,21 @@ do_french_renames = {
 		}
 		set_state_name = "Limbourg"
 	}
+
+	if = {
+		limit = {
+			state = 165
+		}
+		set_province_name = {
+			id = 9764
+			name = "Barcelone"
+		}
+		set_province_name = {
+			id = 6927
+			name = "Gérone"
+		}
+		set_state_name = "Catalogne"
+	}
 }
 
 do_soviet_renames = {
