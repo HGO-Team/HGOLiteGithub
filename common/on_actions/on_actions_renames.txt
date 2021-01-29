@@ -276,6 +276,36 @@ on_actions = {
 					}
 					do_dutch_renames = yes
 				}
+
+				### LUX ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = LUX
+						}
+					}
+					do_luxemburg_renames = yes
+				}
+
+				### SPR ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = SPR
+						}
+					}
+					do_spanish_renames = yes
+				}
+
+				### CAT ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = CAT
+						}
+					}
+					do_catalan_renames = yes
+				}
 			}
 		}
 	}
@@ -555,6 +585,16 @@ on_actions = {
 						}
 					}
 					do_dutch_renames = yes
+				}
+
+				### LUX ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = LUX
+						}
+					}
+					do_luxemburg_renames = yes
 				}
 			}
 		}

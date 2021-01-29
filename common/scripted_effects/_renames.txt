@@ -1201,6 +1201,69 @@ do_german_renames = {
 		}
 		set_state_name = "Ostgelderland"
 	}
+
+	if = {
+		limit = {
+			state = 51
+		}
+		set_province_name = {
+			id = 9522
+			name = "Aachen"
+		}
+		set_province_name = {
+			id = 587
+			name = "Köln"
+		}
+		set_province_name = {
+			id = 11435
+			name = "Bitburg"
+		}
+		set_state_name = "Westrheinland"
+	}
+
+	if = {
+		limit = {
+			state = 788
+		}
+		set_province_name = {
+			id = 6469
+			name = "Essen"
+		}
+		set_state_name = "Ostrheinland"
+	}
+
+	if = {
+		limit = {
+			state = 42
+		}
+		set_province_name = {
+			id = 11560
+			name = "Mainz"
+		}
+		set_state_name = "Pfalz"
+	}
+
+	if = {
+		limit = {
+			state = 790
+		}
+		set_province_name = {
+			id = 6488
+			name = "Frankfurt"
+		}
+		set_state_name = "Frankfurt"
+	}
+
+	if = {
+		limit = {
+			state = 791
+		}
+		set_province_name = {
+			id = 6542
+			name = "Offenburg"
+		}
+		set_state_name = "Baden"
+	}
 }
 
 do_polish_renames = {
@@ -2018,7 +2081,7 @@ do_french_renames = {
 	
 	if = {
 		limit = {
-			state = 148
+			state = 158
 		}
 		set_province_name = {
 			id = 6780
@@ -2045,10 +2108,14 @@ do_french_renames = {
 		set_province_name = {
 			id = 9522
 			name = "Aix-la-Chapelle"
-                }
+		}
 		set_province_name = {
 			id = 587
 			name = "Cologne"
+		}
+		set_province_name = {
+			id = 11435
+			name = "Bitbourg"
 		}
 		set_state_name = "Rhénanie Ouest"
 	}
@@ -2065,15 +2132,15 @@ do_french_renames = {
 			id = 3576
 			name = "Courtrai"
 		}
-                set_province_name = {
+		set_province_name = {
 			id = 6598
 			name = "Anvers"
 		}
-                set_province_name = {
+		set_province_name = {
 			id = 13068
 			name = "Louvain"
 		}
-                set_province_name = {
+		set_province_name = {
 			id = 6560
 			name = "Gand"
 		}
@@ -2115,17 +2182,6 @@ do_french_renames = {
 
 	if = {
 		limit = {
-			state = 789
-		}
-		set_province_name = {
-			id = 11531
-			name = "Sarrebruck"
-		}
-		set_state_name = "Sarre"
-	}
-
-	if = {
-		limit = {
 			state = 790
 		}
 		set_province_name = {
@@ -2143,7 +2199,7 @@ do_french_renames = {
 			id = 6542
 			name = "Offenbourg"
 		}
-		set_state_name = "Bade-Wurtemberg"
+		set_state_name = "Bade"
 	}
 
 	if = {
@@ -3686,6 +3742,51 @@ do_belgian_renames = {
 		set_state_name = "Wallonian Luxembourg"
 	}
 
+	if = {
+		limit = {
+			state = 6
+		}
+		set_province_name = {
+			id = 516
+			name = "Brussels"
+		}
+		set_province_name = {
+			id = 3576
+			name = "Kortrijk"
+		}
+		set_province_name = {
+			id = 6598
+			name = "Antwerpen"
+		}
+		set_province_name = {
+			id = 13068
+			name = "Leuven"
+		}
+		set_province_name = {
+			id = 6560
+			name = "Gent"
+		}
+		set_state_name = "Flanders"
+	}
+
+	if = {
+		limit = {
+			state = 813
+		}
+		set_state_name = "Wallonie de l'Est"
+	}
+
+	if = {
+		limit = {
+			state = 34
+		}
+		set_province_name = {
+			id = 11519
+			name = "Liège"
+		}
+		set_state_name = "Wallonie"
+	}
+
 }
 
 do_bulgarian_renames = {
@@ -4233,5 +4334,88 @@ do_dutch_renames = {
 			state = 1252
 		}
 		set_state_name = "Oost-Gelderland"
+	}
+
+	if = {
+		limit = {
+			state = 1060
+		}
+		set_province_name = {
+			id = 11562
+			name = "Maastricht"
+		}
+		set_state_name = "Limburg"
+	}
+}
+
+do_luxemburg_renames = {
+	
+	if = {
+		limit = {
+			state = 8
+		}
+		set_province_name = {
+			id = 6583
+			name = "Luxemburg"
+		}
+		set_state_name = "Luxemburg"
+	}
+}
+
+do_spanish_renames = {
+
+	if = {
+		limit = {
+			state = 165
+		}
+		set_province_name = {
+			id = 9764
+			name = "Barcelona"
+		}
+		set_province_name = {
+			id = 6927
+			name = "Gerona"
+		}
+		set_state_name = "Cataluña"
+	}
+
+	if = {
+		limit = {
+			state = 824
+		}
+		set_province_name = {
+			id = 13308
+			name = "Andorra"
+		}
+		set_state_name = "Andorra"
+	}
+}
+
+do_catalan_renames = {
+
+	if = {
+		limit = {
+			state = 165
+		}
+		set_province_name = {
+			id = 9764
+			name = "Barcelona"
+		}
+		set_province_name = {
+			id = 6927
+			name = "Girona"
+		}
+		set_state_name = "Catalunya"
+	}
+
+	if = {
+		limit = {
+			state = 824
+		}
+		set_province_name = {
+			id = 13308
+			name = "Andorra"
+		}
+		set_state_name = "Andorra"
 	}
 }
