@@ -2150,11 +2150,18 @@ do_french_renames = {
 		limit = {
 			state = 813
 		}
+		set_state_name = "Wallonie de l'Est"
+	}
+
+	if = {
+		limit = {
+			state = 34
+		}
 		set_province_name = {
-			id = 9444
+			id = 11519
 			name = "Liège"
 		}
-		set_state_name = "Wallonie de l'Est"
+		set_state_name = "Wallonie"
 	}
 }
 
