@@ -301,7 +301,10 @@ on_actions = {
 				if = {
 					limit = {
 						ROOT = {
-							original_tag = CAT
+							OR = {
+								original_tag = CAT
+								original_tag = ADR
+							}
 						}
 					}
 					do_catalan_renames = yes
