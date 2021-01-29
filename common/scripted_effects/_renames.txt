@@ -2163,6 +2163,17 @@ do_french_renames = {
 		}
 		set_state_name = "Wallonie"
 	}
+
+	if = {
+		limit = {
+			state = 1060
+		}
+		set_province_name = {
+			id = 11562
+			name = "Maastricht"
+		}
+		set_state_name = "Limbourg"
+	}
 }
 
 do_soviet_renames = {
