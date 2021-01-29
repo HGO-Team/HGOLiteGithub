@@ -3529,6 +3529,17 @@ do_italian_renames = {
 		}
 		set_state_name = "Alta Carniola"
 	}
+
+	if = {
+		limit = {
+			state = 2
+		}
+		set_province_name = {
+			id = 9904
+			name = "Roma"
+		}
+		set_state_name = "Lazio"
+	}
 }
 
 do_yugoslavia_renames = {
