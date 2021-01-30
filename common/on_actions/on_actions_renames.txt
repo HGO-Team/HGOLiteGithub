@@ -580,6 +580,16 @@ on_actions = {
 					do_finnish_renames = yes
 				}
 
+				### SWE ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = SWE
+						}
+					}
+					do_swedish_renames = yes
+				}
+
 				### ROM ###
 				if = {
 					limit = {
