@@ -4376,6 +4376,13 @@ do_dutch_renames = {
 
 	if = {
 		limit = {
+			state = 813
+		}
+		set_state_name = "Oostelijk Wallonië"
+	}
+
+	if = {
+		limit = {
 			state = 1182
 		}
 		set_province_name = {
