@@ -5602,6 +5602,7 @@
 		will_lead_to_war_with = BEL
 		will_lead_to_war_with = GER
 		will_lead_to_war_with = HOL
+		will_lead_to_war_with = LUX
 		available = {
 			
 		}
@@ -7664,6 +7665,21 @@
 				}
 				puppet = WUR
 			}
+			if = { #set up Baden puppet
+				limit = {
+					791 = {
+						is_owned_or_subject_trigger = yes
+					}
+					799 = {
+						is_owned_or_subject_trigger = yes
+					}
+				}
+				BDN = {
+					transfer_state = 791
+					transfer_state = 799
+				}
+				puppet = BDN
+			}
 			if = { #set up Saxony puppet
 				limit = {
 					65 = {
@@ -7746,12 +7762,16 @@
 					979 = {
 						is_owned_or_subject_trigger = yes
 					}
+					788 = {
+						is_owned_or_subject_trigger = yes
+					}
 				}
 				HAN = {
 					transfer_state = 59
 					transfer_state = 56
 					transfer_state = 57
 					transfer_state = 979
+					transfer_state = 788
 				}
 				puppet = HAN
 			}
@@ -7792,6 +7812,7 @@
 								tag = SHL
 								tag = WUR
 								tag = CZE
+								tag = BDN
 							}
 						}
 					}

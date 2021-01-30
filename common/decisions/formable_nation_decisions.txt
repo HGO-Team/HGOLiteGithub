@@ -5077,7 +5077,7 @@ form_arabia_category = {
 				#998 = { add_core_of = ROOT }
 				1071 = { add_core_of = ROOT }
 				1072 = { add_core_of = ROOT }
-				1176 = { add_core_of = ROOT }
+				#1176 = { add_core_of = ROOT }
 				1177 = { add_core_of = ROOT }
 			}
 			# France
@@ -5830,7 +5830,7 @@ form_andalusia_category = {
 				1144 = { add_core_of = ROOT }
 				1145 = { add_core_of = ROOT }
 				1146 = { add_core_of = ROOT }
-				1176 = { add_core_of = ROOT }
+				#1176 = { add_core_of = ROOT }
 				1177 = { add_core_of = ROOT }
 				1071 = { add_core_of = ROOT }
 				1072 = { add_core_of = ROOT }

@@ -219,7 +219,25 @@ on_actions = {
 					ITA = {
 						release = KTS
 						release = VEC
-					}
+						release = AUS
+					
+                    }
+                }
+				if = {
+                    limit = {
+                        has_game_rule = {
+                            rule = yug_fragmentation_status
+                            option = YUG_FRAGMENTED
+                        }
+						has_game_rule = {
+							rule = ita_fragmentation_status
+							option = ITA_FRAGMENTED
+						}
+                    }
+					ITA = {
+                        release = SLV
+                        release = CRO
+                    }
 				}
 				# Game Rules - Czechoslovakia fragmentation - CZE-SLO
 				if = {
