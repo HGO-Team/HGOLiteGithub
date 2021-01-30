@@ -28,7 +28,7 @@
  STATE_27:0 "Bourgogne"
  STATE_28:1 "Alsace-Lorraine"
  STATE_29:1 "Nord-Pas-de-Calais"
- STATE_30:1 "Centre-Val de Loire"
+ STATE_30:1 "Centre-Val de Loire"683
  STATE_31:0 "Midi Pyrenees"
  STATE_32:0 "Alpes"
  STATE_33:0 "Centre-Sud"
@@ -681,7 +681,7 @@
  STATE_680:0 "Deir-az-Zur"
  STATE_681:0 "Cape"
  STATE_682:0 "Northern Ontario"
- STATE_683:0 "Northeastern Canada"
+ STATE_683:0 "Keewatin"
  STATE_684:0 "Caroline Islands"
  STATE_685:1 "Panamá Canal"
  STATE_686:0 "Puerto Rico"
