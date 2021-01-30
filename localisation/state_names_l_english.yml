@@ -28,7 +28,7 @@
  STATE_27:0 "Bourgogne"
  STATE_28:1 "Alsace-Lorraine"
  STATE_29:1 "Nord-Pas-de-Calais"
- STATE_30:1 "Centre-Val de Loire"683
+ STATE_30:1 "Centre-Val de Loire"
  STATE_31:0 "Midi Pyrenees"
  STATE_32:0 "Alpes"
  STATE_33:0 "Centre-Sud"
