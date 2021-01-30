@@ -2982,10 +2982,12 @@ focus_tree = {
 				limit = {
 					has_full_control_of_state = 659
 					has_full_control_of_state = 1039
+					has_full_control_of_state = 1298
 				}
 				YEM = {
 					transfer_state = 659
 					transfer_state = 1039
+					transfer_state = 1298
 					add_opinion_modifier = { target = ENG modifier = ENG_returned_our_territory }
 				}
 			}
