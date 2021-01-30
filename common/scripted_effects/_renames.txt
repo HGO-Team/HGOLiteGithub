@@ -1868,6 +1868,13 @@ do_french_renames = {
 	
 	if = {
 		limit = {
+			state = 1182
+		}
+		set_state_name = "Wallonie Luxembourgeoise"
+	}
+
+	if = {
+		limit = {
 			state = 812
 		}
 		set_province_name = {
