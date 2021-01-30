@@ -117,6 +117,8 @@ focus_tree = {
 							state = 1106
 							state = 783
 							state = 297
+							state = 1150
+							state = 1152
 						}
 					}
 					SPA_garrison_control_cost_calculation = yes
@@ -407,6 +409,8 @@ focus_tree = {
 							state = 1106
 							state = 783
 							state = 297
+							state = 1150
+							state = 1152
 						}
 					}
 					SPR_garrison_control_cost_calculation = yes
