@@ -1868,6 +1868,13 @@ do_french_renames = {
 	
 	if = {
 		limit = {
+			state = 1182
+		}
+		set_state_name = "Wallonie Luxembourgeoise"
+	}
+
+	if = {
+		limit = {
 			state = 812
 		}
 		set_province_name = {
@@ -3748,7 +3755,7 @@ do_belgian_renames = {
 		}
 		set_province_name = {
 			id = 516
-			name = "Brussels"
+			name = "Bruxelles-Brussels"
 		}
 		set_province_name = {
 			id = 3576
@@ -3782,7 +3789,11 @@ do_belgian_renames = {
 		}
 		set_province_name = {
 			id = 11519
-			name = "Liège"
+			name = "Liége"
+		}
+		set_province_name = {
+			id = 3516
+			name = "Namur"
 		}
 		set_state_name = "Wallonie"
 	}
