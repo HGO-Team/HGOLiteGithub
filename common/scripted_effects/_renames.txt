@@ -3789,7 +3789,11 @@ do_belgian_renames = {
 		}
 		set_province_name = {
 			id = 11519
-			name = "Liège"
+			name = "Liége"
+		}
+		set_province_name = {
+			id = 3516
+			name = "Namur"
 		}
 		set_state_name = "Wallonie"
 	}
