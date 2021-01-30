@@ -1823,6 +1823,9 @@ focus_tree = {
 			}
 			owns_state = 106
 			owns_state = 870
+			owns_state = 1302
+			owns_state = 1205
+			owns_state = 1230
 		}
 
 		bypass = {
@@ -1843,8 +1846,23 @@ focus_tree = {
 				}
 				transfer_state = 106
 				transfer_state = 870
+				transfer_state = 1302
+				transfer_state = 1205
+				transfer_state = 1230
 			}
 			106 = {
+				remove_core_of = ROOT
+			}
+			870 = {
+				remove_core_of = ROOT
+			}
+			1302 = {
+				remove_core_of = ROOT
+			}
+			1205 = {
+				remove_core_of = ROOT
+			}
+			1230 = {
 				remove_core_of = ROOT
 			}
 		}
@@ -2083,6 +2101,8 @@ focus_tree = {
 		completion_reward = {
 			163 = { remove_core_of = ROOT }
 			736 = { remove_core_of = ROOT }
+			866 = { remove_core_of = ROOT }
+			1066 = { remove_core_of = ROOT }
 			if = {
 				limit = {
 					GER = {
@@ -2153,27 +2173,51 @@ focus_tree = {
 			if = {
 				limit = {
 					owns_state = 106
+					owns_state = 870
+					owns_state = 1204
+					owns_state = 1302
+					owns_state = 1230
 				}
-				add_state_core = 731
+				add_state_core = 106
+				add_state_core = 870
+				add_state_core = 1204
+				add_state_core = 1302
+				add_state_core = 1230
 			}
 			else_if = {
 				limit = {
 					any_country = {
 						is_subject_of = ROOT
 						owns_state = 106
+						owns_state = 870
+						owns_state = 1204
+						owns_state = 1302
+						owns_state = 1230
 					}
 				}
 				random_country = {
 					limit = {
 						is_subject_of = ROOT
 						owns_state = 106
+						owns_state = 870
+						owns_state = 1204
+						owns_state = 1302
+						owns_state = 1230
 					}
-					add_state_core = 731
+					add_state_core = 106
+					add_state_core = 870
+					add_state_core = 1204
+					add_state_core = 1302
+					add_state_core = 1230
 				}
 			}
 			else = {
 				MAC = {
-					add_state_core = 731
+					add_state_core = 106
+					add_state_core = 870
+					add_state_core = 1204
+					add_state_core = 1302
+					add_state_core = 1230
 				}
 			}
 			news_event = { id = news.327 }
