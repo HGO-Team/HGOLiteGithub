@@ -4838,6 +4838,11 @@ CHI_integrate_the_warlords = {
 					tag = SHX
 					tag = XSM
 					tag = SIK
+					tag = HSI
+					tag = SZH
+					tag = NEA
+					tag = NSI
+					tag = TUG
 				}
 			}
 		}
@@ -5025,6 +5030,11 @@ CHI_integrate_the_warlords = {
 					tag = SHX
 					tag = XSM
 					tag = SIK
+					tag = HSI
+					tag = SZH
+					tag = NEA
+					tag = NSI
+					tag = TUG
 				}
 			}
 		}
@@ -5084,6 +5094,11 @@ CHI_integrate_the_warlords = {
 					tag = SHX
 					tag = XSM
 					tag = SIK
+					tag = HSI
+					tag = SZH
+					tag = NEA
+					tag = NSI
+					tag = TUG
 				}
 			}
 		}
