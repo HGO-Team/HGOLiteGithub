@@ -234,12 +234,10 @@ on_actions = {
 							option = ITA_FRAGMENTED
 						}
                     }
-					    ITA = {
-                        release = SLO
+					ITA = {
+                        release = SLV
                         release = CRO
                     }
-					}
-                }
 				}
 				# Game Rules - Czechoslovakia fragmentation - CZE-SLO
 				if = {
