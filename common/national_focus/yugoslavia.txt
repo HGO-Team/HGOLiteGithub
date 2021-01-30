@@ -2173,15 +2173,31 @@ focus_tree = {
 			if = {
 				limit = {
 					owns_state = 106
-					owns_state = 870
-					owns_state = 1204
-					owns_state = 1302
-					owns_state = 1230
 				}
 				add_state_core = 106
+			}
+			if = {
+				limit = {
+					owns_state = 870
+				}
 				add_state_core = 870
+			}
+			if = {
+				limit = {
+					owns_state = 1204
+				}
 				add_state_core = 1204
+			}
+			if = {
+				limit = {
+					owns_state = 1302
+				}
 				add_state_core = 1302
+			}
+			if = {
+				limit = {
+					owns_state = 1230
+				}
 				add_state_core = 1230
 			}
 			else_if = {
@@ -2189,25 +2205,73 @@ focus_tree = {
 					any_country = {
 						is_subject_of = ROOT
 						owns_state = 106
-						owns_state = 870
-						owns_state = 1204
-						owns_state = 1302
-						owns_state = 1230
 					}
 				}
 				random_country = {
 					limit = {
 						is_subject_of = ROOT
 						owns_state = 106
-						owns_state = 870
-						owns_state = 1204
-						owns_state = 1302
-						owns_state = 1230
 					}
 					add_state_core = 106
+				}
+			}
+			else_if = {
+				limit = {
+					any_country = {
+						is_subject_of = ROOT
+						owns_state = 870
+					}
+				}
+				random_country = {
+					limit = {
+						is_subject_of = ROOT
+						owns_state = 870
+					}
 					add_state_core = 870
+				}
+			}
+			else_if = {
+				limit = {
+					any_country = {
+						is_subject_of = ROOT
+						owns_state = 1204
+					}
+				}
+				random_country = {
+					limit = {
+						is_subject_of = ROOT
+						owns_state = 1204
+					}
 					add_state_core = 1204
+				}
+			}
+			else_if = {
+				limit = {
+					any_country = {
+						is_subject_of = ROOT
+						owns_state = 1302
+					}
+				}
+				random_country = {
+					limit = {
+						is_subject_of = ROOT
+						owns_state = 1302
+					}
 					add_state_core = 1302
+				}
+			}
+			else_if = {
+				limit = {
+					any_country = {
+						is_subject_of = ROOT
+						owns_state = 1230
+					}
+				}
+				random_country = {
+					limit = {
+						is_subject_of = ROOT
+						owns_state = 1230
+					}
 					add_state_core = 1230
 				}
 			}
