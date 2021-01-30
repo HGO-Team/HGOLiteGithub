@@ -297,13 +297,6 @@ do_german_renames = {
 
 	if = {
 		limit = {
-			state = 804
-		}
-		set_state_name = "Nordschleswig"
-	}
-
-	if = {
-		limit = {
 			state = 763
 		}		
 		set_province_name = {
@@ -1263,6 +1256,76 @@ do_german_renames = {
 			name = "Offenburg"
 		}
 		set_state_name = "Baden"
+	}
+
+if = {
+		limit = {
+			state = 804
+		}
+		set_state_name = "Nordschleswig"
+	}
+
+	if = {
+		limit = {
+			state = 796
+		}
+		set_province_name = {
+			id = 317
+			name = "Flensburg"
+		}
+		set_state_name = "Schleswig"
+	}
+
+	if = {
+		limit = {
+			state = 58
+		}
+		set_province_name = {
+			id = 6389
+			name = "Kiel"
+		}
+		set_province_name = {
+			id = 11331
+			name = "Lübeck"
+		}
+		set_state_name = "Holstein"
+	}
+
+	if = {
+		limit = {
+			state = 99
+		}
+		set_province_name = {
+			id = 6364
+			name = "Arenhusen"
+		}
+		set_province_name = {
+			id = 6235
+			name = "Aalburg"
+		}
+		set_state_name = "Jütland"
+	}
+
+	if = {
+		limit = {
+			state = 1166
+		}
+		set_province_name = {
+			id = 3325
+			name = "Ottensee"
+		}
+		set_state_name = "Fünen"
+	}
+
+	if = {
+		limit = {
+			state = 37
+		}
+		set_province_name = {
+			id = 6287
+			name = "Kopenhagen"
+		}
+		set_state_name = "Seeland"
 	}
 }
 
@@ -3181,7 +3244,222 @@ do_danish_renames = {
 		limit = {
 			state = 804
 		}
-		set_state_name = "Sydjylland"
+		set_state_name = "Sønderjylland"
+	}
+
+	if = {
+		limit = {
+			state = 99
+		}
+		set_province_name = {
+			id = 6364
+			name = "Aarhus"
+		}
+		set_province_name = {
+			id = 6235
+			name = "Aalborg"
+		}
+		set_state_name = "Jylland"
+	}
+
+	if = {
+		limit = {
+			state = 1166
+		}
+		set_province_name = {
+			id = 3325
+			name = "Odense"
+		}
+		set_state_name = "Fyn"
+	}
+
+	if = {
+		limit = {
+			state = 37
+		}
+		set_province_name = {
+			id = 6287
+			name = "København"
+		}
+		set_state_name = "Sjælland"
+	}
+
+	if = {
+		limit = {
+			state = 796
+		}
+		set_province_name = {
+			id = 317
+			name = "Flensborg"
+		}
+		set_state_name = "Slesvig"
+	}
+
+	if = {
+		limit = {
+			state = 58
+		}
+		set_province_name = {
+			id = 6389
+			name = "Kiel"
+		}
+		set_province_name = {
+			id = 11331
+			name = "Lybæk"
+		}
+		set_state_name = "Holsten"
+	}
+
+	if = {
+		limit = {
+			state = 138
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 9279
+			name = "Malmø"
+		}
+		set_province_name = {
+			id = 11215
+			name = "Karlskrone"
+		}
+		set_state_name = "Skaane"
+	}
+
+	if = {
+		limit = {
+			state = 139
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 11380
+			name = "Nordkøbing"
+		}
+		set_state_name = "Smaaland"
+	}
+
+	if = {
+		limit = {
+			state = 140
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 383
+			name = "Gøteborg"
+		}
+		set_province_name = {
+			id = 11114
+			name = "Karlstad"
+		}
+		set_state_name = "Vestgøtaland"
+	}
+	
+	if = {
+		limit = {
+			state = 1115
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Bohuslen"
+	}
+
+	if = {
+		limit = {
+			state = 1007
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Vestmandsland"
+	}
+
+	if = {
+		limit = {
+			state = 1008
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Dalene"
+	}
+
+	if = {
+		limit = {
+			state = 1009
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Jæmtland"
+	}
+	
+	if = {
+		limit = {
+			state = 1114
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Ångermandsland"
+	}
+
+	if = {
+		limit = {
+			state = 38
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Nordland"
+	}
+
+	if = {
+		limit = {
+			state = 666
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Lapland"
+	}
+	
+	if = {
+		limit = {
+			state = 124
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Gulland"
 	}
 }
 
@@ -4218,6 +4496,109 @@ do_finnish_renames = {
 			state = 1068
 		}
 		set_state_name = "Porkkalanniemi"
+	}
+}
+
+do_swedish_renames = {
+
+	if = {
+		limit = {
+			state = 138
+		}
+		set_province_name = {
+			id = 9279
+			name = "Malmö"
+		}
+		set_province_name = {
+			id = 11215
+			name = "Karlskrona"
+		}
+		set_state_name = {
+			Skåne
+		}
+	}	
+
+	if = {
+		limit = {
+			state = 139
+
+		}
+		set_province_name = {
+			id = 11380
+			name = "Norrköping"
+		}
+		set_state_name = "Småland"
+	}
+
+	if = {
+		limit = {
+			state = 140
+		}
+		set_province_name = {
+			id = 383
+			name = "Göteborg"
+		}
+		set_province_name = {
+			id = 11114
+			name = "Karlstad"
+		}
+		set_state_name = "Västergötland"
+	}
+	
+	if = {
+		limit = {
+			state = 1115
+		}
+		set_state_name = "Bohuslän"
+	}
+
+	if = {
+		limit = {
+			state = 1007
+		}
+		set_state_name = "Västmanland"
+	}
+
+	if = {
+		limit = {
+			state = 1008
+		}
+		set_state_name = "Dalarna"
+	}
+
+	if = {
+		limit = {
+			state = 1009
+		}
+		set_state_name = "Jämtland"
+	}
+	
+	if = {
+		limit = {
+			state = 1114
+		}
+		set_state_name = "Ångermanland"
+	}
+
+	if = {
+		limit = {
+			state = 38
+		}
+		set_state_name = "Norrland"
+	}
+
+	if = {
+		limit = {
+			state = 666
+		}
+		set_state_name = "Lappland"
+	}
+
+	if = {
+		limit = {
+			state = 124
+		}
+		set_state_name = "Gotland"
 	}
 }
 
