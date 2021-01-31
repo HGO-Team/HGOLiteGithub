@@ -1258,7 +1258,7 @@ do_german_renames = {
 		set_state_name = "Baden"
 	}
 
-if = {
+	if = {
 		limit = {
 			state = 804
 		}
@@ -3174,6 +3174,57 @@ do_soviet_renames = {
 		}
 		set_state_name = "Moskva"
 	}
+
+	if = {
+		limit = {
+			state = 929
+		}
+		set_state_name = "Kostomuksha"
+	}
+
+	if = {
+		limit = {
+			state = 928
+		}
+		set_province_name = {
+			id = 9195
+			name = "Kem"
+		}
+		set_state_name = "Kem"
+	}
+
+	if = {
+		limit = {
+			state = 928
+		}
+		set_province_name = {
+			id = 3134
+			name = "Murmansk"
+		}
+		set_state_name = "Kolsky Poluostrov" 	
+	}
+
+	if = {
+		limit = {
+			state = 216
+		}
+		set_province_name = {
+			id = 11150
+			name = "Olonets"
+		}	
+		set_province_name = {
+			id = 11159
+			name = "Petrozavodsk"
+		}	
+		set_state_name = "Olonets"
+	}
+
+	if = {
+		limit = {
+			state = 215
+		}
+		set_state_name = "Onega"
+	}
 }
 
 do_west_east_berlin_renames = {
@@ -3242,231 +3293,6 @@ do_united_berlin_renames = {
 		}
 		set_state_name = "Berlin"
 		64 = { set_state_name = "Reichstag" }
-	}
-}
-
-do_danish_renames = {
-
-	if = {
-		limit = {
-			state = 804
-		}
-		set_state_name = "Sønderjylland"
-	}
-
-	if = {
-		limit = {
-			state = 99
-		}
-		set_province_name = {
-			id = 6364
-			name = "Aarhus"
-		}
-		set_province_name = {
-			id = 6235
-			name = "Aalborg"
-		}
-		set_state_name = "Jylland"
-	}
-
-	if = {
-		limit = {
-			state = 1166
-		}
-		set_province_name = {
-			id = 3325
-			name = "Odense"
-		}
-		set_state_name = "Fyn"
-	}
-
-	if = {
-		limit = {
-			state = 37
-		}
-		set_province_name = {
-			id = 6287
-			name = "København"
-		}
-		set_state_name = "Sjælland"
-	}
-
-	if = {
-		limit = {
-			state = 796
-		}
-		set_province_name = {
-			id = 317
-			name = "Flensborg"
-		}
-		set_state_name = "Slesvig"
-	}
-
-	if = {
-		limit = {
-			state = 58
-		}
-		set_province_name = {
-			id = 6389
-			name = "Kiel"
-		}
-		set_province_name = {
-			id = 11331
-			name = "Lybæk"
-		}
-		set_state_name = "Holsten"
-	}
-
-	if = {
-		limit = {
-			state = 138
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_province_name = {
-			id = 9279
-			name = "Malmø"
-		}
-		set_province_name = {
-			id = 11215
-			name = "Karlskrone"
-		}
-		set_state_name = "Skaane"
-	}
-
-	if = {
-		limit = {
-			state = 139
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_province_name = {
-			id = 11380
-			name = "Nordkøbing"
-		}
-		set_state_name = "Smaaland"
-	}
-
-	if = {
-		limit = {
-			state = 140
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_province_name = {
-			id = 383
-			name = "Gøteborg"
-		}
-		set_province_name = {
-			id = 11114
-			name = "Karlstad"
-		}
-		set_state_name = "Vestgøtaland"
-	}
-	
-	if = {
-		limit = {
-			state = 1115
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_state_name = "Bohuslen"
-	}
-
-	if = {
-		limit = {
-			state = 1007
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_state_name = "Vestmandsland"
-	}
-
-	if = {
-		limit = {
-			state = 1008
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_state_name = "Dalene"
-	}
-
-	if = {
-		limit = {
-			state = 1009
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_state_name = "Jæmtland"
-	}
-	
-	if = {
-		limit = {
-			state = 1114
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_state_name = "Ångermandsland"
-	}
-
-	if = {
-		limit = {
-			state = 38
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_state_name = "Nordland"
-	}
-
-	if = {
-		limit = {
-			state = 666
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_state_name = "Lapland"
-	}
-	
-	if = {
-		limit = {
-			state = 124
-			DEN = {
-				NOT = {
-					has_global_flag = form_scandinavia_flag
-				}
-			}
-		}
-		set_state_name = "Gulland"
 	}
 }
 
@@ -4508,6 +4334,105 @@ do_finnish_renames = {
 		}
 		set_state_name = "Porkkalanniemi"
 	}
+
+	if = {
+		limit = {
+			state = 929
+		}
+		set_state_name = "Kostamus"
+	}
+
+	if = {
+		limit = {
+			state = 928
+		}
+		set_province_name = {
+			id = 9195
+			name = "Kemi"
+		}
+		set_state_name = "Vienan Kemi"
+	}
+
+	if = {
+		limit = {
+			state = 213
+		}
+		set_province_name = {
+			id = 3134
+			name = "Murmanni"
+		}
+		set_state_name = "Kuolan Niemimaa"	
+	}
+
+	if = {
+		limit = {
+			state = 216
+		}
+		set_province_name = {
+			id = 11150
+			name = "Aunus"
+		}	
+		set_province_name = {
+			id = 11159
+			name = "Äänislinna"
+		}	
+		set_state_name = "Aunus"
+	}
+
+	if = {
+		limit = {
+			state = 215
+		}
+		set_state_name = "Ääninen"
+	}
+
+	if = {
+		limit = {
+			state = 195
+		}
+		set_province_name = {
+			id = 3151
+			name = "Pietari"
+		}	
+		set_state_name = "Pietari"
+	}
+
+	if = {
+		limit = {
+			state = 144
+		}
+		set_province_name = {
+			id = 9116
+			name = "Kirkkoniemi"
+		}
+		set_state_name = "Ruija"	
+	}
+	
+	if = {
+		limit = {
+			state = 666
+		}
+		set_province_name = {
+			id = 9108
+			name = "Luulaja"
+		}
+		set_state_name = "Itä Lappi "	
+	}
+
+	if = {
+		limit = {
+			state = 1014
+		}
+		set_province_name = {
+			id = 192
+			name = "Narvik"
+		}
+		set_province_name = {
+			id = 11150
+			name = "Tromsa"
+		}
+		set_state_name = "Tromsa"
+	}
 }
 
 do_swedish_renames = {
@@ -4600,6 +4525,10 @@ do_swedish_renames = {
 		limit = {
 			state = 666
 		}
+		set_province_name = {
+			id = 9108
+			name = "Luleå"
+		}
 		set_state_name = "Lappland"
 	}
 
@@ -4608,6 +4537,408 @@ do_swedish_renames = {
 			state = 124
 		}
 		set_state_name = "Gotland"
+	}
+
+	if = {
+		limit = {
+			state = 141
+		}
+		set_province_name = {
+			id = 6050
+			name = "Stockholm"
+		}
+		set_state_name = "Stockholm"
+	}
+}
+
+do_danish_renames = {
+
+	if = {
+		limit = {
+			state = 804
+		}
+		set_state_name = "Sønderjylland"
+	}
+
+	if = {
+		limit = {
+			state = 99
+		}
+		set_province_name = {
+			id = 6364
+			name = "Aarhus"
+		}
+		set_province_name = {
+			id = 6235
+			name = "Aalborg"
+		}
+		set_state_name = "Jylland"
+	}
+
+	if = {
+		limit = {
+			state = 1166
+		}
+		set_province_name = {
+			id = 3325
+			name = "Odense"
+		}
+		set_state_name = "Fyn"
+	}
+
+	if = {
+		limit = {
+			state = 37
+		}
+		set_province_name = {
+			id = 6287
+			name = "København"
+		}
+		set_state_name = "Sjælland"
+	}
+
+	if = {
+		limit = {
+			state = 796
+		}
+		set_province_name = {
+			id = 317
+			name = "Flensborg"
+		}
+		set_state_name = "Slesvig"
+	}
+
+	if = {
+		limit = {
+			state = 58
+		}
+		set_province_name = {
+			id = 6389
+			name = "Kiel"
+		}
+		set_province_name = {
+			id = 11331
+			name = "Lybæk"
+		}
+		set_state_name = "Holsten"
+	}
+
+	if = {
+		limit = {
+			state = 138
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 9279
+			name = "Malmø"
+		}
+		set_province_name = {
+			id = 11215
+			name = "Karlskrone"
+		}
+		set_state_name = "Skaane"
+	}
+
+	if = {
+		limit = {
+			state = 139
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 11380
+			name = "Nordkøbing"
+		}
+		set_state_name = "Smaaland"
+	}
+
+	if = {
+		limit = {
+			state = 140
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 383
+			name = "Gøteborg"
+		}
+		set_province_name = {
+			id = 11114
+			name = "Karlstad"
+		}
+		set_state_name = "Vestgøtaland"
+	}
+	
+	if = {
+		limit = {
+			state = 1115
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Bohuslen"
+	}
+
+	if = {
+		limit = {
+			state = 1007
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Vestmandsland"
+	}
+
+	if = {
+		limit = {
+			state = 141
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 6050
+			name = "Stokholm"
+		}
+		set_state_name = "Stokholm"
+	}
+
+	if = {
+		limit = {
+			state = 1008
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Dalene"
+	}
+
+	if = {
+		limit = {
+			state = 1009
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Jæmtland"
+	}
+	
+	if = {
+		limit = {
+			state = 1114
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Ångermandsland"
+	}
+
+	if = {
+		limit = {
+			state = 38
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Nordland"
+	}
+
+	if = {
+		limit = {
+			state = 666
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 9108
+			name = "Luleaa"
+		}
+		set_state_name = "Lapland"
+	}
+	
+	if = {
+		limit = {
+			state = 124
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_state_name = "Gulland"
+	}
+
+	if = {
+		limit = {
+			state = 110
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 11380
+			name = "Christiania"
+		}
+		set_state_name = "Christiania"
+	}
+	
+	if = {
+		limit = {
+			state = 110
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 9296
+			name = "Christiansand"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 142
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 122
+			name = "Bjørgvik"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 143
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 3022
+			name = "Trondhjem"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 144
+			DEN = {
+				NOT = {
+					has_global_flag = form_scandinavia_flag
+				}
+			}
+		}
+		set_province_name = {
+			id = 9116
+			name = "Kirkenæs"
+		}
+		set_state_name = "Finmark"
+	}
+}
+
+do_norwegian_renames = {
+	if = {
+		limit = {
+			state = 110
+		}
+		set_province_name = {
+			id = 11380
+			name = "Oslo"
+		}
+		set_state_name = "Oslo"
+	}
+	
+	if = {
+		limit = {
+			state = 110
+		}
+		set_province_name = {
+			id = 9296
+			name = "Kristiansand"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 142
+		}
+		set_province_name = {
+			id = 122
+			name = "Bergen"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 143
+		}
+		set_province_name = {
+			id = 3022
+			name = "Trondheim"
+		}
+	}
+
+	if = {
+		limit = {
+			state = 144
+		}
+		set_province_name = {
+			id = 9116
+			name = "Kirkenes"
+		}
+		set_state_name = "Finnmark"
+	}
+
+	if = {
+		limit = {
+			state = 1014
+		}
+		set_province_name = {
+			id = 192
+			name = "Narvik"
+		}
+		set_province_name = {
+			id = 11150
+			name = "Tromsø"
+		}
+		set_state_name = "Troms"
 	}
 }
 

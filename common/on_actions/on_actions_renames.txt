@@ -361,12 +361,12 @@ on_actions = {
 				if = {
 					limit = {
 						ROOT = {
-								OR = { 
-									tag = POL 
-									tag = GAL 
-								}
+							OR = { 
+								tag = POL 
+								tag = GAL 
 							}
 						}
+					}
 					do_polish_renames = yes
 				}
 				
@@ -661,6 +661,16 @@ on_actions = {
 						}
 					}
 					do_brittany_renames = yes
+				}
+
+				### NOR ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = NOR
+						}
+					}
+					do_norwegian_renames = yes
 				}
 			}
 		}
