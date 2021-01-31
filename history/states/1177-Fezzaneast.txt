@@ -2,23 +2,23 @@
 state={
 	id=1177
 	name="STATE_1177"
-	
+
+	impassable = yes
+
 	history={
-		add_core_of = TMS
-		owner = SOV
+		owner = ITA
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 0
 
 		}
-		add_core_of = SOV
+		add_core_of = LBA
 
 	}
-	
+
 	provinces={
-		1632 756 
+		13366
 	}
-	manpower=47255
+	manpower=1573
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
 }
