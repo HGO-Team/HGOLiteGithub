@@ -259,7 +259,7 @@ on_actions = {
 							option = ITA_FRAGMENTED
 						}
                     }
-					ITA = {
+					YUG = {
                         release = SLV
                         release = CRO
                     }
