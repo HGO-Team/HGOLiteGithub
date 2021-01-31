@@ -111,7 +111,7 @@ rom_fragmentation_status = {
 		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
 	}
 	option = {
-		name = ROM_FRAGMENETED
+		name = ROM_FRAGMENTED
 		text = "BS_ROMANIA_FRAGMENTED"
 		desc = "BS_ROMANIA_FRAGMENTED_DESC"
 	}

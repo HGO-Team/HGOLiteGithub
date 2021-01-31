@@ -352,42 +352,43 @@ on_actions = {
 				if = {
 					limit = {
 						has_game_rule = {
-							rule = rom_fragmentation
+							rule = rom_fragmentation_status
 							option = ROM_FRAGMENTED
 						}
 					}
-				ROM = {
-					release = MOL
-					release = TRA
-					release = BUK
-					remove_state_core = 79
-					remove_state_core = 925
-					remove_state_core = 831
-					remove_state_core = 832
-					remove_state_core = 77
-				}
-				MOL = {
-					transfer_state = 79
-					transfer_state = 925
-					add_state_core = 79
-					add_state_core = 925
-					puppet = BUK
-				}
-				HUN = {
-					transfer_state = 1201
-					add_state_core = 1201
-				}
-				BUL = {
-					transfer_state = 831
-					transfer_state = 832
-					transfer_state = 77
-					remove_state_claim = 77
-					add_state_core = 831
-					add_state_core = 832
-					add_state_core = 77
+					ROM = {
+						release = MOL
+						release = TRA
+						release = BUK
+						remove_state_core = 79
+						remove_state_core = 925
+						remove_state_core = 831
+						remove_state_core = 832
+						remove_state_core = 77
+					}
+					MOL = {
+						transfer_state = 79
+						transfer_state = 925
+						add_state_core = 79
+						add_state_core = 925
+						puppet = BUK
+					}
+					HUN = {
+						transfer_state = 1201
+						add_state_core = 1201
+					}
+					BUL = {
+						transfer_state = 831
+						transfer_state = 832
+						transfer_state = 77
+						remove_state_claim = 77
+						add_state_core = 831
+						add_state_core = 832
+						add_state_core = 77
+					}
 				}
 			}
-	}
+		}
 	
 	on_puppet = {
 		effect = {
@@ -500,7 +501,6 @@ on_actions = {
 					}
 				}
 			}
-		
 		}
 	}
 	
