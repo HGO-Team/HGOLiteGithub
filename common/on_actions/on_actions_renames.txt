@@ -619,6 +619,16 @@ on_actions = {
 					}
 					do_luxemburg_renames = yes
 				}
+
+				### BRI ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = BRI
+						}
+					}
+					do_brittanian_renames = yes
+				}
 			}
 		}
 	}
