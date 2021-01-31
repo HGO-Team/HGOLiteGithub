@@ -352,8 +352,8 @@ on_actions = {
 				if = {
 					limit = {
 						has_game_rule = {
-							rule = rom_fragmentation
-							option = ROM_FRAGMENTED
+							rule = RULE_BS_ROMANIA_FRAGMENTATION
+							option = BS_ROMANIA_FRAGMENTED
 						}
 					}
 				ROM = {
