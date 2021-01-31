@@ -4524,9 +4524,7 @@ do_swedish_renames = {
 			id = 11215
 			name = "Karlskrona"
 		}
-		set_state_name = {
-			Skåne
-		}
+		set_state_name = "Skåne"
 	}	
 
 	if = {
