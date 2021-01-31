@@ -102,3 +102,17 @@ cze_fragmentation_status = {
 		desc = "BS_CZECHO_FRAGMENTED_DESC"
 	}
 }
+rom_fragmentation_status = {
+	name = "RULE_BS_ROMANIA_FRAGMENTATION"
+	group = "RULE_BS_GAMEPLAY"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_FRAGMENTATION_DESC"
+	}
+	option = {
+		name = ROM_FRAGMENETED
+		text = "BS_ROMANIA_FRAGMENTED"
+		desc = "BS_ROMANIA_FRAGMENTED_DESC"
+	}
+}
