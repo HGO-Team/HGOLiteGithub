@@ -92,7 +92,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_decision_cat_generic_formable_france"
-		textureFile = "gfx/event_pictures/decision_cat_generic_formable_france.dds"
+		textureFile = "gfx/interface/decision_cat_generic_formable_france.dds"
 	}
 
 }
