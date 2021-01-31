@@ -5249,6 +5249,10 @@ do_brittany_renames = {
 			id = 3552
 			name = "Brest"
 		}
+		set_province_name = {
+			id = 6536
+			name = "An Oriant"
+		}
 		set_state_name = "Breizh"
 	}
 }

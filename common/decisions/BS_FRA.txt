@@ -1,0 +1,29 @@
+FRA_napoleonic_stuff = {
+	
+	FRA_create_holland = {	
+		visible = {
+			FRA = {
+				has_completed_focus = FRA_reorganize_the_dutch
+			}
+		}
+		icon = generic_form_nation
+		cost = 20
+		available = {
+			owns_state = 7
+			owns_state = 36
+			owns_state = 1058
+			owns_state = 1059
+			owns_state = 1061
+			owns_state = 1062
+			owns_state = 1252
+		}
+		complete_effect = {
+			FRA = {
+				release_puppet = HOL
+				transfer_state = 35
+				transfer_state = 1060
+			}
+			add_stability = 0.015
+		}
+	}
+}
