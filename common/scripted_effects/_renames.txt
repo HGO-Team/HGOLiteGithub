@@ -4891,4 +4891,32 @@ do_catalan_renames = {
 		}
 		set_state_name = "Andorra"
 	}
+
+do_brittanic_renames = {
+	
+	if = {
+		limit = {
+			state = 1321
+		}		
+		set_province_name = {
+			id = 11465
+			name = "Naoned"
+		}
+		set_state_name = "Liger-Atlantel"
+	}
+
+	if = {
+		limit = {
+			state = 14
+		}		
+		set_province_name = {
+			id = 9495
+			name = "Roazhon"
+		}
+		set_province_name = {
+			id = 3552
+			name = "Brest"
+		}
+		set_state_name = "Breizh"
+	}
 }
