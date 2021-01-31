@@ -20,6 +20,7 @@ CHE = "countries/Chechen.txt"
 ABH = "countries/Abkhazia.txt"
 SOT = "countries/South Ossetia.txt"
 CRE = "countries/Crimea.txt"
+SRD = "countries/Sardinia.txt"
 
 ##America##
 GRL = "countries/Greenland.txt"

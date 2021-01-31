@@ -1,4 +1,16 @@
 ﻿l_english:
+ SRD_fascism:0 "Social Republic of Sardinia-Piedmont"
+ SRD_fascism_DEF:0 "the Social Republic of Sardinia-Piedmont"
+ SRD_democratic:0 "United Republic of Sardinia and Piedmont"
+ SRD_democratic_DEF:0 "the United Republic of Sardinia and Piedmont"
+ SRD_neutrality:0 "Kingdom of Sardinia-Piedmont"
+ SRD_neutraliy_DEF:0 "the Kingdom of Sardinia-Piedmont"
+ SRD_communism:0 "Union of Sardinia and Piedmont"
+ SRD_communism_DEF:0 "the Union of Sardinia and Piedmont"
+ SRD_fascism_ADJ:0 "Sardinian"
+ SRD_democratic_ADJ:0 "Sardinian"
+ SRD_neutrality_ADJ:0 "Sardinian"
+ SRD_communism_ADJ:0 "Sardinian"
 
  LIE_fascism:0 "Liechtenstein"
  LIE_fascism_DEF:0 "Liechtenstein"
@@ -13,8 +25,8 @@
  LIE_neutrality_ADJ:0 "Liechtensteinian"
  LIE_communism_ADJ:0 "Liechtensteinian"
 
- KTS_fascism:0 "Sicilian Empire"
- KTS_fascism_DEF:0 "the Sicilian Empire"
+ KTS_fascism:0 "Sicilian Social Republic"
+ KTS_fascism_DEF:0 "the Sicilian Social Republic"
  KTS_democratic:0 "Sicilian Republic"
  KTS_democratic_DEF:0 "Sicilian Republic"
  KTS_neutrality:0 "Kingdom of the Two Sicilies"
