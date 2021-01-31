@@ -319,6 +319,16 @@ on_actions = {
 					}
 					do_catalan_renames = yes
 				}
+
+				### BRI ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = BRI
+						}
+					}
+					do_brittany_renames = yes
+				}
 			}
 		}
 	}
@@ -618,6 +628,29 @@ on_actions = {
 						}
 					}
 					do_luxemburg_renames = yes
+				}
+
+				### SPR ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = SPR
+						}
+					}
+					do_spanish_renames = yes
+				}
+
+				### CAT ###
+				if = {
+					limit = {
+						ROOT = {
+							OR = {
+								original_tag = CAT
+								original_tag = ADR
+							}
+						}
+					}
+					do_catalan_renames = yes
 				}
 
 				### BRI ###
