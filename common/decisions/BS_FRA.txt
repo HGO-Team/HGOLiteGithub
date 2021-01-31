@@ -23,6 +23,9 @@ FRA_napoleonic_stuff = {
 				transfer_state = 35
 				transfer_state = 1060
 			}
+			HOL = {
+				set_cosmetic_tag = HOL_napoleon_subject
+			}
 			add_stability = 0.015
 		}
 	}
