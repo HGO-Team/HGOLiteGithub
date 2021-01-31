@@ -220,8 +220,33 @@ on_actions = {
 						release = KTS
 						release = VEC
 						release = AUS
-					
+						remove_state_core = 993
+						remove_state_core = 163
+						remove_state_core = 1066
+						remove_state_core = 736
+						remove_state_cores = 866
+						remove_state_core = 2
+						remove_state_core = 990
+						remove_state_core = 157
+						remove_state_core = 161
                     }
+					YUG = {
+						transfer_state = 163
+						transfer_state = 993
+						transfer_state = 1066
+						transfer_state = 736
+						transfer_state = 866
+					}
+					VCT = {
+						transfer_state = 2
+						transfer_state = 990
+						transfer_state = 157
+						transfer_state = 161
+						add_state_core = 2
+						add_state_core = 990
+						add_state_core = 157
+						add_state_core = 161
+					}
                 }
 				if = {
                     limit = {
@@ -238,6 +263,10 @@ on_actions = {
                         release = SLV
                         release = CRO
                     }
+					SLV = {
+						transfer state = 993
+					}
+					
 				}
 				# Game Rules - Czechoslovakia fragmentation - CZE-SLO
 				if = {
