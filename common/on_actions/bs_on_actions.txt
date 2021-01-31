@@ -219,7 +219,9 @@ on_actions = {
 					ITA = {
 						release = KTS
 						release = VEC
+						release = LBA
 						release = AUS
+						release = GRE
 						remove_state_core = 993
 						remove_state_core = 163
 						remove_state_core = 1066
@@ -246,6 +248,25 @@ on_actions = {
 						add_state_core = 990
 						add_state_core = 157
 						add_state_core = 161
+					}
+					ENG = {
+						transfer_state = 1069
+						transfer_state = 1087
+						transfer_state = 559
+						transfer_state = 1088
+					}
+					FRA = {
+						transfer_state = 998
+						transfer_state = 1072
+					}
+					ETH = {
+						transfer_state = 550
+					}
+					EGY = {
+						transfer_state = 1070
+						transfer_state = 1145
+						transfer_state = 1071
+						transfer_state = 1176
 					}
                 }
 				if = {
