@@ -23,7 +23,7 @@ FRA_napoleonic_stuff = {
 				transfer_state = 35
 				transfer_state = 1060
 			}
-			add_stability = 0.15
+			add_stability = 0.015
 		}
 	}
 }
