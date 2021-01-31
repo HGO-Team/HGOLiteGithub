@@ -1,5 +1,10 @@
 ﻿l_english:
-
+ #Napoleonic France
+ FRA_napoleonic_stuff:0 "Restore The Legacy Of The First Empire"
+ FRA_napoleonic_stuff_desc:0 "The First French Empire is what our emperor looks at, sometimes looking at the Second Empire of Napoleon III. We need to restore the legacy of the First Empire in order to be considered a true Napoleonic empire."
+ FRA_create_holland:0 "Restore The Kingdom of Holland"
+ FRA_create_holland_desc:0 "In 1806, the Kingdom of Holland was established by the regime of Napoleon I. This experiment only lasted until 1812, so why not bring it back to calm the fears of nationalism?"
+ 
  #Vanilla Fix
  form_country_oman_required_states_tt:0 "Controls all §YOmani§! states."
  form_country_oman_coring_states_tt:0 "Gain cores on all §YOmani§! states.\n"
