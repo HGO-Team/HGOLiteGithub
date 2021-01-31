@@ -4,13 +4,8 @@ state={
 
 	impassable = yes
 
-	history={
-<<<<<<< HEAD
-		add_core_of = TMS
-		owner = SOV
-=======
+	history = {
 		owner = ITA
->>>>>>> parent of bd8017f... stuff
 		buildings = {
 			infrastructure = 0
 
@@ -19,10 +14,10 @@ state={
 
 	}
 
-	provinces={
+	provinces = {
 		13365
 	}
-	manpower=4390
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+	manpower = 4390
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
 }
