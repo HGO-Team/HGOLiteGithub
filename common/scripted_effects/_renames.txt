@@ -4892,7 +4892,7 @@ do_catalan_renames = {
 		set_state_name = "Andorra"
 	}
 
-do_brittanian_renames = {
+do_brittany_renames = {
 	
 	if = {
 		limit = {

@@ -627,7 +627,7 @@ on_actions = {
 							original_tag = BRI
 						}
 					}
-					do_brittanian_renames = yes
+					do_brittany_renames = yes
 				}
 			}
 		}
