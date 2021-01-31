@@ -4254,17 +4254,17 @@
  SHL_democratic_ADJ:0 "Schleswig-Holstein"
  SHL_neutrality_ADJ:0 "Schleswig-Holstein"
  SHL_communism_ADJ:0 "Schleswig-Holstein"
- SHL:0 "Schleswig"
- SHL_DEF:0 "Schleswig"
- SHL_ADJ:0 "Schleswig"
+ SHL:0 "Schleswig-Holstein"
+ SHL_DEF:0 "Schleswig-Holstein"
+ SHL_ADJ:0 "Schleswig-Holsteiner"
  
  
  
  
- BRI_fascism:0 "Breton State"
- BRI_fascism_DEF:0 "the Breton State"
- BRI_democratic:0 "Breton  Republic"
- BRI_democratic_DEF:0 "the Breton  Republic"
+ BRI_fascism:0 "Breton Free State"
+ BRI_fascism_DEF:0 "the Breton Free State"
+ BRI_democratic:0 "Republic of Brittany"
+ BRI_democratic_DEF:0 "the Republic of Brittany"
  BRI_communism:0 "Breton Socialist Republic"
  BRI_communism_DEF:0 "the Breton Socialist Republic"
  BRI_neutrality:0 "Duchy of Brittany"
