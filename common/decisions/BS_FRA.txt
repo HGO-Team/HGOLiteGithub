@@ -40,7 +40,6 @@ FRA_napoleonic_stuff = {
 		available = {
 			owns_state = 86
 			owns_state = 87
-			owns_state = 89
 			owns_state = 90
 			owns_state = 92
 			owns_state = 97
