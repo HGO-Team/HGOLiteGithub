@@ -1,5 +1,13 @@
 ﻿l_english:
-
+ SRD_sardinia_democratic:0 "Republic of Sardinia"
+ SRD_sardinia_democratic_DEF:0 "the Republic of Sardinia"
+ SRD_sardinia_neutrality:0 "Kingdom of Sardinia"
+ SRD_sardinia_neutrality_DEF:0 "the Kingdom of Sardinia"
+ SRD_sardinia_communism:0 "People's Republic of Sardinia"
+ SRD_sardinia_communism_DEF:0 "the People's Republic of Sardinia"
+ SRD_sardinia_fascism:0 "Sardinian Social Republic"
+ SRD_sardinia_fascism_DEF:0 "the Sardinian Social Republic"
+ 
  POL_warsaw_neutrality:0 "Duchy of Warsaw"
  POL_warsaw_neutrality_DEF:0 "the Duchy of Warsaw"
  POL_warsaw_neutrality_ADJ:0 "Varsovian"
@@ -17,8 +25,6 @@
  BRM_UK_democratic_DEF:0 "British Burma"
  BRM_UK_neutrality:0 "British Burma"
  BRM_UK_neutrality_DEF:0 "British Burma"
- BRM_UK_communism:0 "British Burma"
- BRM_UK_communism_DEF:0 "British Burma"
  
  BOHEMIA_democratic:0 "Bohemia"
  BOHEMIA_democratic_DEF:0 "Bohemia"

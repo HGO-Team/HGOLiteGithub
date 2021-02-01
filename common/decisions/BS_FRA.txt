@@ -38,7 +38,15 @@ FRA_napoleonic_stuff = {
 		icon = generic_form_nation
 		cost = 0
 		available = {
-			owns_state = 86
+			OR = {
+				PRE = { 
+					owns_state = 86
+					is_subject_of = FRA
+				}
+				FRA = {
+					owns_state = 86
+				}
+			}
 			owns_state = 87
 			owns_state = 90
 			owns_state = 92
@@ -68,6 +76,90 @@ FRA_napoleonic_stuff = {
 			}
 			FRA = {
 				puppet = POL
+			}
+		}
+	}
+	FRA_danzig = {
+		visible = {
+			NOT = {
+				country_exists = DAN
+			}
+			PRE = {
+				owns_state = 865
+			}
+		}
+		icon = generic_form_nation
+		cost = 0
+		available = {
+			PRE = {
+				owns_state = 865
+			}
+		}
+		complete_effect = {
+			FRA = {
+				transfer_state = 865
+			}
+		}
+		days_remove = 1
+		remove_effect = {
+			FRA = {
+				release_puppet = DAN
+			}
+		}
+	}
+	FRA_italy = {
+		visible = {
+			FRA = {
+				controls_state = 158
+				controls_state = 988
+			}
+		}
+		icon = generic_form_nation
+		cost = -10
+		available = {
+			owns_state = 987
+			owns_state = 159
+			owns_state = 160
+			owns_state = 986
+			owns_state = 1203
+			owns_state = 161
+			owns_state = 157
+			owns_state = 867
+		}
+		complete_effect = {
+			ITA = {
+				transfer_state = 987
+				transfer_state = 159
+				transfer_state = 160
+				transfer_state = 986
+				transfer_state = 1203
+				transfer_state = 161
+				transfer_state = 157
+				transfer_state = 867
+				set_cosmetic_tag = ITA_napoleon
+			}
+			FRA = {
+				puppet = ITA
+			}
+		}
+	}
+	FRA_sardinia = {
+		visible = {
+			controls_state = 114
+			has_decision = FRA_italy
+		}
+		icon = generic_form_nation
+		cost = 0
+		available = {
+			owns_state = 114
+		}
+		complete_effect = {
+			SRD = {
+				transfer_state = 114
+				set_cosmetic_tag = SRD_sardinia
+			}
+			FRA = {
+				puppet = SRD
 			}
 		}
 	}
