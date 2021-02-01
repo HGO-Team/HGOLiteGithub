@@ -1,13 +1,17 @@
 FRA_napoleonic_stuff = {
 	
-	FRA_holland = {	
+	FRA_holland = {
+
 		visible = {
 			FRA = {
 				has_completed_focus = FRA_reorganize_the_dutch
 			}
 		}
+
 		icon = generic_form_nation
+
 		cost = 0
+		
 		available = {
 			owns_state = 7
 			owns_state = 36
@@ -17,6 +21,7 @@ FRA_napoleonic_stuff = {
 			owns_state = 1062
 			owns_state = 1252
 		}
+
 		complete_effect = {
 			FRA = {
 				release_puppet = HOL
@@ -31,13 +36,17 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_warsaw = {
+		
 		visible = {
 			FRA = {
 				has_completed_focus = FRA_return_to_borodino
 			}
 		}
+
 		icon = generic_form_nation
+
 		cost = 0
+
 		available = {
 			OR = {
 				PRE = { 
@@ -59,6 +68,7 @@ FRA_napoleonic_stuff = {
 			owns_state = 1119
 			owns_state = 10
 		}
+
 		complete_effect = {
 			POL = {
 				set_cosmetic_tag = POL_warsaw
@@ -82,6 +92,7 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_danzig = {
+
 		visible = {
 			NOT = {
 				country_exists = DAN
@@ -90,13 +101,17 @@ FRA_napoleonic_stuff = {
 				owns_state = 85
 			}
 		}
+
 		icon = generic_form_nation
+
 		cost = 0
+
 		available = {
 			PRE = {
 				owns_state = 85
 			}
 		}
+
 		complete_effect = {
 			FRA = {
 				transfer_state = 85
@@ -106,14 +121,18 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_italy = {
+
 		visible = {
 			FRA = {
 				controls_state = 158
 				controls_state = 988
 			}
 		}
+
 		icon = generic_form_nation
+
 		cost = 0
+
 		available = {
 			owns_state = 987
 			owns_state = 159
@@ -123,6 +142,7 @@ FRA_napoleonic_stuff = {
 			owns_state = 157
 			owns_state = 867
 		}
+
 		complete_effect = {
 			ITA = {
 				retire_ideology_leader = neutrality
@@ -150,15 +170,20 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_sardinia = {
+
 		visible = {
 			controls_state = 114
 			has_decision = FRA_italy
 		}
+
 		icon = generic_form_nation
+
 		cost = 0
+
 		available = {
 			owns_state = 114
 		}
+
 		complete_effect = {
 			SRD = {
 				transfer_state = 114
@@ -171,6 +196,7 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_destroy_BEL = {
+
 		visible = {
 			has_completed_focus = FRA_avenge_waterloo
 			controls_state = 34
@@ -178,8 +204,11 @@ FRA_napoleonic_stuff = {
 			controls_state = 1182
 			controls_state = 1251
 		}
+
 		icon = generic_propaganda
+
 		cost = 100
+
 		available = {
 			owns_state = 34
 			owns_state = 6
@@ -187,6 +216,7 @@ FRA_napoleonic_stuff = {
 			owns_state = 1182
 			owns_state = 1251
 		}
+
 		complete_effect = {
 			BEL = {
 				remove_state_core = 812
@@ -196,7 +226,13 @@ FRA_napoleonic_stuff = {
 			}
 			set_global_flag = FRA_destroy_belgium
 		}
+<<<<<<< HEAD
 		days_remove = 180
+=======
+
+		days_remove = 179
+
+>>>>>>> cbbe195944b893203d46a7f38f6584fa63f58a1b
 		remove_effect = {
 			BEL = {
 				remove_state_core = 34
@@ -217,13 +253,17 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_rhineland = {
+
 		visible = {
 			has_completed_focus = FRA_disunite_germany
 			owns_state = 812
 			has_global_flag = FRA_destroy_belgium
 		}
+
 		icon = generic_form_nation
+
 		cost = 0
+
 		available = {
 			owns_state = 812
 			owns_state = 789
@@ -231,6 +271,7 @@ FRA_napoleonic_stuff = {
 			owns_state = 792
 			owns_state = 51
 		}
+		
 		complete_effect = {
 			country_event = {
 				id = bsfrance.1
