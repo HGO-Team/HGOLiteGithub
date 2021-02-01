@@ -85,19 +85,19 @@ FRA_napoleonic_stuff = {
 				country_exists = DAN
 			}
 			PRE = {
-				owns_state = 865
+				owns_state = 85
 			}
 		}
 		icon = generic_form_nation
 		cost = 0
 		available = {
 			PRE = {
-				owns_state = 865
+				owns_state = 85
 			}
 		}
 		complete_effect = {
 			FRA = {
-				transfer_state = 865
+				transfer_state = 85
 			}
 		}
 		days_remove = 1
