@@ -128,6 +128,14 @@ FRA_napoleonic_stuff = {
 		}
 		complete_effect = {
 			ITA = {
+				retire_country_leader = yes
+				create_country_leader = {
+					name = "Napoleon II"
+					desc = ""
+					picture = "napoleon.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+				}
 				transfer_state = 987
 				transfer_state = 159
 				transfer_state = 160
