@@ -6730,6 +6730,11 @@ CAU_UNIFIED = {
 ITA_napoleon = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
+}
+
+SAR_rhineland = {
+	color = rgb { 0 51 19 }
+	color_ui = rgb { 0 51 19 }
 #/
 #/
 #/
