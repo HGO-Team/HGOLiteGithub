@@ -7415,6 +7415,7 @@
 		will_lead_to_war_with = ENG
 		will_lead_to_war_with = BEL
 		will_lead_to_war_with = HOL
+		will_lead_to_war_with = LUX
 		available = {
 			is_subject = no
 		}
@@ -7427,6 +7428,12 @@
 				}
 			}
 			HOL = {
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+				}
+			}
+			LUX = {
 				OR = {
 					exists = no
 					is_subject_of = ROOT
@@ -7452,6 +7459,11 @@
 			}
 			create_wargoal = {
 				target = HOL
+				type = annex_everything
+				expire = 0
+			}
+			create_wargoal = {
+				target = LUX
 				type = annex_everything
 				expire = 0
 			}
