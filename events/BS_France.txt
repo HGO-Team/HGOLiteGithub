@@ -33,6 +33,7 @@ country_event = {
 			}
 			transfer_state = 788
 			transfer_state = 790
+			add_stability = -0.05
 		}
 		WUR = {
 			transfer_state = 799
