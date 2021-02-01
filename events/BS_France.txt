@@ -1,19 +1,19 @@
 
-add_namespace = bs_fra
+add_namespace = bsfrance
 
 #  Rhineland Question
 country_event = {
-	id = bs.fra.1
-	title = bs.fra.1.t
-	desc = bs.fra.1.d
+	id = bsfrance.1
+	title = bsfrance.1.t
+	desc = bsfrance.1.d
 	picture = GFX_report_event_generic_sign_treaty1
 	
 	fire_only_once = yes
 	
-	is_triggered_only_once = yes
+	is_triggered_only = yes
 	
 	option = {
-		name = bs.fra.1.a
+		name = bsfrance.1.a
 		ai_chance = {
 			factor = 50
 		}
@@ -21,7 +21,7 @@ country_event = {
 	}
 	
 	option = {
-		name = bs.fra.1.b
+		name = bsfrance.1.b
 		ai_chance = {
 			factor = 25
 		}
@@ -41,7 +41,7 @@ country_event = {
 	}
 	
 	option = {
-		name = bs.fra.1.c
+		name = bsfrance.1.c
 		ai_chance = {
 			factor = 50
 		}

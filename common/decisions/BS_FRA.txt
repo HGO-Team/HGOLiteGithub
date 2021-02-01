@@ -29,6 +29,7 @@ FRA_napoleonic_stuff = {
 			}
 		}
 	}
+
 	FRA_warsaw = {
 		visible = {
 			FRA = {
@@ -79,6 +80,7 @@ FRA_napoleonic_stuff = {
 			}
 		}
 	}
+
 	FRA_danzig = {
 		visible = {
 			NOT = {
@@ -102,6 +104,7 @@ FRA_napoleonic_stuff = {
 			}
 		}
 	}
+
 	FRA_italy = {
 		visible = {
 			FRA = {
@@ -145,6 +148,7 @@ FRA_napoleonic_stuff = {
 			}
 		}
 	}
+
 	FRA_sardinia = {
 		visible = {
 			controls_state = 114
@@ -165,6 +169,7 @@ FRA_napoleonic_stuff = {
 			}
 		}
 	}
+
 	FRA_destroy_BEL = {
 		visible = {
 			has_completed_focus = FRA_avenge_waterloo
@@ -209,6 +214,7 @@ FRA_napoleonic_stuff = {
 			}
 		}
 	}
+
 	FRA_rhineland = {
 		visible = {
 			has_completed_focus = FRA_disunite_germany
@@ -225,7 +231,7 @@ FRA_napoleonic_stuff = {
 		}
 		complete_effect = {
 			country_event = {
-				id = bs.fra.1
+				id = bsfrance.1
 				days = 0
 				random = 24
 				random_days = 1

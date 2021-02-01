@@ -1,10 +1,10 @@
 ﻿l_english:
  #Rhineland Event
- bs.fra.1.t:0 "Fate of the Rhineland"
- bs.fra.1.d:0 "We have defeated the Germans and must now decide what to do with our conquered territories. The most important of these is the Rhineland. Napoleon the 1st extended France's border into the Ruhr area as he regarded the Rhine as the natural border of France. That was many years ago, however and now we have other options for what to do with the area."
- bs.fra.1.a:0 "Keep the border at the Rhine"
- bs.fra.1.b:0 "Occupy all of the Rhineland"
- bs.fra.1.c:0 "Create a subject state in the Rhineland"
+ bsfrance.1.t:0 "Fate of the Rhineland"
+ bsfrance.1.d:0 "We have defeated the Germans and must now decide what to do with our conquered territories. The most important of these is the Rhineland. Napoleon the 1st extended France's border into the Ruhr area as he regarded the Rhine as the natural border of France. That was many years ago, however and now we have other options for what to do with the area."
+ bsfrance.1.a:0 "Keep the border at the Rhine"
+ bsfrance.1.b:0 "Occupy all of the Rhineland"
+ bsfrance.1.c:0 "Create a subject state in the Rhineland"
  
  #New Slovenia event
  germany.94.b:0 "Take it all!"
