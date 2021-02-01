@@ -13,7 +13,7 @@
  FRA_sardinia:0 "Restore the Kingdom of Sardinia"
  FRA_sardinia_desc:0 "With Napoleon VI now the King of Italy, we shouldn't let Victor Emmanuel III not be royalty anymore. We should instead instate him as King of Sardinia again."
  FRA_destroy_BEL:0 "Destroy the Belgian National Identity"
- FRA_destroy_BEL_desc:0 "In 1839, the Kingdom of Belgium was established as an artificial state. It would cost more power to incorporate Belgium as a whole, so we should destroy the idea of a 'Belgium'."
+ FRA_destroy_BEL_desc:0 "In 1839, the artificial state of Belgium was established. We now have the power to correct this mistake and let them to return to their French roots."
  
  #Vanilla Fix
  form_country_oman_required_states_tt:0 "Controls all §YOmani§! states."
