@@ -1933,7 +1933,7 @@ do_french_renames = {
 		limit = {
 			state = 1182
 		}
-		set_state_name = "Wallonie Luxembourgeoise"
+		set_state_name = "Wallonie Luxembourg"
 	}
 
 	if = {

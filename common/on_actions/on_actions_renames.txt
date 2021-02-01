@@ -29,8 +29,8 @@ on_actions = {
 					limit = {
 						ROOT = {
 								OR = { 
-									tag = POL 
-									tag = GAL 
+									original_tag = POL 
+									original_tag = GAL 
 								}
 							}
 						}
@@ -42,7 +42,7 @@ on_actions = {
 					limit = {
 						ROOT = {
 							OR = {
-								tag = FRA
+								original_tag = FRA
 								has_cosmetic_tag = FRA_BLUE
 								has_cosmetic_tag = MOR_FRA
 								has_cosmetic_tag = TUN_FRA
@@ -65,6 +65,7 @@ on_actions = {
 								has_cosmetic_tag = ETH_FRA
 								has_cosmetic_tag = SOM_FRA
 								has_cosmetic_tag = MZB_FRA
+								set_cosmetic_tag = SAR_rhineland
 							}
 						}
 					}
@@ -117,7 +118,7 @@ on_actions = {
 						ROOT = {
 							OR = {
 								original_tag = JAP
-								tag = RYU
+								original_tag = RYU
 							}
 						}
 					}
