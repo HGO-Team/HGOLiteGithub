@@ -51,11 +51,22 @@ FRA_napoleonic_stuff = {
 			owns_state = 10
 		}
 		complete_effect = {
-			FRA = {
-				release_puppet = POL
-			}
 			POL = {
 				set_cosmetic_tag = POL_warsaw
+				transfer_state = 86
+				transfer_state = 87
+				transfer_state = 90
+				transfer_state = 92
+				transfer_state = 97
+				transfer_state = 98
+				transfer_state = 864
+				transfer_state = 997
+				transfer_state = 1178
+				transfer_state = 1119
+				transfer_state = 10
+			}
+			FRA = {
+				puppet = POL
 			}
 			add_stability = 0.1
 		}
