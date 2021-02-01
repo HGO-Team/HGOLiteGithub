@@ -29,4 +29,36 @@ FRA_napoleonic_stuff = {
 			add_stability = 0.015
 		}
 	}
+	FRA_create_warsaw = {
+		visible = {
+			FRA = {
+				has_completed_focus = FRA_return_to_borodino
+			}
+		}
+		icon = generic_form_nation
+		cost = 75
+		available = {
+			owns_state = 86
+			owns_state = 87
+			owns_state = 89
+			owns_state = 90
+			owns_state = 92
+			owns_state = 97
+			owns_state = 98
+			owns_state = 864
+			owns_state = 997
+			owns_state = 1178
+			owns_state = 1119
+			owns_state = 10
+		}
+		complete_effect = {
+			FRA = {
+				release_puppet = POL
+			}
+			POL = {
+				set_cosmetic_tag = POL_warsaw
+			}
+			add_stability = 0.1
+		}
+	}
 }
