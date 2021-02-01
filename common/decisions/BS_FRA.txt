@@ -226,13 +226,7 @@ FRA_napoleonic_stuff = {
 			}
 			set_global_flag = FRA_destroy_belgium
 		}
-<<<<<<< HEAD
 		days_remove = 180
-=======
-
-		days_remove = 179
-
->>>>>>> cbbe195944b893203d46a7f38f6584fa63f58a1b
 		remove_effect = {
 			BEL = {
 				remove_state_core = 34
@@ -271,7 +265,7 @@ FRA_napoleonic_stuff = {
 			owns_state = 792
 			owns_state = 51
 		}
-		
+
 		complete_effect = {
 			country_event = {
 				id = bsfrance.1
