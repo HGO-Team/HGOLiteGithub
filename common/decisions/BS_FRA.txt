@@ -7,7 +7,7 @@ FRA_napoleonic_stuff = {
 			}
 		}
 		icon = generic_form_nation
-		cost = 20
+		cost = 0
 		available = {
 			owns_state = 7
 			owns_state = 36
@@ -25,8 +25,8 @@ FRA_napoleonic_stuff = {
 			}
 			HOL = {
 				set_cosmetic_tag = HOL_napoleon_subject
+				add_stability = 0.02
 			}
-			add_stability = 0.015
 		}
 	}
 	FRA_warsaw = {
@@ -36,7 +36,7 @@ FRA_napoleonic_stuff = {
 			}
 		}
 		icon = generic_form_nation
-		cost = 75
+		cost = 0
 		available = {
 			owns_state = 86
 			owns_state = 87
@@ -64,11 +64,11 @@ FRA_napoleonic_stuff = {
 				transfer_state = 1178
 				transfer_state = 1119
 				transfer_state = 10
+				add_stability = 0.1
 			}
 			FRA = {
 				puppet = POL
 			}
-			add_stability = 0.1
 		}
 	}
 }
