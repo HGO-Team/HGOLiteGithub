@@ -190,7 +190,7 @@ FRA_napoleonic_stuff = {
 				remove_state_core = 812
 			}
 		}
-		days_remove = 180
+		days_remove = 179
 		remove_effect = {
 			BEL = {
 				remove_state_core = 34
