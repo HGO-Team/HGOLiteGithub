@@ -1,0 +1,60 @@
+
+add_namespace = bs_fra
+
+#  Rhineland Question
+country_event = {
+	id = bs.fra.1
+	title = bs.fra.1.t
+	desc = bs.fra.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	fire_only_once = yes
+	
+	is_triggered_only_once = yes
+	
+	option = {
+		name = bs.fra.1.a
+		ai_chance = {
+			factor = 50
+		}
+		
+	}
+	
+	option = {
+		name = bs.fra.1.b
+		ai_chance = {
+			factor = 25
+		}
+		
+		FRA = {
+			annex_country = {
+				target = BDN
+				transfer_troops = yes
+			}
+			transfer_state = 788
+			transfer_state = 790
+		}
+		WUR = {
+			transfer_state = 799
+			add_state_core = 799
+		}
+	}
+	
+	option = {
+		name = bs.fra.1.c
+		ai_chance = {
+			factor = 50
+		}
+		
+		FRA = {
+			release_puppet = SAR
+		}
+		SAR = {
+			transfer_state = 42
+			transfer_state = 51
+			transfer_state = 792
+			transfer_state = 812
+			set_cosmetic_tag = SAR_rhineland
+		}
+	}
+}

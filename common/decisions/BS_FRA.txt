@@ -225,7 +225,7 @@ FRA_napoleonic_stuff = {
 		}
 		complete_effect = {
 			country_event = {
-				id = france.rhineland
+				id = bs.fra.1
 				days = 0
 				random = 24
 				random_days = 1
