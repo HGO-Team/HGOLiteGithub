@@ -115,13 +115,12 @@ FRA_napoleonic_stuff = {
 			}
 		}
 		icon = generic_form_nation
-		cost = -10
+		cost = 0
 		available = {
 			owns_state = 987
 			owns_state = 159
 			owns_state = 160
 			owns_state = 986
-			owns_state = 1203
 			owns_state = 161
 			owns_state = 157
 			owns_state = 867
@@ -140,7 +139,6 @@ FRA_napoleonic_stuff = {
 				transfer_state = 159
 				transfer_state = 160
 				transfer_state = 986
-				transfer_state = 1203
 				transfer_state = 161
 				transfer_state = 157
 				transfer_state = 867
@@ -148,6 +146,7 @@ FRA_napoleonic_stuff = {
 			}
 			FRA = {
 				puppet = ITA
+				add_political_power = 10
 			}
 		}
 	}
