@@ -100,7 +100,7 @@ FRA_napoleonic_stuff = {
 				transfer_state = 85
 			}
 		}
-		days_remove = 1
+		days_remove = 0
 		remove_effect = {
 			FRA = {
 				release_puppet = DAN
