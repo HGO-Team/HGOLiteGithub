@@ -173,8 +173,8 @@ FRA_napoleonic_stuff = {
 			controls_state = 1182
 			controls_state = 1251
 		}
-		icon = generic_form_nation
-		cost = 15
+		icon = generic_propaganda
+		cost = 100
 		available = {
 			owns_state = 34
 			owns_state = 6
