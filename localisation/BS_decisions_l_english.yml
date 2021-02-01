@@ -2,10 +2,10 @@
  #Napoleonic France
  FRA_napoleonic_stuff:0 "Restore The Legacy Of The First Empire"
  FRA_napoleonic_stuff_desc:0 "The First Empire was an attempt to assert French Hegemony in Europe as was the far less successful second. Now that the Third Empire has risen it is time we once again assert our Hegemony in Europe and consolidate our conquests."
- FRA_create_holland:0 "Restore the Kingdom of Holland"
- FRA_create_holland_desc:0 "In 1806, the Kingdom of Holland was established by the regime of Napoleon I. This experiment only lasted until 1812. Why not bring it back to ease fears of nationalism?"
- FRA_create_warsaw:0 "Restore the Duchy of Warsaw"
- FRA_create_warsaw_desc:0 "In order to make our Polish friends not hate us occupying them, we shall restore the Duchy of Warsaw, which the Poles loved."
+ FRA_holland:0 "Restore the Kingdom of Holland"
+ FRA_holland_desc:0 "In 1806, the Kingdom of Holland was established by the regime of Napoleon I. This experiment only lasted until 1812. Why not bring it back to ease fears of nationalism?"
+ FRA_warsaw:0 "Restore the Duchy of Warsaw"
+ FRA_warsaw_desc:0 "In order to make our Polish friends not hate us occupying them, we shall restore the Duchy of Warsaw, which the Poles loved."
  
  #Vanilla Fix
  form_country_oman_required_states_tt:0 "Controls all §YOmani§! states."

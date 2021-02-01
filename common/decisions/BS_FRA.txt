@@ -1,6 +1,6 @@
 FRA_napoleonic_stuff = {
 	
-	FRA_create_holland = {	
+	FRA_holland = {	
 		visible = {
 			FRA = {
 				has_completed_focus = FRA_reorganize_the_dutch
@@ -29,7 +29,7 @@ FRA_napoleonic_stuff = {
 			add_stability = 0.015
 		}
 	}
-	FRA_create_warsaw = {
+	FRA_warsaw = {
 		visible = {
 			FRA = {
 				has_completed_focus = FRA_return_to_borodino
