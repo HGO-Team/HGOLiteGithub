@@ -4805,7 +4805,7 @@ do_danish_renames = {
 			}
 		}
 		set_province_name = {
-			id = 11380
+			id = 6115
 			name = "Christiania"
 		}
 		set_state_name = "Christiania"
