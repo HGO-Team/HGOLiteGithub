@@ -310,3 +310,43 @@ adjacency_rule
 	icon = 9671
 	offset = { -3 0 1 }
 }
+
+#Saint Lawrence
+adjacency_rule
+{
+	name = "LAWRENCE_STRAIT"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 6778 7433 598 3602 7345 4417 10320 3605 6625 4270 4345 9601 7291 12149 }
+		
+	icon = 6778
+	offset = { -3 0 1 }
+}
