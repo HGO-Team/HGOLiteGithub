@@ -127,7 +127,7 @@ FRA_napoleonic_stuff = {
 		}
 		complete_effect = {
 			ITA = {
-				retire_country_leader = yes
+				retire_ideology_leader = neutrality
 				create_country_leader = {
 					name = "Napoleon II"
 					desc = ""
