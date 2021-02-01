@@ -165,7 +165,7 @@ FRA_napoleonic_stuff = {
 			}
 		}
 	}
-	FRA_destroy_BEL
+	FRA_destroy_BEL = {
 		visible = {
 			has_completed_focus = FRA_avenge_waterloo
 			controls_state = 34
@@ -206,6 +206,29 @@ FRA_napoleonic_stuff = {
 				add_state_core = 6
 				add_state_core = 1182
 				add_state_core = 1251
+			}
+		}
+	}
+	FRA_rhineland = {
+		visible = {
+			has_completed_focus = FRA_disunite_germany
+			owns_state = 812
+		}
+		icon = generic_form_nation
+		cost = 0
+		available = {
+			owns_state = 812
+			owns_state = 789
+			owns_state = 42
+			owns_state = 792
+			owns_state = 51
+		}
+		complete_effect = {
+			country_event = {
+				id = france.rhineland
+				days = 0
+				random = 24
+				random_days = 1
 			}
 		}
 	}
