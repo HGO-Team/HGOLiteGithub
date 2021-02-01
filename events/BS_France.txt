@@ -54,6 +54,10 @@ country_event = {
 			transfer_state = 51
 			transfer_state = 792
 			transfer_state = 812
+			add_state_core = 42
+			add_state_core = 51
+			add_state_core = 792
+			add_state_core = 812
 			set_cosmetic_tag = SAR_rhineland
 		}
 	}
