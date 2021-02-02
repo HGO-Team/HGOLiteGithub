@@ -7648,6 +7648,7 @@
 			if = {
 				limit = {
 					4 = { is_owned_or_subject_trigger = yes }
+					1322 = { is_owned_or_subject_trigger = yes }
 					152 = { is_owned_or_subject_trigger = yes }
 					153 = { is_owned_or_subject_trigger = yes }
 					810 = { is_owned_or_subject_trigger = yes }
@@ -7657,6 +7658,7 @@
 				}
 				AUS = {
 					transfer_state = 4
+					transfer_state = 1322
 					transfer_state = 152
 					transfer_state = 153
 					transfer_state = 810
@@ -7839,6 +7841,18 @@
 					transfer_state = PREV
 					add_state_core = PREV
 				}
+			}
+			every_state = {
+				limit = { 
+					is_core_of = GER 
+				}
+				remove_core_of = GER
+			}
+			every_state = {
+				limit = { 
+					is_claimed_by = GER 
+				}
+				remove_claim_by = GER
 			}
 			if = {
 				limit = {
