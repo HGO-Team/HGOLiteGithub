@@ -130,6 +130,100 @@ on_actions = {
 					drop_cosmetic_tag = yes
 				}
 			}
+			if = {
+				limit = {
+					tag = JAP
+					has_global_flag = bs_sino_japanese_war_flag
+					has_war_with = CHI
+					NOT = { has_idea = blitzkrieg_japan_phase_one }
+					CHI = { surrender_progress > 0.0 }
+					CHI = { surrender_progress < 0.4 }
+				}
+				JAP = {
+					remove_ideas = {
+						blitzkrieg_japan_phase_two
+						blitzkrieg_japan_phase_three
+						blitzkrieg_japan_phase_four
+						blitzkrieg_japan_phase_five
+					}
+					add_ideas = blitzkrieg_japan_phase_one
+				}
+			}
+			if = {
+				limit = {
+					tag = JAP
+					has_global_flag = bs_sino_japanese_war_flag
+					has_war_with = CHI
+					NOT = { has_idea = blitzkrieg_japan_phase_two }
+					CHI = { surrender_progress > 0.4 }
+					CHI = { surrender_progress < 0.5 }
+				}
+				JAP = {
+					remove_ideas = {
+						blitzkrieg_japan_phase_one
+						blitzkrieg_japan_phase_three
+						blitzkrieg_japan_phase_four
+						blitzkrieg_japan_phase_five
+					}
+					add_ideas = blitzkrieg_japan_phase_two
+				}
+			}
+			if = {
+				limit = {
+					tag = JAP
+					has_global_flag = bs_sino_japanese_war_flag
+					has_war_with = CHI
+					NOT = { has_idea = blitzkrieg_japan_phase_three }
+					CHI = { surrender_progress > 0.5 }
+					CHI = { surrender_progress < 0.6 }
+				}
+				JAP = {
+					remove_ideas = {
+						blitzkrieg_japan_phase_one
+						blitzkrieg_japan_phase_two
+						blitzkrieg_japan_phase_four
+						blitzkrieg_japan_phase_five
+					}
+					add_ideas = blitzkrieg_japan_phase_three
+				}
+			}
+			if = {
+				limit = {
+					tag = JAP
+					has_global_flag = bs_sino_japanese_war_flag
+					has_war_with = CHI
+					NOT = { has_idea = blitzkrieg_japan_phase_four }
+					CHI = { surrender_progress > 0.6 }
+					CHI = { surrender_progress < 0.7 }
+				}
+				JAP = {
+					remove_ideas = {
+						blitzkrieg_japan_phase_one
+						blitzkrieg_japan_phase_two
+						blitzkrieg_japan_phase_three
+						blitzkrieg_japan_phase_five
+					}
+					add_ideas = blitzkrieg_japan_phase_four
+				}
+			}
+			if = {
+				limit = {
+					tag = JAP
+					has_global_flag = bs_sino_japanese_war_flag
+					has_war_with = CHI
+					NOT = { has_idea = blitzkrieg_japan_phase_five }
+					CHI = { surrender_progress > 0.7 }
+				}
+				JAP = {
+					remove_ideas = {
+						blitzkrieg_japan_phase_one
+						blitzkrieg_japan_phase_two
+						blitzkrieg_japan_phase_three
+						blitzkrieg_japan_phase_four
+					}
+					add_ideas = blitzkrieg_japan_phase_five
+				}
+			}
 		}
 	}
 	
