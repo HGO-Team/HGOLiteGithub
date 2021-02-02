@@ -7709,6 +7709,17 @@
 				}
 				puppet = SAX
 			}
+			if = { #set up Thuringia puppet
+				limit = {
+					60 = {
+						is_owned_or_subject_trigger = yes
+					}
+				}
+				THU = {
+					transfer_state = 60
+				}
+				puppet = THU
+			}
 			if = { #set up Mecklenburg puppet
 				limit = {
 					61 = {

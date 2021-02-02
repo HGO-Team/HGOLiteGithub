@@ -205,6 +205,7 @@ on_actions = {
 						release = BDN
 						release = SHL
 						release = HAN
+						release = THU
 						release = PRE
 					}
 				}
