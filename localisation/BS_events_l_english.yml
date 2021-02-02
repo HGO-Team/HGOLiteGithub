@@ -6,6 +6,12 @@
  bsfrance.1.b:0 "Occupy all of the Rhineland"
  bsfrance.1.c:0 "Create a subject state in the Rhineland"
  
+ #King of Naples Event
+ bsfrance.2.t:0 "Deciding the King of Naples"
+ bsfrance.2.d:0 "We have restored the Kingdom of Two Sicilies as a puppet. However, Napoleon I had the Murats in charge of Naples, so should we restore this tradition?"
+ bsfrance.2.a:0 "Screw the tradition. Keep Ferdinand."
+ bsfrance.2.b:0 "Continue the tradition!"
+ 
  #New Slovenia event
  germany.94.b:0 "Take it all!"
  

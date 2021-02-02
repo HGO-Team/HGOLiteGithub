@@ -277,4 +277,36 @@ FRA_napoleonic_stuff = {
 			}
 		}
 	}
+	
+	FRA_naples = {
+	
+		visible = {
+			has_decision = FRA_italy
+		}
+		
+		icon = generic_form_nation
+		
+		cost = 0
+		
+		available = {
+			owns_state = 115
+			owns_state = 156
+			owns_state = 117
+			owns_state = 991
+			owns_state = 992
+			owns_state = 1193
+		}
+		
+		complete_effect = {
+			FRA = {
+				release_puppet = KTS
+			}
+			country_event = {
+				id = bsfrance.2
+				days = 2
+				random = 12
+				random_days = 1
+			}
+		}
+	}
 }
