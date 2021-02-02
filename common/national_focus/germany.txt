@@ -3323,6 +3323,7 @@ focus_tree = {
 				}
 				GER = {
 					owns_state = 4
+					owns_state = 1322
 					owns_state = 152
 					owns_state = 153
 					owns_state = 806
@@ -3342,6 +3343,7 @@ focus_tree = {
 						has_civil_war = no
 						OR = {
 							owns_state = 4
+							owns_state = 1322
 							owns_state = 152
 							owns_state = 153
 							owns_state = 806
@@ -3364,6 +3366,7 @@ focus_tree = {
 						has_civil_war = yes
 						OR = {
 							owns_state = 4
+							owns_state = 1322
 							owns_state = 152
 							owns_state = 1107
 							owns_state = 153
@@ -3418,6 +3421,23 @@ focus_tree = {
 				}
 				add_state_core = 4
 			}
+
+			if = {
+				limit = {
+					1322 = {
+						owner = {
+							NOT = {
+								tag = AUS
+							}
+							NOT = {
+								is_in_faction_with = ROOT
+							}
+						}
+					}
+				}
+				add_state_core = 1322
+			}
+			
 			if = {
 				limit = {
 					152 = {
@@ -5751,6 +5771,7 @@ focus_tree = {
 		available = {
 			is_subject = no
 			controls_state = 4
+			controls_state = 1322
 			controls_state = 152
 			has_army_manpower = { size > 749999 } #ca 80 div
 		}

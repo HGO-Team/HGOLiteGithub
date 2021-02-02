@@ -27,6 +27,12 @@ country_event = {
 				add_core_of = GER
 			}
 		}
+		1322 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
 		152 = {
 			if = {
 				limit = { is_owned_by = AUS }
@@ -1405,6 +1411,7 @@ country_event = {
 	option = {
 		name = germany.29.a
 		add_state_claim = 4
+		add_state_claim = 1322
 		add_state_claim = 152
 		add_state_claim = 153
 		add_state_claim = 806
@@ -1414,7 +1421,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = AUS
-			generator = { 4 152 153 806 807 810 1107 }
+			generator = { 4 152 153 806 807 810 1107 1322 }
 		}
 	}
 }

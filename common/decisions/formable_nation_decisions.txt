@@ -439,6 +439,7 @@ form_austria_hungary_category = {
 				controls_state = 4
 				controls_state = 806
 				controls_state = 1107
+				controls_state = 1322
 				controls_state = 807
 				controls_state = 810
 			}
@@ -499,6 +500,7 @@ form_austria_hungary_category = {
 				4 = { add_core_of = ROOT }
 				806 = { add_core_of = ROOT }
 				1107 = { add_core_of = ROOT }
+				1322 = { add_core_of = ROOT }
 				807 = { add_core_of = ROOT }
 				810 = { add_core_of = ROOT }
 			}
@@ -3153,6 +3155,7 @@ form_roman_empire_category = {
 				152 = { add_core_of = ROOT }
 				4 = { add_core_of = ROOT }
 				1107 = { add_core_of = ROOT }
+				1322 = { add_core_of = ROOT }
 				810 = { add_core_of = ROOT }
 				798 = { add_core_of = ROOT }
 				800 = { add_core_of = ROOT }
@@ -5429,6 +5432,7 @@ form_hre_category = {
 				controls_state = 4
 				controls_state = 806
 				controls_state = 1107
+				controls_state = 1322
 				controls_state = 807
 				controls_state = 810
 			}
@@ -5532,6 +5536,7 @@ form_hre_category = {
 				4 = { add_core_of = ROOT }
 				806 = { add_core_of = ROOT }
 				1107 = { add_core_of = ROOT }
+				1322 = { add_core_of = ROOT }
 				807 = { add_core_of = ROOT }
 				810 = { add_core_of = ROOT }
 			}
@@ -5593,6 +5598,7 @@ form_greater_german_reich_category = {
 				AND ={
 					28 = { is_controlled_by_ROOT_or_ally = yes }
 					4 = { is_controlled_by_ROOT_or_ally = yes }
+					1322 = { is_controlled_by_ROOT_or_ally = yes }
 					64 = { is_controlled_by_ROOT_or_ally = yes }
 					85 = { is_controlled_by_ROOT_or_ally = yes }
 					188 = { is_controlled_by_ROOT_or_ally = yes }
@@ -5610,7 +5616,7 @@ form_greater_german_reich_category = {
 				has_government = fascism
 			}
 			NOT = { has_global_flag = form_greater_german_reich_flag }
-			controls_state = 4 #Vienna
+			controls_state = 1322 #Vienna
 		}
 
 		complete_effect = {

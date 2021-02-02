@@ -2498,6 +2498,12 @@ country_event = {
 				add_core_of = GER
 			}
 		}
+		1322 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
 		152 = {
 			if = {
 				limit = { is_owned_by = AUS }
@@ -3167,6 +3173,7 @@ country_event = {
 			806 = { add_core_of = ROOT }
 			1107 = { add_core_of = ROOT }
 			4 = { add_core_of = ROOT }
+			1322 = { add_core_of = ROOT }
 			807 = { add_core_of = ROOT }
 			810 = { add_core_of = ROOT }
 			69 = { add_core_of = ROOT }

@@ -260,6 +260,7 @@ focus_tree = {
 			OR = {
 				AND = {
 					owns_state = 4
+					owns_state = 1322
 					owns_state = 153
 					owns_state = 152
 					owns_state = 806
@@ -329,13 +330,14 @@ focus_tree = {
 						type = take_state_focus
 						target = PREV
 						expire = 0
-						generator = { 4 152 153 806 807 810 1107 }
+						generator = { 4 152 153 806 807 810 1107 1322 }
 					}
 				}
 			}
 			add_state_claim = 152
 			add_state_claim = 153
 			add_state_claim = 4
+			add_state_claim = 1322
 			add_state_claim = 806
 			add_state_claim = 1107
 			add_state_claim = 807
@@ -361,6 +363,7 @@ focus_tree = {
 			controls_state = 152
 			controls_state = 153
 			controls_state = 4
+			controls_state = 1322
 			controls_state = 806
 			controls_state = 1107
 			controls_state = 807
@@ -383,6 +386,7 @@ focus_tree = {
 			152 = { add_core_of = ROOT }
 			153 = { add_core_of = ROOT }
 			4 = { add_core_of = ROOT }
+			1322 = { add_core_of = ROOT }
 			806 = { add_core_of = ROOT }
 			1107 = { add_core_of = ROOT }
 			807 = { add_core_of = ROOT }
@@ -1557,6 +1561,9 @@ focus_tree = {
 
 		bypass = {
 			4 = {
+				NOT = { is_owned_by = AUS }
+			}
+			1322 = {
 				NOT = { is_owned_by = AUS }
 			}
 			152 = {
