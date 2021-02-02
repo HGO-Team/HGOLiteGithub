@@ -687,7 +687,7 @@
 686;3;87;175;land;false;plains;1
 687;3;90;90;land;true;plains;1
 688;3;90;140;land;false;forest;1
-689;3;90;195;land;true;plains;2
+689;3;90;195;land;false;plains;2
 690;3;93;55;land;false;mountain;1
 691;3;93;160;land;false;plains;2
 692;3;93;205;land;false;urban;1
@@ -13253,7 +13253,7 @@
 13252;43;48;70;land;false;forest;2
 13253;35;38;205;sea;true;ocean;0
 13254;163;223;188;sea;true;ocean;0
-13255;161;221;56;lake;true;lakes;0
+13255;161;221;56;sea;true;ocean;0
 13256;87;146;204;lake;false;lakes;0
 13257;56;64;189;lake;false;lakes;0
 13258;24;189;148;land;true;mountain;5
