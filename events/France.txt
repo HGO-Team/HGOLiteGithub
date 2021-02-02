@@ -569,6 +569,10 @@ country_event = {
 						owner = { original_tag = FRA }
 						is_controlled_by = ITA
 					}
+					1269 = { #Bouches de Rhone
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
 					#1148 = { #Alpes
 						#owner = { original_tag = FRA }
 						#is_controlled_by = ITA
@@ -675,6 +679,17 @@ country_event = {
 				}
 			}
 			ITA = { transfer_state = 823 }
+		}
+		if = {
+			limit = {
+				AND = {
+					1269 = { #Provence
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
+				}
+			}
+			ITA = { transfer_state = 1269 }
 		}
 		
 		#Spanish occupation zone

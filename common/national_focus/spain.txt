@@ -109,17 +109,14 @@ focus_tree = {
 			hidden_effect = {
 				every_owned_state = {
 					limit = {
-						NOT = {
-							state = 290
-							state = 1043
-							state = 1044
-							state = 699
-							state = 1106
-							state = 783
-							state = 297
-							state = 1150
-							state = 1152
-						}
+						NOT = { state = 290 }
+						NOT = { state = 1043 }
+						NOT = { state = 1044 }
+						NOT = { state = 699 }
+						NOT = { state = 783 }
+						NOT = { state = 297 }
+						NOT = { state = 1150 }
+						NOT = { state = 1152 }
 					}
 					SPA_garrison_control_cost_calculation = yes
 				}
@@ -401,17 +398,14 @@ focus_tree = {
 			hidden_effect = {
 				every_owned_state = {
 					limit = {
-						NOT = {
-							state = 290
-							state = 1043
-							state = 1044
-							state = 699
-							state = 1106
-							state = 783
-							state = 297
-							state = 1150
-							state = 1152
-						}
+						NOT = { state = 290 }
+						NOT = { state = 1043 }
+						NOT = { state = 1044 }
+						NOT = { state = 699 }
+						NOT = { state = 783 }
+						NOT = { state = 297 }
+						NOT = { state = 1150 }
+						NOT = { state = 1152 }
 					}
 					SPR_garrison_control_cost_calculation = yes
 				}
