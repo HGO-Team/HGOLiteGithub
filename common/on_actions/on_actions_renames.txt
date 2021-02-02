@@ -399,6 +399,7 @@ on_actions = {
 								has_cosmetic_tag = ETH_FRA
 								has_cosmetic_tag = SOM_FRA
 								has_cosmetic_tag = MZB_FRA
+								has_cosmetic_tag = SAR_rhineland
 							}
 						}
 					}

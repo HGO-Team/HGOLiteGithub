@@ -226,7 +226,9 @@ FRA_napoleonic_stuff = {
 			}
 			set_global_flag = FRA_destroy_belgium
 		}
+
 		days_remove = 180
+		
 		remove_effect = {
 			BEL = {
 				remove_state_core = 34

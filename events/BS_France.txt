@@ -51,6 +51,7 @@ country_event = {
 			release_puppet = SAR
 		}
 		SAR = {
+			set_cosmetic_tag = SAR_rhineland
 			transfer_state = 42
 			transfer_state = 51
 			transfer_state = 792
@@ -59,7 +60,6 @@ country_event = {
 			add_state_core = 51
 			add_state_core = 792
 			add_state_core = 812
-			set_cosmetic_tag = SAR_rhineland
 		}
 	}
 }
