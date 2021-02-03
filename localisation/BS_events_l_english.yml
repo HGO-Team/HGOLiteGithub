@@ -320,6 +320,7 @@
  ichigo.3.a: "Go!"
  ichigo.3.b: "We will beat Japan without any help."
  end_of_ichigo: "End of Operation Ichi-Go"
+ blitzkrieg_japan: "Attack Initiative"
  
  ##phoneywars##
  phoney.1.t: "Lessons of War in Ethiopia"
@@ -372,5 +373,5 @@
  phoney.20.a: "Let's do this. Communists are better than collaborators..."
  phoney.20.b: "No way!"
  ITA_italy_unprep: "Unprepared for War"
- ITA_italy_unprep_desc: "Italy is unprepared and unwilling to join Germany in the conquest of the world."
+ ITA_italy_unprep_desc: "Italy is unprepared and unwilling to join Germany."
  generic_unprep: "Unprepared for War"
