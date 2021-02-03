@@ -359,4 +359,24 @@ FRA_napoleonic_stuff = {
 			}
 		}
 	}
+	
+	FRA_spain = {
+		
+		visible = {
+			controls_state = 165
+		}
+		
+		icon = generic_form_nation
+		
+		cost = 0
+		
+		available = {
+			always = yes
+		}
+		
+		complete_effect = {
+			FRA = {
+				release_puppet = SPR
+			}
+		}
 }
