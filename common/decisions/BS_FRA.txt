@@ -403,7 +403,7 @@ FRA_napoleonic_stuff = {
 				create_country_leader = {
 					name = "Marie"
 					desc = ""
-					picture = "MarieClotilde
+					picture = "MarieClotilde.dds"
 					expire = "1965.1.1"
 					ideology = despotism
 				}
