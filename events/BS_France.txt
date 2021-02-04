@@ -88,7 +88,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = bsfrance.2.a
+		name = bsfrance.2.b
 		ai_chance = {
 		factor = 1
 		}
