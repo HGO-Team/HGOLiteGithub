@@ -371,12 +371,43 @@ FRA_napoleonic_stuff = {
 		cost = 0
 		
 		available = {
-			always = yes
+			owns_state = 171
+			owns_state = 1052
+			owns_state = 1054
+			owns_state = 172
+			owns_state = 166
+			owns_state = 1133
+			owns_state = 165
+			owns_state = 167
+			owns_state = 168
+			owns_state = 1055
+			owns_state = 176
+			owns_state = 1053
+			owns_state = 174
+			owns_state = 1050
+			owns_state = 41
+			owns_state = 170
+			owns_state = 175
+			owns_state = 1051
+			owns_state = 169
+			owns_state = 173
 		}
 		
 		complete_effect = {
 			FRA = {
 				release_puppet = SPR
+				transfer_state = 165
+			}
+			SPR = {
+				retire_ideology_leader = neutrality
+				create_country_leader = {
+					name = "Marie"
+					desc = ""
+					picture = "MarieClotilde
+					expire = "1965.1.1"
+					ideology = despotism
+				}
 			}
 		}
+	}
 }
