@@ -1,5 +1,9 @@
 #reload countrycolors
 
+KUB = {
+	color = rgb { 240 17 112 }
+	color_ui rgb { 240 17 112 }
+}
 THU = {
 	color = rgb { 200 0 0 }
 	color_ui = rgb { 180 0 0 }
