@@ -21,7 +21,7 @@ ABH = "countries/Abkhazia.txt"
 SOT = "countries/South Ossetia.txt"
 CRE = "countries/Crimea.txt"
 SRD = "countries/Sardinia.txt"
-THU = "countries/Thuringia.txt"
+KUB = "countries/Kuban.txt"
 
 ##America##
 GRL = "countries/Greenland.txt"
