@@ -1,4 +1,17 @@
 ﻿l_english:
+ THU_fascism:0 "State of Thuringia"
+ THU_fascism_DEF:0 "the State of Thuringia"
+ THU_democratic:0 "Free State of Thuringia"
+ THU_democratic_DEF:0 "the Free State of Thuringia"
+ THU_neutrality:0 "United Duchies of Thuringia"
+ THU_neutrality_DEF:0 "the United Duchies of Thuringia"
+ THU_communism:0 "People's Republic of Thuringia"
+ THU_communism_DEF:0 "the People's Republic of Thuringia"
+ THU_fascism_ADJ:0 "Thuringian"
+ THU_democraitc_ADJ:0 "Thuringian"
+ THU_neutrality_ADJ:0 "Thuringian"
+ THU_communism_ADJ:0 "Thuringian"
+ 
  KUB_fascism:0 "Kuban National State"
  KUB_fascism_DEF:0 "the Kuban National State"
  KUB_democratic:0 "Kuban People's Republic"
