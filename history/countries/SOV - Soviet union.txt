@@ -72,10 +72,6 @@ if = {
 	}
 }
 #DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together For Victory"
-	}
 	set_autonomy = {
 		target = TAN
 		autonomous_state = autonomy_integrated_puppet
