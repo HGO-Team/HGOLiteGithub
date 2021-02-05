@@ -1,4 +1,17 @@
 ﻿l_english:
+ KTS_naples_democratic:0 "Neapolitan Republic"
+ KTS_naples_democratic_DEF:0 "the Neapolitan Republic"
+ KTS_naples_neutrality:0 "Kingdom of Naples"
+ KTS_naples_neutrality_DEF:0 "the Kingdom of Naples"
+ KTS_naples_communism:0 "People's Republic of Naples"
+ KTS_naples_communism_DEF:0 "the People's Republic of Naples"
+ KTS_naples_fascism:0 "Neapolitan Social Republic"
+ KTS_naples_fascism_DEF:0 "the Neapolitan Social Republic"
+ KTS_naples_democratic_ADJ:0 "Neapolitan"
+ KTS_naples_neutrality_ADJ:0 "Neapolitan"
+ KTS_naples_communism_ADJ:0 "Neapolitan"
+ KTS_naples_fascism_ADJ:0 "Neapolitan"
+ 
  SAR_rhineland_democratic:0 "Rhenish Republic"
  SAR_rhineland_democratic_DEF:0 "the Rhenish Republic"
  SAR_rhineland_neutrality:0 "Kingdom of the Rhine"
@@ -39,8 +52,8 @@
  BRM_UK_neutrality:0 "British Burma"
  BRM_UK_neutrality_DEF:0 "British Burma"
  
- BOHEMIA_democratic:0 "Bohemia"
- BOHEMIA_democratic_DEF:0 "Bohemia"
+ BOHEMIA_democratic:0 "Bohemian Republic"
+ BOHEMIA_democratic_DEF:0 "the Bohemian Republic"
  BOHEMIA_neutrality:0 "Kingdom of Bohemia"
  BOHEMIA_neutrality_DEF:0 "Kingdom of Bohemia"
  BOHEMIA_fascism:0 "Greather Bohemia"
