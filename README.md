@@ -17,6 +17,9 @@ Extra notes:
 Special Thanks to:
 
 Gerrade, for letting us build off of his mod, Beautiful States.
+
 The BSR team, for letting us buy the mod and rebrand it.
+
 The Kaiserreich team for the States and Victory Points Renaming System's code.
+
 Hovelax, for allowing us to integrate his formable nations.
