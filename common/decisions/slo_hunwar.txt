@@ -2,17 +2,27 @@ reject slovak borders = {
 
 #Decision for: Request Michalovce State
 requestmichalovcestate = {
-icon = decision_generic_prepare_civil_war
-available = {
-1325 = { is_controlled_by = SLO }
-}
-visible = {
-HUN
-}
-complete_effect = {
-HUN = { transfer_state = 1325 }
-add_state_core  = 1325 { add_core_of = HUN }
 
+		icon = decision_generic_prepare_civil_war
+
+		allowed = { 
+			original_tag = HUN
+		}
+
+
+		available = {
+			date > 1936.01.26
+                }
+
+                days_mission_timeout = 13
+
+		fire_only_once = yes
+
+                complete_effect = {
+				HUN = { transfer_state = 1325 }
+				add_state_core  = 1325 { add_core_of = HUN }
+                                }
+                }
 }
 cost = 15
 days_remove = 13
