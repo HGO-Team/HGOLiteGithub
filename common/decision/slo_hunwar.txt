@@ -1,0 +1,30 @@
+reject slovak borders = {
+
+#Decision for: Request Michalovce State
+requestmichalovcestate = {
+icon = decision_generic_prepare_civil_war
+available = {
+1325 = { is_controlled_by = SLO }
+}
+visible = {
+HUN
+}
+complete_effect = {
+HUN = { transfer_state = 1325 }
+add_state_core  = 1325 { add_core_of = HUN }
+
+}
+cost = 15
+days_remove = 13
+ai_will_do = {
+1325 = { is_controlled_by = SLO }
+}
+modifier = {
+1325 = { set_border_war = yes }
+}
+remove_trigger = {
+HUN = { transfer_state = 1325 }
+add_state_core  = 1325 { add_core_of = HUN }
+
+}
+}}
