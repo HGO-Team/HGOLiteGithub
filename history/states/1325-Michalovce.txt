@@ -17,7 +17,6 @@ state={
 			add_core_of = HUN
 			add_core_of = SLO
 		}
-
 	}
 	provinces={
 		6604 

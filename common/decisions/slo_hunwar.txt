@@ -1,6 +1,6 @@
-reject slovak borders = {
+reject_slovak_borders = {
 
-Decision for: Request Michalovce State
+	#Decision for: Request Michalovce State
 	HUN_requestmichalovcestate = {
 
 		icon = decision_generic_prepare_civil_war
@@ -11,41 +11,44 @@ Decision for: Request Michalovce State
 
 		available = {
 			OR = {
-				date > 1936.01.01
-                                1325 = { is_controlled_by = SLO }
-                }
-		has_war = no
-		OR = {
+				1325 = { is_owned_by = CZE }
+				1325 = { is_owned_by = SLO }
+			}
+			73 = { is_owned_by = HUN }
+			has_war = no
 			SLO = { has_war = no }
-                }
-
-                days_mission_timeout = 13
-
-                complete_effect = {
-				HUN = { transfer_state = 1325 }
-				add_state_core  = 1325 { add_core_of = HUN }
-                                }
+		}
+		visible = {
+			original_tag = HUN
+			73 = { is_owned_by = HUN }
 		}
 
-                cost = 15
+		cost = 15
 
 		fire_only_once = yes
 
-                days_remove = 13
-
-                modifier = {
-                        1325 = { set_border_war = yes }
-                }
-
-                remove_effect = {
-                }
-
-
-		complete_effect = {
-                        HUN = { transfer_state = 1325 }
-                        add_state_core  = 1325 { add_core_of = HUN }
+		ai_will_do = {
+			base = 1
+			modifier = { 
+				is_historical_focus_on = yes
+				factor = 0
+			}
 		}
 
+		complete_effect = {
+			1325 = { add_core_of = HUN }
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 73
+					num_provinces = 5
+				}
+				
+				defender = {
+					state = 1325
+					num_provinces = 1
+				}
+			}
+		}
 	}
-
 }
