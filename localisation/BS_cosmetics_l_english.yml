@@ -1,4 +1,17 @@
 ﻿l_english:
+ VCT_popestates_democratic:0 "Roman Republic"
+ VCT_popestates_democratic_DEF:0 "the Roman Republic"
+ VCT_popestates_neutrality:0 "Papal States"
+ VCT_popestates_neutrality_DEF:0 "the Papal States"
+ VCT_popestates_communism:0 "Roman Commune"
+ VCT_popestates_communism_DEF:0 "the Roman Commune"
+ VCT_popestates_fascism:0 "Roman Social Republic"
+ VCT_popestates_fascism_DEF:0 "the Roman Social Republic"
+ VCT_popestates_democratic_ADJ:0 "Roman"
+ VCT_popestates_neutrality_ADJ:0 "Papal"
+ VCT_popestates_communism_ADJ:0 "Roman"
+ VCT_popestates_fascism_ADJ:0 "Roman"
+ 
  KTS_naples_democratic:0 "Neapolitan Republic"
  KTS_naples_democratic_DEF:0 "the Neapolitan Republic"
  KTS_naples_neutrality:0 "Kingdom of Naples"
