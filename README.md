@@ -1,4 +1,4 @@
-How to install HGO Lite Github - presented by Cass, your Corporate Overlady
+How to install HGO Lite Github:
 1) Download the mod, check your download directory (usually ThisPC/Downloads)
 2) Unzip the modfile. Make sure the folder name is still HGOLiteGithub, and if isn't rename it.
 3) Enter the folder, Take out the .MOD file (the file called HGOLiteGithub.mod) and put it outside the folder into whatever directory you downloaded the mod into.
@@ -11,6 +11,15 @@ How to install HGO Lite Github - presented by Cass, your Corporate Overlady
 ---------------
 Extra notes:
 
-- the reason why you have to rename the folder to bsr is because the game won't read the mod folder if it isn't the same name as the .MOD file.
+- the reason why you have to rename the folder to HGOLiteGithub is because the game won't read the mod folder if it isn't the same name as the .MOD file.
 - this guide was originally sourced from HGO's installation guide.
 ---------------
+Special Thanks to:
+
+Gerrade, for letting us build off of his mod, Beautiful States.
+
+The BSR team, for letting us buy the mod and rebrand it.
+
+The Kaiserreich team for the States and Victory Points Renaming System's code.
+
+Hovelax, for allowing us to integrate his formable nations.
