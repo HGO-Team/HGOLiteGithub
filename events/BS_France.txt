@@ -104,5 +104,8 @@ country_event = {
 			}
 			set_cosmetic_tag = KTS_naples
 		}
+		FRA = {
+			add_political_power = 10
+		}
 	}
 }

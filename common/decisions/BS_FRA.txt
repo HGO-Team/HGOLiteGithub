@@ -397,6 +397,7 @@ FRA_napoleonic_stuff = {
 			FRA = {
 				release_puppet = SPR
 				transfer_state = 165
+				add_political_power = 10
 			}
 			SPR = {
 				retire_ideology_leader = neutrality
@@ -407,6 +408,34 @@ FRA_napoleonic_stuff = {
 					expire = "1965.1.1"
 					ideology = despotism
 				}
+			}
+		}
+	}
+	
+	FRA_monaco = {
+		
+		visible = {
+			country_exists = MCO
+			MCO = {
+				owns_state = 825
+			}
+			FRA = {
+				controls_state = 821
+				owns_state = 821
+			}
+		}
+		
+		icon = generic_form_nation
+		
+		cost = 5
+		
+		complete_effect = {
+			FRA = {
+				annex_country = {
+					target = MCO
+					transfer_troops = yes
+				}
+				add_state_core = 825
 			}
 		}
 	}
