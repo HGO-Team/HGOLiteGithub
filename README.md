@@ -14,3 +14,9 @@ Extra notes:
 - the reason why you have to rename the folder to HGOLiteGithub is because the game won't read the mod folder if it isn't the same name as the .MOD file.
 - this guide was originally sourced from HGO's installation guide.
 ---------------
+Special Thanks to:
+
+Gerrade, for letting us build off of his mod, Beautiful States.
+The BSR team, for letting us buy the mod and rebrand it.
+The Kaiserreich team for the States and Victory Points Renaming System's code.
+Hovelax, for allowing us to integrate his formable nations.
