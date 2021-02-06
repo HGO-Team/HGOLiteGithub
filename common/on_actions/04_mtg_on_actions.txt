@@ -1355,6 +1355,9 @@ on_actions = {
 					release = NAV
 					release = GLC
 				}
+				ADR = {
+					release = CAT
+				}
 				165 = { add_core_of = SPR }
 				171 = { add_core_of = SPR }
 				172 = { add_core_of = SPR }
