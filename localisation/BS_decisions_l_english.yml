@@ -19,7 +19,10 @@
  FRA_naples_desc:0 "Napoleon I had Naples as a seperate puppet from Italy. We should restore the Kingdom of Naples, and might as well restore the Murats to power."
  FRA_spain:0 "Install Napoleon's Sister in Spain"
  FRA_spain_desc:0 "Napoleon I installed his brother Joseph on the throne of Spain. We should continue this tradition of installing family members by installing Napoleon IV's sister on the throne of Spain after we conquered it.
- 
+ FRA_monaco:0 "Annex Monaco"
+ FRA_monaco_desc:0 "Monaco is a relic of old times, and doesn't deserve to be independent of France. We should annex the nation for its safety."
+ FRA_andorra:0 "Annex Andorra"
+ FRA_andorra_desc:0 "Now that we have established a puppet in Spain, we should annex Andorra. It's useless by this point as it's surrounded by our glorious empire."
  #Vanilla Fix
  form_country_oman_required_states_tt:0 "Controls all §YOmani§! states."
  form_country_oman_coring_states_tt:0 "Gain cores on all §YOmani§! states.\n"
@@ -302,3 +305,9 @@ integrate_nordschleswig_desc:0 "While northern Schleswig may be Danish, it was o
   greater_armenia_claiming_states_tt:0 "It is time we take back what is arguably our land. We shall liberate Turkish Armenia and avenge the Genocide they put our people through!"
   south_azerbaijan_claiming_states_tt:0 "The Azeris in Iran are no different from the ones who unified this country. They must be reunited with us!"
   caucasus_mountains_claiming_states_tt:0 "The Caucasus mountains have always seperated us from our brothers to the North. Ossetians, Chechens and Dagestani must be include in our greater Transcaucasia!"
+
+  #Launch Border War between Slovakia and Hungary
+  slo_hunwar:0 "Reject Slovak Borders"
+  slo_hunwar:0 "Germany decreed, during the dismantling of Slovakia, a border not suitable for the borders claimed by Hungary, the claimed territory will be recovered by peace or by war."
+  slo_hunwar:0 "Request Michalovce State"
+  slo_hunwar:0 "Recuperate Michalovce claimed state"

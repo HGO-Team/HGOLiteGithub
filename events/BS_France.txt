@@ -49,20 +49,16 @@ country_event = {
 
 		SAR = {
 			set_cosmetic_tag = SAR_rhineland
+			add_state_core = 42
+			add_state_core = 51
+			add_state_core = 792
+			add_state_core = 812
 		}
 
 		FRA = {
 			release_puppet = SAR
 		}
 		SAR = {
-			transfer_state = 42
-			transfer_state = 51
-			transfer_state = 792
-			transfer_state = 812
-			add_state_core = 42
-			add_state_core = 51
-			add_state_core = 792
-			add_state_core = 812
 			set_capital = 51
 		}
 	}
@@ -103,6 +99,9 @@ country_event = {
 				ideology = despotism
 			}
 			set_cosmetic_tag = KTS_naples
+		}
+		FRA = {
+			add_political_power = 10
 		}
 	}
 }

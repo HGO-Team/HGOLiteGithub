@@ -72,15 +72,8 @@ if = {
 	}
 }
 #DIPLOMACY
-	set_autonomy = {
-		target = TAN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = MON
-		autonomous_state = autonomy_dominion
-	}
-}
+puppet = TAN
+puppet = MON
 1939.1.1 = {
 
 	add_political_power = 1198
