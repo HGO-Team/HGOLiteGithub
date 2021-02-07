@@ -443,4 +443,41 @@ FRA_napoleonic_stuff = {
 			}
 		}
 	}
+	
+	FRA_andorra = {
+	
+		visible = {
+			country_exists = ADR
+			ADR = {
+				owns_state = 824
+			}
+			has_decision = {
+				FRA_spain
+			}
+			FRA = {
+				owns_state = 165
+				controls_state = 820
+				controls_state = 31
+			}
+		}
+		
+		icon = generic_form_nation
+		
+		cost = 5
+		
+		available = {
+			owns_state = 820
+			owns_state = 31
+		}
+		
+		complete_effect = {
+			FRA = {
+				add_state_claim = 824
+				annex_country = {
+					target = ADR
+					transfer_troops = yes
+				}
+			}
+		}
+	}
 }

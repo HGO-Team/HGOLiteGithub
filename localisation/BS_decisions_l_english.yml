@@ -21,7 +21,8 @@
  FRA_spain_desc:0 "Napoleon I installed his brother Joseph on the throne of Spain. We should continue this tradition of installing family members by installing Napoleon IV's sister on the throne of Spain after we conquered it.
  FRA_monaco:0 "Annex Monaco"
  FRA_monaco_desc:0 "Monaco is a relic of old times, and doesn't deserve to be independent of France. We should annex the nation for its safety."
- 
+ FRA_andorra:0 "Annex Andorra"
+ FRA_andorra_desc:0 "Now that we have established a puppet in Spain, we should annex Andorra. It's useless by this point as it's surrounded by our glorious empire."
  #Vanilla Fix
  form_country_oman_required_states_tt:0 "Controls all §YOmani§! states."
  form_country_oman_coring_states_tt:0 "Gain cores on all §YOmani§! states.\n"
