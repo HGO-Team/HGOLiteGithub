@@ -429,6 +429,10 @@ FRA_napoleonic_stuff = {
 		
 		cost = 5
 		
+		available = {
+			country_exists = MCO
+		}
+		
 		complete_effect = {
 			FRA = {
 				annex_country = {
