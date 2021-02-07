@@ -305,3 +305,9 @@ integrate_nordschleswig_desc:0 "While northern Schleswig may be Danish, it was o
   greater_armenia_claiming_states_tt:0 "It is time we take back what is arguably our land. We shall liberate Turkish Armenia and avenge the Genocide they put our people through!"
   south_azerbaijan_claiming_states_tt:0 "The Azeris in Iran are no different from the ones who unified this country. They must be reunited with us!"
   caucasus_mountains_claiming_states_tt:0 "The Caucasus mountains have always seperated us from our brothers to the North. Ossetians, Chechens and Dagestani must be include in our greater Transcaucasia!"
+
+  #Launch Border War between Slovakia and Hungary
+  slo_hunwar:0 "Reject Slovak Borders"
+  slo_hunwar:0 "Germany decreed, during the dismantling of Slovakia, a border not suitable for the borders claimed by Hungary, the claimed territory will be recovered by peace or by war."
+  slo_hunwar:0 "Request Michalovce State"
+  slo_hunwar:0 "Recuperate Michalovce claimed state"
