@@ -23,6 +23,7 @@ CRE = "countries/Crimea.txt"
 SRD = "countries/Sardinia.txt"
 KUB = "countries/Kuban.txt"
 THU = "countries/Thuringia.txt"
+DON = "countries/Don.txt"
 
 ##America##
 GRL = "countries/Greenland.txt"

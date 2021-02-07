@@ -938,7 +938,10 @@ CRE = {
 	color = rgb { 224 249 31 }
 	color_ui = rgb { 224 249 31 }
 }
-
+DON = {
+	color = rgb { 255 202 27 }
+	color_ui = rgb { 255 202 27 }
+}
 
 TUG = {
 color = rgb { 82 139 168 }
