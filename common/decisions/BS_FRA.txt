@@ -435,11 +435,11 @@ FRA_napoleonic_stuff = {
 		
 		complete_effect = {
 			FRA = {
+				add_state_core = 825
 				annex_country = {
 					target = MCO
 					transfer_troops = yes
 				}
-				add_state_core = 825
 			}
 		}
 	}
