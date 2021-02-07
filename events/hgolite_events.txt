@@ -1,0 +1,11 @@
+add_namespace = hgolite
+
+##Event: Hungarian-Slovak War declared
+news_event = {
+	id = hgolite.1
+	title = hgolite.1.title
+	desc = hgolite.1.desc
+	picture = GFX_report_event_swedish_soldier
+	is_triggered_only = yes
+	fire_only_once = yes
+}

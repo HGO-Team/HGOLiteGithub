@@ -36,6 +36,7 @@ reject_slovak_borders = {
 		}
 
 		complete_effect = {
+                        news_event = hgolite.1
 			1325 = { add_core_of = HUN }
 			start_border_war = {
 				change_state_after_war = yes
