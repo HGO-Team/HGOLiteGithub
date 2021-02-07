@@ -1,6 +1,6 @@
 capital = 234 #Krasnodar
 
-oob = "GEO_1936"
+oob = "KUB_1936"
 
 set_research_slots = 3
 
