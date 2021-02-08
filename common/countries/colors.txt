@@ -938,6 +938,10 @@ CRE = {
 	color = rgb { 224 249 31 }
 	color_ui = rgb { 224 249 31 }
 }
+KUB = {
+	color = rgb { 240 27 132 }
+	color_ui = rgb { 240 27 132 }
+}
 DON = {
 	color = rgb { 255 202 27 }
 	color_ui = rgb { 255 202 27 }
