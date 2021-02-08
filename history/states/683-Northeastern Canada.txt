@@ -10,14 +10,17 @@ state={
 		owner = CAN
 		buildings = {
 			infrastructure = 1
+			3691 = {
+				naval_base = 1
 
+			}
 		}
 		add_core_of = CAN
 
 	}
 
 	provinces={
-		2947 8962 10721 13188 13190 13543 13548 13553 13556 13557 
+		1712 2947 3691 7813 8962 10721 13188 13190 13532 13543 13548 13550 13552 13553 13555 13557 
 	}
 	manpower=46135
 	buildings_max_level_factor=1.000
