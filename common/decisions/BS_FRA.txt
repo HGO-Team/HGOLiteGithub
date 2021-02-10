@@ -12,6 +12,8 @@ FRA_napoleonic_stuff = {
 
 		cost = 0
 		
+		fire_only_once = yes
+		
 		available = {
 			owns_state = 7
 			owns_state = 36
@@ -47,6 +49,8 @@ FRA_napoleonic_stuff = {
 
 		cost = 0
 
+		fire_only_once = yes
+		
 		available = {
 			OR = {
 				PRE = { 
@@ -141,6 +145,8 @@ FRA_napoleonic_stuff = {
 
 		cost = 0
 
+		fire_only_once = yes
+		
 		available = {
 			PRE = {
 				owns_state = 85
@@ -170,6 +176,8 @@ FRA_napoleonic_stuff = {
 		icon = generic_form_nation
 
 		cost = 0
+		
+		fire_only_once = yes
 
 		available = {
 			owns_state = 987
@@ -229,6 +237,8 @@ FRA_napoleonic_stuff = {
 		icon = generic_form_nation
 
 		cost = 0
+		
+		fire_only_once = yes
 
 		available = {
 			owns_state = 114
@@ -258,6 +268,8 @@ FRA_napoleonic_stuff = {
 		icon = generic_propaganda
 
 		cost = 100
+		
+		fire_only_once = yes
 
 		available = {
 			owns_state = 34
@@ -309,6 +321,8 @@ FRA_napoleonic_stuff = {
 		icon = generic_form_nation
 
 		cost = 0
+		
+		fire_only_once = yes
 
 		available = {
 			owns_state = 812
@@ -337,6 +351,8 @@ FRA_napoleonic_stuff = {
 		icon = generic_form_nation
 		
 		cost = 0
+		
+		fire_only_once = yes
 		
 		available = {
 			owns_state = 115
@@ -369,6 +385,8 @@ FRA_napoleonic_stuff = {
 		icon = generic_form_nation
 		
 		cost = 0
+		
+		fire_only_once = yes
 		
 		available = {
 			owns_state = 171
@@ -429,6 +447,8 @@ FRA_napoleonic_stuff = {
 		
 		cost = 5
 		
+		fire_only_once = yes
+		
 		available = {
 			country_exists = MCO
 		}
@@ -464,6 +484,8 @@ FRA_napoleonic_stuff = {
 		icon = generic_form_nation
 		
 		cost = 5
+		
+		fire_only_once = yes
 		
 		available = {
 			owns_state = 820
