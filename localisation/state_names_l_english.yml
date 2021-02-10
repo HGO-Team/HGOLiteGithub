@@ -231,7 +231,7 @@
  STATE_230:0 "Armenia"
  STATE_231:0 "Georgia"
  STATE_232:0 "Chechnya"
- STATE_233:0 "Caucasus Mountains"
+ STATE_233:0 "Sochi"
  STATE_234:0 "Krasnodar"
  STATE_235:0 "Stavropol"
  STATE_236:0 "Astrakhan"
@@ -1324,3 +1324,4 @@
  STATE_1323:0 "Presidente Hayes"
  STATE_1324:0 "Tierra del Fuego Provincia"
  STATE_1325:0 "Michalovce"
+ STATE_1326:0 "Kabardino-Balkaria"
