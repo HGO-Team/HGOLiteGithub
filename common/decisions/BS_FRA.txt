@@ -412,6 +412,7 @@ FRA_napoleonic_stuff = {
 		}
 		
 		complete_effect = {
+			set_country_flag = did_FRA_spain
 			FRA = {
 				release_puppet = SPR
 				transfer_state = 165
@@ -471,9 +472,7 @@ FRA_napoleonic_stuff = {
 			ADR = {
 				owns_state = 824
 			}
-			has_decision = {
-				FRA_spain
-			}
+			has_country_flag = did_FRA_spain
 			FRA = {
 				owns_state = 165
 				controls_state = 820
