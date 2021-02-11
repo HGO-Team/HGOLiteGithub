@@ -406,6 +406,7 @@ focus_tree = {
 			71 = { add_core_of = ROOT }
 			73 = { add_core_of = ROOT }
 			1250 = { add_core_of = ROOT }
+			1325 = { add_core_of = ROOT }
 			1171 = { add_core_of = ROOT }
 
 			hidden_effect = {
@@ -2195,6 +2196,7 @@ focus_tree = {
 					owns_state = 72
 					owns_state = 73
 					owns_state = 1250
+					owns_state = 1325
 					owns_state = 1171
 					NOT = {
 						has_war_with = HUN
@@ -2221,6 +2223,7 @@ focus_tree = {
 					owns_state = 72
 					owns_state = 73
 					owns_state = 1250
+					owns_state = 1325
 					owns_state = 1171
 				}
 			}
@@ -2252,6 +2255,7 @@ focus_tree = {
 							owns_state = 73
 							owns_state = 889
 							owns_state = 1250
+							owns_state = 1325
 							owns_state = 1171
 						}
 					}
