@@ -2702,7 +2702,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				71 = {
+				1325 = {
 					OR = {
 						is_owned_by = CZE
 						is_owned_by = GER
@@ -2993,18 +2993,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				71 = {
-					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
-					}
-				}
-			}
-			SLO = { transfer_state = 1250 }
-		}
-		if = {
-			limit = {
-				71 = {
+				1325 = {
 					OR = {
 						is_owned_by = CZE
 						is_owned_by = GER
