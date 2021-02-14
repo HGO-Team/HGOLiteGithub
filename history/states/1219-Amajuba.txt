@@ -11,14 +11,15 @@ state={
 		}
 		add_core_of = CHI
 		add_core_of = PRC
-	}
-
-	1938.10.25 = {		
+		
+		1938.10.25 = {		
 			JAP = {
 				set_province_controller = 4042
 			} 			
 		}
-	
+	}
+
+
 	provinces={
 		4042 10034 12052
 	}
