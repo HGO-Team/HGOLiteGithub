@@ -256,16 +256,6 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_destroy_BEL = {
-
-		highlight_state_targets = {
-			state = 6
-			state = 34
-			state = 81
-			state = 812
-			state = 813
-			state = 1182
-			state = 1251
-		}
 		
 		visible = {
 			has_completed_focus = FRA_avenge_waterloo
