@@ -3,19 +3,23 @@ state={
 	name="STATE_1021"
 
 	history={
-		owner = MON
+		owner = CHI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 
 		}
-		add_core_of = MON
-
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			11913 20 
+		}
 	}
+	
 
 	provinces={
-		4729 4786 7806 7864 10558 10689 10704 12541 12669 
+		996 7120 10076 11913 11982 13142 
 	}
 	manpower=40100
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=large_city
 }

@@ -5,18 +5,22 @@ state={
 	state_category=town
 
 	history={
-		owner = SAF
+		owner = CHI
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = SAF
-		victory_points = {
-			1494 3
+		add_core_of = CHI
+		add_core_of = PRC
 	}
-	}
+
+	1938.10.25 = {		
+			JAP = {
+				set_province_controller = 4042
+			} 			
+		}
 	
 	provinces={
-		1494  
+		4042 10034 12052
 	}
 	manpower=531327
 	buildings_max_level_factor=1.000
