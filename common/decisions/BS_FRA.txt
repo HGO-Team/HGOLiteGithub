@@ -596,6 +596,7 @@ FRA_napoleonic_stuff = {
 		}
 		
 		visible = {
+			has_completed_focus = FRA_avenge_waterloo
 			controls_state = 8
 		}
 		
