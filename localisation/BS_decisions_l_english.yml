@@ -23,6 +23,9 @@
  FRA_monaco_desc:0 "Monaco is a relic of old times, and doesn't deserve to be independent of France. We should annex the nation for its safety."
  FRA_andorra:0 "Annex Andorra"
  FRA_andorra_desc:0 "Now that we have established a puppet in Spain, we should annex Andorra. It's useless by this point as it's surrounded by our glorious empire."
+ FRA_luxembourg:0 "Incorporate Luxembourg"
+ FRA_luxembourg_desc:0 "The people of Luxembourg, part of our empire, have been compliant as of lately. We should fully incorporate them into the French Empire."
+ 
  #Vanilla Fix
  form_country_oman_required_states_tt:0 "Controls all §YOmani§! states."
  form_country_oman_coring_states_tt:0 "Gain cores on all §YOmani§! states.\n"

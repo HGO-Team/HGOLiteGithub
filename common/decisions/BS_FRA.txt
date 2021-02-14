@@ -44,6 +44,10 @@ FRA_napoleonic_stuff = {
 				add_stability = 0.02
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	FRA_warsaw = {
@@ -136,6 +140,10 @@ FRA_napoleonic_stuff = {
 				}
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	FRA_danzig = {
@@ -172,6 +180,10 @@ FRA_napoleonic_stuff = {
 			DAN = {
 				add_state_core = 85
 			}
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -245,6 +257,10 @@ FRA_napoleonic_stuff = {
 				}
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	FRA_sardinia = {
@@ -276,6 +292,10 @@ FRA_napoleonic_stuff = {
 			FRA = {
 				puppet = SRD
 			}
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -337,6 +357,10 @@ FRA_napoleonic_stuff = {
 				}
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	
 	FRA_rhineland = {
@@ -375,6 +399,10 @@ FRA_napoleonic_stuff = {
 				random = 24
 				random_days = 1
 			}
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	
@@ -417,6 +445,10 @@ FRA_napoleonic_stuff = {
 				random = 12
 				random_days = 1
 			}
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	
@@ -473,6 +505,10 @@ FRA_napoleonic_stuff = {
 				}
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	
 	FRA_monaco = {
@@ -506,6 +542,10 @@ FRA_napoleonic_stuff = {
 					transfer_troops = yes
 				}
 			}
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	
@@ -543,6 +583,48 @@ FRA_napoleonic_stuff = {
 					transfer_troops = yes
 				}
 			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	FRA_luxembourg = {
+		highlight_state_targets = {
+			state = 8
+		}
+		
+		visible = {
+			controls_state = 8
+		}
+		
+		icon = generic_propaganda
+		
+		cost = 5
+		
+		fire_only_once = yes
+		
+		available = {
+			AND = {
+				controls_state = 8
+				if = {
+					core_compliance = {
+					occupied_country_tag = LUX
+					value > 30
+					}
+				}
+			}
+		}
+		
+		complete_effect = {
+			FRA = {
+				add_state_core = 8
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }
