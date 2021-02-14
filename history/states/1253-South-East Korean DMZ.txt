@@ -10,6 +10,12 @@ state={
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+
+			}
 			
 		}
 	}
