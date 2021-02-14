@@ -1496,6 +1496,22 @@
 					}
 				}
 			}
+			if = {
+				limit = {
+					controls_state = 868
+				}
+				868 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+					}
+				}
+			}
 			hidden_effect = { 
 				set_cosmetic_tag = SER
 				every_state = {
