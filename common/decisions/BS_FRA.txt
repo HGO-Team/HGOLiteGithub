@@ -417,7 +417,11 @@ FRA_napoleonic_stuff = {
 		}
 		
 		visible = {
-			has_decision = FRA_italy
+			NOT = {
+				country_exists = {
+					KTS
+				}
+			}
 		}
 		
 		icon = generic_form_nation
