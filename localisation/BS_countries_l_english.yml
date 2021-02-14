@@ -642,7 +642,7 @@
  DPK_democratic_DEF:0 "Democratic Republic of Korea"
  DPK_neutrality:0 "Korea"
  DPK_neutrality_DEF:0 "Korea"
- DPK_communism:0 "DPRK"
+ DPK_communism:0 "Democratic People's Republic of Korea"
  DPK_communism_DEF:0 "Democratic People's Republic of Korea"
  DPK_fascism_ADJ:0 "North Korean"
  DPK_democratic_ADJ:0 "North Korean"
@@ -651,9 +651,9 @@
  
  SYE_fascism:0 "State of Aden"
  SYE_fascism_DEF:0 "State of Aden"
- SYE_democratic:0 "South Yemen"
+ SYE_democratic:0 "Arab Republic of Southern Yemen"
  SYE_democratic_DEF:0 "South Yemen"
- SYE_neutrality:0 "South Arabia"
+ SYE_neutrality:0 "Arab Republic of Southern Yemen"
  SYE_neutrality_DEF:0 "South Arabia"
  SYE_communism:0 "People's Democratic Republic of Yemen"
  SYE_communism_DEF:0 "People's Democratic Republic of Yemen"
@@ -662,7 +662,7 @@
  SYE_neutrality_ADJ:0 "South Arabian"
  SYE_communism_ADJ:0 "South Yemeni"
  
- SMA_fascism:0 "Greater Somaliland"
+ SMA_fascism:0 "Republic of Somaliland"
  SMA_fascism_DEF:0 "Greater Somaliland"
  SMA_democratic:0 "Republic of Somaliland"
  SMA_democratic_DEF:0 "Republic of Somaliland"
@@ -727,7 +727,7 @@
  NSI_fascism:0 "Ningsian Empire"
  NSI_fascism_DEF:0 "Ningsian Empire"
  NSI_fascism_ADJ:0 "Ningsian"
- NSI_neutrality:0 "Ningsia Ma Clique"
+ NSI_neutrality:0 "Chinese State of Ningsia Ma Clique"
  NSI_neutrality_DEF:0 "The Ningsia Ma Clique"
  NSI_neutrality_ADJ:0 "Ningsian"
 
@@ -740,7 +740,7 @@
  SZH_fascism:0 "Szechwanese Empire"
  SZH_fascism_DEF:0 "Szechwanese Empire"
  SZH_fascism_ADJ:0 "Szechwanese"
- SZH_neutrality:0 "Szechwan Clique"
+ SZH_neutrality:0 "Chinese State of Szechwan Clique"
  SZH_neutrality_DEF:0 "Szechwan Clique"
  SZH_neutrality_ADJ:0 "Szechwanese"
 
@@ -753,7 +753,7 @@
  NEA_fascism:0 "Northeastern Armys"
  NEA_fascism_DEF:0 "the Northeastern Army"
  NEA_fascism_ADJ:0 "Northeastern"
- NEA_neutrality:0 "Northeastern Army"
+ NEA_neutrality:0 "Chinese State of Northeastern Army"
  NEA_neutrality_DEF:0 "the Northeastern Army"
  NEA_neutrality_ADJ:0 "Northeastern"
 
@@ -766,7 +766,7 @@
  HSI_fascism:0 "Hsikangese Empire"
  HSI_fascism_DEF:0 "Hsikangese Empire"
  HSI_fascism_ADJ:0 "Hsikangese"
- HSI_neutrality:0 "Hsikang Clique"
+ HSI_neutrality:0 "Chinese State of Hsikang Clique"
  HSI_neutrality_DEF:0 "The Hsikang Clique"
  HSI_neutrality_ADJ:0 "Hsikangese"
 
