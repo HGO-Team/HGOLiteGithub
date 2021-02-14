@@ -1,7 +1,16 @@
 FRA_napoleonic_stuff = {
 	
 	FRA_holland = {
-
+		highlight_state_targets = {
+			state = 7
+			state = 36
+			state = 1058
+			state = 1059
+			state = 1061
+			state = 1062
+			state = 1252
+		}
+		
 		visible = {
 			FRA = {
 				has_completed_focus = FRA_reorganize_the_dutch
@@ -38,7 +47,6 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_warsaw = {
-		
 		visible = {
 			FRA = {
 				has_completed_focus = FRA_return_to_borodino
@@ -131,7 +139,10 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_danzig = {
-
+		highlight_state_targets = {
+			state = 85
+		}
+		
 		visible = {
 			NOT = {
 				country_exists = DAN
@@ -165,6 +176,15 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_italy = {
+		highlight_state_targets = {
+			state = 987
+			state = 159
+			state = 160
+			state = 986
+			state = 161
+			state = 157
+			state = 867
+		}
 
 		visible = {
 			FRA = {
@@ -228,6 +248,10 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_sardinia = {
+	
+		highlight_state_targets = {
+			state = 114
+		}
 
 		visible = {
 			controls_state = 114
@@ -316,7 +340,14 @@ FRA_napoleonic_stuff = {
 	}
 	
 	FRA_rhineland = {
-
+		highlight_state_targets = {
+			state = 812
+			state = 789
+			state = 42
+			state = 792
+			state = 51
+		}
+		
 		visible = {
 			has_completed_focus = FRA_disunite_germany
 			owns_state = 812
@@ -348,7 +379,15 @@ FRA_napoleonic_stuff = {
 	}
 	
 	FRA_naples = {
-	
+		highlight_state_targets = {
+			state = 115
+			state = 156
+			state = 117
+			state = 991
+			state = 992
+			state = 1193
+		}
+		
 		visible = {
 			has_decision = FRA_italy
 		}
