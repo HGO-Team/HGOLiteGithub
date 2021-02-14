@@ -1766,44 +1766,59 @@
  
  
  
+ #fascism
+ SHX_fascism:0 "Shansi Clique"
+ SHX_fascism_DEF:0 "the Shansi Clique"
+ SHX_fascism_ADJ:0 "Shansi"
+ #democratic
+ SHX_democratic:0 "Shansi Republic"
+ SHX_democratic_DEF:0 "the Shansi Republic"
+ SHX_democratic_ADJ:0 "Shansi"
+
+ #neutrality
+ SHX_neutrality:0 "Shansi Clique"
+ SHX_neutrality_DEF:0 "Shansi Clique"
+ SHX_neutrality_ADJ:0 "Shansi"
+
+ #communism
+ SHX_communism:0 "Soviet State of Shansi"
+ SHX_communism_DEF:0 "Soviet State of Shansi"
+ SHX_communism_ADJ:0 "Shansi"
+
+ #tag
+ SHX:0 "Shansi"
+ SHX_DEF:0 "Shansi"
+ SHX_ADJ:0 "Shansi"
  
- SHX_fascism:0 "Shanxi Clique"
- SHX_fascism_DEF:0 "the Shanxi Clique"
- SHX_democratic:0 "Shanxi Republic"
- SHX_democratic_DEF:0 "the Shanxi Republic"
- SHX_neutrality:0 "Shanxi Clique"
- SHX_neutrality_DEF:0 "Shanxi Clique"
- SHX_communism:0 "Soviet State of Shanxi"
- SHX_communism_DEF:0 "Soviet State of Shanxi"
- SHX_fascism_ADJ:0 "Shanxi"
- SHX_democratic_ADJ:0 "Shanxi"
- SHX_neutrality_ADJ:0 "Shanxi"
- SHX_communism_ADJ:0 "Shanxi"
- SHX:0 "Shanxi"
- SHX_DEF:0 "Shanxi"
- SHX_ADJ:0 "Shanxi"
  
  
- 
- 
- XSM_fascism:0 "Hui Nationalist Government"
- XSM_fascism_DEF:0 "the Hui Nationalist Government"
+ #fascism
+ XSM_fascism:0 "Hui Free State"
+ XSM_fascism_DEF:0 "the Hui Free State"
+ XSM_fascism_ADJ:0 "Hui"
+
+ #democratic
  XSM_democratic:0 "Hui Republic"
  XSM_democratic_DEF:0 "the Hui Republic"
+ XSM_democratic_ADJ:0 "Hui"
+
+ #neutrality
  XSM_neutrality:0 "Tsinghai Ma Clique"
  XSM_neutrality_DEF:0 "the Tsinghai Ma Clique"
+ XSM_neutrality_ADJ:0 "Ma"
+
+ #communism
  XSM_communism:0 "Hui People's Republic"
  XSM_communism_DEF:0 "the Hui People's Republic"
- XSM_fascism_ADJ:0 "Ma"
- XSM_democratic_ADJ:0 "Ma"
- XSM_neutrality_ADJ:0 "Ma"
  XSM_communism_ADJ:0 "Ma"
- XSM:0 "Xibei San Ma"
- XSM_DEF:0 "Xibei San Ma"
+
+ #tag
+ XSM:0 "Tsinghai Ma"
+ XSM_DEF:0 "Tsinghai San Ma"
  XSM_ADJ:0 "Ma"
  
- 
- 
+
+
  
  MEN_fascism:0 "Mongol United Autonomous Government"
  MEN_fascism_DEF:0 "the Mongol United Autonomous Government"
