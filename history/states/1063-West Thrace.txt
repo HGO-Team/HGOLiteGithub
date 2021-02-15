@@ -1,14 +1,13 @@
+
 state={
 	id=1063
 	name="STATE_1063"
 
 	history={
 		owner = GRE
-
 		victory_points = {
 			9930 1 
 		}
-
 		buildings = {
 			infrastructure = 4
 
@@ -19,7 +18,7 @@ state={
 	}
 
 	provinces={
-		6990 9791 9930 13316
+		6990 9791 9930 13316 13317 
 	}
 	manpower=191000
 	buildings_max_level_factor=1.000
