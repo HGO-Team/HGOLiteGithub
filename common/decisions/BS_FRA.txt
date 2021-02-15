@@ -606,7 +606,7 @@ FRA_napoleonic_stuff = {
 		
 		icon = generic_propaganda
 		
-		cost = 5
+		cost = 0
 		
 		fire_only_once = yes
 		
