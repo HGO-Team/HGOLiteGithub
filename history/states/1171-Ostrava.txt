@@ -22,6 +22,10 @@ state={
 	}
 
 	provinces={
+<<<<<<< HEAD
 		13420 13357
+=======
+		13356 13357 
+>>>>>>> parent of 992209a (TNO Germany Part One!)
 	}
 }

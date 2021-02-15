@@ -4,6 +4,10 @@ supply_area={
 	name="SUPPLYAREA_7"
 	value=11
 	states={
+<<<<<<< HEAD
 		664 70 75 74 72 71 73 889 884 1171 1250 1251 1325
+=======
+		664 70 75 74 72 71 73 889 884 1171
+>>>>>>> parent of 992209a (TNO Germany Part One!)
 	}
 }
