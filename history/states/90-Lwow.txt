@@ -23,7 +23,11 @@ state={
 	}
 
 	provinces={
+<<<<<<< HEAD
 		562 3458 3497 3586 6416 11430 11532 13314 
+=======
+		562 3458 3497 3586 6416 11428 11430 11532 
+>>>>>>> parent of bd19190 (redrew the General Government Borders)
 	}
 	manpower=1835700
 	buildings_max_level_factor=1.000

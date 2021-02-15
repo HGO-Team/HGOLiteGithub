@@ -187,7 +187,7 @@
  STATE_186:0 "Peloponnese"
  STATE_187:0 "Aegean Islands"
  STATE_188:0 "Klaipėda"
- STATE_189:0 "Šiauliai"
+ STATE_189:1 "Šiauliai"
  STATE_190:0 "Kurzeme"
  STATE_191:0 "Tartu"
  STATE_192:0 "Odessa"
@@ -794,6 +794,7 @@
  STATE_793:0 "Magdeburg-Anhalt"
  STATE_794:0 "Brandenburg"
  STATE_795:0 "Leipzig"
+<<<<<<< HEAD
  STATE_796:0 "Schleswig"
  STATE_797:0 "Stettin"
  STATE_798:0 "Berchtesgaden"
@@ -1326,3 +1327,6 @@
  STATE_1325:0 "Michalovce"
  STATE_1326:0 "Kabardino-Balkaria"
  STATE_1327:0 "Ajdabiya"
+=======
+ STATE_796:0 "Schleswig"
+>>>>>>> parent of bd19190 (redrew the General Government Borders)
