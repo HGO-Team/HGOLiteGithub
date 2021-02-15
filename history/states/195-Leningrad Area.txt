@@ -33,11 +33,7 @@ state={
 	}
 
 	provinces={
-<<<<<<< HEAD
 		149 3151 
-=======
-		79 149 3151 6174 11068 13257 
->>>>>>> parent of bf43540 (Removed Lake Ladoga from States)
 	}
 	manpower=3750158
 	buildings_max_level_factor=1.000
