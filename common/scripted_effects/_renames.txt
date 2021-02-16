@@ -4077,7 +4077,6 @@ do_belgian_renames = {
 		}
 		set_state_name = "Waloneye"
 	}
-
 }
 
 do_bulgarian_renames = {
@@ -5445,5 +5444,156 @@ do_brittany_renames = {
 			name = "An Oriant"
 		}
 		set_state_name = "Breizh"
+	}
+}
+
+do_sinkiang_renames = {
+	if = {
+		limit = {
+			state = 619
+		}		
+		set_province_name = {
+			id = 2015
+			name = "Kashi"
+		}
+		set_state_name = "Shache"
+	}
+
+	if = {
+		limit = {
+			state = 617
+		}		
+		set_province_name = {
+			id = 4709
+			name = "Tihwa"
+		}
+		set_state_name = "Tihwa"
+	}
+
+	if = {
+		limit = {
+			state = 1306
+		}		
+		set_state_name = "Dong Rukiang"
+	}
+
+	if = {
+		limit = {
+			state = 760
+		}
+		set_province_name = {
+			id = 4704
+			name = "Hami"
+		}		
+		set_state_name = "Hami"
+	}
+
+	if = {
+		limit = {
+			state = 760
+		}
+		set_province_name = {
+			id = 4704
+			name = "Kumul"
+		}		
+		set_state_name = "Kumul"
+	}
+
+	if = {
+		limit = {
+			state = 618
+		}
+		set_state_name = "Pekiang"
+	}
+
+	if = {
+		limit = {
+			state = 1318
+		}	
+		set_state_name = "Yili"
+	}
+
+	if = {
+		limit = {
+			state = 287
+		}	
+		set_state_name = "Taklamakan"
+	}
+
+	if = {
+		limit = {
+			state = 757
+		}	
+		set_state_name = "Kunlun"
+	}
+}
+
+do_uyghur_renames = {
+	if = {
+		limit = {
+			state = 619
+		}		
+		set_province_name = {
+			id = 2015
+			name = "Kashi"
+		}
+		set_state_name = "Yarkant"
+	}
+
+	if = {
+		limit = {
+			state = 617
+		}		
+		set_province_name = {
+			id = 4709
+			name = "Ürümqi"
+		}
+		set_state_name = "Ürümqi"
+	}
+
+	if = {
+		limit = {
+			state = 1306
+		}		
+		set_state_name = "Qakilik"
+	}
+
+	if = {
+		limit = {
+			state = 760
+		}
+		set_province_name = {
+			id = 4704
+			name = "Kumul"
+		}		
+		set_state_name = "Kumul"
+	}
+
+	if = {
+		limit = {
+			state = 618
+		}	
+		set_state_name = "Jongghar"
+	}
+
+	if = {
+		limit = {
+			state = 1318
+		}	
+		set_state_name = "Ili"
+	}
+
+	if = {
+		limit = {
+			state = 287
+		}	
+		set_state_name = "Teklimakan"
+	}
+
+	if = {
+		limit = {
+			state = 757
+		}	
+		set_state_name = "Quinlun"
 	}
 }

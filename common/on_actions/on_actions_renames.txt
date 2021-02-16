@@ -1017,6 +1017,26 @@ on_actions = {
 					}
 					do_norwegian_renames = yes
 				}
+				
+				### TUG ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = TUG
+						}
+					}
+					do_uyghur_renames = yes
+				}
+
+				### SIK ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = SIK
+						}
+					}
+					do_sinkiang_renames = yes
+				}
 			}
 		}
 	}
