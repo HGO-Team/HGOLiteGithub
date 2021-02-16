@@ -509,7 +509,7 @@ GER_reichskommissariats = {
 			controls_state = 1059
 			controls_state = 1060
 			controls_state = 1061
-			controls_state = 1062
+			controls_state = 106
 		}
 
 		cost = 0
