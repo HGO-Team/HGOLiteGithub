@@ -1346,7 +1346,6 @@ GER_mittelafrika_plan_category = {
 			controls_state = 1287
 			controls_state = 548
 			controls_state = 558
-			controls_state = 1320
 			controls_state = 660
 			controls_state = 718
 			controls_state = 768
@@ -1422,7 +1421,6 @@ GER_mittelafrika_plan_category = {
 				transfer_state = 1285
 				transfer_state = 1286
 				transfer_state = 1287
-				transfer_state = 1320
 				transfer_state = 1289
 			}
 			GER = {
