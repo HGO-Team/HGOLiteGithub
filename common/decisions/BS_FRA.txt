@@ -1,6 +1,7 @@
 FRA_napoleonic_stuff = {
 	
 	FRA_holland = {
+
 		highlight_state_targets = {
 			state = 7
 			state = 36
@@ -51,6 +52,7 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_warsaw = {
+
 		visible = {
 			FRA = {
 				has_completed_focus = FRA_return_to_borodino
@@ -147,6 +149,7 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_danzig = {
+
 		highlight_state_targets = {
 			state = 85
 		}
@@ -188,6 +191,7 @@ FRA_napoleonic_stuff = {
 	}
 
 	FRA_italy = {
+
 		highlight_state_targets = {
 			state = 987
 			state = 159
@@ -364,6 +368,7 @@ FRA_napoleonic_stuff = {
 	}
 	
 	FRA_rhineland = {
+
 		highlight_state_targets = {
 			state = 812
 			state = 789
@@ -407,6 +412,7 @@ FRA_napoleonic_stuff = {
 	}
 	
 	FRA_naples = {
+
 		highlight_state_targets = {
 			state = 115
 			state = 156
@@ -418,9 +424,7 @@ FRA_napoleonic_stuff = {
 		
 		visible = {
 			NOT = {
-				country_exists = {
-					KTS
-				}
+				country_exists = { original_tag = KTS }
 			}
 		}
 		
@@ -595,6 +599,7 @@ FRA_napoleonic_stuff = {
 	}
 	
 	FRA_luxembourg = {
+
 		highlight_state_targets = {
 			state = 8
 		}
