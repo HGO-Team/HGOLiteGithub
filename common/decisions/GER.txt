@@ -510,7 +510,6 @@ GER_reichskommissariats = {
 			controls_state = 1060
 			controls_state = 1061
 			controls_state = 1062
-			controls_state = 1252
 		}
 
 		cost = 0
@@ -540,7 +539,6 @@ GER_reichskommissariats = {
 				transfer_state = 1060
 				transfer_state = 1061
 				transfer_state = 1062
-				transfer_state = 1252
 			}
 			GER = {
 				puppet = NID
