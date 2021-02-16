@@ -24,6 +24,7 @@ SRD = "countries/Sardinia.txt"
 KUB = "countries/Kuban.txt"
 THU = "countries/Thuringia.txt"
 DON = "countries/Don.txt"
+IDL = "countries/Idel-Ural.txt"
 
 ##America##
 GRL = "countries/Greenland.txt"

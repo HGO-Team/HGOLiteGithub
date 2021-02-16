@@ -9,18 +9,15 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 
 		}
 		add_core_of = USA
-		victory_points = {
-			6887 1 
-		}
 
 	}
 
 	provinces={
-		868 1658 6887 7684 7999 9792 10535 13238 
+		6887 7684 7999 9792 10535 
 	}
 	manpower=413050
 	buildings_max_level_factor=1.000
