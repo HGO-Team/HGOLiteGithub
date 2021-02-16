@@ -3,27 +3,25 @@ state={
 	name="STATE_1094"
 
 	history={
-		owner = INS
-		add_core_of = INS
+		owner = MAL
+		victory_points = {
+			7329 1 
+		}
+		add_core_of = MAL
 		buildings = {
-			infrastructure = 3
-			4399 = {
+			infrastructure = 1
+			7329 = {
 				naval_base = 1
 
 			}
-
-		}
-		buildings = {
-			infrastructure = 3
-
 		}
 
 	}
 
 	provinces={
-		4399 
+		 4355 7329 10227 12199
 	}
-	manpower=4100
+	manpower=15700
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=town
 }

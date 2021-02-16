@@ -510,7 +510,6 @@ GER_reichskommissariats = {
 			controls_state = 1060
 			controls_state = 1061
 			controls_state = 1062
-			controls_state = 1252
 		}
 
 		cost = 0
@@ -540,7 +539,6 @@ GER_reichskommissariats = {
 				transfer_state = 1060
 				transfer_state = 1061
 				transfer_state = 1062
-				transfer_state = 1252
 			}
 			GER = {
 				puppet = NID
@@ -773,6 +771,8 @@ GER_reichskommissariats = {
 			controls_state = 1227
 			controls_state = 1262
 			controls_state = 1263
+			controls_state = 1320
+			controls_state = 1326
 		}
 
 		cost = 0
@@ -820,6 +820,8 @@ GER_reichskommissariats = {
 				transfer_state = 1227
 				transfer_state = 1262
 				transfer_state = 1263
+				transfer_state = 1320
+				transfer_state = 1326
 				GER = {
 					puppet = RKK
 					set_autonomy = { target = RKK autonomy_state = autonomy_integrated_puppet }
@@ -948,6 +950,7 @@ GER_reichskommissariats = {
 			controls_state = 1000
 			controls_state = 1161
 			controls_state = 1255
+			controls_state = 1252
 		}
 
 		cost = 0
@@ -1006,6 +1009,7 @@ GER_reichskommissariats = {
 				transfer_state = 1000
 				transfer_state = 1161
 				transfer_state = 1255
+				transfer_state = 1252
 				GER = {
 					puppet = RKM
 					set_autonomy = { target = RKM autonomy_state = autonomy_integrated_puppet }

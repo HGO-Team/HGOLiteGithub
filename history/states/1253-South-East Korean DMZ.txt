@@ -2,19 +2,28 @@ state={
 	id=1253
 	name="STATE_1253"
 	
-	state_category = enclave
+	state_category = rural
 	
 	history={
-		owner = JAP
-		add_core_of = KOR
+		owner = CHI
+		add_core_of = PRC
+		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+
+			}
 			
 		}
 	}
 	provinces={
-		13424 13425 13432
+		1104 1200 4186 4205 7105 10018
 	}
-	manpower=44731
+	manpower=1400000
 	buildings_max_level_factor=1.000
 }
+
+###Manpower is innacurate###

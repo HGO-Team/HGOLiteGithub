@@ -23,6 +23,9 @@
  FRA_monaco_desc:0 "Monaco is a relic of old times, and doesn't deserve to be independent of France. We should annex the nation for its safety."
  FRA_andorra:0 "Annex Andorra"
  FRA_andorra_desc:0 "Now that we have established a puppet in Spain, we should annex Andorra. It's useless by this point as it's surrounded by our glorious empire."
+ FRA_luxembourg:0 "Incorporate Luxembourg"
+ FRA_luxembourg_desc:0 "The people of Luxembourg, part of our empire, have been compliant as of lately. We should fully incorporate them into the French Empire."
+ 
  #Vanilla Fix
  form_country_oman_required_states_tt:0 "Controls all §YOmani§! states."
  form_country_oman_coring_states_tt:0 "Gain cores on all §YOmani§! states.\n"
@@ -307,7 +310,6 @@ integrate_nordschleswig_desc:0 "While northern Schleswig may be Danish, it was o
   caucasus_mountains_claiming_states_tt:0 "The Caucasus mountains have always seperated us from our brothers to the North. Ossetians, Chechens and Dagestani must be include in our greater Transcaucasia!"
 
   #Launch Border War between Slovakia and Hungary
-  slo_hunwar:0 "Reject Slovak Borders"
-  slo_hunwar:0 "Germany decreed, during the dismantling of Slovakia, a border not suitable for the borders claimed by Hungary, the claimed territory will be recovered by peace or by war."
-  slo_hunwar:0 "Request Michalovce State"
-  slo_hunwar:0 "Recuperate Michalovce claimed state"
+  reject_slovak_borders:0 "Reject Slovak Borders"
+  reject_slovak_borders_desc:0 "Germany decreed, during the dismantling of Slovakia, a border not suitable for the borders claimed by Hungary, the claimed territory will be recovered by peace or by war."
+  HUN_requestmichalovcestate:0 "Request Michalovce State"

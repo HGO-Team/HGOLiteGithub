@@ -1497,7 +1497,6 @@ country_event = {
 							state = 33
 							state = 1
 							state = 1270
-							state = 1269
 						}
 						CONTROLLER = { 
 							OR = {

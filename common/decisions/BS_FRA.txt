@@ -2,6 +2,16 @@ FRA_napoleonic_stuff = {
 	
 	FRA_holland = {
 
+		highlight_state_targets = {
+			state = 7
+			state = 36
+			state = 1058
+			state = 1059
+			state = 1061
+			state = 1062
+			state = 1252
+		}
+		
 		visible = {
 			FRA = {
 				has_completed_focus = FRA_reorganize_the_dutch
@@ -35,10 +45,14 @@ FRA_napoleonic_stuff = {
 				add_stability = 0.02
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	FRA_warsaw = {
-		
+
 		visible = {
 			FRA = {
 				has_completed_focus = FRA_return_to_borodino
@@ -128,10 +142,18 @@ FRA_napoleonic_stuff = {
 				}
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	FRA_danzig = {
 
+		highlight_state_targets = {
+			state = 85
+		}
+		
 		visible = {
 			NOT = {
 				country_exists = DAN
@@ -162,9 +184,23 @@ FRA_napoleonic_stuff = {
 				add_state_core = 85
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	FRA_italy = {
+
+		highlight_state_targets = {
+			state = 987
+			state = 159
+			state = 160
+			state = 986
+			state = 161
+			state = 157
+			state = 867
+		}
 
 		visible = {
 			FRA = {
@@ -225,9 +261,17 @@ FRA_napoleonic_stuff = {
 				}
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	FRA_sardinia = {
+	
+		highlight_state_targets = {
+			state = 114
+		}
 
 		visible = {
 			controls_state = 114
@@ -253,16 +297,21 @@ FRA_napoleonic_stuff = {
 				puppet = SRD
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 
 	FRA_destroy_BEL = {
-
+		
 		visible = {
 			has_completed_focus = FRA_avenge_waterloo
 			controls_state = 34
 			controls_state = 6
 			controls_state = 1182
 			controls_state = 1251
+			controls_state = 813
 		}
 
 		icon = generic_propaganda
@@ -277,6 +326,7 @@ FRA_napoleonic_stuff = {
 			owns_state = 812
 			owns_state = 1182
 			owns_state = 1251
+			owns_state = 813
 		}
 
 		complete_effect = {
@@ -286,7 +336,7 @@ FRA_napoleonic_stuff = {
 			WLL = {
 				remove_state_core = 812
 			}
-			set_global_flag = FRA_destroy_belgium
+			set_country_flag = FRA_destroy_belgium
 		}
 
 		days_remove = 180
@@ -298,24 +348,39 @@ FRA_napoleonic_stuff = {
 				remove_state_core = 1182
 				remove_state_core = 1251
 			}
-			LUX = {
-				add_state_core = 1182
-			}
 			FRA = {
 				add_state_core = 34
 				add_state_core = 6
 				add_state_core = 1182
 				add_state_core = 1251
+				add_state_core = 813
 			}
+			hidden_effect = {
+				LUX = {
+				add_state_core = 1182
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	
 	FRA_rhineland = {
 
+		highlight_state_targets = {
+			state = 812
+			state = 789
+			state = 42
+			state = 792
+			state = 51
+		}
+		
 		visible = {
 			has_completed_focus = FRA_disunite_germany
 			owns_state = 812
-			has_global_flag = FRA_destroy_belgium
+			has_country_flag = FRA_destroy_belgium
 		}
 
 		icon = generic_form_nation
@@ -340,12 +405,27 @@ FRA_napoleonic_stuff = {
 				random_days = 1
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	
 	FRA_naples = {
-	
+
+		highlight_state_targets = {
+			state = 115
+			state = 156
+			state = 117
+			state = 991
+			state = 992
+			state = 1193
+		}
+		
 		visible = {
-			has_decision = FRA_italy
+			NOT = {
+				country_exists = { original_tag = KTS }
+			}
 		}
 		
 		icon = generic_form_nation
@@ -373,6 +453,10 @@ FRA_napoleonic_stuff = {
 				random = 12
 				random_days = 1
 			}
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	
@@ -412,6 +496,7 @@ FRA_napoleonic_stuff = {
 		}
 		
 		complete_effect = {
+			set_country_flag = did_FRA_spain
 			FRA = {
 				release_puppet = SPR
 				transfer_state = 165
@@ -427,6 +512,10 @@ FRA_napoleonic_stuff = {
 					ideology = despotism
 				}
 			}
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 	
@@ -462,6 +551,10 @@ FRA_napoleonic_stuff = {
 				}
 			}
 		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	
 	FRA_andorra = {
@@ -471,9 +564,7 @@ FRA_napoleonic_stuff = {
 			ADR = {
 				owns_state = 824
 			}
-			has_decision = {
-				FRA_spain
-			}
+			has_country_flag = did_FRA_spain
 			FRA = {
 				owns_state = 165
 				controls_state = 820
@@ -500,6 +591,50 @@ FRA_napoleonic_stuff = {
 					transfer_troops = yes
 				}
 			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	FRA_luxembourg = {
+
+		highlight_state_targets = {
+			state = 8
+		}
+		
+		visible = {
+			has_completed_focus = FRA_avenge_waterloo
+			controls_state = 8
+		}
+		
+		icon = generic_propaganda
+		
+		cost = 0
+		
+		fire_only_once = yes
+		
+		available = {
+			AND = {
+				controls_state = 8
+				if = {
+					core_compliance = {
+					occupied_country_tag = LUX
+					value > 30
+					}
+				}
+			}
+		}
+		
+		complete_effect = {
+			FRA = {
+				add_state_core = 8
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }

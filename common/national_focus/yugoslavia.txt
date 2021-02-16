@@ -649,6 +649,8 @@
 					
 					set_cosmetic_tag = dalmatia
 					transfer_state = 103
+					transfer_state = 938
+					transfer_state = 1104
 					PREV = {
 						puppet = PREV
 						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
@@ -1483,6 +1485,22 @@
 					controls_state = 45
 				}
 				45 = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 868
+				}
+				868 = {
 					add_building_construction = {
 						type = bunker
 						level = 3

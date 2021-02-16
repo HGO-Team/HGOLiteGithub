@@ -2702,6 +2702,17 @@ country_event = {
 		}
 		if = {
 			limit = {
+				1325 = {
+					OR = {
+						is_owned_by = CZE
+						is_owned_by = GER
+					}
+				}
+			}
+			SLO = { transfer_state = 1325 }
+		}
+		if = {
+			limit = {
 				154 = { is_owned_by = HUN }
 				HUN = {
 					is_friend_or_potential_friend_of_GER = yes
@@ -2904,6 +2915,7 @@ country_event = {
 		transfer_state = 73
 		transfer_state = 889
 		transfer_state = 1250
+		transfer_state = 1325
 		hidden_effect = {
 			GER = {
 				annex_country = { target = CZE }
@@ -2978,6 +2990,17 @@ country_event = {
 				}
 			}
 			SLO = { transfer_state = 889 }
+		}
+		if = {
+			limit = {
+				1325 = {
+					OR = {
+						is_owned_by = CZE
+						is_owned_by = GER
+					}
+				}
+			}
+			SLO = { transfer_state = 1325 }
 		}
 		if = {
 			limit = {
@@ -4136,6 +4159,10 @@ country_event = {
 				limit = { GER = { owns_state = 1250 } }
 				transfer_state = 1250
 			}
+			if = {
+				limit = { GER = { owns_state = 1325 } }
+				transfer_state = 1325
+			}
 			GER = { 
 			    transfer_state = 85
 				transfer_state = 865
@@ -4223,6 +4250,10 @@ country_event = {
 		if = {
 			limit = { owns_state = 1250 }
 			POL = { transfer_state = 1250 }
+		}
+		if = {
+			limit = { owns_state = 1325 }
+			POL = { transfer_state = 1325 }
 		}
 		if = {
 			limit = { NOT = { country_exists = DAN } }
