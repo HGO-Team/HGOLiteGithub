@@ -1017,6 +1017,7 @@ BS_transfer_territories_category = {
 			controls_state = 1162
 			controls_state = 1163
 			controls_state = 1164
+			controls_state = 1170
 		}
 
 		complete_effect = {
@@ -1035,6 +1036,7 @@ BS_transfer_territories_category = {
 					transfer_state = 1162
 					transfer_state = 1163
 					transfer_state = 1164
+					transfer_state = 1170
 				}
 				
 				RKO = { add_opinion_modifier = { target = GER modifier = RKO_expand_ostland }}
