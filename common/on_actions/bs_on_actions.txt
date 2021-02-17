@@ -294,13 +294,13 @@ on_actions = {
 						release = BAY
 						release = WUR
 						release = MEK
+						release = LUS
 						release = SAX
 						release = SAR
 						release = BDN
 						release = SHL
 						release = HAN
 						release = THU
-						release = LUS
 						release = PRE
 					}
 				}
