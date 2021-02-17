@@ -26,9 +26,7 @@ THU = "countries/Thuringia.txt"
 DON = "countries/Don.txt"
 IDL = "countries/Idel-Ural.txt"
 LUS = "countries/Sorbia.txt"
-=======
 TUS = "countries/Tuscany.txt"
->>>>>>> 4634279b9e718d4e2a4fe293fefe5bd0908ab24b
 
 ##America##
 GRL = "countries/Greenland.txt"
