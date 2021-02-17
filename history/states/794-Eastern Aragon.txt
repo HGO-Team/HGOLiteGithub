@@ -12,7 +12,7 @@ state={	#Brandenburg
 		}
 		buildings = {
 			infrastructure = 8
-			arms_factory = 4
+			arms_factory = 3
 			industrial_complex = 2
 			air_base = 6
 
@@ -32,9 +32,9 @@ state={	#Brandenburg
 	}
 
 	provinces={
-		375 478 3367 3499 6441 9428 9456 9496 11219 11415 11444 11505 
+		375 3367 3499 6441 9428 9456 11219 11444 11505 
 	}
-	manpower=3030016
+	manpower=2500016
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 }

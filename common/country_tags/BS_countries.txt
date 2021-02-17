@@ -25,6 +25,7 @@ KUB = "countries/Kuban.txt"
 THU = "countries/Thuringia.txt"
 DON = "countries/Don.txt"
 IDL = "countries/Idel-Ural.txt"
+LUS = "countries/Sorbia.txt"
 
 ##America##
 GRL = "countries/Greenland.txt"

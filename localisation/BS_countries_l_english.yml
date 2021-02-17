@@ -1,4 +1,17 @@
 ﻿l_english:
+ LUS_fascism:0 "Sorbia"
+ LUS_fascism_DEF:0 "the State of Sorbia"
+ LUS_democratic:0 "Republic of Sorbia"
+ LUS_democratic_DEF:0 "the Sorb Republic"
+ LUS_neutrality:0 "Lusatia"
+ LUS_neutrality_DEF:0 "the State of Lusatia"
+ LUS_communism:0 "People's Republic of Sorbia"
+ LUS_communism_DEF:0 "the People's Republic of Sorbia"
+ LUS_fascism_ADJ:0 "Sorbish"
+ LUS_democraitc_ADJ:0 "Sorbish"
+ LUS_neutrality_ADJ:0 "Sorbish"
+ LUS_communism_ADJ:0 "Sorbish"
+
  IDL_fascism:0 "Khanate of Kazan"
  IDL_fascism_DEF:0 "the Khanate of Kazan"
  IDL_democratic:0 "Idel-Ural State"
