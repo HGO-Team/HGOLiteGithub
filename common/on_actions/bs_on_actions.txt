@@ -318,6 +318,7 @@ on_actions = {
 						release = AUS
 						release = GRE
 						release = SRD
+						release = TUS
 						remove_state_core = 993
 						remove_state_core = 163
 						remove_state_core = 1066

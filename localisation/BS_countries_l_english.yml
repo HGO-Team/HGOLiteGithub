@@ -1,4 +1,17 @@
 ﻿l_english:
+ TUS_fascism:0 "Tuscan Social Republic"
+ TUS_fascism_DEF:0 "the Tuscan Social Republic"
+ TUS_democratic:0 "Tuscan Republic"
+ TUS_democratic_DEF:0 "the Tuscan Republic"
+ TUS_neutrality:0 "Grand Duchy of Tuscany"
+ TUS_neutrality_DEF:0 "the Grand Duchy of Tuscany"
+ TUS_communism:0 "Tuscan People's Republic"
+ TUS_communism_DEF:0 "the Tuscan People's Republic"
+ TUS_fascism_ADJ:0 "Tuscan"
+ TUS_democratic_ADJ:0 "Tuscan"
+ TUS_neutrality_ADJ:0 "Tuscan"
+ TUS_communism_ADJ:0 "Tuscan"
+ 
  IDL_fascism:0 "Khanate of Kazan"
  IDL_fascism_DEF:0 "the Khanate of Kazan"
  IDL_democratic:0 "Idel-Ural State"
