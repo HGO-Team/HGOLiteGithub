@@ -456,6 +456,9 @@
  LES_democratic_ADJ:0 "Lesothan"
  LES_neutrality_ADJ:0 "Lesothan"
  LES_communism_ADJ:0 "Lesothan"
+ LES:0 "Basutoland"
+ LES_DEF:0 "Basutoland"
+ LES_ADJ:0 "Basuto"
 
  SWA_fascism:0 "Swazi Nationalist Republic"
  SWA_fascism_DEF:0 "Swazi Nationalist Republic"
@@ -469,6 +472,9 @@
  SWA_democratic_ADJ:0 "Swazi"
  SWA_neutrality_ADJ:0 "Swazi"
  SWA_communism_ADJ:0 "Swazi"
+ SWA:0 "Swaziland"
+ SWA_DEF:0 "Swaziland"
+ SWA_ADJ:0 "Swazi"
  
  SNG_fascism:0 "Singapore"
  SNG_fascism_DEF:0 "Singapore"
@@ -495,6 +501,9 @@
  BRU_democratic_ADJ:0 "Bruneian"
  BRU_neutrality_ADJ:0 "Bruneian"
  BRU_communism_ADJ:0 "Bruneian"
+ BRU:0 "Brunei"
+ BRU_DEF:0 "Brunei"
+ BRU_ADJ: "Bruneian"
  
  CHE_fascism:0 "Chechen Nationalist Republic"
  CHE_fascism_DEF:0 "Chechen Nationalist Republic"
@@ -560,6 +569,9 @@
  ETM_democratic_ADJ:0 "East Timorese"
  ETM_neutrality_ADJ:0 "East Timorese"
  ETM_communism_ADJ:0 "East Timorese"
+ ETM:0 "Timor"
+ ETM_DEF:0 "Timor"
+ ETM_ADJ:0 "Timorese"
  
  KIR_fascism:0 "Kiribati"
  KIR_fascism_DEF:0 "Kiribati"
