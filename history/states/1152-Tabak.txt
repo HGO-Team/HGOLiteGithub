@@ -3,37 +3,20 @@ state={
 	id=1152
 	name="STATE_1152"
 
-	provinces= {
-		3473 3572 
-	}
-	
 	history={
-		owner = GER
-		victory_points = {
-			9570 10 
-		}
+		owner = SPR
+		add_core_of = WES
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 0
-			air_base = 0
-
-		}
-		add_core_of = GER
-		add_core_of = PRE
-		add_core_of = LUS
-		1939.1.1 = {
-			buildings = {
-				air_base = 0
-				arms_factory = 0
-				industrial_complex = 0
-
-			}
+			infrastructure = 1
 
 		}
 
 	}
 
-	manpower=143782
+	provinces={
+		13495 13496 13497 13498 
+	}
+	manpower=1200
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=wasteland
 }
