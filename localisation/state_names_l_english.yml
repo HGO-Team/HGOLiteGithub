@@ -607,7 +607,7 @@
  STATE_606:0 "Anhwei"
  STATE_607:0 "Honan"
  STATE_608:0 "Beiping"
- STATE_609:0 "Kito Bo" #Hopeh Dongbu in Chinese
+ STATE_609:0 "Hopeh Dongbu" #Kito Bo in Japanese
  STATE_610:0 "Jehol"
  STATE_611:0 "Nanchahar"
  STATE_612:0 "Chahar"
@@ -746,8 +746,8 @@
  STATE_745:0 "Dalian"
  STATE_746:0 "Ordos"
  STATE_747:0 "Tali"
- STATE_748:0 "Zunyi"
- STATE_749:0 "Huangshan"
+ STATE_748:0 "Tsunyi"
+ STATE_749:0 "Suanshan"
  STATE_750:0 "Changde"
  STATE_751:0 "Liangshan"
  STATE_752:0 "Ganzi"
@@ -757,7 +757,7 @@
  STATE_756:0 "Suchow"
  STATE_757:0 "Shigatse"
  STATE_758:0 "Ngari"
- STATE_759:0 "Kunlun Shan"
+ STATE_759:0 "Kunlun"
  STATE_760:0 "Dabancheng"
  STATE_761:0 "Hulunbuir"
  STATE_762:0 "Katowice"

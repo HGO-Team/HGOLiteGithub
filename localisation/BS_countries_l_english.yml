@@ -12,6 +12,21 @@
  LUS_neutrality_ADJ:0 "Sorbish"
  LUS_communism_ADJ:0 "Sorbish"
 
+=======
+ TUS_fascism:0 "Tuscan Social Republic"
+ TUS_fascism_DEF:0 "the Tuscan Social Republic"
+ TUS_democratic:0 "Tuscan Republic"
+ TUS_democratic_DEF:0 "the Tuscan Republic"
+ TUS_neutrality:0 "Grand Duchy of Tuscany"
+ TUS_neutrality_DEF:0 "the Grand Duchy of Tuscany"
+ TUS_communism:0 "Tuscan People's Republic"
+ TUS_communism_DEF:0 "the Tuscan People's Republic"
+ TUS_fascism_ADJ:0 "Tuscan"
+ TUS_democratic_ADJ:0 "Tuscan"
+ TUS_neutrality_ADJ:0 "Tuscan"
+ TUS_communism_ADJ:0 "Tuscan"
+ 
+>>>>>>> 4634279b9e718d4e2a4fe293fefe5bd0908ab24b
  IDL_fascism:0 "Khanate of Kazan"
  IDL_fascism_DEF:0 "the Khanate of Kazan"
  IDL_democratic:0 "Idel-Ural State"
