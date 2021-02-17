@@ -10,6 +10,9 @@ state={
 		victory_points = {
 			3473 1 
 		}
+		victory_points = {
+			9570 10 
+		}
 		owner = GER
 		buildings = {
 			infrastructure = 6
@@ -22,7 +25,7 @@ state={
 	}
 
 	provinces={
-		444 537 6236 9387 11478 
+		444 537 6236 9387 9570 11478 
 	}
 	manpower=1250840
 	buildings_max_level_factor=1.000
