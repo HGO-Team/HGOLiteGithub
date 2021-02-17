@@ -473,7 +473,6 @@ on_actions = {
 						puppet = BUK
 					}
 					HUN = {
-						transfer_state = 1201
 						add_state_core = 1201
 					}
 					BUL = {

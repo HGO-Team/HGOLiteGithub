@@ -12,6 +12,18 @@ on_actions = {
 					release = BHR
 				}
 			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = africa_colonization_status
+						option = AFRICA_DECOLONIZED
+					}
+				}
+				ENG = {
+					release = LES
+					release = SWA
+				}
+			}
 		}
 	}
 }
