@@ -1,3 +1,6 @@
+HGO Lite has been put on indefinite hiatus.
+---------------
+
 How to install HGO Lite Github:
 1) Download the mod, check your download directory (usually ThisPC/Downloads)
 2) Unzip the modfile. Make sure the folder name is still HGOLiteGithub, and if isn't rename it.
